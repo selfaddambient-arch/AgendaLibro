@@ -46,6 +46,7 @@ COLOPHON = """## 奥付
 - 著者：本多楽（ぼんたらく）
 - 発行：ボンタ合同会社
 - 言語：日本語
+- 再頒布可能
 
 屯のInstagram：https://www.instagram.com/tamuro.higashinakano/
 
