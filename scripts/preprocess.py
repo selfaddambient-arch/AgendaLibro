@@ -56,8 +56,6 @@ Agendaシリーズ：https://bontallc.com/agenda?via=book
 note：https://note.com/bontallc
 
 X：https://x.com/tamuro_hnakano
-
-【再頒布の許諾文】（仮・差し替え待ち）
 """
 
 
