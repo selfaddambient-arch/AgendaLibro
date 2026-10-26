@@ -123,7 +123,9 @@ def main():
             for label, f in QR_LINKS
         )
         block = f'\n```{{=html}}\n<div class="qr">\n{qr}\n</div>\n```\n'
-        text = text.replace("\n## 第1章", block + "\n## 第1章", 1)
+        # 3つの出口の見出し・3項目・QRを同じページに収める
+        text = text.replace("### この本の、3つの出口", "::: exits\n\n### この本の、3つの出口", 1)
+        text = text.replace("\n## 第1章", block + "\n:::\n\n## 第1章", 1)
 
     text = text.rstrip("\n") + "\n\n" + re.sub(
         r"(?<![<(\"])(https?://[A-Za-z0-9._~:/?#@!$&'*+,;=%\-]+)", r"<\1>", COLOPHON

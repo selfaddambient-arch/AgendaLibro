@@ -23,3 +23,4 @@ a { color: #1a5fb4; text-decoration: underline; }
 .qr img { width: 100%; }
 .qr figcaption { text-align: center; }
 p.subtitle { text-wrap: balance; padding: 0 8mm; }
+.exits { break-inside: avoid; }
