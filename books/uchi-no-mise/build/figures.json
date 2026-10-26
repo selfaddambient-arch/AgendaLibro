@@ -1,5 +1,5 @@
 {
-  "marks": 30,
+  "marks": 31,
   "used": [
     "fig1-1_chatgpt-mcp.png",
     "fig1-7b_compare.png",
@@ -30,7 +30,8 @@
     "fig4-2_bootstrap-steps.png",
     "fig4-3_identity-colors.png",
     "fig4-1_series.png",
-    "fig4-4_series-nav.png"
+    "fig4-4_series-nav.png",
+    "fig5-1_summary.png"
   ],
   "unused_png": [
     "fig1-7_group-discount.png"

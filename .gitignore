@@ -2,3 +2,4 @@ secrets/
 node_modules/
 .DS_Store
 books/uchi-no-mise/build/.tmp/
+__pycache__/

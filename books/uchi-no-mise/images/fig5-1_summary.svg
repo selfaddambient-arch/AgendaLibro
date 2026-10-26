@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1120" width="2000" height="1120" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" fill="#3a332e">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3a332e"/></marker></defs>
+<rect width="2000" height="1120" fill="#fff"/>
+<g stroke="#3a332e" stroke-width="4" fill="none">
+<rect x="40" y="150" width="440" height="220" rx="28"/>
+<rect x="760" y="120" width="480" height="280" rx="28" fill="#f3ebe0"/>
+<rect x="1520" y="150" width="440" height="220" rx="28"/>
+<line x1="485" y1="260" x2="755" y2="260" marker-end="url(#a)"/>
+<line x1="1245" y1="260" x2="1515" y2="260" marker-end="url(#a)"/>
+<line x1="1000" y1="405" x2="1000" y2="535" marker-end="url(#a)"/>
+<rect x="560" y="540" width="880" height="170" rx="28"/>
+<rect x="400" y="860" width="1200" height="120" rx="28" stroke-dasharray="14 10"/>
+</g>
+<g text-anchor="middle" font-weight="700">
+<text x="260" y="248" font-size="48">お客さんのAI</text>
+<text x="1000" y="240" font-size="56">屯</text>
+<text x="1740" y="248" font-size="48">他の店</text>
+<text x="620" y="226" font-size="38">一つ目の話</text>
+<text x="1380" y="226" font-size="38">二つ目の話</text>
+<text x="1000" y="620" font-size="46">店の個性に向き合う</text>
+<text x="1000" y="930" font-size="46">AIが、この二つを一人の店主にできるようにした</text>
+</g>
+<g text-anchor="middle" fill="#6a5f56" font-size="32">
+<text x="260" y="316">入口は一人ひとりのAIへ</text>
+<text x="1000" y="304">19席のバー</text>
+<text x="1000" y="352">小さな店ほど尖れる</text>
+<text x="1740" y="316">同じ困りごとを持つ店</text>
+<text x="620" y="318">MCPという窓</text>
+<text x="1380" y="318">道具になって渡る</text>
+<text x="1000" y="676">困りごとが具体的になり、具体的な道具になる</text>
+</g>
+</svg>
