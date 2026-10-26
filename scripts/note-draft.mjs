@@ -12,6 +12,7 @@ const file = argv[0];
 const editUrl = opt('--url') ?? 'https://editor.note.com/new';
 const image = opt('--image');
 const shot = opt('--shot');
+const titleOnly = argv.includes('--title-only'); // 記事 ID を得るため、題名だけで保存する
 
 const blocks = readFileSync(file, 'utf8').trim().split(/\n{2,}/);
 const title = blocks.shift().replace(/^# /, '');
@@ -33,7 +34,9 @@ const titleBox = page.getByPlaceholder('記事タイトル');
 await titleBox.waitFor({ timeout: 60000 });
 
 // 見出し画像：画像ボタン →「画像をアップロード」→ 切り抜き画面で「保存」
-if (image) {
+// 既に見出し画像がある下書きでは入れ直さない（本文の外にある img の数で判定）
+const hasEyecatch = (await page.locator('img').count()) - (await page.locator('[contenteditable="true"] img').count()) > 0;
+if (image && !hasEyecatch) {
   await page.mouse.click(509, 121);
   const [chooser] = await Promise.all([
     page.waitForEvent('filechooser'),
@@ -45,23 +48,46 @@ if (image) {
 }
 
 await titleBox.fill(title);
+if (titleOnly) {
+  await page.getByRole('button', { name: '下書き保存' }).click();
+  await page.getByText('保存しました').first().waitFor({ timeout: 30000 }).catch(() => {});
+  await page.waitForTimeout(1500);
+  console.log('DRAFT_URL ' + page.url());
+  await browser.close();
+  process.exit(0);
+}
 // 本文欄はタイトル欄の直下の contenteditable
 const body = page.locator('[contenteditable="true"]').first();
 await body.click();
 
 // 本文は HTML にして貼り付ける（キー入力だと見出し・リストの自動変換が不安定）
 const esc = (t) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-const html = blocks
-  .map((block) => {
-    const im = block.match(/^!\[(.*)\]\((.+)\)$/);
-    if (im) return `<p>[[IMG:${im[2]}]]</p>`;
-    if (block.startsWith('## ')) return `<h2>${esc(block.slice(3))}</h2>`;
-    if (/^1\. /.test(block)) {
-      return '<ol>' + block.split('\n').map((l) => `<li><p>${esc(l.replace(/^\d+\. /, ''))}</p></li>`).join('') + '</ol>';
-    }
-    return `<p>${esc(block).split('\n').join('<br>')}</p>`;
-  })
-  .join('');
+// 本文中の [表示](URL) だけリンクにする
+const inline = (t) => esc(t).replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, '<a href="$2">$1</a>');
+const toHtml = (block) => {
+  const im = block.match(/^!\[(.*)\]\((.+)\)$/);
+  if (im) return `<p>[[IMG:${im[2]}]]</p>`;
+  if (block.startsWith('### ')) return `<h3>${inline(block.slice(4))}</h3>`;
+  if (block.startsWith('## ')) return `<h2>${inline(block.slice(3))}</h2>`;
+  const lines = block.split('\n');
+  if (lines.every((l) => /^\d+\. /.test(l))) {
+    return '<ol>' + lines.map((l) => `<li><p>${inline(l.replace(/^\d+\. /, ''))}</p></li>`).join('') + '</ol>';
+  }
+  if (lines.every((l) => /^- /.test(l))) {
+    return '<ul>' + lines.map((l) => `<li><p>${inline(l.slice(2))}</p></li>`).join('') + '</ul>';
+  }
+  if (lines.every((l) => /^> ?/.test(l))) {
+    return `<blockquote><p>${inline(lines.map((l) => l.replace(/^> ?/, '')).join('\n')).split('\n').join('<br>')}</p></blockquote>`;
+  }
+  if (lines.every((l) => /^\|/.test(l))) {
+    // note のエディタは表に対応しない（セルが1行に潰れる）ので「見出し：値」の箇条書きにする
+    const rows = lines.filter((l) => !/^\|\s*-/.test(l)).map((l) => l.replace(/^\||\|$/g, '').split('|').map((c) => c.trim()));
+    const [head, ...data] = rows;
+    return '<ul>' + data.map((r) => `<li><p>${inline(r[0])}　${r.slice(1).map((c, i) => `${inline(head[i + 1])}：${inline(c)}`).join('／')}</p></li>`).join('') + '</ul>';
+  }
+  return `<p>${inline(block).split('\n').join('<br>')}</p>`;
+};
+const html = blocks.map(toHtml).join('');
 await page.keyboard.press('Meta+A'); // 既存の本文があれば置き換える
 await body.evaluate((el, h) => {
   const dt = new DataTransfer();

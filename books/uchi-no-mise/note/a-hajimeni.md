@@ -63,3 +63,5 @@
 Kindle：【ストアURL】
 
 Google Playブックス：【ストアURL】
+
+[次の章 ▶　第1章　AIから予約される店](https://note.com/bontallc/n/n30c4694b95cf)
