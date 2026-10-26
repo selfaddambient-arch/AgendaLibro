@@ -13,6 +13,7 @@
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -60,9 +61,15 @@ X：https://x.com/tamuro_hnakano
 """
 
 
+def is_copy(name):
+    return "のコピー" in unicodedata.normalize("NFC", name)
+
+
 def figure_files():
     by_id = {}
     for p in sorted(IMAGES.glob("fig*.png")):
+        if is_copy(p.name):  # Finder の複製は対象にしない
+            continue
         m = re.match(r"fig(\d+-\d+[a-z]?)_", p.name)
         by_id.setdefault(m.group(1), []).append(p.name)
     return by_id
@@ -99,7 +106,7 @@ def main():
     dup = sorted({f for f in used if used.count(f) > 1})
     if dup:
         problems.append(f"同じ画像が複数の印に使われた: {dup}")
-    all_png = {p.name for p in IMAGES.glob("fig*.png")}
+    all_png = {p.name for p in IMAGES.glob("fig*.png") if not is_copy(p.name)}
     unused = sorted(all_png - set(used))
 
     text = "\n".join(result)
