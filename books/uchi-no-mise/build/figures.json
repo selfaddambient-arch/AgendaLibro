@@ -51,6 +51,11 @@
       "fig": "2-2",
       "before": "AIの試験の結果。合格率と、間違いの原因の内訳",
       "after": "AIの試験の結果（36本中9本合格＝25.0％）と、間違いの原因の内訳"
+    },
+    {
+      "fig": "3-2",
+      "before": "Agendaシリーズの紹介ページ",
+      "after": "Agendaシリーズの紹介ページ（冒頭）。全体は https://bontallc.com/agenda?via=book で"
     }
   ],
   "problems": []

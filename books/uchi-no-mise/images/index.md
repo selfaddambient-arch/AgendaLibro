@@ -20,7 +20,7 @@
 | fig2-4_requirements.png | T-AI-MURO 要件定義書 第3版の目次 | 第2章 | （HTML描画） | docs/Tamuro_chat_window_requirements_v3.md の見出し12個だけ。本文なし |
 | fig3-1a_luce-open.png | 予約ページ上部の灯り手帳の埋め込み（営業中） | 第3章 | https://tamuroreservation.vercel.app/ （本番・閲覧のみ） | 撮影時は閉店中だったため、**状態の応答だけをブラウザ内で営業中に差し替え**（本番のLuceには何も送っていない） |
 | fig3-1b_luce-extended.png | 同・延長営業中（朱色の「+30分」） | 第3章 | 同上 | 指示は staging の Luce で延長を押す方法だったが、Luce の staging が手元に無いため、同じ差し替えで再現。文言は Luce の ja 辞書とdisplay生成の規則どおり |
-| fig3-2_agenda-lp.png | 玄関 /agenda の全体（幅1280・フルページ） | 第3章（図3-2） | https://bontallc.com/agenda | 本番。ふだんの表示（?via=book なし） |
+| fig3-2_agenda-lp.png | 玄関 /agenda の冒頭（上端から4:3＝2560×1920。ヘッダーと最初の製品の項。全体の画像は _orig/agenda-lp_full.png） | 第3章（図3-2） | https://bontallc.com/agenda | 本番。ふだんの表示（?via=book なし） |
 | fig3-3a_timbro.png | 打刻手帳の詳細ページのファーストビュー（390×844） | 第3章（図3-3a） | https://bontallc.com/agenda/timbro | 紹介写真の店名は自社の店（屯）、スタッフは架空（AgendaTimbro の撮影用固定データ） |
 | fig3-3b_oro.png | 採算手帳の詳細ページのファーストビュー（390×844） | 第3章（図3-3b） | https://bontallc.com/agenda/oro | 本番 |
 | fig3-3c_bis.png | 2軒目手帳の詳細ページのファーストビュー（390×844） | 第3章（図3-3c） | https://bontallc.com/agenda/bis | 本番 |
