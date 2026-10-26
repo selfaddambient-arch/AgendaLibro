@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" font-family="'Zen Kaku Gothic New','Hiragino Sans','Noto Sans JP',sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a322c"/></marker></defs>
+<rect width="1000" height="440" fill="#ffffff"/>
+<rect x="40" y="70" width="240" height="110" rx="14" fill="#ffffff" stroke="#3a322c" stroke-width="2"/><text x="160" y="118" text-anchor="middle" font-size="20" font-weight="700" fill="#3a322c">お客さんのAI</text><text x="160" y="146" text-anchor="middle" font-size="15" font-weight="400" fill="#6b6058">（チャットで相談）</text>
+<rect x="380" y="70" width="240" height="110" rx="14" fill="#ffffff" stroke="#3a322c" stroke-width="2"/><text x="500" y="118" text-anchor="middle" font-size="20" font-weight="700" fill="#3a322c">屯のMCPサーバー</text><text x="500" y="146" text-anchor="middle" font-size="15" font-weight="400" fill="#6b6058">（空き・プランを答える）</text>
+<rect x="720" y="70" width="240" height="110" rx="14" fill="#ffffff" stroke="#3a322c" stroke-width="2"/><text x="840" y="118" text-anchor="middle" font-size="20" font-weight="700" fill="#3a322c">屯の予約システム</text><text x="840" y="146" text-anchor="middle" font-size="15" font-weight="400" fill="#6b6058">（空き枠・料金）</text>
+<line x1="282" y1="125" x2="376" y2="125" stroke="#3a322c" stroke-width="2.5" marker-end="url(#ah)"/>
+<line x1="622" y1="125" x2="716" y2="125" stroke="#3a322c" stroke-width="2.5" marker-end="url(#ah)"/>
+<text x="329" y="108" text-anchor="middle" font-size="15" fill="#6b6058">問い合わせ</text>
+<text x="669" y="108" text-anchor="middle" font-size="15" fill="#6b6058">照会</text>
+<path d="M840,182 L840,270 L160,270 L160,186" fill="none" stroke="#3a322c" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="330" y="248" width="340" height="44" rx="22" fill="#f2ece3" stroke="#e5dbcf"/>
+<text x="500" y="277" text-anchor="middle" font-size="18" font-weight="700" fill="#3a322c">条件入りの予約ページURL</text>
+<rect x="250" y="340" width="500" height="56" rx="10" fill="#ffffff" stroke="#3a322c" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="500" y="375" text-anchor="middle" font-size="18" font-weight="700" fill="#3a322c">確定はお客さんが押す（AIは予約を確定しない）</text>
+</svg>

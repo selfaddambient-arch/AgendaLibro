@@ -1,0 +1,56 @@
+{
+  "marks": 30,
+  "used": [
+    "fig1-1_chatgpt-mcp.png",
+    "fig1-7b_compare.png",
+    "fig1-8_welcome-plans.png",
+    "fig1-9_stamp-card.png",
+    "fig1-5_confirm-mail.png",
+    "fig1-3a_calendar-today.png",
+    "fig1-3b_confirm-today.png",
+    "fig1-2_plan-tabs.png",
+    "fig1-6_weekly-report.png",
+    "fig1-4_talk.png",
+    "fig1-10_unanswered.png",
+    "fig2-1_mcp.png",
+    "fig2-2_test-result.png",
+    "fig2-3_rules-before-after.png",
+    "fig2-4_requirements.png",
+    "fig3-1a_luce-open.png",
+    "fig3-1b_luce-extended.png",
+    "fig3-6a_luce-admin.png",
+    "fig3-6b_luce-admin-extended.png",
+    "fig3-6c_luce-public.png",
+    "fig3-2_agenda-lp.png",
+    "fig3-3a_timbro.png",
+    "fig3-3b_oro.png",
+    "fig3-3c_bis.png",
+    "fig3-4_timbro-kiosk.png",
+    "fig3-5_qa-languages.png",
+    "fig4-2_bootstrap-steps.png",
+    "fig4-3_identity-colors.png",
+    "fig4-1_series.png",
+    "fig4-4_series-nav.png"
+  ],
+  "unused_png": [
+    "fig1-7_group-discount.png"
+  ],
+  "caption_changes": [
+    {
+      "fig": "1-9",
+      "before": "マイページのスタンプカード（合成データ）",
+      "after": "マイページの来店回数（通算3回・次の特典まであと2回）（合成データ）"
+    },
+    {
+      "fig": "1-4",
+      "before": "T-AI-MUROの会話の画面。選択肢を押すだけで会話が進む",
+      "after": "T-AI-MUROの会話の画面。最初の選択肢（「予約したいです」）を押すと、人数の質問が出る"
+    },
+    {
+      "fig": "2-2",
+      "before": "AIの試験の結果。合格率と、間違いの原因の内訳",
+      "after": "AIの試験の結果（36本中9本合格＝25.0％）と、間違いの原因の内訳"
+    }
+  ],
+  "problems": []
+}
