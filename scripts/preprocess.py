@@ -13,6 +13,7 @@
 import json
 import re
 import sys
+import datetime
 import unicodedata
 from pathlib import Path
 
@@ -46,6 +47,8 @@ COLOPHON = """## 奥付
 - 副題：19席のバー店主が、AIで予約システムから道具まで自分で作った記録
 - 著者：本多楽（ぼんたらく）
 - 発行：ボンタ合同会社
+- 発行日：{date}
+- 版：第1版
 - 言語：日本語
 - 再頒布可能
 
@@ -100,7 +103,9 @@ def main():
             caption = CAPTION_OVERRIDE[fig]
         used.append(fname)
         alt = f"図{fig}　{caption}".replace("[", "［").replace("]", "］")
-        result.append(f"![{alt}](images/{fname})")
+        # 縦長で縮小後に細くなる図は、上下の空白を切り落とした版（scripts/trim-figures.py）を使う
+        src = f"images/_trim/{fname}" if (IMAGES / "_trim" / fname).exists() else f"images/{fname}"
+        result.append(f"![{alt}]({src})")
 
     marks = sum(1 for l in body if MARK.match(l))
     dup = sorted({f for f in used if used.count(f) > 1})
@@ -127,8 +132,10 @@ def main():
         text = text.replace("### この本の、3つの出口", "::: exits\n\n### この本の、3つの出口", 1)
         text = text.replace("\n## 第1章", block + "\n:::\n\n## 第1章", 1)
 
+    today = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).date()
+    colophon = COLOPHON.replace("{date}", f"{today.year}年{today.month}月{today.day}日")
     text = text.rstrip("\n") + "\n\n" + re.sub(
-        r"(?<![<(\"])(https?://[A-Za-z0-9._~:/?#@!$&'*+,;=%\-]+)", r"<\1>", COLOPHON
+        r"(?<![<(\"])(https?://[A-Za-z0-9._~:/?#@!$&'*+,;=%\-]+)", r"<\1>", colophon
     )
     out.write_text(text, encoding="utf-8")
 
