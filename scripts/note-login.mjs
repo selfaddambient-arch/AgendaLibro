@@ -12,7 +12,14 @@ const STATE = 'secrets/note-state.json';
 mkdirSync('secrets', { recursive: true });
 rmSync(SENTINEL, { force: true });
 
-const browser = await chromium.launch({ headless: false });
+// Google ログインは Playwright 同梱の Chromium を「安全でない」と弾くため、
+// 実機の Chrome を自動操縦の目印なしで開く。
+const browser = await chromium.launch({
+  headless: false,
+  channel: 'chrome',
+  ignoreDefaultArgs: ['--enable-automation'],
+  args: ['--disable-blink-features=AutomationControlled'],
+});
 const context = await browser.newContext({ locale: 'ja-JP', viewport: { width: 1280, height: 900 } });
 const page = await context.newPage();
 await page.goto('https://note.com/login');
