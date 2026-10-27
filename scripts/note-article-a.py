@@ -12,6 +12,11 @@ lines = SRC.read_text(encoding="utf-8").split("\n")
 s = next(i for i, l in enumerate(lines) if l.startswith("## はじめに"))
 e = next(i for i, l in enumerate(lines) if l.startswith("## 第1章"))
 body = "\n".join(lines[s + 1 : e]).strip()
+# 代表指示（2026-10-27）：note では無料の範囲を現状に合わせて書き換える（本の原稿は変えない）
+OLD = "この本は無料で配っています。"
+NEW = "この本は、PDFとnoteとGoogle Playで無料で読めます（Kindleだけは、ストアの決まりで最低価格を付けています）。"
+assert body.count(OLD) == 1
+body = body.replace(OLD, NEW)
 body = re.sub(r"^### ", "## ", body, flags=re.M).replace("\\_", "_")
 cover = "![表紙](../build/cover.png)"
 OUT.write_text("# 『うちの店は、うちの仕様で』はじめに\n\n" + body + "\n\n" + cover + "\n", encoding="utf-8")

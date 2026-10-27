@@ -27,7 +27,7 @@ for (const raw of ms.slice(start)) {
   if (/^\|\s*-/.test(l)) continue;
   if (l.startsWith('|')) { l.replace(/^\||\|$/g, '').split('|').map((c) => c.trim()).filter(Boolean).forEach((c) => expected.push(c)); continue; }
   l = l.replace(/^#+\s*/, '').replace(/^(\d+\.|-)\s+/, '').replace(/^>\s?/, '').replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1').replace(/\\_/g, '_');
-  expected.push(l);
+  expected.push(l.replace('この本は無料で配っています。', 'この本は、PDFとnoteとGoogle Playで無料で読めます（Kindleだけは、ストアの決まりで最低価格を付けています）。')); // note だけの書き換え（2026-10-27 代表指示）
 }
 
 const browser = await chromium.launch({ headless: false, channel: 'chrome', ignoreDefaultArgs: ['--enable-automation'], args: ['--disable-blink-features=AutomationControlled'] });
