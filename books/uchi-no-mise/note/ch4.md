@@ -1,5 +1,7 @@
 # 『うちの店は、うちの仕様で』第4章　技術編：一人で製品を作り続ける仕組み
 
+全7回の5回目
+
 [◀ 前の章　第3章　自分の店の道具を、他の店に配る](https://note.com/bontallc/n/n0a8d776814cb)
 
 この章の要点
@@ -162,3 +164,15 @@ AIの費用にも、気を配っています。プログラムを書くAIの作�
 この章の続き（次に作る手帳や、手順書に足した教訓）は、noteとXに書いています。note https://note.com/bontallc／X https://x.com/tamuro_hnakano
 
 [次の章 ▶　第5章　小さな店の、これから](https://note.com/bontallc/n/na09d1688620b)
+
+## この本の、ほかの読み方
+
+PDF（全文・無料・再配布自由）：【ストアURL】
+
+Kindle：【ストアURL】
+
+Google Playブックス：【ストアURL】
+
+屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note](https://tamuroreservation.vercel.app/?src=note)
+
+Agendaシリーズ：[https://bontallc.com/agenda?via=note](https://bontallc.com/agenda?via=note)

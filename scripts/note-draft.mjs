@@ -83,7 +83,7 @@ const toHtml = (block) => {
     // note のエディタは表に対応しない（セルが1行に潰れる）ので「見出し：値」の箇条書きにする
     const rows = lines.filter((l) => !/^\|\s*-/.test(l)).map((l) => l.replace(/^\||\|$/g, '').split('|').map((c) => c.trim()));
     const [head, ...data] = rows;
-    return '<ul>' + data.map((r) => `<li><p>${inline(r[0])}　${r.slice(1).map((c, i) => `${inline(head[i + 1])}：${inline(c)}`).join('／')}</p></li>`).join('') + '</ul>';
+    return '<ul>' + data.map((r) => `<li><p>${inline(head[0])}：${inline(r[0])}　${r.slice(1).map((c, i) => `${inline(head[i + 1])}：${inline(c)}`).join('／')}</p></li>`).join('') + '</ul>';
   }
   return `<p>${inline(block).split('\n').join('<br>')}</p>`;
 };

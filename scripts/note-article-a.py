@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""note 記事 a：原稿の「はじめに」全文（3つの出口まで）＋ストア案内の仮行を書き出す。
+"""note 記事 a：原稿の「はじめに」全文（3つの出口まで）を書き出す（前後リンク・案内は note-split.py が付ける）。
 原稿から機械的に抜くので、本文は手で写さない。"""
 import re
 from pathlib import Path
@@ -12,17 +12,7 @@ lines = SRC.read_text(encoding="utf-8").split("\n")
 s = next(i for i, l in enumerate(lines) if l.startswith("## はじめに"))
 e = next(i for i, l in enumerate(lines) if l.startswith("## 第1章"))
 body = "\n".join(lines[s + 1 : e]).strip()
-# ChatGPT から屯の MCP につないだ画面（図1-1）を、MCP の話の段落の直後に置く
-body = re.sub(r"(わたしはこのエージェント型のAIを使って[^\n]*)", r"\1\n\n![ChatGPTから屯のMCPサーバーにつないだ画面](../images/fig1-1_chatgpt-mcp.png)", body, count=1)
 body = re.sub(r"^### ", "## ", body, flags=re.M).replace("\\_", "_")
-store = """## 読む場所
-
-![表紙](../build/cover.png)
-
-この本は、KindleとGoogle Playブックスで読めるようにします。配信ページのURLが決まりしだい、ここに載せます。
-
-Kindle：【ストアURL】
-
-Google Playブックス：【ストアURL】"""
-OUT.write_text("# 『うちの店は、うちの仕様で』はじめに\n\n" + body + "\n\n" + store + "\n", encoding="utf-8")
+cover = "![表紙](../build/cover.png)"
+OUT.write_text("# 『うちの店は、うちの仕様で』はじめに\n\n" + body + "\n\n" + cover + "\n", encoding="utf-8")
 print(len(body), "字（はじめに本文）")

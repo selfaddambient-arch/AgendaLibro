@@ -1,5 +1,7 @@
 # 『うちの店は、うちの仕様で』第5章　小さな店の、これから
 
+全7回の6回目
+
 [◀ 前の章　第4章　技術編：一人で製品を作り続ける仕組み](https://note.com/bontallc/n/ne8ef4e1311dd)
 
 ## 5-1　雑多ごはんから、屯へ
@@ -105,3 +107,15 @@ AIは、この二つを、一人の店主にできるようにしました。店
 東中野の19席のバーから、この本を書きました。
 
 [次の章 ▶　おわりに](https://note.com/bontallc/n/n3608d237e191)
+
+## この本の、ほかの読み方
+
+PDF（全文・無料・再配布自由）：【ストアURL】
+
+Kindle：【ストアURL】
+
+Google Playブックス：【ストアURL】
+
+屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note](https://tamuroreservation.vercel.app/?src=note)
+
+Agendaシリーズ：[https://bontallc.com/agenda?via=note](https://bontallc.com/agenda?via=note)

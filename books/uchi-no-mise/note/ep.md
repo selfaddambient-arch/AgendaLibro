@@ -1,5 +1,7 @@
 # 『うちの店は、うちの仕様で』おわりに
 
+全7回の7回目
+
 [◀ 前の章　第5章　小さな店の、これから](https://note.com/bontallc/n/na09d1688620b)
 
 ここまで読んでくださって、ありがとうございます。
@@ -35,3 +37,15 @@ https://tamuroreservation.vercel.app/api/mcp
 - OpenAI Help Center「ChatGPT — Release Notes」2026年8月10日「Restaurant reservations in ChatGPT」 https://help.openai.com/en/articles/6825453-chatgpt-release-notes
 - Alpaca「Alpaca MCP Server」（米国で株式などの注文をAIから出せるMCPサーバーの例） https://docs.alpaca.markets/docs/alpaca-mcp-server
 - 「SaaSの死」の議論：サティア・ナデラ氏のBG2ポッドキャストでの発言（2024年12月）、2026年2月のソフトウェア株の急落とその呼び名、ジェンスン・フアン氏の反論は、以下の報道・解説を参考にした。 https://www.longangle.com/alts-education/software-ai ／ https://www.fastcompany.com/91504460/everything-youve-heard-about-the-saaspocalypse-is-wrong ／ https://en.thairath.co.th/money/tech_innovation/tech_companies/2916811
+
+## この本の、ほかの読み方
+
+PDF（全文・無料・再配布自由）：【ストアURL】
+
+Kindle：【ストアURL】
+
+Google Playブックス：【ストアURL】
+
+屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note](https://tamuroreservation.vercel.app/?src=note)
+
+Agendaシリーズ：[https://bontallc.com/agenda?via=note](https://bontallc.com/agenda?via=note)

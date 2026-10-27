@@ -1,5 +1,7 @@
 # 『うちの店は、うちの仕様で』はじめに
 
+全7回の1回目
+
 この本は、東京・東中野で19席のバーを営む店主が、AIを使って店をどう回しているかを、そのまま書いた記録です。
 
 店の名前は「屯（たむろ）」といいます。人が集まる、という意味です。2018年11月に開いた、カウンター11席と座敷8席の小さな店です。昼は同じ場所で、スタッフが「キャトルエピス」というハンバーグカレーの店を営業しています。
@@ -7,8 +9,6 @@
 前作『1人で店を回す、その横にAIが来た。』では、生成AIそのものについて書きました。それから一年あまりで、AIは「質問に答える道具」から「仕事を代わりに進める道具」へと姿を変えました。指示を出せば、プログラムを書き、試し、間違いを直し、最後まで仕上げる。そういうAIを、エージェント型のAI（エージェンティックAI）と呼びます。
 
 わたしはこのエージェント型のAIを使って、屯の予約システムを自分で作りました。値上げに合わせて値引きの仕組みを作り、常連を育てる仕組みを作り、お客さんの質問に答えるAIを作り、最後には、お客さんが自分のAIから屯に問い合わせ、予約に進めるところまで来ました。
-
-![ChatGPTから屯のMCPサーバーにつないだ画面](../images/fig1-1_chatgpt-mcp.png)
 
 さらに、自分の店のために作った便利な道具を、他の店でも使える形に整え、月数百円で配り始めました。それが「Agendaシリーズ」です。
 
@@ -54,14 +54,18 @@
 2. 自分の店で試してみる。Agendaシリーズは無料の手帳から始められます。https://bontallc.com/agenda?via=book
 3. 活動を追いかける。次に作る道具や、店の日々は、noteとXで書いています。note https://note.com/bontallc／X https://x.com/tamuro_hnakano
 
-## 読む場所
-
 ![表紙](../build/cover.png)
 
-この本は、KindleとGoogle Playブックスで読めるようにします。配信ページのURLが決まりしだい、ここに載せます。
+[次の章 ▶　第1章　AIから予約される店](https://note.com/bontallc/n/n30c4694b95cf)
+
+## この本の、ほかの読み方
+
+PDF（全文・無料・再配布自由）：【ストアURL】
 
 Kindle：【ストアURL】
 
 Google Playブックス：【ストアURL】
 
-[次の章 ▶　第1章　AIから予約される店](https://note.com/bontallc/n/n30c4694b95cf)
+屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note](https://tamuroreservation.vercel.app/?src=note)
+
+Agendaシリーズ：[https://bontallc.com/agenda?via=note](https://bontallc.com/agenda?via=note)

@@ -1,5 +1,7 @@
 # 『うちの店は、うちの仕様で』第3章　自分の店の道具を、他の店に配る
 
+全7回の4回目
+
 [◀ 前の章　第2章　技術編：予約システムの裏側](https://note.com/bontallc/n/n2b379a6bdbec)
 
 ## 3-1　予約ページの、小さな緑の看板
@@ -119,7 +121,7 @@ Agendaシリーズには、すべての手帳に共通する三つの原則が�
 
 ![図3-2](../images/fig3-2_agenda-lp.png)
 
-図3-2　Agendaシリーズの紹介ページ
+図3-2　Agendaシリーズの紹介ページ（冒頭）。全体は https://bontallc.com/agenda?via=book で
 
 ![図3-3a](../images/fig3-3a_timbro.png)
 
@@ -250,3 +252,15 @@ Agendaシリーズの三原則のうち「自動」は、この「使い続け�
 図3-5　相談手帳の言語切替。20の言語が並ぶ
 
 [次の章 ▶　第4章　技術編：一人で製品を作り続ける仕組み](https://note.com/bontallc/n/ne8ef4e1311dd)
+
+## この本の、ほかの読み方
+
+PDF（全文・無料・再配布自由）：【ストアURL】
+
+Kindle：【ストアURL】
+
+Google Playブックス：【ストアURL】
+
+屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note](https://tamuroreservation.vercel.app/?src=note)
+
+Agendaシリーズ：[https://bontallc.com/agenda?via=note](https://bontallc.com/agenda?via=note)

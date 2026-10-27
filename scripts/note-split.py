@@ -68,6 +68,20 @@ def convert_headings(body_lines):
     return "\n".join(res).strip("\n").replace("\\_", "_")
 
 
+# 全記事の末尾に付ける共通の案内。note 経由は ?src=note / ?via=note で、本の中（?src=book / ?via=book）と分けて数える
+FOOTER = """## この本の、ほかの読み方
+
+PDF（全文・無料・再配布自由）：【ストアURL】
+
+Kindle：【ストアURL】
+
+Google Playブックス：【ストアURL】
+
+屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note](https://tamuroreservation.vercel.app/?src=note)
+
+Agendaシリーズ：[https://bontallc.com/agenda?via=note](https://bontallc.com/agenda?via=note)"""
+
+
 def main():
     chapters = split_manuscript()
     drafts_path = NOTE / "drafts.json"
@@ -87,18 +101,21 @@ def main():
         if slug == "intro":
             path = NOTE / "a-hajimeni.md"
             text = path.read_text(encoding="utf-8").rstrip("\n")
-            text = text.split("\n\n[次の章 ▶]")[0]
+            head, rest = text.split("\n\n", 1)
+            parts = [head, f"全7回の{i + 1}回目", rest]
             if next_l:
-                text += "\n\n" + next_l
-            path.write_text(text + "\n", encoding="utf-8")
+                parts.append(next_l)
+            parts.append(FOOTER)
+            path.write_text("\n\n".join(parts) + "\n", encoding="utf-8")
             continue
         title, body = chapters[slug]
-        parts = [f"# {BOOK_TITLE}{title}"]
+        parts = [f"# {BOOK_TITLE}{title}", f"全7回の{i + 1}回目"]
         if prev_l:
             parts.append(prev_l)
         parts.append(convert_headings(body))
         if next_l:
             parts.append(next_l)
+        parts.append(FOOTER)
         (NOTE / f"{slug}.md").write_text("\n\n".join(parts) + "\n", encoding="utf-8")
         print(slug, len("\n".join(body)), "字", "prev" if prev_l else "-", "next" if next_l else "-")
 

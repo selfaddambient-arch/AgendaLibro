@@ -1,5 +1,7 @@
 # 『うちの店は、うちの仕様で』第1章　AIから予約される店
 
+全7回の2回目
+
 [◀ 前の章　はじめに](https://note.com/bontallc/n/na0569fd28f62)
 
 ## 1-1　「今夜、空いてる店ある？」と、AIに聞く時代
@@ -323,3 +325,15 @@ AIから予約される店は、ある日突然できあがったわけではあ
 この予約システムの裏側、つまり技術の話は、第2章に続きます。技術に興味のない方は、第3章へ進んでください。そこでは、この予約システムの周りで生まれた小さな道具を、他の店にも配っている話をします。
 
 [次の章 ▶　第2章　技術編：予約システムの裏側](https://note.com/bontallc/n/n2b379a6bdbec)
+
+## この本の、ほかの読み方
+
+PDF（全文・無料・再配布自由）：【ストアURL】
+
+Kindle：【ストアURL】
+
+Google Playブックス：【ストアURL】
+
+屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note](https://tamuroreservation.vercel.app/?src=note)
+
+Agendaシリーズ：[https://bontallc.com/agenda?via=note](https://bontallc.com/agenda?via=note)

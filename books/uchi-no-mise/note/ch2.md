@@ -1,5 +1,7 @@
 # 『うちの店は、うちの仕様で』第2章　技術編：予約システムの裏側
 
+全7回の3回目
+
 [◀ 前の章　第1章　AIから予約される店](https://note.com/bontallc/n/n30c4694b95cf)
 
 この章の要点
@@ -259,3 +261,15 @@ AIに試験をさせると、AIは「合格した」と言います。AIにデ�
 この章の続き（新しく見つけた穴や、直した手順）は、noteとXに書いています。note https://note.com/bontallc／X https://x.com/tamuro_hnakano
 
 [次の章 ▶　第3章　自分の店の道具を、他の店に配る](https://note.com/bontallc/n/n0a8d776814cb)
+
+## この本の、ほかの読み方
+
+PDF（全文・無料・再配布自由）：【ストアURL】
+
+Kindle：【ストアURL】
+
+Google Playブックス：【ストアURL】
+
+屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note](https://tamuroreservation.vercel.app/?src=note)
+
+Agendaシリーズ：[https://bontallc.com/agenda?via=note](https://bontallc.com/agenda?via=note)
