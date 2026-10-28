@@ -66,6 +66,8 @@ PDF（無料・再配布自由）：[https://bontallc.com/books/uchi-no-mise/pdf
 
 Kindle：[https://www.amazon.co.jp/dp/B0HPJY4NRR](https://www.amazon.co.jp/dp/B0HPJY4NRR)
 
+Google Play：[https://play.google.com/store/books/details?id=WdUiEgAAQBAJ](https://play.google.com/store/books/details?id=WdUiEgAAQBAJ)
+
 本のページ：
 
 https://bontallc.com/books/uchi-no-mise?via=note

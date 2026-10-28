@@ -1,7 +1,7 @@
 """note 記事の md に、PDF の導線を足す（代表承認 2026-10-28）。何度流しても同じ結果になる。
   python3 scripts/note-links-patch.py
 - 冒頭（題名・本文の最初の行の上）：この本は PDF でも無料で読めます（再配布自由）→ <PDF>
-- 末尾「この本の、ほかの読み方」の先頭：PDF・Kindle・Google Play（1冊目のみ）・本のページ（URL単独の行＝リンクカード）・再配布の一文
+- 末尾「この本の、ほかの読み方」の先頭：PDF・Kindle・Google Play・本のページ（URL単独の行＝リンクカード）・再配布の一文
 - 「出版の経緯」（b-keii.md）：末尾に本の一覧のリンク
 """
 import re, pathlib
@@ -12,7 +12,8 @@ BOOKS = {
         gplay='https://play.google.com/store/books/details?id=4dUiEgAAQBAJ'),
     'uchi-no-mise': dict(
         slugs=['a-hajimeni', 'ch1', 'ch2', 'ch3', 'ch4', 'ch5', 'ep'],
-        kindle='https://www.amazon.co.jp/dp/B0HPJY4NRR', gplay=None),
+        kindle='https://www.amazon.co.jp/dp/B0HPJY4NRR',
+        gplay='https://play.google.com/store/books/details?id=WdUiEgAAQBAJ'),
 }
 SENT = 'PDF は再配布自由です。周りの店主仲間や、AI に興味のある方に、そのまま送ってください。'
 for slug, c in BOOKS.items():

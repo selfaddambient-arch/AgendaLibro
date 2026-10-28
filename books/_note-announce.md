@@ -22,6 +22,8 @@ noteで連載している2冊の本は、PDFでも無料で読めます。再配
 
 [Kindle](https://www.amazon.co.jp/dp/B0HPJY4NRR)
 
+[Google Play](https://play.google.com/store/books/details?id=WdUiEgAAQBAJ)
+
 [noteのマガジン](https://note.com/bontallc/m/m1576d0e10b0e)
 
 ## 本の一覧
