@@ -1,0 +1,27 @@
+body { line-height: 1.8; }
+h1 { margin: 2em 0 1em; }
+h2 { margin: 1.8em 0 0.8em; }
+h3 { margin: 1.4em 0 0.6em; }
+figure { margin: 1.2em 0; text-align: center; }
+figure img { max-width: 100%; max-height: 151mm; width: auto; height: auto; }
+figcaption { font-size: 8.075pt; margin-top: 0.4em; text-align: left; line-height: 1.6; }
+table { border-collapse: collapse; margin: 1em 0; }
+th, td { border: 1px solid #333; padding: 0.3em 0.6em; }
+blockquote { margin: 1em 0; padding-left: 1em; border-left: 3px solid #333; }
+@page { size: A5; margin: 16mm 14mm; }
+body { font-family: "Hiragino Mincho ProN", "Hiragino Sans", serif; font-size: 9.5pt; line-height: 1.85; max-width: none; margin: 0; padding: 0; }
+h1 { break-before: page; font-size: 18pt; }
+header#title-block-header { break-after: page; text-align: center; padding-top: 40mm; }
+header#title-block-header h1.title { break-before: avoid; font-size: 24pt; }
+p.subtitle { font-size: 12pt; }
+nav#TOC { break-after: page; }
+nav#TOC ul { list-style: none; padding-left: 1em; }
+figure { break-inside: avoid; }
+a { color: #1a5fb4; text-decoration: underline; }
+.qr { display: flex; justify-content: space-around; margin: 1.5em 0; break-inside: avoid; }
+.qr figure { margin: 0; width: 30%; }
+.qr img { width: 100%; }
+.qr figcaption { text-align: center; }
+p.subtitle { text-wrap: balance; padding: 0 8mm; }
+.exits { break-inside: avoid; }
+header#title-block-header h1.title { text-wrap: balance; padding: 0 6mm; }

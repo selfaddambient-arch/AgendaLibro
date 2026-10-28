@@ -2,12 +2,15 @@
 //   node scripts/note-header.mjs <slug|magazine> <画像> [--shot <保存先.png>]
 // slug は books/uchi-no-mise/note/drafts.json の鍵名（intro・ch1…・ep・keii）。magazine はマガジンの画像を差し替える。
 import { chromium } from 'playwright';
-import { readFileSync } from 'node:fs';
+import { readFileSync, existsSync } from 'node:fs';
 
 const [slug, image] = process.argv.slice(2);
 const shot = process.argv.includes('--shot') ? process.argv[process.argv.indexOf('--shot') + 1] : null;
-const drafts = JSON.parse(readFileSync('books/uchi-no-mise/note/drafts.json', 'utf8'));
-const MAGAZINE = 'https://note.com/bontallc/m/m1576d0e10b0e';
+// 本の切り替え：環境変数 BOOK（既定は 2冊目 uchi-no-mise）。マガジンのURLは note/magazine.json（無ければ 2冊目のもの）
+const SLUG = process.env.BOOK || 'uchi-no-mise';
+const drafts = JSON.parse(readFileSync(`books/${SLUG}/note/drafts.json`, 'utf8'));
+const magPath = `books/${SLUG}/note/magazine.json`;
+const MAGAZINE = existsSync(magPath) ? JSON.parse(readFileSync(magPath, 'utf8')).url : 'https://note.com/bontallc/m/m1576d0e10b0e';
 const browser = await chromium.launch({ headless: false, channel: 'chrome', ignoreDefaultArgs: ['--enable-automation'], args: ['--disable-blink-features=AutomationControlled'] });
 const ctx = await browser.newContext({ storageState: 'secrets/note-state.json', locale: 'ja-JP', viewport: { width: 1280, height: 900 } });
 const page = await ctx.newPage();

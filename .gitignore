@@ -4,3 +4,5 @@ node_modules/
 books/uchi-no-mise/build/.tmp/
 __pycache__/
 books/uchi-no-mise/build/うちの店は、うちの仕様で.pdf
+books/hitori-de-mise/build/.tmp/
+books/hitori-de-mise/work/

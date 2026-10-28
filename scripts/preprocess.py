@@ -11,6 +11,7 @@
 - pdf のときだけ「3つの出口」の直後に QR を3つ置く
 """
 import json
+import os
 import re
 import sys
 import datetime
@@ -18,8 +19,11 @@ import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-BOOK = ROOT / "books" / "uchi-no-mise"
-MANUSCRIPT = BOOK / "bontaraku-02_uchi-no-mise_manuscript.md"
+# 本の切り替え：環境変数 BOOK（既定は 2冊目 uchi-no-mise）。本ごとの設定は books/<略名>/book.json
+BOOK_SLUG = os.environ.get("BOOK", "uchi-no-mise")
+BOOK = ROOT / "books" / BOOK_SLUG
+CFG = json.loads((BOOK / "book.json").read_text(encoding="utf-8")) if (BOOK / "book.json").exists() else {}
+MANUSCRIPT = BOOK / CFG.get("manuscript", "bontaraku-02_uchi-no-mise_manuscript.md")
 IMAGES = BOOK / "images"
 BUILD = BOOK / "build"
 
@@ -36,13 +40,13 @@ CAPTION_OVERRIDE = {
     "2-2": "AIの試験の結果（36本中9本合格＝25.0％）と、間違いの原因の内訳",
 }
 
-QR_LINKS = [
+QR_LINKS = CFG.get("qr_links") or [
     ("屯に行ってみる", "qr-tamuro.png"),
     ("自分の店で試してみる", "qr-agenda.png"),
     ("活動を追いかける（note）", "qr-note.png"),
 ]
 
-COLOPHON = """## 奥付
+COLOPHON = CFG.get("colophon") or """## 奥付
 
 - 題名：うちの店は、うちの仕様で
 - 副題：19席のバー店主が、AIで予約システムから道具まで自分で作った記録
@@ -75,6 +79,8 @@ def figure_files():
         if is_copy(p.name):  # Finder の複製は対象にしない
             continue
         m = re.match(r"fig(\d+-\d+[a-z]?)_", p.name)
+        if not m:
+            continue
         by_id.setdefault(m.group(1), []).append(p.name)
     return by_id
 
@@ -112,8 +118,23 @@ def main():
     dup = sorted({f for f in used if used.count(f) > 1})
     if dup:
         problems.append(f"同じ画像が複数の印に使われた: {dup}")
-    all_png = {p.name for p in IMAGES.glob("fig*.png") if not is_copy(p.name)}
+    all_png = {p.name for p in IMAGES.glob("fig*.png") if not is_copy(p.name)} if not CFG else set()
     unused = sorted(all_png - set(used))
+
+    # 原稿に直接書かれた画像（![説明](images/…)）：縮小版（images/_web/）があればそれを使う
+    inline = 0
+    for k, line in enumerate(result if CFG else []):
+        m2 = re.match(r"^!\[(.*)\]\(images/([^)]+)\)$", line)
+        if m2 and not MARK.match(line):
+            inline += 1
+            if (IMAGES / m2.group(2)).exists() is False:
+                problems.append(f"画像がない: {m2.group(2)}")
+            used.append(m2.group(2))
+            stem = Path(m2.group(2)).stem
+            for cand in (m2.group(2), stem + ".jpg"):  # 縮小版（大きな PNG は JPEG に変えてある）
+                if (IMAGES / "_web" / cand).exists():
+                    result[k] = f"![{m2.group(1)}](images/_web/{cand})"
+                    break
 
     text = "\n".join(result)
     # 強調記号を落とす（原稿は現状 0 件。入ったときの保険）
@@ -129,9 +150,10 @@ def main():
             for label, f in QR_LINKS
         )
         block = f'\n```{{=html}}\n<div class="qr">\n{qr}\n</div>\n```\n'
-        # 3つの出口の見出し・3項目・QRを同じページに収める
-        text = text.replace("### この本の、3つの出口", "::: exits\n\n### この本の、3つの出口", 1)
-        text = text.replace("\n## 第1章", block + "\n:::\n\n## 第1章", 1)
+        # 3つの出口の見出し・3項目・QRを同じページに収める（3項目の直後にQRを置く）
+        h = text.find("### この本の、3つの出口")
+        m3 = re.compile(r"\n3\. [^\n]*\n").search(text, h)
+        text = text[:h] + "::: exits\n\n" + text[h : m3.end()] + block + "\n:::\n" + text[m3.end() :]
 
     today = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).date()
     colophon = COLOPHON.replace("{date}", f"{today.year}年{today.month}月{today.day}日")
@@ -143,13 +165,13 @@ def main():
     BUILD.mkdir(parents=True, exist_ok=True)
     (BUILD / "figures.json").write_text(
         json.dumps(
-            {"marks": marks, "used": used, "unused_png": unused, "caption_changes": changes, "problems": problems},
+            {"marks": marks, "inline_images": inline, "used": used, "unused_png": unused, "caption_changes": changes, "problems": problems},
             ensure_ascii=False,
             indent=2,
         ),
         encoding="utf-8",
     )
-    print(f"図の印 {marks} / 使った画像 {len(set(used))} / 未使用PNG {unused}")
+    print(f"図の印 {marks} / 原稿の画像 {inline} / 使った画像 {len(set(used))} / 未使用PNG {unused}")
     if problems:
         print("\n".join(problems))
         sys.exit(2)

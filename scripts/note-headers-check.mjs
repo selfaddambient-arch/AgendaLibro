@@ -3,7 +3,11 @@
 import { chromium } from 'playwright';
 import { readFileSync } from 'node:fs';
 const out = process.argv[2];
-const drafts = JSON.parse(readFileSync('books/uchi-no-mise/note/drafts.json', 'utf8'));
+import { existsSync } from 'node:fs';
+const SLUG = process.env.BOOK || 'uchi-no-mise';
+const drafts = JSON.parse(readFileSync(`books/${SLUG}/note/drafts.json`, 'utf8'));
+const magPath = `books/${SLUG}/note/magazine.json`;
+const MAG = existsSync(magPath) ? JSON.parse(readFileSync(magPath, 'utf8')).url : 'https://note.com/bontallc/m/m1576d0e10b0e';
 const b = await chromium.launch({ headless: false, channel: 'chrome', ignoreDefaultArgs: ['--enable-automation'], args: ['--disable-blink-features=AutomationControlled'] });
 const c = await b.newContext({ storageState: 'secrets/note-state.json', locale: 'ja-JP', viewport: { width: 1280, height: 900 } });
 const p = await c.newPage();
@@ -18,11 +22,11 @@ for (const [slug, key] of Object.entries(drafts)) {
   if (n === 1 && size) ok++;
   await p.screenshot({ path: `${out}/${slug}.png`, clip: { x: 300, y: 90, width: 640, height: 340 } });
 }
-await p.goto('https://note.com/bontallc/m/m1576d0e10b0e/edit');
+await p.goto(MAG + '/edit');
 await p.waitForTimeout(5000);
 const m = await p.evaluate(() => { const i = [...document.images].find((x) => x.naturalWidth > 300); return i ? [i.naturalWidth, i.naturalHeight, i.src.split('?')[0].slice(-40)] : null; });
 console.log('magazine', JSON.stringify(m));
 if (m) ok++;
 await p.screenshot({ path: `${out}/magazine.png`, clip: { x: 440, y: 240, width: 640, height: 340 } });
-console.log(`見出し画像あり ${ok}/8`);
+console.log(`見出し画像あり ${ok}/${Object.keys(drafts).length + 1}`);
 await b.close();
