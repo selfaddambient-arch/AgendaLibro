@@ -12,6 +12,7 @@ const file = argv[0];
 const editUrl = opt('--url') ?? 'https://editor.note.com/new';
 const image = opt('--image');
 const shot = opt('--shot');
+const SAVE = argv.includes('--published') ? '一時保存' : '下書き保存'; // 公開済みの記事は「一時保存」→ 公開画面の「更新する」で反映
 const titleOnly = argv.includes('--title-only'); // 記事 ID を得るため、題名だけで保存する
 
 const blocks = readFileSync(file, 'utf8').trim().split(/\n{2,}/);
@@ -114,7 +115,7 @@ for (const m of html.matchAll(/\[\[IMG:(.+?)\]\]/g)) {
   await page.waitForTimeout(2500);
 }
 
-await page.getByRole('button', { name: '下書き保存' }).click();
+await page.getByRole('button', { name: SAVE }).click();
 await page.getByText('保存しました').first().waitFor({ timeout: 30000 }).catch(() => {});
 await page.waitForTimeout(1500);
 if (shot) await page.screenshot({ path: shot });

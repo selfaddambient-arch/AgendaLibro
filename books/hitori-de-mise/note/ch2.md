@@ -190,12 +190,12 @@ Amazonなどで「プログラマブルキーボード」と検索すると出�
 
 ## この本の、ほかの読み方
 
-PDF（全文・無料・再配布自由）：【ストアURL】
-
 Kindle：[https://www.amazon.co.jp/dp/B0GFY4WW4Y](https://www.amazon.co.jp/dp/B0GFY4WW4Y)
-
-Google Playブックス：【ストアURL】
 
 屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note1](https://tamuroreservation.vercel.app/?src=note1)
 
 Agendaシリーズ：[https://bontallc.com/agenda?via=note1](https://bontallc.com/agenda?via=note1)
+
+note：[https://note.com/bontallc](https://note.com/bontallc)
+
+X：[https://x.com/tamuro_hnakano](https://x.com/tamuro_hnakano)

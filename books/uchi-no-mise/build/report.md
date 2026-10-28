@@ -179,6 +179,25 @@
 
 補正：docs/metrics/durations.md に過去の実績が無く（3件未満）、補正なし。
 
+## note の公開（2026-10-28・代表承認）
+
+2冊目7本とマガジンを公開した。「出版の経緯」は公開していない（未ログインで404）。
+
+| 回 | 記事 | 公開URL |
+|---|---|---|
+| 1 | はじめに | https://note.com/bontallc/n/na0569fd28f62 |
+| 2 | 第1章 AIから予約される店 | https://note.com/bontallc/n/n30c4694b95cf |
+| 3 | 第2章 技術編：予約システムの裏側 | https://note.com/bontallc/n/n2b379a6bdbec |
+| 4 | 第3章 自分の店の道具を、他の店に配る | https://note.com/bontallc/n/n0a8d776814cb |
+| 5 | 第4章 技術編：一人で製品を作り続ける仕組み | https://note.com/bontallc/n/ne8ef4e1311dd |
+| 6 | 第5章 小さな店の、これから | https://note.com/bontallc/n/na09d1688620b |
+| 7 | おわりに | https://note.com/bontallc/n/n3608d237e191 |
+
+- マガジン「うちの店は、うちの仕様で」（公開・7本・回の順）：https://note.com/bontallc/m/m1576d0e10b0e
+- 各記事：ハッシュタグ14個（1冊目と同じ）、無料、マガジンに追加。
+- 末尾の案内から外した行（後で足す）：PDF（全文・無料・再配布自由）：【ストアURL】／Kindle：【ストアURL】／Google Playブックス：【ストアURL】。残したのは、屯の予約サイト（?src=note）、Agendaシリーズ（?via=note）、note、X。
+- 検査（公開後・未ログイン）：7本とも 200、前後の回のリンク12本が正しい記事に飛び 200、全記事にタグ14個、「1人で店を回す」と【 】は 0 件、ストアURLの仮行は 0 件。
+
 ## マネタイズ原則への影響
 
 獲得：無料の本と note 記事 2 本が獲得装置。転換：本の「3つの出口」（?src=book／?via=book）で来店・Agenda 利用を測る。費用：note・EPUB 化に追加の変動費なし。

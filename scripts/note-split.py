@@ -71,15 +71,13 @@ def convert_headings(body_lines):
 # 全記事の末尾に付ける共通の案内。note 経由は ?src=note / ?via=note で、本の中（?src=book / ?via=book）と分けて数える
 FOOTER = """## この本の、ほかの読み方
 
-PDF（全文・無料・再配布自由）：【ストアURL】
-
-Kindle：【ストアURL】
-
-Google Playブックス：【ストアURL】
-
 屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note](https://tamuroreservation.vercel.app/?src=note)
 
-Agendaシリーズ：[https://bontallc.com/agenda?via=note](https://bontallc.com/agenda?via=note)"""
+Agendaシリーズ：[https://bontallc.com/agenda?via=note](https://bontallc.com/agenda?via=note)
+
+note：[https://note.com/bontallc](https://note.com/bontallc)
+
+X：[https://x.com/tamuro_hnakano](https://x.com/tamuro_hnakano)"""
 
 
 def main():

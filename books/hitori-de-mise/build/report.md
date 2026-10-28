@@ -104,6 +104,27 @@
 - Kindle の URL（https://www.amazon.co.jp/dp/B0GFY4WW4Y）を、note 下書き8本の末尾の案内の Kindle の行（リンク）と、EPUB・PDF の奥付に入れた。PDF・Google Play の行は【ストアURL】の仮行のまま。
 - 検査：両方の本の原稿・EPUB・PDF・note に「1人で店を回す」は 0 件。1冊目の note 8本すべてに B0GFY4WW4Y のリンクがある（`scripts/note-gate.mjs`）。epubcheck は両方の本で error 0／warning 0。両方の本の EPUB・PDF を作り直した（どちらも 99ページ、図の分割 0）。公開状態の記事は 0 本。
 
+## note の公開（2026-10-28・代表承認）
+
+1冊目8本とマガジンを公開した（「はじめに」「第1章」は代表が先に公開済み。2本は本文・タグ・マガジンを確認して更新した：本文末尾の【ストアURL】の仮行と旧題名は反映済み、ハッシュタグに #MCP を足した、マガジンに追加した）。「出版の経緯」は公開していない（未ログインで404）。
+
+| 回 | 記事 | 公開URL |
+|---|---|---|
+| 1 | はじめに | https://note.com/bontallc/n/nf84af5a1d53f |
+| 2 | 第1章 概念編 | https://note.com/bontallc/n/nbed7fb1f6c79 |
+| 3 | 第2章 基礎編 | https://note.com/bontallc/n/nf8175f36f33e |
+| 4 | 第3章 実践編① | https://note.com/bontallc/n/nd1edb2b18ac3 |
+| 5 | 第4章 実践編② | https://note.com/bontallc/n/n1a1aaea50698 |
+| 6 | 第5章 応用編 | https://note.com/bontallc/n/nae31665b742b |
+| 7 | 第6章 挑戦編 | https://note.com/bontallc/n/n14b99767d3a2 |
+| 8 | おわりに | https://note.com/bontallc/n/n51733ef5559b |
+
+- マガジン「一人で店を回す、その横にAIが来た。」（公開・8本・回の順＝1回目が先頭に出る並びに保存）：https://note.com/bontallc/m/m653458c91a21
+- 各記事：ハッシュタグ14個（#飲食店経営 #個人店 #生成AI #AI活用 #バイブコーディング #ClaudeCode #Gemini #MCP #DX #東中野 #屯 #本多楽 #Agendaシリーズ #無料公開。上限はなく全部入った）、記事タイプは無料、マガジンに追加。
+- 末尾の案内から外した行（後で足す）：PDF（全文・無料・再配布自由）：【ストアURL】／Google Playブックス：【ストアURL】。残したのは、Kindle（https://www.amazon.co.jp/dp/B0GFY4WW4Y）、屯の予約サイト（?src=note1）、Agendaシリーズ（?via=note1）、note、X。
+- 検査（公開後・未ログイン）：8本とも 200、前後の回のリンク14本が正しい記事に飛び 200、全記事にタグ14個・Kindle のリンク、「1人で店を回す」と【 】は 0 件、ストアURLの仮行は 0 件。
+- 気づいた点：note のプロフィール（自己紹介）に、旧題名「著書『1人で店を回す、その横にAIが来た。』」の文が残っている（記事の外。note の設定画面で直す）。
+
 ## マネタイズ原則への影響
 
 獲得：1冊目の本からも `?src=book1`／`?via=book1` で、2冊目（`?src=book`／`?via=book`）と分けて数えられる。note 経由は `?src=note1`／`?via=note1`。転換：本の末尾の出口とクーポン BOOK で来店・Agenda 利用を測る。費用：見出し画像の生成約240円のみ。

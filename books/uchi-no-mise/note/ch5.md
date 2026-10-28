@@ -110,12 +110,10 @@ AIは、この二つを、一人の店主にできるようにしました。店
 
 ## この本の、ほかの読み方
 
-PDF（全文・無料・再配布自由）：【ストアURL】
-
-Kindle：【ストアURL】
-
-Google Playブックス：【ストアURL】
-
 屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note](https://tamuroreservation.vercel.app/?src=note)
 
 Agendaシリーズ：[https://bontallc.com/agenda?via=note](https://bontallc.com/agenda?via=note)
+
+note：[https://note.com/bontallc](https://note.com/bontallc)
+
+X：[https://x.com/tamuro_hnakano](https://x.com/tamuro_hnakano)

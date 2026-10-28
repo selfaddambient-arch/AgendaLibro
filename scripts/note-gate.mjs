@@ -56,7 +56,7 @@ for (const [i, slug] of slugs.entries()) {
   const footIdx = text.indexOf('この本の、ほかの読み方');
   const foot = footIdx >= 0 ? text.slice(footIdx) : '';
   const tail = links.slice(-2);
-  const okTail = tail.length === 2 && tail[0] === `https://tamuroreservation.vercel.app/?src=${SRC_P}` && tail[1] === `https://bontallc.com/agenda?via=${VIA_P}`;
+  const okTail = links.includes(`https://tamuroreservation.vercel.app/?src=${SRC_P}`) && links.includes(`https://bontallc.com/agenda?via=${VIA_P}`) && !tail.some((h) => /\?(src=book|via=book)/.test(h));
   const kindleOk = !B1 || links.some((h) => h.includes('B0GFY4WW4Y'));
   const oldTitle = (text.match(/1人で店を回す/g) || []).length;
   const okNo = text.includes(`全${TOTAL}回の${i + 1}回目`);
