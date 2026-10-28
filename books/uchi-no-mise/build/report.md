@@ -233,7 +233,7 @@
 ### 黒塗り
 - `scripts/redact-fig03.py`：不透明の黒い四角（元画像854×1917の座標で4か所、縮小版は同じ割合）。モザイク・ぼかしなし。元画像は上書きで残していない。
 - 再OCR（機械ゲート）：両書の全画像（元画像58点＋縮小版を含む計91ファイル）で、見つけた文字「ゆーと」0件、読み取り失敗0件。EPUB内の画像30点、PDFの該当ページ、note に載った画像でも0件。
-- 履歴：画像を差し替えるコミットより前の履歴には元画像が残る（代表の指示どおり書き換えない）。未追跡の `books/hitori-de-mise/source/`（docx、28MB）にも元の画像が入っているが、自分が作ったものではないので触っていない。
+- 履歴：画像を差し替えるコミットより前の履歴には元画像が残る（代表の指示どおり書き換えない）。未追跡の `books/hitori-de-mise/source/` の元docx（28MB）にも元の画像が入っていたため、代表の承認（2026-10-28）で削除した。元の原稿の写しは Google ドキュメントにある。
 
 ### 作り直した EPUB・PDF の置き場（Kindle・Google Play に上げ直すもの）
 - 1冊目：`books/hitori-de-mise/build/bontaraku-01_hitori-de-mise.epub`（epubcheck 0件のエラー・0件の警告）、`books/hitori-de-mise/build/bontaraku-01_hitori-de-mise_A5.pdf`（99ページ）
