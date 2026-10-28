@@ -1,6 +1,6 @@
 # 『うちの店は、うちの仕様で』第4章　技術編：一人で製品を作り続ける仕組み
 
-この本は PDF でも無料で読めます（再配布自由）→ [https://bontallc.com/books/uchi-no-mise/pdf?via=note](https://bontallc.com/books/uchi-no-mise/pdf?via=note)
+この本は PDF・Google Play でも無料で読めます（PDF は再配布自由）→ [https://bontallc.com/books/uchi-no-mise/pdf?via=note](https://bontallc.com/books/uchi-no-mise/pdf?via=note)
 
 全7回の5回目
 
@@ -169,11 +169,13 @@ AIの費用にも、気を配っています。プログラムを書くAIの作�
 
 ## この本の、ほかの読み方
 
+この本は note・PDF・Google Play で無料で読めます。Kindle 版のみ 99円です。
+
 PDF（無料・再配布自由）：[https://bontallc.com/books/uchi-no-mise/pdf?via=note](https://bontallc.com/books/uchi-no-mise/pdf?via=note)
 
-Kindle：[https://www.amazon.co.jp/dp/B0HPJY4NRR](https://www.amazon.co.jp/dp/B0HPJY4NRR)
+Google Play（無料）：[https://play.google.com/store/books/details?id=WdUiEgAAQBAJ](https://play.google.com/store/books/details?id=WdUiEgAAQBAJ)
 
-Google Play：[https://play.google.com/store/books/details?id=WdUiEgAAQBAJ](https://play.google.com/store/books/details?id=WdUiEgAAQBAJ)
+Kindle（99円）：[https://www.amazon.co.jp/dp/B0HPJY4NRR](https://www.amazon.co.jp/dp/B0HPJY4NRR)
 
 本のページ：
 

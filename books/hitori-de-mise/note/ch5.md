@@ -1,6 +1,6 @@
 # 『一人で店を回す、その横にAIが来た。』第5章　応用編 - 経営分析と利益改善
 
-この本は PDF でも無料で読めます（再配布自由）→ [https://bontallc.com/books/hitori-de-mise/pdf?via=note](https://bontallc.com/books/hitori-de-mise/pdf?via=note)
+この本は PDF・Google Play でも無料で読めます（PDF は再配布自由）→ [https://bontallc.com/books/hitori-de-mise/pdf?via=note](https://bontallc.com/books/hitori-de-mise/pdf?via=note)
 
 全8回の6回目
 
@@ -209,11 +209,13 @@ Geminiの分析：
 
 ## この本の、ほかの読み方
 
+この本は note・PDF・Google Play で無料で読めます。Kindle 版のみ 99円です。
+
 PDF（無料・再配布自由）：[https://bontallc.com/books/hitori-de-mise/pdf?via=note](https://bontallc.com/books/hitori-de-mise/pdf?via=note)
 
-Kindle：[https://www.amazon.co.jp/dp/B0GFY4WW4Y](https://www.amazon.co.jp/dp/B0GFY4WW4Y)
+Google Play（無料）：[https://play.google.com/store/books/details?id=4dUiEgAAQBAJ](https://play.google.com/store/books/details?id=4dUiEgAAQBAJ)
 
-Google Play：[https://play.google.com/store/books/details?id=4dUiEgAAQBAJ](https://play.google.com/store/books/details?id=4dUiEgAAQBAJ)
+Kindle（99円）：[https://www.amazon.co.jp/dp/B0GFY4WW4Y](https://www.amazon.co.jp/dp/B0GFY4WW4Y)
 
 本のページ：
 

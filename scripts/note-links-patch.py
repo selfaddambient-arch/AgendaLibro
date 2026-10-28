@@ -15,21 +15,20 @@ BOOKS = {
         kindle='https://www.amazon.co.jp/dp/B0HPJY4NRR',
         gplay='https://play.google.com/store/books/details?id=WdUiEgAAQBAJ'),
 }
+PRICE = 'この本は note・PDF・Google Play で無料で読めます。Kindle 版のみ 99円です。'
 SENT = 'PDF は再配布自由です。周りの店主仲間や、AI に興味のある方に、そのまま送ってください。'
 for slug, c in BOOKS.items():
     pdf = f'https://bontallc.com/books/{slug}/pdf?via=note'
     page = f'https://bontallc.com/books/{slug}?via=note'
-    top = f'この本は PDF でも無料で読めます（再配布自由）→ [{pdf}]({pdf})'
-    lines = [f'PDF（無料・再配布自由）：[{pdf}]({pdf})', f'Kindle：[{c["kindle"]}]({c["kindle"]})']
-    if c['gplay']:
-        lines.append(f'Google Play：[{c["gplay"]}]({c["gplay"]})')
+    top = f'この本は PDF・Google Play でも無料で読めます（PDF は再配布自由）→ [{pdf}]({pdf})'
+    lines = [PRICE, f'PDF（無料・再配布自由）：[{pdf}]({pdf})', f'Google Play（無料）：[{c["gplay"]}]({c["gplay"]})', f'Kindle（99円）：[{c["kindle"]}]({c["kindle"]})']
     lines += ['本のページ：', page, SENT]
     foot = '\n\n'.join(lines)
     for s in c['slugs']:
         p = pathlib.Path(f'books/{slug}/note/{s}.md')
         t = p.read_text()
         # 古い版（このスクリプトが前に入れた分）を除いてから入れ直す
-        t = re.sub(r'^この本は PDF でも無料で読めます.*\n\n', '', t, flags=re.M)
+        t = re.sub(r'^この本は PDF(・Google Play)? でも無料で読めます.*\n\n', '', t, flags=re.M)
         head, rest = t.split('\n\n', 1)
         t = head + '\n\n' + top + '\n\n' + rest
         marker = '## この本の、ほかの読み方\n\n'

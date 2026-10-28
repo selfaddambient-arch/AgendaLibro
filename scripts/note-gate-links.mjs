@@ -23,7 +23,7 @@ for (const slug of ['hitori-de-mise', 'uchi-no-mise']) {
     const bont = links.filter((h) => h.includes('bontallc.com'));
     const pdfN = links.filter((h) => h === PDF[slug]).length;
     const cards = await el.evaluate((e, u) => [...e.querySelectorAll('figure')].some((f) => (f.getAttribute('data-src') || '') === u), `https://bontallc.com/books/${slug}?via=note`);
-    row({ slug, s, 公開200: r.status() === 200, 冒頭がPDF案内: first.startsWith('この本は PDF でも無料で読めます'), PDFリンク2か所以上: pdfN >= 2, カード: cards, via付き: bont.every((h) => /via=note1?$/.test(h) || /via=note1?&/.test(h)), 括弧0: !/[【】]/.test(text), 旧題名0: !text.includes('1人で店を回す') });
+    row({ slug, s, 公開200: r.status() === 200, 冒頭がPDF案内: first.startsWith('この本は PDF・Google Play でも無料で読めます'), PDFリンク2か所以上: pdfN >= 2, カード: cards, via付き: bont.every((h) => /via=note1?$/.test(h) || /via=note1?&/.test(h)), 括弧0: !/[【】]/.test(text), 旧題名0: !text.includes('1人で店を回す') });
     await p.close();
   }
   const rr = await ctx.request.get(PDF[slug], { maxRedirects: 0 });
@@ -44,7 +44,7 @@ for (const [slug, url] of Object.entries({ 'hitori-de-mise': 'https://note.com/b
   await p.waitForTimeout(2500);
   const og = await p.locator('meta[property="og:description"]').getAttribute('content').catch(() => '');
   const t = (await p.locator('body').innerText()) + (og || '');
-  row({ マガジン: slug, 公開200: r.status() === 200, 説明文: t.includes('PDF版（無料・再配布自由）・Kindle版・Google Play版はこちら') });
+  row({ マガジン: slug, 公開200: r.status() === 200, 説明文: t.includes('PDF版（無料・再配布自由）・Google Play版（無料）・Kindle版（99円）はこちら') });
   await p.close();
 }
 {
