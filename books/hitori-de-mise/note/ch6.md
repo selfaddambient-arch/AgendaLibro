@@ -1,5 +1,7 @@
 # 『一人で店を回す、その横にAIが来た。』第6章　挑戦編 - 自分の店専用のシステム開発
 
+この本は PDF でも無料で読めます（再配布自由）→ [https://bontallc.com/books/hitori-de-mise/pdf?via=note](https://bontallc.com/books/hitori-de-mise/pdf?via=note)
+
 全8回の7回目
 
 [◀ 前の章　第5章　応用編 - 経営分析と利益改善](https://note.com/bontallc/n/nae31665b742b)
@@ -317,7 +319,17 @@ Googleの仕様変更で、昨日まで動いていたコードが今日はエ�
 
 ## この本の、ほかの読み方
 
+PDF（無料・再配布自由）：[https://bontallc.com/books/hitori-de-mise/pdf?via=note](https://bontallc.com/books/hitori-de-mise/pdf?via=note)
+
 Kindle：[https://www.amazon.co.jp/dp/B0GFY4WW4Y](https://www.amazon.co.jp/dp/B0GFY4WW4Y)
+
+Google Play：[https://play.google.com/store/books/details?id=4dUiEgAAQBAJ](https://play.google.com/store/books/details?id=4dUiEgAAQBAJ)
+
+本のページ：
+
+https://bontallc.com/books/hitori-de-mise?via=note
+
+PDF は再配布自由です。周りの店主仲間や、AI に興味のある方に、そのまま送ってください。
 
 屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note1](https://tamuroreservation.vercel.app/?src=note1)
 

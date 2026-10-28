@@ -1,5 +1,7 @@
 # 『うちの店は、うちの仕様で』おわりに
 
+この本は PDF でも無料で読めます（再配布自由）→ [https://bontallc.com/books/uchi-no-mise/pdf?via=note](https://bontallc.com/books/uchi-no-mise/pdf?via=note)
+
 全7回の7回目
 
 [◀ 前の章　第5章　小さな店の、これから](https://note.com/bontallc/n/na09d1688620b)
@@ -10,11 +12,11 @@
 
 もし東中野にお越しの際は、屯に寄ってみてください。予約は、予約サイトからでも、サイトの会話の窓「T-AI-MURO」からでも、そしてもちろん、あなたのAIからでもできます。
 
-屯の予約サイト：https://tamuroreservation.vercel.app/?src=book
+屯の予約サイト：https://tamuroreservation.vercel.app/?src=note
 
 屯のInstagram：https://www.instagram.com/tamuro.higashinakano/
 
-Agendaシリーズ：https://bontallc.com/agenda?via=book
+Agendaシリーズ：https://bontallc.com/agenda?via=note
 
 活動を追いかける：note https://note.com/bontallc／X https://x.com/tamuro_hnakano
 
@@ -39,6 +41,16 @@ https://tamuroreservation.vercel.app/api/mcp
 - 「SaaSの死」の議論：サティア・ナデラ氏のBG2ポッドキャストでの発言（2024年12月）、2026年2月のソフトウェア株の急落とその呼び名、ジェンスン・フアン氏の反論は、以下の報道・解説を参考にした。 https://www.longangle.com/alts-education/software-ai ／ https://www.fastcompany.com/91504460/everything-youve-heard-about-the-saaspocalypse-is-wrong ／ https://en.thairath.co.th/money/tech_innovation/tech_companies/2916811
 
 ## この本の、ほかの読み方
+
+PDF（無料・再配布自由）：[https://bontallc.com/books/uchi-no-mise/pdf?via=note](https://bontallc.com/books/uchi-no-mise/pdf?via=note)
+
+Kindle：[https://www.amazon.co.jp/dp/B0HPJY4NRR](https://www.amazon.co.jp/dp/B0HPJY4NRR)
+
+本のページ：
+
+https://bontallc.com/books/uchi-no-mise?via=note
+
+PDF は再配布自由です。周りの店主仲間や、AI に興味のある方に、そのまま送ってください。
 
 屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note](https://tamuroreservation.vercel.app/?src=note)
 

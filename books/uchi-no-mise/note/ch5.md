@@ -1,5 +1,7 @@
 # 『うちの店は、うちの仕様で』第5章　小さな店の、これから
 
+この本は PDF でも無料で読めます（再配布自由）→ [https://bontallc.com/books/uchi-no-mise/pdf?via=note](https://bontallc.com/books/uchi-no-mise/pdf?via=note)
+
 全7回の6回目
 
 [◀ 前の章　第4章　技術編：一人で製品を作り続ける仕組み](https://note.com/bontallc/n/ne8ef4e1311dd)
@@ -109,6 +111,16 @@ AIは、この二つを、一人の店主にできるようにしました。店
 [次の章 ▶　おわりに](https://note.com/bontallc/n/n3608d237e191)
 
 ## この本の、ほかの読み方
+
+PDF（無料・再配布自由）：[https://bontallc.com/books/uchi-no-mise/pdf?via=note](https://bontallc.com/books/uchi-no-mise/pdf?via=note)
+
+Kindle：[https://www.amazon.co.jp/dp/B0HPJY4NRR](https://www.amazon.co.jp/dp/B0HPJY4NRR)
+
+本のページ：
+
+https://bontallc.com/books/uchi-no-mise?via=note
+
+PDF は再配布自由です。周りの店主仲間や、AI に興味のある方に、そのまま送ってください。
 
 屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note](https://tamuroreservation.vercel.app/?src=note)
 

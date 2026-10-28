@@ -1,5 +1,7 @@
 # 『一人で店を回す、その横にAIが来た。』第5章　応用編 - 経営分析と利益改善
 
+この本は PDF でも無料で読めます（再配布自由）→ [https://bontallc.com/books/hitori-de-mise/pdf?via=note](https://bontallc.com/books/hitori-de-mise/pdf?via=note)
+
 全8回の6回目
 
 [◀ 前の章　第4章　実践編② - 日々の業務効率化（マルチモーダル活用）](https://note.com/bontallc/n/n1a1aaea50698)
@@ -207,7 +209,17 @@ Geminiの分析：
 
 ## この本の、ほかの読み方
 
+PDF（無料・再配布自由）：[https://bontallc.com/books/hitori-de-mise/pdf?via=note](https://bontallc.com/books/hitori-de-mise/pdf?via=note)
+
 Kindle：[https://www.amazon.co.jp/dp/B0GFY4WW4Y](https://www.amazon.co.jp/dp/B0GFY4WW4Y)
+
+Google Play：[https://play.google.com/store/books/details?id=4dUiEgAAQBAJ](https://play.google.com/store/books/details?id=4dUiEgAAQBAJ)
+
+本のページ：
+
+https://bontallc.com/books/hitori-de-mise?via=note
+
+PDF は再配布自由です。周りの店主仲間や、AI に興味のある方に、そのまま送ってください。
 
 屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note1](https://tamuroreservation.vercel.app/?src=note1)
 

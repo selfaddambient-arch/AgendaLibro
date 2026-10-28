@@ -1,5 +1,7 @@
 # 『一人で店を回す、その横にAIが来た。』第4章　実践編② - 日々の業務効率化（マルチモーダル活用）
 
+この本は PDF でも無料で読めます（再配布自由）→ [https://bontallc.com/books/hitori-de-mise/pdf?via=note](https://bontallc.com/books/hitori-de-mise/pdf?via=note)
+
 全8回の5回目
 
 [◀ 前の章　第3章　実践編① - クリエイティブと集客の自動化](https://note.com/bontallc/n/nd1edb2b18ac3)
@@ -211,7 +213,17 @@ Geminiに写真を送る時、少しのコツで認識精度が劇的に上が�
 
 ## この本の、ほかの読み方
 
+PDF（無料・再配布自由）：[https://bontallc.com/books/hitori-de-mise/pdf?via=note](https://bontallc.com/books/hitori-de-mise/pdf?via=note)
+
 Kindle：[https://www.amazon.co.jp/dp/B0GFY4WW4Y](https://www.amazon.co.jp/dp/B0GFY4WW4Y)
+
+Google Play：[https://play.google.com/store/books/details?id=4dUiEgAAQBAJ](https://play.google.com/store/books/details?id=4dUiEgAAQBAJ)
+
+本のページ：
+
+https://bontallc.com/books/hitori-de-mise?via=note
+
+PDF は再配布自由です。周りの店主仲間や、AI に興味のある方に、そのまま送ってください。
 
 屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note1](https://tamuroreservation.vercel.app/?src=note1)
 

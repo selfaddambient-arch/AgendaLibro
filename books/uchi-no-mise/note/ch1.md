@@ -1,5 +1,7 @@
 # 『うちの店は、うちの仕様で』第1章　AIから予約される店
 
+この本は PDF でも無料で読めます（再配布自由）→ [https://bontallc.com/books/uchi-no-mise/pdf?via=note](https://bontallc.com/books/uchi-no-mise/pdf?via=note)
+
 全7回の2回目
 
 [◀ 前の章　はじめに](https://note.com/bontallc/n/na0569fd28f62)
@@ -46,7 +48,7 @@
 
 ## 1-2　出発点：ただの予約受付
 
-[屯の予約サイト](https://tamuroreservation.vercel.app/?src=book)は、最初はとても単純なものでした。日時と人数を選び、名前と連絡先を入れて、送信する。店に通知が届く。それだけです。
+[屯の予約サイト](https://tamuroreservation.vercel.app/?src=note)は、最初はとても単純なものでした。日時と人数を選び、名前と連絡先を入れて、送信する。店に通知が届く。それだけです。
 
 最初の土台は、Googleが提供しているAI開発ツール（Antigravity）で作りました。思いついた機能をAIに伝え、動くものができたら次へ進む。いわゆるバイブコーディング（思いつきをAIに伝えて、ノリで作らせるやり方）です。
 
@@ -276,7 +278,7 @@ AIの試験をAIにやらせると、速く回せます。けれど、合格の�
 
 2026年10月6日の夜、T-AI-MUROは予約サイトのトップに、本番の入口として出ました。会話で予約したくないお客さんもいるので、これまでの予約フォームも並べて残しています。
 
-> 試してみる：屯の予約サイト（https://tamuroreservation.vercel.app/?src=book）を開いて、T-AI-MUROに「ひとりで今夜」と聞いてみてください。今日の空きと料金まで、会話で進みます。
+> 試してみる：屯の予約サイト（https://tamuroreservation.vercel.app/?src=note）を開いて、T-AI-MUROに「ひとりで今夜」と聞いてみてください。今日の空きと料金まで、会話で進みます。
 
 ![図1-4](../images/fig1-4_talk.png)
 
@@ -327,6 +329,16 @@ AIから予約される店は、ある日突然できあがったわけではあ
 [次の章 ▶　第2章　技術編：予約システムの裏側](https://note.com/bontallc/n/n2b379a6bdbec)
 
 ## この本の、ほかの読み方
+
+PDF（無料・再配布自由）：[https://bontallc.com/books/uchi-no-mise/pdf?via=note](https://bontallc.com/books/uchi-no-mise/pdf?via=note)
+
+Kindle：[https://www.amazon.co.jp/dp/B0HPJY4NRR](https://www.amazon.co.jp/dp/B0HPJY4NRR)
+
+本のページ：
+
+https://bontallc.com/books/uchi-no-mise?via=note
+
+PDF は再配布自由です。周りの店主仲間や、AI に興味のある方に、そのまま送ってください。
 
 屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note](https://tamuroreservation.vercel.app/?src=note)
 

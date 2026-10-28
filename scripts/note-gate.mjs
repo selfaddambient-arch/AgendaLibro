@@ -36,6 +36,7 @@ for (const raw of ms.slice(start)) {
   if (/^\|\s*-/.test(l)) continue;
   if (l.startsWith('|')) { l.replace(/^\||\|$/g, '').split('|').map((c) => c.trim()).filter(Boolean).forEach((c) => expected.push(c)); continue; }
   l = l.replace(/^#+\s*/, '').replace(/^(\d+\.|-)\s+/, '').replace(/^>\s?/, '').replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1').replace(/\\(\S)/g, "$1").replace(/\\$/, '');
+  l = l.replace(/\b(src|via)=book1?\b/g, `$1=${B1 ? 'note1' : 'note'}`); // note 内のリンクは計測の印を note にする（2026-10-28）
   expected.push(B1 ? l : l.replace('この本は無料で配っています。', 'この本は、PDFとnoteとGoogle Playで無料で読めます（Kindleだけは、ストアの決まりで最低価格を付けています）。')); // note だけの書き換え（2冊目のみ）（2026-10-27 代表指示）
 }
 

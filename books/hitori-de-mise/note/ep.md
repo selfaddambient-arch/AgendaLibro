@@ -1,5 +1,7 @@
 # 『一人で店を回す、その横にAIが来た。』おわりに　あなたのお店だけの「未来のレシピ」
 
+この本は PDF でも無料で読めます（再配布自由）→ [https://bontallc.com/books/hitori-de-mise/pdf?via=note](https://bontallc.com/books/hitori-de-mise/pdf?via=note)
+
 全8回の8回目
 
 [◀ 前の章　第6章　挑戦編 - 自分の店専用のシステム開発](https://note.com/bontallc/n/n14b99767d3a2)
@@ -71,8 +73,8 @@ AIに対して「この仕事を楽にして」と話しかけること。それ
 
 この本は、PDFとnoteとGoogle Playで無料で読めます（Kindleだけは、ストアの決まりで最低価格を付けています）。代わりに、読み終えたあとに行ける場所を3つ用意しました。どれか一つでも使ってもらえたら、この本を書いた甲斐があります。
 
-1. 屯に行ってみる。東中野駅東口から1分。予約なしでも入れます。予約サイト https://tamuroreservation.vercel.app/?src=book1
-2. 自分の店で試してみる。Agendaシリーズは無料の手帳から始められます。https://bontallc.com/agenda?via=book1
+1. 屯に行ってみる。東中野駅東口から1分。予約なしでも入れます。予約サイト https://tamuroreservation.vercel.app/?src=note1
+2. 自分の店で試してみる。Agendaシリーズは無料の手帳から始められます。https://bontallc.com/agenda?via=note1
 3. 活動を追いかける。次に作る道具や、店の日々は、noteとXで書いています。note https://note.com/bontallc／X https://x.com/tamuro_hnakano
 
 本を読んで来てくださった方へ。予約のときに、クーポンコード「BOOK」を入れてください。初回のお飲み物を一杯、お出しします。予約なしで来られた方は、最初の注文のときに「本を見た」と一言ください。同じ一杯をお出しします。本から来てくださった方が何人いたか、わたしが数えられるようにするための、小さな仕掛けです。
@@ -113,7 +115,17 @@ https://www.instagram.com/tamuro.higashinakano/
 
 ## この本の、ほかの読み方
 
+PDF（無料・再配布自由）：[https://bontallc.com/books/hitori-de-mise/pdf?via=note](https://bontallc.com/books/hitori-de-mise/pdf?via=note)
+
 Kindle：[https://www.amazon.co.jp/dp/B0GFY4WW4Y](https://www.amazon.co.jp/dp/B0GFY4WW4Y)
+
+Google Play：[https://play.google.com/store/books/details?id=4dUiEgAAQBAJ](https://play.google.com/store/books/details?id=4dUiEgAAQBAJ)
+
+本のページ：
+
+https://bontallc.com/books/hitori-de-mise?via=note
+
+PDF は再配布自由です。周りの店主仲間や、AI に興味のある方に、そのまま送ってください。
 
 屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note1](https://tamuroreservation.vercel.app/?src=note1)
 

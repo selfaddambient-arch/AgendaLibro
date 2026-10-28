@@ -1,5 +1,7 @@
 # 『うちの店は、うちの仕様で』はじめに
 
+この本は PDF でも無料で読めます（再配布自由）→ [https://bontallc.com/books/uchi-no-mise/pdf?via=note](https://bontallc.com/books/uchi-no-mise/pdf?via=note)
+
 全7回の1回目
 
 この本は、東京・東中野で19席のバーを営む店主が、AIを使って店をどう回しているかを、そのまま書いた記録です。
@@ -50,8 +52,8 @@
 
 この本は、PDFとnoteとGoogle Playで無料で読めます（Kindleだけは、ストアの決まりで最低価格を付けています）。代わりに、読み終えたあとに行ける場所を3つ用意しました。どれか一つでも使ってもらえたら、この本を書いた甲斐があります。
 
-1. 屯に行ってみる。東中野駅東口から1分。予約なしでも入れます。予約サイト https://tamuroreservation.vercel.app/?src=book
-2. 自分の店で試してみる。Agendaシリーズは無料の手帳から始められます。https://bontallc.com/agenda?via=book
+1. 屯に行ってみる。東中野駅東口から1分。予約なしでも入れます。予約サイト https://tamuroreservation.vercel.app/?src=note
+2. 自分の店で試してみる。Agendaシリーズは無料の手帳から始められます。https://bontallc.com/agenda?via=note
 3. 活動を追いかける。次に作る道具や、店の日々は、noteとXで書いています。note https://note.com/bontallc／X https://x.com/tamuro_hnakano
 
 ![表紙](../build/cover.png)
@@ -59,6 +61,16 @@
 [次の章 ▶　第1章　AIから予約される店](https://note.com/bontallc/n/n30c4694b95cf)
 
 ## この本の、ほかの読み方
+
+PDF（無料・再配布自由）：[https://bontallc.com/books/uchi-no-mise/pdf?via=note](https://bontallc.com/books/uchi-no-mise/pdf?via=note)
+
+Kindle：[https://www.amazon.co.jp/dp/B0HPJY4NRR](https://www.amazon.co.jp/dp/B0HPJY4NRR)
+
+本のページ：
+
+https://bontallc.com/books/uchi-no-mise?via=note
+
+PDF は再配布自由です。周りの店主仲間や、AI に興味のある方に、そのまま送ってください。
 
 屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note](https://tamuroreservation.vercel.app/?src=note)
 

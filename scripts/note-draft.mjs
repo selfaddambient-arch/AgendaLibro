@@ -38,7 +38,9 @@ await titleBox.waitFor({ timeout: 60000 });
 // 既に見出し画像がある下書きでは入れ直さない（本文の外にある img の数で判定）
 const hasEyecatch = (await page.locator('img').count()) - (await page.locator('[contenteditable="true"] img').count()) > 0;
 if (image && !hasEyecatch) {
-  await page.mouse.click(509, 121);
+  // 見出し画像の追加ボタン（タイトル欄の上にある 40×40 の丸いボタン。画面幅で位置が変わる）
+  const r = await page.evaluate(() => { const e = [...document.querySelectorAll('button')].find((b) => { const q = b.getBoundingClientRect(); return !b.textContent.trim() && !b.getAttribute('aria-label') && Math.round(q.width) === 40 && Math.round(q.height) === 40 && q.top > 60 && q.top < 200; }); const q = e.getBoundingClientRect(); return [q.x + 20, q.y + 20]; });
+  await page.mouse.click(r[0], r[1]);
   const [chooser] = await Promise.all([
     page.waitForEvent('filechooser'),
     page.getByText('画像をアップロード').click(),
@@ -86,6 +88,7 @@ const toHtml = (block) => {
     const [head, ...data] = rows;
     return '<ul>' + data.map((r) => `<li><p>${inline(head[0])}：${inline(r[0])}　${r.slice(1).map((c, i) => `${inline(head[i + 1])}：${inline(c)}`).join('／')}</p></li>`).join('') + '</ul>';
   }
+  if (/^https?:\/\/\S+$/.test(block)) return `<p>${esc(block)}</p>`; // URL 単独の行（あとでリンクカードにする）
   return `<p>${inline(block).split('\n').join('<br>')}</p>`;
 };
 const html = blocks.map(toHtml).join('');
@@ -113,6 +116,21 @@ for (const m of html.matchAll(/\[\[IMG:(.+?)\]\]/g)) {
   }, [basename(path), b64]);
   await page.waitForFunction((n) => document.querySelectorAll('[contenteditable="true"] img').length > n, before, { timeout: 60000 });
   await page.waitForTimeout(2500);
+}
+
+// URL 単独の行：その段落を消して、URL を文字列のまま貼り付けると note がリンクカードにする
+for (const m of html.matchAll(/<p>(https:\/\/bontallc\.com\/books[^<\s]*\?via=note)<\/p>/g)) {
+  const u = m[1];
+  await body.locator('p', { hasText: u }).first().click({ clickCount: 3 });
+  await page.keyboard.press('Backspace');
+  await body.evaluate((el, url) => {
+    const dt = new DataTransfer();
+    dt.setData('text/plain', url);
+    el.dispatchEvent(new ClipboardEvent('paste', { clipboardData: dt, bubbles: true, cancelable: true }));
+  }, u);
+  await page.waitForFunction((x) => document.querySelector(`figure[data-src="${x}"]`), u, { timeout: 30000 }).catch(() => {});
+  await page.waitForTimeout(1500);
+  console.log('CARD', u, await body.locator(`figure[data-src="${u}"]`).count());
 }
 
 await page.getByRole('button', { name: SAVE }).click();

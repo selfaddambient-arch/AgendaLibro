@@ -1,5 +1,7 @@
 # 『うちの店は、うちの仕様で』第3章　自分の店の道具を、他の店に配る
 
+この本は PDF でも無料で読めます（再配布自由）→ [https://bontallc.com/books/uchi-no-mise/pdf?via=note](https://bontallc.com/books/uchi-no-mise/pdf?via=note)
+
 全7回の4回目
 
 [◀ 前の章　第2章　技術編：予約システムの裏側](https://note.com/bontallc/n/n2b379a6bdbec)
@@ -60,7 +62,7 @@ Agendaシリーズは、シリーズとして計画されたものではあり�
 
 AgendaNeraは、今も作っている途中です。シリーズの中で、いちばん慎重に作っています。
 
-そして、この名づけがきっかけでした。黒い手帳があるなら、ほかの色の手帳があってもいい。自分の店で日々使っていた仕組みを、どの店でも使える形に作り直して、一冊ずつ手帳として出していく。それが[Agendaシリーズ](https://bontallc.com/agenda?via=book)です。
+そして、この名づけがきっかけでした。黒い手帳があるなら、ほかの色の手帳があってもいい。自分の店で日々使っていた仕組みを、どの店でも使える形に作り直して、一冊ずつ手帳として出していく。それが[Agendaシリーズ](https://bontallc.com/agenda?via=note)です。
 
 ## 3-3　一冊ずつ、手帳を増やす
 
@@ -121,7 +123,7 @@ Agendaシリーズには、すべての手帳に共通する三つの原則が�
 
 ![図3-2](../images/fig3-2_agenda-lp.png)
 
-図3-2　Agendaシリーズの紹介ページ（冒頭）。全体は https://bontallc.com/agenda?via=book で
+図3-2　Agendaシリーズの紹介ページ（冒頭）。全体は https://bontallc.com/agenda?via=note で
 
 ![図3-3a](../images/fig3-3a_timbro.png)
 
@@ -223,7 +225,7 @@ Agendaシリーズの三原則のうち「自動」は、この「使い続け�
 
 この本を読んで、自分の店でも試してみたいと思った方へ。手順は3つです。
 
-1. https://bontallc.com/agenda?via=book を開き、Googleのアカウントでログインする（AgendaIDが作られます。カードの登録は不要です）
+1. https://bontallc.com/agenda?via=note を開き、Googleのアカウントでログインする（AgendaIDが作られます。カードの登録は不要です）
 2. まず無料の手帳を一冊入れる。おすすめは灯り手帳です。看板の部品をホームページに貼るだけで、10分で動きます。開業前なら採算手帳を
 3. 合いそうなら、打刻手帳を3か月無料で試す。期限が近づけば案内が届くので、放っておいても課金されません
 
@@ -254,6 +256,16 @@ Agendaシリーズの三原則のうち「自動」は、この「使い続け�
 [次の章 ▶　第4章　技術編：一人で製品を作り続ける仕組み](https://note.com/bontallc/n/ne8ef4e1311dd)
 
 ## この本の、ほかの読み方
+
+PDF（無料・再配布自由）：[https://bontallc.com/books/uchi-no-mise/pdf?via=note](https://bontallc.com/books/uchi-no-mise/pdf?via=note)
+
+Kindle：[https://www.amazon.co.jp/dp/B0HPJY4NRR](https://www.amazon.co.jp/dp/B0HPJY4NRR)
+
+本のページ：
+
+https://bontallc.com/books/uchi-no-mise?via=note
+
+PDF は再配布自由です。周りの店主仲間や、AI に興味のある方に、そのまま送ってください。
 
 屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note](https://tamuroreservation.vercel.app/?src=note)
 

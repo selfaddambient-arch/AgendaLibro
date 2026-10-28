@@ -57,3 +57,7 @@
 本の配信が始まったら、あらためてお知らせします。
 
 本多楽
+
+本の一覧：
+
+https://bontallc.com/books?via=note

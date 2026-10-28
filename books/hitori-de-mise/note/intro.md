@@ -1,5 +1,7 @@
 # 『一人で店を回す、その横にAIが来た。』はじめに
 
+この本は PDF でも無料で読めます（再配布自由）→ [https://bontallc.com/books/hitori-de-mise/pdf?via=note](https://bontallc.com/books/hitori-de-mise/pdf?via=note)
+
 全8回の1回目
 
 本書は2026年1月時点の記録です。店の営業のしかたや、AIの道具の名前・仕様は、その後変わっているものがあります。続きは2冊目『うちの店は、うちの仕様で』に書きました。
@@ -99,7 +101,17 @@ https://www.instagram.com/tamuro.higashinakano/
 
 ## この本の、ほかの読み方
 
+PDF（無料・再配布自由）：[https://bontallc.com/books/hitori-de-mise/pdf?via=note](https://bontallc.com/books/hitori-de-mise/pdf?via=note)
+
 Kindle：[https://www.amazon.co.jp/dp/B0GFY4WW4Y](https://www.amazon.co.jp/dp/B0GFY4WW4Y)
+
+Google Play：[https://play.google.com/store/books/details?id=4dUiEgAAQBAJ](https://play.google.com/store/books/details?id=4dUiEgAAQBAJ)
+
+本のページ：
+
+https://bontallc.com/books/hitori-de-mise?via=note
+
+PDF は再配布自由です。周りの店主仲間や、AI に興味のある方に、そのまま送ってください。
 
 屯の予約サイト：[https://tamuroreservation.vercel.app/?src=note1](https://tamuroreservation.vercel.app/?src=note1)
 
