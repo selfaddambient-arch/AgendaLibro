@@ -1,4 +1,4 @@
-# 『1人で店を回す、その横にAIが来た』はじめに
+# 『一人で店を回す、その横にAIが来た。』はじめに
 
 全8回の1回目
 
@@ -8,7 +8,7 @@
 
 本書を手に取っていただき、ありがとうございます。
 
-『1人で店を回す、その横にAIが来た』
+『一人で店を回す、その横にAIが来た。』
 
 このタイトルを見て、「まさに自分のことだ」と思った方もいれば、「AIが横に来るってどういうこと？」と不思議に思った方もいるかもしれません。
 
@@ -101,7 +101,7 @@ https://www.instagram.com/tamuro.higashinakano/
 
 PDF（全文・無料・再配布自由）：【ストアURL】
 
-Kindle：【ストアURL】
+Kindle：[https://www.amazon.co.jp/dp/B0GFY4WW4Y](https://www.amazon.co.jp/dp/B0GFY4WW4Y)
 
 Google Playブックス：【ストアURL】
 

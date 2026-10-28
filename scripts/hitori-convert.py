@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""1冊目『1人で店を回す、その横にAIが来た』の docx を、原稿 Markdown と画像（images/fig-01〜）に変換する。
+"""1冊目『一人で店を回す、その横にAIが来た。』の docx を、原稿 Markdown と画像（images/fig-01〜）に変換する。
 
   python3 scripts/hitori-convert.py
 
@@ -162,6 +162,8 @@ def main():
     body = f"{REPUBLISH}\n\n" + text if False else text
     # 「再公開にあたって」：はじめにの見出しの直後に1段落
     text = text.replace("## はじめに\n", f"## はじめに\n\n{REPUBLISH}\n", 1)
+    # 題名の表記を Amazon と表紙にそろえる（代表指示 2026-10-28）：「一人で店を回す、その横にAIが来た。」
+    text = re.sub(r"1人で店を回す、その横にAIが来た。?", "一人で店を回す、その横にAIが来た。", text)
     OUT.write_text(text.strip("\n") + "\n", encoding="utf-8")
     print("画像", n_img, "→ images/fig-01〜", f"{n_img:02d}")
     print("原稿", OUT.name, len(text), "字")

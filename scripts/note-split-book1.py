@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""1冊目『1人で店を回す、その横にAIが来た』の原稿を、章ごとの note 記事（Markdown）8本に分ける。
+"""1冊目『一人で店を回す、その横にAIが来た。』の原稿を、章ごとの note 記事（Markdown）8本に分ける。
 
   python3 scripts/note-split-book1.py
 
@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 BOOK = ROOT / "books" / "hitori-de-mise"
 NOTE = BOOK / "note"
 MANUSCRIPT = BOOK / "bontaraku-01_hitori-de-mise_manuscript.md"
-BOOK_TITLE = "『1人で店を回す、その横にAIが来た』"
+BOOK_TITLE = "『一人で店を回す、その横にAIが来た。』"
 PUBLIC = "https://note.com/bontallc/n/"
 SLUGS = ["intro", "ch1", "ch2", "ch3", "ch4", "ch5", "ch6", "ep"]
 
@@ -25,7 +25,7 @@ FOOTER = """## この本の、ほかの読み方
 
 PDF（全文・無料・再配布自由）：【ストアURL】
 
-Kindle：【ストアURL】
+Kindle：[https://www.amazon.co.jp/dp/B0GFY4WW4Y](https://www.amazon.co.jp/dp/B0GFY4WW4Y)
 
 Google Playブックス：【ストアURL】
 

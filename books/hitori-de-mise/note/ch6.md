@@ -1,4 +1,4 @@
-# 『1人で店を回す、その横にAIが来た』第6章　挑戦編 - 自分の店専用のシステム開発
+# 『一人で店を回す、その横にAIが来た。』第6章　挑戦編 - 自分の店専用のシステム開発
 
 全8回の7回目
 
@@ -319,7 +319,7 @@ Googleの仕様変更で、昨日まで動いていたコードが今日はエ�
 
 PDF（全文・無料・再配布自由）：【ストアURL】
 
-Kindle：【ストアURL】
+Kindle：[https://www.amazon.co.jp/dp/B0GFY4WW4Y](https://www.amazon.co.jp/dp/B0GFY4WW4Y)
 
 Google Playブックス：【ストアURL】
 

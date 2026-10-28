@@ -1,4 +1,4 @@
-# 『1人で店を回す、その横にAIが来た』第3章　実践編① - クリエイティブと集客の自動化
+# 『一人で店を回す、その横にAIが来た。』第3章　実践編① - クリエイティブと集客の自動化
 
 全8回の4回目
 
@@ -459,7 +459,7 @@ Geminiはこの抽象的なオーダーを見事にコードに落とし込み�
 
 PDF（全文・無料・再配布自由）：【ストアURL】
 
-Kindle：【ストアURL】
+Kindle：[https://www.amazon.co.jp/dp/B0GFY4WW4Y](https://www.amazon.co.jp/dp/B0GFY4WW4Y)
 
 Google Playブックス：【ストアURL】
 

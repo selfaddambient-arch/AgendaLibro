@@ -25,3 +25,4 @@ a { color: #1a5fb4; text-decoration: underline; }
 p.subtitle { text-wrap: balance; padding: 0 8mm; }
 .exits { break-inside: avoid; }
 header#title-block-header h1.title { text-wrap: balance; padding: 0 6mm; }
+header#title-block-header h1.title { font-size: 18pt; white-space: nowrap; }

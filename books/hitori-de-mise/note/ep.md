@@ -1,4 +1,4 @@
-# 『1人で店を回す、その横にAIが来た』おわりに　あなたのお店だけの「未来のレシピ」
+# 『一人で店を回す、その横にAIが来た。』おわりに　あなたのお店だけの「未来のレシピ」
 
 全8回の8回目
 
@@ -115,7 +115,7 @@ https://www.instagram.com/tamuro.higashinakano/
 
 PDF（全文・無料・再配布自由）：【ストアURL】
 
-Kindle：【ストアURL】
+Kindle：[https://www.amazon.co.jp/dp/B0GFY4WW4Y](https://www.amazon.co.jp/dp/B0GFY4WW4Y)
 
 Google Playブックス：【ストアURL】
 

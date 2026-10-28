@@ -1,4 +1,4 @@
-# 『1人で店を回す、その横にAIが来た』第1章　概念編 - AIエージェントという新しい従業員
+# 『一人で店を回す、その横にAIが来た。』第1章　概念編 - AIエージェントという新しい従業員
 
 全8回の2回目
 
@@ -107,7 +107,7 @@ AIは「正しい」ことより「それっぽい」ことを言うのが得意
 
 PDF（全文・無料・再配布自由）：【ストアURL】
 
-Kindle：【ストアURL】
+Kindle：[https://www.amazon.co.jp/dp/B0GFY4WW4Y](https://www.amazon.co.jp/dp/B0GFY4WW4Y)
 
 Google Playブックス：【ストアURL】
 

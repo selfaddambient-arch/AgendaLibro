@@ -1,4 +1,4 @@
-# 『1人で店を回す、その横にAIが来た』第4章　実践編② - 日々の業務効率化（マルチモーダル活用）
+# 『一人で店を回す、その横にAIが来た。』第4章　実践編② - 日々の業務効率化（マルチモーダル活用）
 
 全8回の5回目
 
@@ -213,7 +213,7 @@ Geminiに写真を送る時、少しのコツで認識精度が劇的に上が�
 
 PDF（全文・無料・再配布自由）：【ストアURL】
 
-Kindle：【ストアURL】
+Kindle：[https://www.amazon.co.jp/dp/B0GFY4WW4Y](https://www.amazon.co.jp/dp/B0GFY4WW4Y)
 
 Google Playブックス：【ストアURL】
 

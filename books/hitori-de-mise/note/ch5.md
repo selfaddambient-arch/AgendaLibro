@@ -1,4 +1,4 @@
-# 『1人で店を回す、その横にAIが来た』第5章　応用編 - 経営分析と利益改善
+# 『一人で店を回す、その横にAIが来た。』第5章　応用編 - 経営分析と利益改善
 
 全8回の6回目
 
@@ -209,7 +209,7 @@ Geminiの分析：
 
 PDF（全文・無料・再配布自由）：【ストアURL】
 
-Kindle：【ストアURL】
+Kindle：[https://www.amazon.co.jp/dp/B0GFY4WW4Y](https://www.amazon.co.jp/dp/B0GFY4WW4Y)
 
 Google Playブックス：【ストアURL】
 

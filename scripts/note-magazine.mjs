@@ -6,7 +6,7 @@ const S = '/private/tmp/claude-502/-Users-keikawaguchi-AntiGravity-AgendaLibro/4
 const SLUG = process.env.BOOK || 'uchi-no-mise';
 const CFGS = {
   'uchi-no-mise': ['うちの店は、うちの仕様で', '19席のバー店主が、AIで予約システムから道具まで自分で作った記録。全7回。', 'books/uchi-no-mise/note-headers/note/magazine.png'],
-  'hitori-de-mise': ['1人で店を回す、その横にAIが来た', '話すと、やってくれる。想像以上に。全8回。', 'books/hitori-de-mise/note-headers/note/magazine.png'],
+  'hitori-de-mise': ['一人で店を回す、その横にAIが来た。', '話すと、やってくれる。想像以上に。全8回。', 'books/hitori-de-mise/note-headers/note/magazine.png'],
 };
 const [TITLE, DESC, IMG] = CFGS[SLUG];
 const b = await chromium.launch({ headless: false, channel: 'chrome', ignoreDefaultArgs: ['--enable-automation'], args: ['--disable-blink-features=AutomationControlled'] });

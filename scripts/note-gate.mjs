@@ -57,10 +57,12 @@ for (const [i, slug] of slugs.entries()) {
   const foot = footIdx >= 0 ? text.slice(footIdx) : '';
   const tail = links.slice(-2);
   const okTail = tail.length === 2 && tail[0] === `https://tamuroreservation.vercel.app/?src=${SRC_P}` && tail[1] === `https://bontallc.com/agenda?via=${VIA_P}`;
+  const kindleOk = !B1 || links.some((h) => h.includes('B0GFY4WW4Y'));
+  const oldTitle = (text.match(/1人で店を回す/g) || []).length;
   const okNo = text.includes(`全${TOTAL}回の${i + 1}回目`);
   const stray = (text.match(/【図|\*\*|【|\{#/g) || []).length - (foot.match(/【ストアURL】/g) || []).length;
-  report.push({ slug, key: drafts[slug], chars: text.length, [`全${TOTAL}回`]: okNo, 案内リンク: okTail, 残り記号: stray, 画像: await body.locator('img').count() });
-  if (!okNo || !okTail || stray !== 0) fail++;
+  report.push({ slug, key: drafts[slug], chars: text.length, [`全${TOTAL}回`]: okNo, 案内リンク: okTail, KindleのURL: kindleOk, 旧題名: oldTitle, 残り記号: stray, 画像: await body.locator('img').count() });
+  if (!okNo || !okTail || !kindleOk || oldTitle !== 0 || stray !== 0) fail++;
 }
 const A = norm(all);
 const missing = expected.filter((e) => !A.includes(norm(e)));
