@@ -10,3 +10,14 @@
 2026-10-28T03:44:37.543Z ch1 http=200 ok=true in=6988 out=1884
 2026-10-28T03:45:10.552Z ch5 http=200 ok=true in=6981 out=2662
 2026-10-28T03:54:32.398Z ch5 http=200 ok=true in=7006 out=1710
+2026-10-28T04:07:23.007Z intro http=200 ok=true in=7041 out=1836
+2026-10-28T04:08:04.831Z ch1 http=200 ok=true in=7063 out=2568
+2026-10-28T04:08:37.579Z ch2 http=200 ok=true in=7057 out=2387
+2026-10-28T04:09:23.031Z ch3 http=200 ok=true in=7059 out=2289
+2026-10-28T04:09:36.930Z ch4 http=200 ok=true in=7052 out=1814
+2026-10-28T04:10:11.335Z ch5 http=200 ok=true in=7093 out=2112
+2026-10-28T04:10:48.349Z ch6 http=200 ok=true in=7045 out=2530
+2026-10-28T04:11:19.530Z ep http=200 ok=true in=7039 out=2515
+2026-10-28T04:11:55.684Z magazine http=200 ok=true in=7062 out=2304
+2026-10-28T04:14:21.455Z ch5 http=200 ok=true in=7117 out=1861
+2026-10-28T04:14:43.495Z magazine http=200 ok=true in=7084 out=1585
