@@ -1,0 +1,37 @@
+{
+ "titles": [
+  {
+   "title": "Running the Shop Alone, with AI Beside Me",
+   "subtitle": "Just talk to it, and it gets things done. More than I expected.",
+   "note": "Closest to the Japanese title and tone; the recommended default."
+  },
+  {
+   "title": "My Deputy Manager Is an AI",
+   "subtitle": "How a one-person basement shop in Tokyo learned to work with AI, no tech skills needed",
+   "note": "Leads with the 'deputy manager' idea from the one-liner and names the setting."
+  },
+  {
+   "title": "Talk to It and It Does the Work",
+   "subtitle": "A solo owner's record of using AI in a small curry shop and bar",
+   "note": "Puts the book's core surprise first; more practical and search-friendly."
+  }
+ ],
+ "one_liner": "A record of how the owner of a small basement shop in Tokyo made AI a \"deputy manager\" without any specialist knowledge.",
+ "store_description": "In a basement in Higashi-Nakano, Tokyo, the author runs a shop alone: hamburger curry by day, a bar by night. This book is an honest record of how AI came to work beside them.\n\nA long LINE message to staff, turned into a single diagram by AI, got the point across at once. A photo of a wine label became a wine list with a description and a serving price. When AI compared sales data with the menu, it pointed out that the all-you-can-drink course the owner most wanted to sell was hidden in a corner of the menu. Moving it raised the average spend per customer.\n\nThe author also built a cash-flow app and a face-recognition system by talking with AI, without writing a single line of code. When an error appeared, they didn't read it. They took a photo of the screen and showed it to the AI.\n\nA former systems engineer, the author found that describing real problems from the shop floor matters more than technical knowledge. The steps and the failures are all here. You can start with one small thing: turning a long LINE message into a diagram.\n\nThe book is free to read and free to share.\n\nA sequel, Uchi no mise wa, uchi no shiyō de, follows the building of a reservation system that customers' own AIs can book through.",
+ "lp_description": [
+  "This is a record of AI in practice from the owner of a shop in a basement in Higashi-Nakano, Tokyo: hamburger curry by day, a bar by night.",
+  "A long LINE message to staff, turned by AI into a single diagram, was understood right away. A photo of a wine label produced a wine list with descriptions and prices. When AI compared sales data with the menu, it noticed that the all-you-can-drink course the owner most wanted to sell was tucked into a corner. Changing its placement raised the average spend per customer.",
+  "The author also built a cash-flow app and a face-recognition system by talking with AI, without writing any code. When an error came up, they simply photographed the screen and showed it to the AI.",
+  "A former systems engineer, the owner moved AI forward less with expert knowledge than with the ability to put the shop's troubles into words. The steps and the failures are written as they happened. You can start by turning a long LINE message into a diagram.",
+  "The sequel, Uchi no mise wa, uchi no shiyō de, covers building a reservation system and letting customers book from their own AI. Free to read and free to redistribute."
+ ],
+ "keywords": [
+  "AI for small business",
+  "restaurant owner AI",
+  "solo shop owner",
+  "vibe coding",
+  "ChatGPT Gemini practical use",
+  "no-code app building",
+  "bar and cafe management"
+ ]
+}

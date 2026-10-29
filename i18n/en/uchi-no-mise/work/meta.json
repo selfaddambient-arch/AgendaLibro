@@ -1,0 +1,37 @@
+{
+ "titles": [
+  {
+   "title": "Our Bar, Our Specs",
+   "subtitle": "How the Owner of a 19-Seat Bar Built Everything from Reservations to Tools with AI",
+   "note": "Closest to the Japanese title; keeps the quiet, personal tone and the subtitle's full scope."
+  },
+  {
+   "title": "A Small Bar Builds Its Own System",
+   "subtitle": "A 19-seat bar in Tokyo, AI-made reservations, and a booking link your customers' AI can use",
+   "note": "More descriptive and search-friendly, highlighting the AI-to-AI booking idea."
+  },
+  {
+   "title": "Tamuro, Built by Hand and by AI",
+   "subtitle": "A bar owner's record of making reservations, tools and mistakes in the open",
+   "note": "Centers the bar's name and the honest record of failures as well as successes."
+  }
+ ],
+ "one_liner": "The owner of a 19-seat Tokyo bar used AI to build a reservation system, then opened it so customers' own AI can make a booking.",
+ "store_description": "Tamuro is a 19-seat bar in Higashi-Nakano, Tokyo. Its owner gave instructions to AI and built the bar's reservation system themselves. In the end they published an MCP server, so that a customer's ChatGPT or Claude can ask the bar about availability and move on to a booking.\n\nThis book records the whole process, not only what went well. It covers a discount system built at the same time as a price increase, the data showing that 88% of reservations are made on the same day, and a conversation window made for guests who had too many plans to choose from. It also tells of a mistake: an AI audit found that customers' personal information could be read from outside, and it was fixed.\n\nThe second half is about the Agenda series, tools born from one bar's problems and now shared with other restaurants. It is a small shop's account of a time when you can build what you once paid big companies for, and shape it to your own specifications.\n\nIf technical talk is not your thing, chapters 1, 3 and 5 still tell a connected story.\n\nThe book is free to read and free to redistribute. You can read it as a PDF, on note, or on Google Play.",
+ "lp_description": [
+  "Tamuro is a 19-seat bar in Higashi-Nakano, Tokyo. Its owner gave instructions to AI and built the reservation system, and has now published an MCP server that lets a customer's ChatGPT or Claude ask the bar questions and go on to book.",
+  "The book includes a discount system built alongside a price increase, data showing that about 88% of reservations are made on the day, and a conversation window created because there were too many plans to choose from. It also includes the time an AI audit revealed that customers' personal information was readable from outside, and how it was fixed.",
+  "It is not only a story of success. What broke, what was thrown away and what had to be learned again are written down as they happened.",
+  "The second half is about the Agenda series: tools that came from one bar's troubles and are now shared with other restaurants. It is a small shop's record of an era in which you can build what you once paid large companies for, to your own specifications.",
+  "If technical topics are not for you, chapters 1, 3 and 5 still connect as a story. The book is free and may be freely redistributed."
+ ],
+ "keywords": [
+  "bar owner",
+  "AI reservation system",
+  "MCP server",
+  "small business AI",
+  "restaurant technology",
+  "Tokyo bar",
+  "build your own tools"
+ ]
+}

@@ -1,0 +1,52 @@
+# 用語集（英訳の固定語）。翻訳の system に渡し、訳文の揺れを scripts/i18n/gate.py が検査する。
+# 手帳の英名はAgendaHub の英語辞書（lib/i18n/dictionaries/en.ts の hub.product.*.nick）に合わせた。
+# 辞書に無い2つ（原価手帳・常連手帳）と会社名は窓の案。報告書に「要確認」と書いた。
+usd_per_jpy_rate: 150          # 概算。1ドル=150円で固定（奥付に換算日と一緒に書く）
+rate_date: "2026-10-29"
+terms:
+  - {ja: "屯", en: "Tamuro", note: "the author's 19-seat bar in Higashi-Nakano, Tokyo. Never 'Ton'."}
+  - {ja: "T-AI-MURO", en: "T-AI-MURO", note: "the chat window on Tamuro's site. Keep as is."}
+  - {ja: "本多楽", en: "Raku Bonta", note: "given name first. ぼんたらく = Bonta Raku in Japanese order; use 'Raku Bonta'."}
+  - {ja: "ボンタ合同会社", en: "Bonta LLC", note: "publisher"}
+  - {ja: "Agendaシリーズ", en: "the Agenda series", note: "product names stay in the run-together form: AgendaTimbro, AgendaOro ..."}
+  - {ja: "手帳", en: "notebook", note: "generic word for each tool of the series. 黒革の手帳 = black leather notebook."}
+  - {ja: "打刻手帳", en: "Time Clock", note: "AgendaTimbro"}
+  - {ja: "採算手帳", en: "Profit Planner", note: "AgendaOro"}
+  - {ja: "2軒目手帳", en: "Next Stop Guide", note: "AgendaBis"}
+  - {ja: "相談手帳", en: "Support Guide", note: "AgendaQA"}
+  - {ja: "灯り手帳", en: "Light Notebook", note: "AgendaLuce"}
+  - {ja: "原価手帳", en: "Recipe Costing", note: "AgendaRicetta (name chosen by the editor; not in the Hub dictionary)"}
+  - {ja: "常連手帳", en: "Regulars Notebook", note: "AgendaNera (name chosen by the editor; not in the Hub dictionary)"}
+  - {ja: "話題手帳", en: "Talking Points", note: "AgendaSpunto"}
+  - {ja: "語り手帳", en: "Voce", note: "AgendaVoce"}
+  - {ja: "玄関", en: "front door", note: "AgendaHub is the series' front door (shared entrance page)"}
+  - {ja: "AgendaHub", en: "AgendaHub", note: "keep"}
+  - {ja: "AgendaID", en: "AgendaID", note: "keep"}
+  - {ja: "ProductBootstrap", en: "ProductBootstrap", note: "keep"}
+  - {ja: "MCP", en: "MCP", note: "write 'MCP server', 'MCP' without expanding after the first mention in the book"}
+  - {ja: "バイブコーディング", en: "vibe coding", note: ""}
+  - {ja: "副店長", en: "deputy manager", note: "the AI is hired as the shop's 副店長 (book 1 metaphor)"}
+  - {ja: "ひとり店主", en: "solo owner", note: ""}
+  - {ja: "おわりに", en: "Afterword", note: "heading"}
+  - {ja: "はじめに", en: "Introduction", note: "heading"}
+  - {ja: "コラム", en: "Column", note: "コラム① = Column 1"}
+  - {ja: "第N章", en: "Chapter N", note: "heading style: 'Chapter 1: Concepts - AI Agents, the New Kind of Employee'"}
+  - {ja: "図", en: "Figure", note: "【図1-1】 = 【Figure 1-1】; 図1-9　caption = Figure 1-9: caption"}
+# 日本の地名・制度・習慣の補足で、使い回す固定の一行（本の中で同じ補足を繰り返さないため。同じ文面なら2回目以降を後処理で消す）
+standard_notes:
+  - {key: "東中野", note: "a residential neighborhood in western Tokyo, just west of Shinjuku"}
+  - {key: "LINE", note: "Japan's most widely used messaging app"}
+  - {key: "お通し", note: "a small appetizer that Japanese bars and izakaya bring to every seat, usually with a cover charge"}
+  - {key: "居酒屋", note: "a casual Japanese pub that serves food and drinks"}
+# 揺れの検査：訳文にあってはいけない綴り（scripts/i18n/gate.py）
+forbid:
+  - {term: "Tamuro", bad: ["Tamura", "Tomuro", "Tamro", "Ton bar", "the Ton", "Tun"]}
+  - {term: "Raku Bonta", bad: ["Bonta Raku", "Rak Bonta", "Raku Honda", "Honda Raku", "Tanoshi Honda"]}
+  - {term: "Bonta LLC", bad: ["Bonta Limited", "Bonta Co.", "Bonta GK", "Bonta G.K."]}
+  - {term: "Time Clock", bad: ["Time Stamp Notebook", "Punch Notebook", "Clock Notebook"]}
+  - {term: "Profit Planner", bad: ["Profitability Notebook", "Break-even Notebook"]}
+  - {term: "Next Stop Guide", bad: ["Second Stop", "Second Bar Notebook", "Second-Stop"]}
+  - {term: "Support Guide", bad: ["Consultation Notebook", "Consulting Notebook"]}
+  - {term: "Light Notebook", bad: ["Lamp Notebook", "Lantern Notebook", "Lights Notebook", "Glow Notebook"]}
+  - {term: "vibe coding", bad: ["vibes coding", "mood coding", "Vibe-coding", "vibe-coding"]}
+  - {term: "deputy manager", bad: ["vice manager", "sub-manager", "vice-manager", "assistant store manager"]}
