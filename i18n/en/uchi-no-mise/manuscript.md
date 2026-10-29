@@ -58,7 +58,7 @@ If you spot a mistake, I would be glad if you told me on note or X. I will corre
 
 ### The Three Exits of This Book
 
-This book is free. In exchange, I have prepared three places you can go after you finish reading. If even one of them is useful to you, writing this book was worth it.
+This book is free to read as a PDF, on note, and on Google Play. (Only on Kindle, the store's rules require a minimum price.) In return, I have prepared three places you can go after you finish reading. If even one of them is useful to you, writing this book was worth it.
 
 1. Try it in your own shop. You can start the Agenda series with the free notebook. https://bontallc.com/agenda?via=b2-en-{{FMT}}
 2. Follow what I do. I write about the next tools I build, and about daily life at the shop, on note and X. note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
