@@ -42,7 +42,7 @@ Wherever I could, I added a plain-language explanation next to each technical te
 
 ### About the Author
 
-I worked as a systems engineer for about 16 years, and then entered the food and drink business. So this is not a story of someone who had never written a line of code building everything with AI alone. I want to be honest about that.
+I worked in IT for about 16 years, mostly in system planning and as the coordinator between the people on site and the development vendors, and then entered the food and drink business. So this is not a story of someone who had never written a line of code building everything with AI alone. I want to be honest about that.
 
 Even so, I can now build and run, on my own while working the floor, something of a scale that once required a team and funding. A few years ago, that would have been unthinkable. I want to describe the reality of that change as concretely as I can.
 
@@ -677,7 +677,7 @@ The Agenda series is a collection of small web apps, each answering one problem 
 | AgendaLuce | Light Notebook | Luce means "light" | Shows whether the shop is open (free) |
 | AgendaRicetta | Recipe Costing | Ricetta means "recipe" | Works out a recipe's cost and cost ratio (free) |
 | AgendaNera | Regulars Notebook | Nera means "black." The black leather notebook | Welcomes regulars with face recognition (under construction) |
-| AgendaTurno |  |  |  |
+| AgendaTurno | Shift Roster | Turno is Italian for "turn" or "duty shift" | Collects staff shift requests and hands out the schedule that the owner's own AI puts together (coming soon) |
 
 Which notebook suits which kind of shop? The Time Clock is for shops with two or more staff who manage attendance on paper or in LINE *(Japan's most widely used messaging app)*. The Profit Planner is for people about to open a shop, and for those who want to review their numbers because rent or costs have changed. The Next Stop Guide is for shops centered on meals that want to send customers on to the next place early. The Light Notebook is for independent shops whose closing runs later or earlier than planned. Recipe Costing is for shops where the recipes are in your head but you have never worked out a cost ratio.
 
@@ -753,7 +753,7 @@ That is no longer true. The owner tells the AI the requirements, the AI writes t
 
 This kind of change is generally called the "democratization of technology." The power to build is no longer the property of a few people or companies.
 
-But let me be honest here. As I wrote in the Introduction, I worked as a systems engineer for about 16 years. I knew requirements definition, how to think about databases, and how to run tests, all from experience. So I won't claim that someone who has never written a line of code could do the same starting tomorrow.
+But let me be honest here. As I wrote in the Introduction, I worked in IT for about 16 years, mostly in system planning and as the coordinator between the people on site and the development vendors. I knew requirements definition, how to think about databases, and how to run tests, all from experience. So I won't claim that someone who has never written a line of code could do the same starting tomorrow.
 
 Even so, a great deal has changed. I can now build, on my own and in the gaps between my main job, things at a scale that once took a team. And for people with no experience, the entrance has certainly gotten lower. AI will teach you if you ask about something you don't understand. It will give shape to what you tell it in words. What's missing is not technique but the ability to decide what to build and the words to tell the AI. Those are abilities that people who run shops use every day anyway.
 

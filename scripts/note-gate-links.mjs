@@ -26,8 +26,8 @@ for (const slug of ['hitori-de-mise', 'uchi-no-mise']) {
     row({ slug, s, 公開200: r.status() === 200, 冒頭がPDF案内: first.startsWith('この本は PDF・Google Play でも無料で読めます'), PDFリンク2か所以上: pdfN >= 2, カード: cards, via付き: bont.every((h) => /via=note1?$/.test(h) || /via=note1?&/.test(h)), 括弧0: !/[【】]/.test(text), 旧題名0: !text.includes('1人で店を回す') });
     await p.close();
   }
-  const rr = await ctx.request.get(PDF[slug], { maxRedirects: 0 });
-  row({ slug, PDF302: rr.status() === 302, to: (rr.headers()['location'] || '').slice(0, 50) });
+  const rr = await ctx.request.get(PDF[slug], { maxRedirects: 0 }); // 2026-10-28 から PDF は Hub が直接返す（302 ではなく 200・application/pdf）
+  row({ slug, PDF200: rr.status() === 200, PDFの種類: (rr.headers()['content-type'] || '').includes('application/pdf') });
 }
 for (const [name, key] of [['案内記事', 'ne8a093f1a536'], ['出版の経緯', 'n580b9262d396']]) {
   const p = await ctx.newPage();

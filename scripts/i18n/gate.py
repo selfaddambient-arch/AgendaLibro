@@ -75,11 +75,31 @@ def check(slug):
     return res
 
 
+def build_files(slug):
+    d = ROOT / f'i18n/{LG}/{slug}/build'
+    return sorted(f for f in d.glob('*') if f.suffix in ('.pdf', '.epub')) if d.exists() else []
+
+
+def fmt_leftover(path):
+    """仕上がったファイル（PDF・EPUB）の全文を読み、{{FMT}} が残っていないか数える。"""
+    import zipfile
+    if path.suffix == '.epub':
+        z = zipfile.ZipFile(path)
+        txt = ''.join(z.read(n).decode('utf8', 'ignore') for n in z.namelist() if n.endswith(('.xhtml', '.html', '.opf', '.ncx', '.css', '.txt')))
+    else:
+        import pymupdf
+        d = pymupdf.open(path); txt = ''.join(p.get_text() for p in d)
+        txt += ''.join(str(l.get('uri', '')) for p in d for l in p.get_links())
+    return txt.count('{{FMT}}') + txt.count('%7B%7BFMT%7D%7D')
+
+
 if __name__ == '__main__':
     slugs = sys.argv[1:] or list(CODE)
     fail = 0
     for s in slugs:
         r = check(s); print('==', s)
+        for f in build_files(s):
+            n = fmt_leftover(f); r[f'{f.name} に {{{{FMT}}}} が0件'] = (n == 0) or n
         for k, v in r.items():
             ok = v is True or k.endswith('（参考）') or isinstance(v, int)
             if not ok: fail += 1

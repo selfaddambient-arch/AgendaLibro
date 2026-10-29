@@ -316,7 +316,7 @@ The faster your conversation with AI gets, the less your thinking stops, and the
 
 Earlier I told you, "When an error appears, the right move is to take a screenshot and paste it."
 
-But pressing [Windows] + [Shift] + [S] dozens of times a day, selecting an area with the mouse, going back to the Gemini screen, and pressing [Ctrl] + [V]...
+But pressing [Windows] + [Shift] + [S] (Mac: [Cmd] + [Shift] + [4]) dozens of times a day, selecting an area with the mouse, going back to the Gemini screen, and pressing [Ctrl] + [V] (Mac: [Cmd] + [V])...
 
 Honestly, it tires your fingers, doesn't it?
 
@@ -330,11 +330,11 @@ I have assigned the following shortcuts to these six buttons.
 
 1.  Launch screenshot
 
-2.  Select all (Ctrl + A)
+2.  Select all (Ctrl + A; Mac: Cmd + A)
 
-3.  Copy (Ctrl + C)
+3.  Copy (Ctrl + C; Mac: Cmd + C)
 
-4.  Paste (Ctrl + V)
+4.  Paste (Ctrl + V; Mac: Cmd + V)
 
 5.  Enter (send)
 
@@ -422,7 +422,7 @@ This too can be done through dialogue with Gemini, but I will explain it again l
 
 After the LINE stickers, there is another big piece I made hand in hand with AI. It is the announcement banner for the "Christmas dinner," the biggest event of the year for the shop.
 
-I used an AI called "NanoBanana" (※ the name of the image-generation AI tool I use, available in Gemini).
+I used an AI called "Nano Banana" (the image generation model built into Google's Gemini).
 
 #### Phase 1: Adjusting Layout and Text
 
@@ -490,7 +490,7 @@ But information changes by the minute.
 
 If I had asked an outside designer to do this, the revision fees alone would be a nightmare, and above all it wouldn't be done in time.
 
-So once again I teamed up with an image-generation AI (NanoBanana) and got to work on banners to carry me through the year-end and New Year's season.
+So once again I teamed up with an image-generation AI (Nano Banana) and got to work on banners to carry me through the year-end and New Year's season.
 
 #### Step 1: The Style Is "80s Crayon Drawing"
 
@@ -1576,7 +1576,7 @@ This book is free to read as a PDF, on note, and on Google Play. (Only on Kindle
 
 1. Try it in your own shop. The Agenda series can be started with a free notebook. https://bontallc.com/agenda?via=b1-en-{{FMT}}
 2. Follow what I do. I write about the tools I build next, and about daily life at the bar, on note and X. note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. If you are ever in Tokyo, visit Tamuro. One minute from the east exit of Higashi-Nakano Station. You can walk in without a reservation. Reservation site https://tamuroreservation.vercel.app/?src=b1-en-{{FMT}}
+3. If you are ever in Tokyo, visit Tamuro. One minute from the east exit of Higashi-Nakano Station. You can walk in without a reservation. When this book was first written, Tamuro was referral-only. Today anyone is welcome to walk in, no reservation needed. Reservation site https://tamuroreservation.vercel.app/?src=b1-en-{{FMT}}
 
 To those who came because of this book: when you make a reservation, please enter the coupon code "BOOK." We will serve you one drink on your first visit. If you came without a reservation, just say "I saw the book" when you place your first order. We will serve you the same drink. It is a small device so that I can count how many people came because of the book.
 
