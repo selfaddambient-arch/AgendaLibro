@@ -4,6 +4,8 @@
 分ける基準：日本語の原文が PART_MAX 字を超えるとき、### の見出しの境目で分ける（日本語＋英訳を合わせて約3万字以内に収める）。
 """
 import re, json, pathlib
+import os
+LG = os.environ.get('I18N_LANG', 'en')   # 言語コード（2文字）。i18n/<言語>/ を使う
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 PART_MAX = 6500
 ASK = '次は日本語の本の一章と、その英訳です。英訳について、①意味の取り違え ②不自然な英語 ③英語圏の読者に伝わらない箇所 を、該当する英文の引用と直す案の形で一覧にしてください。書き直した全文は不要です。'
@@ -37,7 +39,7 @@ def parts_of(ja, en):
 def main():
     summary = {}
     for slug, title in BOOKS.items():
-        d = ROOT / f'i18n/en/{slug}'
+        d = ROOT / f'i18n/{LG}/{slug}'
         ja = (d / 'work/source.ja.md').read_text(); en = (d / 'manuscript.md').read_text()
         jc, ec = split_h(ja, 2), split_h(en, 2)
         assert len(jc) == len(ec), (slug, len(jc), len(ec))
@@ -65,7 +67,7 @@ def main():
     for slug, fs in summary.items():
         print(slug, len(fs), '本')
         for f in fs: print('  ', f)
-    (ROOT / 'i18n/en/work-review.json').write_text(json.dumps(summary, ensure_ascii=False))
+    (ROOT / f'i18n/{LG}/work-review.json').write_text(json.dumps(summary, ensure_ascii=False))
 
 
 if __name__ == '__main__':

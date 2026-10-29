@@ -2,8 +2,10 @@
   python3 scripts/i18n/gate.py [slug…]     終了コード 0＝すべて合格
 """
 import sys, re, json, pathlib, yaml
+import os
+LG = os.environ.get('I18N_LANG', 'en')   # 言語コード（2文字）。i18n/<言語>/ を使う
 ROOT = pathlib.Path(__file__).resolve().parents[2]
-GLOSS = yaml.safe_load(open(ROOT / 'i18n/glossary.yaml'))
+GLOSS = yaml.safe_load(open(ROOT / f'i18n/{LG}/glossary.yaml'))
 CODE = {'hitori-de-mise': 'b1', 'uchi-no-mise': 'b2'}
 
 
@@ -24,7 +26,7 @@ def urls(t):
 
 
 def check(slug):
-    d = ROOT / f'i18n/en/{slug}'
+    d = ROOT / f'i18n/{LG}/{slug}'
     ja = (d / 'work/source.ja.md').read_text(); en = (d / 'manuscript.md').read_text()
     code = CODE[slug]; res = {}
     res['見出し数が一致'] = heads(ja) == heads(en) or (heads(ja), heads(en))
@@ -39,7 +41,7 @@ def check(slug):
     res['リンクの数が一致'] = len(ju) == len(eu) or (len(ju), len(eu))
     res['リンクの中身が一致'] = ([u.rstrip('.,;') for u in ju] == [u.rstrip('.,;') for u in eu]) or sorted(set(ju) ^ set(eu))[:6]
     marks = re.findall(r'[?&](?:src|via)=([^\s&)）]+)', en)
-    bad = [m for m in marks if m != f'{code}-en-{{{{FMT}}}}']
+    bad = [m for m in marks if m != f'{code}-{LG}-{{{{FMT}}}}']
     res['リンクの印が本-言語-形式'] = (not bad and len(marks) == len(re.findall(r'[?&](?:src|via)=', ja))) or bad
     res['{{FMT}} の数が一致'] = ja.count('{{FMT}}') == en.count('{{FMT}}') or (ja.count('{{FMT}}'), en.count('{{FMT}}'))
     plain = re.sub(r'\(about \$[\d.,]+(?:–\$[\d.,]+)?\)', '', en)
@@ -62,8 +64,8 @@ def check(slug):
     miss = []
     for g in GLOSS['terms']:
         if g['ja'] in ('第N章', '図', '手帳', 'MCP', '2軒目手帳') : continue
-        if g['ja'] in ja and g['en'].lower() not in en.lower():
-            miss.append(g['ja'] + '→' + g['en'])
+        if g['ja'] in ja and g['to'].lower() not in en.lower():
+            miss.append(g['ja'] + '→' + g['to'])
     res['用語集の語が訳文にある'] = (not miss) or miss
     # 数字（日本語にあって訳文に無い数）。万・漢数字を使う箇所は目で見る参考値
     jn = set(re.findall(r'\d[\d,.]*\d|\d', re.sub(r'https?://\S+', '', ja)))

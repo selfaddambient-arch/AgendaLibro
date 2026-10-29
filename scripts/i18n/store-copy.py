@@ -5,10 +5,12 @@
   英語の説明文・キーワード…i18n/en/<slug>/work/meta.json の窓の推敲版（下の EN_FIX で書き直した所だけ差し替え）
 """
 import json, pathlib, html
+import os
+LG = os.environ.get('I18N_LANG', 'en')   # 言語コード（2文字）。i18n/<言語>/ を使う
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 src = json.loads((ROOT / 'books/store-copy.src.json').read_text())
-EN = {s: json.loads((ROOT / f'i18n/en/{s}/work/meta.json').read_text()) for s in ('hitori-de-mise', 'uchi-no-mise')}
-MD = {s: {k: v.strip() for k, v in (l.split(':', 1) for l in (ROOT / f'i18n/en/{s}/metadata.yaml').read_text().splitlines() if ':' in l)} for s in EN}
+EN = {s: json.loads((ROOT / f'i18n/{LG}/{s}/work/meta.json').read_text()) for s in ('hitori-de-mise', 'uchi-no-mise')}
+MD = {s: {k: v.strip() for k, v in (l.split(':', 1) for l in (ROOT / f'i18n/{LG}/{s}/metadata.yaml').read_text().splitlines() if ':' in l)} for s in EN}
 
 JA = {
   'hitori-de-mise': dict(title='一人で店を回す、その横にAIが来た。', sub='話すと、やってくれる。想像以上に。', author='本多楽',

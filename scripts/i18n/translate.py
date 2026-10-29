@@ -16,13 +16,15 @@
 import sys, re, json, os, pathlib, time
 import yaml
 
+import os
+LG = os.environ.get('I18N_LANG', 'en')   # 言語コード（2文字）。i18n/<言語>/ を使う
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 MODEL = 'claude-sonnet-5-5'
 BOOKS = {
     'hitori-de-mise': dict(ms='books/hitori-de-mise/bontaraku-01_hitori-de-mise_manuscript.md', code='b1', old='book1'),
     'uchi-no-mise': dict(ms='books/uchi-no-mise/bontaraku-02_uchi-no-mise_manuscript.md', code='b2', old='book'),
 }
-GLOSS = yaml.safe_load(open(ROOT / 'i18n/glossary.yaml'))
+GLOSS = yaml.safe_load(open(ROOT / f'i18n/{LG}/glossary.yaml'))
 RATE = GLOSS['usd_per_jpy_rate']
 CHUNK_MAX = 11000   # 日本語の文字数。節の境目で割る
 MAX_TOKENS = 32000
@@ -36,7 +38,7 @@ def env_key():
 
 
 def out_dir(slug):
-    return ROOT / f'i18n/en/{slug}'
+    return ROOT / f'i18n/{LG}/{slug}'
 
 
 # ───────── 前処理 ─────────
@@ -63,7 +65,7 @@ def prepare_source(slug):
     b = BOOKS[slug]
     t = (ROOT / b['ms']).read_text()
     code, old = b['code'], b['old']
-    t = t.replace(f'?src={old}', f'?src={code}-en-{{{{FMT}}}}').replace(f'?via={old}', f'?via={code}-en-{{{{FMT}}}}')
+    t = t.replace(f'?src={old}', f'?src={code}-{LG}-{{{{FMT}}}}').replace(f'?via={old}', f'?via={code}-{LG}-{{{{FMT}}}}')
     assert f'?src={old}' not in t and f'?via={old}' not in t
     t = reorder_exits(t, slug)
     return t
@@ -91,7 +93,7 @@ def split_chunks(t):
 
 
 def system_prompt(slug):
-    rows = '\n'.join(f"- {g['ja']} → {g['en']}" + (f"  ({g['note']})" if g['note'] else '') for g in GLOSS['terms'])
+    rows = '\n'.join(f"- {g['ja']} → {g['to']}" + (f"  ({g['note']})" if g['note'] else '') for g in GLOSS['terms'])
     notes = '\n'.join(f"- {n['key']}: {n['note']}" for n in GLOSS['standard_notes'])
     return f"""You are a professional Japanese-to-English translator of narrative nonfiction and business books. You are translating a self-published Japanese book by Raku Bonta, a solo bar owner in Tokyo who builds tools with AI. The voice is warm, plain, first-person, and practical. Write natural, idiomatic English for readers in the US, UK and other English-speaking countries. Avoid translationese.
 
@@ -161,12 +163,12 @@ def cmd_submit(slugs):
         for i, ch in enumerate(chunks, 1):
             reqs.append(Request(custom_id=f'{slug}-{i:02d}', params=MessageCreateParamsNonStreaming(**params_for(slug, ch, i, len(chunks), sysmsg))))
     b = c.messages.batches.create(requests=reqs)
-    pathlib.Path(ROOT / 'i18n/en/work-batch.json').write_text(json.dumps({'id': b.id, 'slugs': slugs, 'n': len(reqs)}))
+    pathlib.Path(ROOT / f'i18n/{LG}/work-batch.json').write_text(json.dumps({'id': b.id, 'slugs': slugs, 'n': len(reqs)}))
     print('batch', b.id, len(reqs), '件')
 
 
 def cmd_status():
-    info = json.loads((ROOT / 'i18n/en/work-batch.json').read_text())
+    info = json.loads((ROOT / f'i18n/{LG}/work-batch.json').read_text())
     b = client().messages.batches.retrieve(info['id'])
     print(b.processing_status, b.request_counts)
 
@@ -213,7 +215,7 @@ def post(t):
 
 
 def cmd_collect():
-    info = json.loads((ROOT / 'i18n/en/work-batch.json').read_text())
+    info = json.loads((ROOT / f'i18n/{LG}/work-batch.json').read_text())
     c = client()
     b = c.messages.batches.retrieve(info['id'])
     if b.processing_status != 'ended':
@@ -232,7 +234,7 @@ def cmd_collect():
         u['i'] += msg.usage.input_tokens; u['o'] += msg.usage.output_tokens
         if msg.stop_reason != 'end_turn':
             bad.append((cid, msg.stop_reason))
-    (ROOT / 'i18n/en/work-usage.json').write_text(json.dumps(usage))
+    (ROOT / f'i18n/{LG}/work-usage.json').write_text(json.dumps(usage))
     print('usage', usage, 'bad', bad)
     assemble()
 

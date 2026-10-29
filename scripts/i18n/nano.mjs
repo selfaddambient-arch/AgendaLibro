@@ -3,6 +3,7 @@
 //   node scripts/i18n/nano.mjs trial <slug> <入力画像> <出力.png> "<指示>"   → 画面写真の日本語を英語に描き換える試し
 // 使った量は i18n/en/nano-usage.log に1行ずつ残す（費用の上限：画像全体で300円）。
 import { readFileSync, writeFileSync, appendFileSync } from 'node:fs';
+const LG = process.env.I18N_LANG || 'en'; // 言語コード（2文字）。i18n/<言語>/ を使う
 const MODEL = 'gemini-nano-banana-2.1';
 const key = readFileSync('secrets/.env', 'utf8').match(/GEMINI_API_KEY=(.*)/)[1].trim().replace(/^["']|["']$/g, '');
 const [mode, slug, a3, a4, a5] = process.argv.slice(2);
@@ -16,7 +17,7 @@ async function call(parts, aspect) {
   const d = await r.json();
   const part = d.candidates?.[0]?.content?.parts?.find((p) => p.inlineData || p.inline_data);
   const u = d.usageMetadata;
-  appendFileSync('i18n/en/nano-usage.log', `${new Date().toISOString()} ${mode} ${slug} http=${r.status} ok=${!!part} in=${u?.promptTokenCount} out=${u?.candidatesTokenCount}\n`);
+  appendFileSync(`i18n/${LG}/nano-usage.log`, `${new Date().toISOString()} ${mode} ${slug} http=${r.status} ok=${!!part} in=${u?.promptTokenCount} out=${u?.candidatesTokenCount}\n`);
   if (!part) { console.log('FAILED', r.status, JSON.stringify(d).slice(0, 400).replace(key, '***')); process.exit(1); }
   return Buffer.from((part.inlineData || part.inline_data).data, 'base64');
 }
@@ -31,8 +32,8 @@ if (mode === 'cover') {
 - 画像の中に、文字・数字・記号・看板やメニューの文字を入れない。新聞やパソコン画面など文字が入りそうな物は、文字のない灰色や色の帯で表す。
 - 縦長の本の表紙の構図（縦横比 2:3）にする。`;
   const img = await call([{ text: prompt }, { inline_data: { mime_type: mime(ref), data: b64(ref) } }], '2:3');
-  writeFileSync(`i18n/en/${slug}/cover/art${suffix}.png`, img);
-  console.log('ok', `i18n/en/${slug}/cover/art${suffix}.png`, img.length);
+  writeFileSync(`i18n/${LG}/${slug}/cover/art${suffix}.png`, img);
+  console.log('ok', `i18n/${LG}/${slug}/cover/art${suffix}.png`, img.length);
 } else if (mode === 'trial') {
   const [inp, out, instr] = [a3, a4, a5];
   const img = await call([{ text: instr }, { inline_data: { mime_type: mime(inp), data: b64(inp) } }]);

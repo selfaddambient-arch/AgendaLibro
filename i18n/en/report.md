@@ -146,7 +146,7 @@ If technical topics are not for you, chapters 1, 3 and 5 still connect as a stor
 ## 7. 窓の判断（要確認）
 
 - 鍵：Anthropic の鍵は AgendaQA の `.env.local` の既存の鍵を、値を出さずに `secrets/.env` へ写して使った（Gemini の鍵は表紙の絵まで使わない）。OpenAI の鍵は使っていない
-- 為替：検索では今日のレートが確かめられなかったので、**1ドル=150円の固定の概算**にした。変えるなら `i18n/glossary.yaml` の `usd_per_jpy_rate` を直して再組版
+- 為替：検索では今日のレートが確かめられなかったので、**1ドル=150円の固定の概算**にした。変えるなら `i18n/en/glossary.yaml` の `usd_per_jpy_rate` を直して再組版
 - 会社名：ボンタ合同会社 → **Bonta LLC**（指示に無いので窓の案）
 - 手帳の英名：AgendaHub の英語辞書にあるもの（Time Clock・Profit Planner・Next Stop Guide・Support Guide・Light Notebook）に合わせた。辞書に無い2つは窓の案：原価手帳 = **Recipe Costing**、常連手帳 = **Regulars Notebook**
 - 著者・店主の代名詞：原文に性別が無いので he/she を使わず、I・the owner・they にした
