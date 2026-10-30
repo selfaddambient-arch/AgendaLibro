@@ -1,0 +1,24 @@
+{
+ "code": "ko",
+ "bcp47": "ko-KR",
+ "name": "한국어",
+ "dir": "ltr",
+ "font": "'Apple SD Gothic Neo', 'AppleMyungjo', serif",
+ "toc_title": "차례",
+ "qr_labels": [
+  "내 가게에서 시험해 보기",
+  "활동 따라가기 (note)",
+  "도쿄에서 타무로 찾아가기"
+ ],
+ "kindle": false,
+ "fig_label": "그림",
+ "number_style": "en",
+ "cjk": false,
+ "colophon": "## 판권\n\n- 제목: {title}\n- 부제: {subtitle}\n- 저자: {author}\n- 발행처: {publisher}\n- 판: 한국어판 초판 (일본어 원고에서 번역)\n- 발행일: {date}\n- 언어: 한국어\n- 번역: 일본어 원고를 AI가 번역하고 AI가 검토했습니다. 일본의 장소, 제도, 관습에 관한 짧은 설명은 번역자가 덧붙였습니다. 엔화 금액에는 1달러=¥{rate}({rate_date} 기준)로 환산한 미국 달러 어림값을 함께 적었습니다.\n- 자유롭게 공유할 수 있습니다\n\nAgenda 시리즈: {agenda}\n\n타무로 Instagram: https://www.instagram.com/tamuro.higashinakano/\n\n타무로 예약 사이트: {tamuro}\n\nnote: https://note.com/bontallc\n\nX: https://x.com/tamuro_hnakano\n",
+ "ja_name": "韓国語",
+ "ocr_langs": [
+  "ko-KR",
+  "en-US"
+ ],
+ "mark": "ko"
+}

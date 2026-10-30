@@ -14,7 +14,7 @@ LNAME = _L['name']
 PART_MAX = 6500
 ASK = '次は日本語の本の一章と、その英訳です。英訳について、①意味の取り違え ②不自然な英語 ③英語圏の読者に伝わらない箇所 を、該当する英文の引用と直す案の形で一覧にしてください。書き直した全文は不要です。'
 if LG != 'en':
-    ASK = ASK.replace('英訳', _L['ja_name'] + '訳')
+    ASK = ASK.replace('英訳', _L['ja_name'] + '訳').replace('不自然な英語', '不自然な' + _L['ja_name']).replace('英語圏の読者', _L['ja_name'] + '圏の読者')
 BOOKS = {'hitori-de-mise': '『一人で店を回す、その横にAIが来た。』', 'uchi-no-mise': '『うちの店は、うちの仕様で』'}
 
 

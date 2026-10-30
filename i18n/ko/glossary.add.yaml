@@ -1,0 +1,40 @@
+# 용어집(한국어). `to:` が訳語。手帳の名前は AgendaHub の韓国語辞書（lib/i18n/dictionaries/ko.ts の hub.product.*.nick）に合わせた。
+# 辞書に無い3つ（原価手帳・常連手帳・当番手帳）は窓の案。屯は本文では「타무로」と書き、初出などで Tamuro を添える。
+usd_per_jpy_rate: 150
+rate_date: "2026-10-29"
+terms:
+  - {ja: "屯", to: "Tamuro", note: "본문 표기는 타무로(첫 등장에서 타무로(Tamuro))"}
+  - {ja: "T-AI-MURO", to: "T-AI-MURO", note: "그대로"}
+  - {ja: "本多楽", to: "Raku Bonta", note: "한글 표기 라쿠 본타(Raku Bonta) 병기 가능"}
+  - {ja: "ボンタ合同会社", to: "Bonta LLC", note: "발행처"}
+  - {ja: "Agendaシリーズ", to: "Agenda 시리즈", note: "제품명은 그대로: AgendaTimbro 등"}
+  - {ja: "手帳", to: "수첩", note: "Hub 사전과 동일. 黒革の手帳 = 검은 가죽 수첩"}
+  - {ja: "打刻手帳", to: "근태수첩", note: "AgendaTimbro (Hub 사전)"}
+  - {ja: "採算手帳", to: "채산수첩", note: "AgendaOro (Hub 사전)"}
+  - {ja: "2軒目手帳", to: "2차 수첩", note: "AgendaBis (Hub 사전)"}
+  - {ja: "相談手帳", to: "상담수첩", note: "AgendaQA (Hub 사전)"}
+  - {ja: "灯り手帳", to: "등불 수첩", note: "AgendaLuce (Hub 사전)"}
+  - {ja: "原価手帳", to: "원가 수첩", note: "AgendaRicetta (窓の案。Hub 사전에 없음)"}
+  - {ja: "常連手帳", to: "단골 수첩", note: "AgendaNera (窓の案)"}
+  - {ja: "当番手帳", to: "당번 수첩", note: "AgendaTurno (窓の案。제품은 준비 중)"}
+  - {ja: "話題手帳", to: "대화 수첩", note: "AgendaSpunto (Hub 사전)"}
+  - {ja: "玄関", to: "현관", note: "AgendaHub = 시리즈의 현관"}
+  - {ja: "AgendaHub", to: "AgendaHub", note: "그대로"}
+  - {ja: "AgendaID", to: "AgendaID", note: "그대로"}
+  - {ja: "ProductBootstrap", to: "ProductBootstrap", note: "그대로"}
+  - {ja: "バイブコーディング", to: "바이브 코딩", note: "용어 고정"}
+  - {ja: "副店長", to: "부점장", note: "1권의 은유"}
+  - {ja: "NanoBanana", to: "Nano Banana", note: "첫 언급에 주석"}
+  - {ja: "おわりに", to: "마치며", note: "제목"}
+  - {ja: "はじめに", to: "들어가며", note: "제목"}
+  - {ja: "コラム", to: "칼럼", note: "コラム① = 칼럼 1"}
+  - {ja: "図", to: "그림", note: "【図1-1】 = 【그림 1-1】"}
+forbid:
+  - {term: "Tamuro", bad: ["Tamura", "Tomuro", "Tamro", "타무라", "토무로", "툰"]}
+  - {term: "Raku Bonta", bad: ["Bonta Raku", "Raku Honda", "Honda Raku"]}
+  - {term: "Bonta LLC", bad: ["Bonta Limited", "Bonta Inc", "본타 주식회사"]}
+  - {term: "근태수첩", bad: ["출퇴근 수첩", "근태 수첩"]}
+  - {term: "채산수첩", bad: ["채산 수첩", "수익 수첩"]}
+  - {term: "등불 수첩", bad: ["등불수첩", "램프 수첩"]}
+  - {term: "바이브 코딩", bad: ["바이브코딩", "분위기 코딩", "vibe coding"]}
+  - {term: "부점장", bad: ["부매니저", "부지배인", "부책임자", "부 점장"]}

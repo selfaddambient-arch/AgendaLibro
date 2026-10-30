@@ -82,7 +82,8 @@ def check(slug):
     res['補足の印が残っていない'] = ('⟦' not in en and '⟧' not in en) or 'あり'
     res['日本語の文字が残っていない（図の注を除く）'] = True
     cjk = [ln.strip()[:60] for ln in en.split('\n') if re.search(r'[ぁ-ヺー々一-鿿]', ln.replace('屯', ''))]
-    res['日本語の文字が残っていない（図の注を除く）'] = True if LANG.get('cjk') else ((len(cjk) == 0) or {'行数': len(cjk), '例': cjk[:4]})
+    kana = [ln.strip()[:60] for ln in en.split('\n') if re.search(r'[ぁ-ヿ]', ln.replace('・', ''))]
+    res['日本語の文字が残っていない（図の注を除く）'] = ((len(kana) == 0) or {'行数': len(kana), '例': kana[:4]}) if LANG.get('cjk') else ((len(cjk) == 0) or {'行数': len(cjk), '例': cjk[:4]})
     # 用語の揺れ
     fb = []
     for f in GLOSS['forbid']:
