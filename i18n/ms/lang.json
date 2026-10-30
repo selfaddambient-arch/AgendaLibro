@@ -1,0 +1,24 @@
+{
+ "code": "ms",
+ "bcp47": "ms",
+ "name": "Bahasa Melayu",
+ "dir": "ltr",
+ "font": "'Baskerville', 'Georgia', 'Times New Roman', serif",
+ "toc_title": "Kandungan",
+ "qr_labels": [
+  "Cuba di kedai anda sendiri",
+  "Ikuti aktiviti saya (note)",
+  "Kunjungi Tamuro di Tokyo"
+ ],
+ "kindle": false,
+ "fig_label": "Rajah",
+ "number_style": "en",
+ "cjk": false,
+ "colophon": "## Kolofon\n\n- Tajuk: {title}\n- Tajuk kecil: {subtitle}\n- Penulis: {author}\n- Penerbit: {publisher}\n- Edisi: edisi bahasa Melayu, cetakan pertama (diterjemahkan daripada naskhah asal bahasa Jepun)\n- Terbitan: {date}\n- Bahasa: Melayu\n- Terjemahan: diterjemahkan daripada bahasa Jepun oleh AI dan disemak oleh AI. Catatan ringkas tentang tempat, sistem dan amalan di Jepun ditambah oleh penterjemah. Nilai yen disertakan anggaran dolar AS pada kadar ¥{rate} bagi satu dolar (setakat {rate_date}).\n- Bebas dikongsikan\n\nSiri Agenda: {agenda}\n\nInstagram Tamuro: https://www.instagram.com/tamuro.higashinakano/\n\nLaman tempahan Tamuro: {tamuro}\n\nnote: https://note.com/bontallc\n\nX: https://x.com/tamuro_hnakano\n",
+ "ja_name": "マレー語",
+ "ocr_langs": [
+  "ms-MY",
+  "en-US"
+ ],
+ "mark": "ms"
+}

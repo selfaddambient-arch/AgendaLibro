@@ -1,0 +1,20 @@
+{
+ "code": "bn",
+ "bcp47": "bn",
+ "name": "বাংলা",
+ "dir": "ltr",
+ "font": "'Bangla MN', 'Kohinoor Bangla', serif",
+ "toc_title": "সূচিপত্র",
+ "qr_labels": [
+  "নিজের দোকানে চালিয়ে দেখুন",
+  "আমার কাজকর্ম অনুসরণ করুন (note)",
+  "টোকিওতে এলে Tamuro-তে ঘুরে যান"
+ ],
+ "kindle": false,
+ "fig_label": "চিত্র",
+ "number_style": "en",
+ "cjk": false,
+ "colophon": "## প্রকাশনা-তথ্য\n\n- শিরোনাম: {title}\n- উপশিরোনাম: {subtitle}\n- লেখক: {author}\n- প্রকাশক: {publisher}\n- সংস্করণ: বাংলা সংস্করণ, প্রথম প্রকাশ (জাপানি মূল পাণ্ডুলিপি থেকে অনূদিত)\n- প্রকাশকাল: {date}\n- ভাষা: বাংলা\n- অনুবাদ: জাপানি থেকে এআই দিয়ে অনূদিত এবং এআই দিয়ে পর্যালোচিত। জাপানের স্থান, ব্যবস্থা ও রীতি নিয়ে ছোট ছোট টীকা অনুবাদক যোগ করেছেন। ইয়েনের অঙ্কের পাশে মার্কিন ডলারের আনুমানিক মান দেওয়া হয়েছে (বিনিময় হার প্রতি ডলারে ¥{rate}, {rate_date} অনুযায়ী)।\n- অবাধে শেয়ার করা যাবে\n\nAgenda সিরিজ: {agenda}\n\nTamuro-র Instagram: https://www.instagram.com/tamuro.higashinakano/\n\nTamuro-র রিজার্ভেশন সাইট: {tamuro}\n\nnote: https://note.com/bontallc\n\nX: https://x.com/tamuro_hnakano\n",
+ "ja_name": "ベンガル語",
+ "mark": "bn"
+}

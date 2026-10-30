@@ -1,0 +1,38 @@
+# 用語集（ベンガル語）。`to:` が訳語。AgendaHub の辞書にベンガル語は無いため、手帳の名前はすべて窓の案
+# （英語辞書 hub.product.*.nick の意味に沿って付けた。「手帳」＝খাতা に統一。নোটবুক は使わない）。
+terms:
+  - {ja: "屯", to: "Tamuro", note: "著者の店。ラテン文字のまま。後ろに付く助詞はハイフンで Tamuro-র"}
+  - {ja: "T-AI-MURO", to: "T-AI-MURO", note: "そのまま"}
+  - {ja: "本多楽", to: "Raku Bonta", note: "ラテン文字のまま"}
+  - {ja: "ボンタ合同会社", to: "Bonta LLC", note: "出版者"}
+  - {ja: "Agendaシリーズ", to: "Agenda সিরিজ", note: "製品名はそのまま AgendaTimbro など"}
+  - {ja: "手帳", to: "খাতা", note: "ノートブック＝খাতা に統一。黒革の手帳＝কালো চামড়ার খাতা"}
+  - {ja: "打刻手帳", to: "হাজিরার খাতা", note: "AgendaTimbro（辞書の Time Clock の意味。窓の案）"}
+  - {ja: "採算手帳", to: "লাভের হিসাবের খাতা", note: "AgendaOro（Profit Planner。窓の案）"}
+  - {ja: "2軒目手帳", to: "পরের ঠিকানার খাতা", note: "AgendaBis（Next Stop Guide。窓の案）"}
+  - {ja: "相談手帳", to: "পরামর্শের খাতা", note: "AgendaQA（Support Guide。窓の案）"}
+  - {ja: "灯り手帳", to: "আলোর খাতা", note: "AgendaLuce（Light Notebook。窓の案）"}
+  - {ja: "原価手帳", to: "খরচের হিসাবের খাতা", note: "AgendaRicetta（窓の案）"}
+  - {ja: "常連手帳", to: "নিয়মিত অতিথির খাতা", note: "AgendaNera（窓の案）"}
+  - {ja: "当番手帳", to: "পালার খাতা", note: "AgendaTurno（窓の案。製品は準備中）"}
+  - {ja: "話題手帳", to: "আলাপের খাতা", note: "AgendaSpunto（Talking Points。窓の案）"}
+  - {ja: "玄関", to: "প্রবেশদ্বার", note: "AgendaHub＝シリーズの玄関"}
+  - {ja: "AgendaHub", to: "AgendaHub", note: "そのまま"}
+  - {ja: "AgendaID", to: "AgendaID", note: "そのまま"}
+  - {ja: "ProductBootstrap", to: "ProductBootstrap", note: "そのまま"}
+  - {ja: "バイブコーディング", to: "ভাইব কোডিং", note: "定訳。ভাইবস কোডিং や ভাইব-কোডিং は使わない"}
+  - {ja: "副店長", to: "ডেপুটি ম্যানেজার", note: "本1の比喩。題名もこれ"}
+  - {ja: "NanoBanana", to: "Nano Banana", note: "初出に注"}
+  - {ja: "おわりに", to: "শেষ কথা", note: "見出し"}
+  - {ja: "はじめに", to: "ভূমিকা", note: "見出し"}
+  - {ja: "コラム", to: "কলাম", note: "コラム① = কলাম ১ ではなく কলাম 1（算用数字）"}
+  - {ja: "図", to: "চিত্র", note: "【図1-1】 = 【চিত্র 1-1】"}
+forbid:
+  - {term: "Tamuro", bad: ["Tamura", "Tomuro", "Tamro", "তামুরো", "টামুরো"]}
+  - {term: "Raku Bonta", bad: ["Bonta Raku", "Raku Honda", "Honda Raku", "রাকু বন্টা"]}
+  - {term: "Bonta LLC", bad: ["Bonta Limited", "Bonta Ltd"]}
+  - {term: "খাতা", bad: ["নোটবুক", "নোট বুক", "নোটবই"]}
+  - {term: "ভাইব কোডিং", bad: ["ভাইবস কোডিং", "ভাইব-কোডিং", "vibe coding", "Vibe Coding"]}
+  - {term: "ডেপুটি ম্যানেজার", bad: ["সহকারী ম্যানেজার", "উপ-ব্যবস্থাপক", "ডেপুটি-ম্যানেজার", "সহ-ব্যবস্থাপক"]}
+  - {term: "আলোর খাতা", bad: ["বাতির খাতা", "প্রদীপের খাতা"]}
+  - {term: "হাজিরার খাতা", bad: ["হাজিরা খাতা", "সময়ের খাতা"]}
