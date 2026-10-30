@@ -1,0 +1,17 @@
+{
+ "one_liner": "Chủ một quán nhỏ dưới tầng hầm ở Tokyo biến AI thành phó quản lý của mình mà không cần kiến thức chuyên môn, kể lại cả các bước làm lẫn những lần thất bại.",
+ "description": "Dưới tầng hầm một tòa nhà ở Higashi-Nakano, Tokyo, tác giả một mình điều hành một quán: buổi trưa bán cà ri hamburger, buổi tối mở bar. Cuốn sách này là bản ghi chép thẳng thắn về việc AI bắt đầu làm việc bên cạnh họ như thế nào.\n\nMột tin nhắn LINE dài gửi nhân viên được AI chuyển thành một sơ đồ duy nhất, đọc là hiểu ngay. Ảnh chụp nhãn chai rượu vang trở thành danh sách rượu có mô tả và giá phục vụ. Khi AI đối chiếu dữ liệu bán hàng với thực đơn, nó chỉ ra rằng gói uống thoải mái mà chủ quán muốn bán nhất lại bị giấu ở một góc thực đơn. Sau khi được chuyển vị trí, mức chi tiêu trung bình của mỗi khách tăng lên.\n\nTác giả còn làm một ứng dụng dòng tiền và một hệ thống nhận diện khuôn mặt chỉ bằng cách trò chuyện với AI, không viết một dòng mã nào. Khi báo lỗi hiện ra, họ không đọc nó. Họ chụp màn hình rồi đưa cho AI xem.\n\nLà người từng làm hệ thống, tác giả nhận ra rằng việc mô tả rõ vấn đề thực tế tại nơi làm việc quan trọng hơn kiến thức kỹ thuật. Các bước làm và những thất bại đều được ghi lại đúng như đã xảy ra. Bạn có thể bắt đầu từ một việc nhỏ: biến tin nhắn LINE dài thành một sơ đồ.\n\nSách được đọc miễn phí và bạn có thể chia sẻ tự do. Sách cũng có bản PDF miễn phí và đăng trên note.\n\nPhần tiếp theo, Làm riêng cho quán bar của mình, kể về việc xây dựng hệ thống đặt chỗ mà khách có thể đặt thông qua AI của chính họ.",
+ "keywords": [
+  "AI cho quán nhỏ",
+  "AI cho chủ nhà hàng",
+  "chủ quán tự vận hành",
+  "vibe coding",
+  "ChatGPT Gemini thực hành",
+  "làm ứng dụng không cần viết mã",
+  "quản lý bar và quán cà phê"
+ ],
+ "gp_genres": [
+  "Kinh doanh & Kinh tế / Doanh nghiệp nhỏ",
+  "Máy tính / Trí tuệ nhân tạo"
+ ]
+}

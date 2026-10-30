@@ -1,0 +1,24 @@
+{
+ "code": "vi",
+ "bcp47": "vi",
+ "name": "Tiếng Việt",
+ "dir": "ltr",
+ "font": "'Baskerville', 'Georgia', 'Times New Roman', serif",
+ "toc_title": "Mục lục",
+ "qr_labels": [
+  "Dùng thử tại quán của bạn",
+  "Theo dõi hoạt động của tôi (note)",
+  "Ghé thăm Tamuro ở Tokyo"
+ ],
+ "kindle": false,
+ "fig_label": "Hình",
+ "number_style": "dot",
+ "cjk": false,
+ "colophon": "## Thông tin xuất bản\n\n- Tên sách: {title}\n- Phụ đề: {subtitle}\n- Tác giả: {author}\n- Nhà xuất bản: {publisher}\n- Lần xuất bản: bản tiếng Việt, ấn bản đầu tiên (dịch từ bản gốc tiếng Nhật)\n- Ngày phát hành: {date}\n- Ngôn ngữ: tiếng Việt\n- Dịch thuật: được AI dịch từ tiếng Nhật và AI rà soát. Các chú thích ngắn về địa điểm, hệ thống và thói quen ở Nhật do người dịch thêm vào. Số tiền yên kèm theo giá trị quy đổi gần đúng sang đô la Mỹ theo tỷ giá ¥{rate} đổi 1 đô la (tính đến {rate_date}).\n- Được phép chia sẻ tự do\n\nLoạt Agenda: {agenda}\n\nInstagram của Tamuro: https://www.instagram.com/tamuro.higashinakano/\n\nTrang đặt chỗ của Tamuro: {tamuro}\n\nnote: https://note.com/bontallc\n\nX: https://x.com/tamuro_hnakano\n",
+ "ja_name": "ベトナム語",
+ "ocr_langs": [
+  "vi-VT",
+  "en-US"
+ ],
+ "mark": "vi"
+}
