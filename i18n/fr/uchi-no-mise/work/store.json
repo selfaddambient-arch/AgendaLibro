@@ -1,0 +1,22 @@
+{
+ "one_liner": "Un bar de 19 places à Tokyo bâtit son système de réservation avec l'IA, jusqu'à être réservable depuis l'IA de la clientèle, pannes comprises.",
+ "description": "Tamuro est un bar de 19 places à Higashi-Nakano, à Tokyo. Son exploitation a donné des instructions à l'IA et construit elle-même le système de réservation. Au bout du compte, un serveur MCP a été publié : le ChatGPT ou le Claude de la clientèle peut interroger le bar sur ses disponibilités, puis passer à la réservation.\n\nCe livre consigne tout le parcours, pas seulement ce qui a marché : un système de remises créé avec une hausse de prix, des données montrant que 88 % des réservations se font le jour même, une fenêtre de conversation pour les personnes perdues devant trop de formules. Il raconte aussi une erreur : un audit mené par l'IA a révélé que les informations personnelles de la clientèle pouvaient être lues de l'extérieur, et le problème a été corrigé.\n\nLa seconde moitié présente la série Agenda, des outils nés des problèmes d'un seul bar et partagés avec d'autres restaurants.\n\nSi la technique ne vous intéresse pas, les chapitres 1, 3 et 5 se lisent d'une traite comme un récit.\n\nCe livre se lit gratuitement et peut être partagé. Il est aussi disponible gratuitement en PDF et sur note ; l'édition Kindle porte le prix minimum exigé par la boutique.",
+ "keywords": [
+  "bar",
+  "système de réservation par IA",
+  "serveur MCP",
+  "IA pour petit commerce",
+  "technologie pour restaurants",
+  "bar à Tokyo",
+  "créer ses propres outils"
+ ],
+ "gp_genres": [
+  "Économie et gestion / Petite entreprise",
+  "Informatique / Intelligence artificielle"
+ ],
+ "kindle_categories": [
+  "Entreprise et argent › Gestion et leadership",
+  "Informatique et technologie › Intelligence artificielle",
+  "Entreprise et argent › Petites entreprises et entrepreneuriat"
+ ]
+}

@@ -38,7 +38,7 @@ def num(s, style):
     return float(s.replace(' ', '').replace('.', '').replace(',', '.'))  # space
 
 
-YEN = r'¥\s?(\d{1,3}(?:[.,\u00a0\u202f ]\d{3})+(?:[.,]\d+)?|\d+(?:[.,]\d+)?)(?!\d|[.,]\d)'
+YEN = r'¥\s?(\d{1,3}(?:[.,\u00a0\u202f ]\d{3})+(?:[.,]\d+)?|\d+(?:[.,]\d+)?)(?!\d|[.,]\d|[   ]\d{3}(?!\d))'
 
 
 def currency_checks(slug, text):

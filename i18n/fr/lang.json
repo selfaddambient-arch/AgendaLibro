@@ -1,0 +1,24 @@
+{
+ "code": "fr",
+ "bcp47": "fr",
+ "name": "Français",
+ "dir": "ltr",
+ "font": "'Baskerville', 'Georgia', 'Times New Roman', serif",
+ "toc_title": "Table des matières",
+ "qr_labels": [
+  "Essayer Agenda dans votre établissement",
+  "Suivre mes activités (note)",
+  "Rendre visite à Tamuro à Tokyo"
+ ],
+ "kindle": true,
+ "fig_label": "Figure",
+ "number_style": "space",
+ "cjk": false,
+ "colophon": "## Colophon\n\n- Titre : {title}\n- Sous-titre : {subtitle}\n- Auteur : {author}\n- Éditeur : {publisher}\n- Édition : édition en langue française, première édition (traduite du manuscrit original en japonais)\n- Parution : {date}\n- Langue : français\n- Traduction : traduit du japonais par une IA et relu par une IA. De brèves notes sur les lieux, les usages et les habitudes du Japon ont été ajoutées lors de la traduction. Les montants en yens sont accompagnés d'une estimation en dollars américains, sur la base de ¥{rate} pour 1 dollar (au {rate_date}).\n- Libre de partage\n\nLa série Agenda : {agenda}\n\nInstagram de Tamuro : https://www.instagram.com/tamuro.higashinakano/\n\nSite de réservation de Tamuro : {tamuro}\n\nnote : https://note.com/bontallc\n\nX : https://x.com/tamuro_hnakano\n",
+ "ja_name": "フランス語",
+ "ocr_langs": [
+  "fr-FR",
+  "en-US"
+ ],
+ "mark": "fr"
+}
