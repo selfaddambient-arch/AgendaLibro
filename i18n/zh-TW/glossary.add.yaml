@@ -1,0 +1,38 @@
+# 用語集（繁体字中国語・台湾）。`to:` が訳語。手帳の名前は AgendaHub の zh-TW 辞書（hub.product.*.nick）に合わせた。
+# 辞書に無い3つ（原価手帳・常連手帳・当番手帳）は窓の案。数字・英字と漢字の間に半角空白は入れない。
+terms:
+  - {ja: "屯", to: "Tamuro", note: "作者在東中野的酒吧。絕不寫成「屯」以外的音譯"}
+  - {ja: "T-AI-MURO", to: "T-AI-MURO", note: "保持原樣"}
+  - {ja: "本多楽", to: "Raku Bonta", note: "名在前"}
+  - {ja: "ボンタ合同会社", to: "Bonta LLC", note: "出版者"}
+  - {ja: "Agendaシリーズ", to: "Agenda系列", note: "產品名保持原樣：AgendaTimbro 等"}
+  - {ja: "手帳", to: "手帳", note: "與 Hub 辭典一致：打卡手帳、採算手帳…；黒革の手帳＝黑皮手帳"}
+  - {ja: "打刻手帳", to: "打卡手帳", note: "AgendaTimbro（Hub 辭典）"}
+  - {ja: "採算手帳", to: "採算手帳", note: "AgendaOro（Hub 辭典）"}
+  - {ja: "2軒目手帳", to: "續攤手帳", note: "AgendaBis（Hub 辭典）"}
+  - {ja: "相談手帳", to: "諮詢手帳", note: "AgendaQA（Hub 辭典）"}
+  - {ja: "灯り手帳", to: "燈火手帳", note: "AgendaLuce（Hub 辭典）"}
+  - {ja: "原価手帳", to: "成本手帳", note: "AgendaRicetta（窓の案；Hub 辭典沒有）"}
+  - {ja: "常連手帳", to: "常客手帳", note: "AgendaNera（窓の案）"}
+  - {ja: "当番手帳", to: "值班手帳", note: "AgendaTurno（窓の案；產品準備中）"}
+  - {ja: "話題手帳", to: "話題手帳", note: "AgendaSpunto（Hub 辭典）"}
+  - {ja: "玄関", to: "玄關", note: "AgendaHub＝系列的玄關"}
+  - {ja: "AgendaHub", to: "AgendaHub", note: "保持原樣"}
+  - {ja: "AgendaID", to: "AgendaID", note: "保持原樣"}
+  - {ja: "ProductBootstrap", to: "ProductBootstrap", note: "保持原樣"}
+  - {ja: "バイブコーディング", to: "Vibe Coding", note: "固定寫法"}
+  - {ja: "副店長", to: "副店長", note: "書1的隱喻"}
+  - {ja: "NanoBanana", to: "Nano Banana", note: "首次出現時加註"}
+  - {ja: "おわりに", to: "後記", note: "標題"}
+  - {ja: "はじめに", to: "前言", note: "標題"}
+  - {ja: "コラム", to: "專欄", note: "コラム① ＝ 專欄1"}
+  - {ja: "図", to: "圖", note: "【図1-1】＝【圖1-1】"}
+forbid:
+  - {term: "Tamuro", bad: ["Tamura", "Tomuro", "Tamro", "屯酒吧"]}
+  - {term: "Raku Bonta", bad: ["Bonta Raku", "Raku Honda", "Honda Raku", "本多樂", "樂·邦塔"]}
+  - {term: "Bonta LLC", bad: ["Bonta Limited", "邦塔合同會社", "Bonta 合同會社"]}
+  - {term: "打卡手帳", bad: ["打刻手帳", "打卡手冊", "打卡筆記本"]}
+  - {term: "採算手帳", bad: ["採算手冊", "盈虧手帳", "損益手帳"]}
+  - {term: "燈火手帳", bad: ["燈光手帳", "亮燈手帳", "點燈手帳"]}
+  - {term: "Vibe Coding", bad: ["vibe-coding", "氛圍編程", "氛圍程式設計", "感覺編程"]}
+  - {term: "副店長", bad: ["副經理", "助理店長", "代理店長", "副手店長"]}

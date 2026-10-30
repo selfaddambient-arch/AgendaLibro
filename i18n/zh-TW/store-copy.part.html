@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ストアに貼る文言</title>
+<style>
+:root{--bg:#f6f4ef;--card:#fff;--ink:#1f2328;--mut:#6b7280;--line:#e5e1d8;--acc:#1f5eff;--ok:#0a7d33;--warn:#b45309}
+@media (prefers-color-scheme:dark){:root{--bg:#15171a;--card:#1d2024;--ink:#e8e8e8;--mut:#9aa1ab;--line:#2d3138;--acc:#7aa2ff;--ok:#4cc27a;--warn:#f0a35e}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.7 -apple-system,"Hiragino Sans","Yu Gothic",system-ui,sans-serif}
+header{padding:28px 20px 8px;max-width:960px;margin:0 auto}h1{margin:0 0 6px;font-size:22px}p.lead{margin:0;color:var(--mut)}
+nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 20px;z-index:2}
+nav .in{max-width:960px;margin:0 auto;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}nav b{font-size:13px}
+nav a{color:var(--acc);text-decoration:none;font-size:13px;border:1px solid var(--line);border-radius:999px;padding:3px 10px;background:var(--card)}
+main{max-width:960px;margin:0 auto;padding:8px 20px 80px}
+h2.book{margin:34px 0 4px;font-size:19px}.en{color:var(--mut);font-size:13px;margin:0 0 6px}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;padding:6px 18px 12px}
+section h3{margin:12px 0 4px;font-size:16px}
+.row{display:grid;grid-template-columns:150px 1fr auto;gap:6px 14px;padding:10px 0;border-top:1px solid var(--line);align-items:start}
+.row:first-of-type{border-top:0}
+.lab{font-size:13px;color:var(--mut)}.lab small{display:block;color:var(--warn)}
+.txt{white-space:pre-wrap;word-break:break-word;margin:0}
+.side{display:flex;flex-direction:column;align-items:flex-end;gap:4px;min-width:96px}
+.cnt{font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums}.cnt.over{color:#d92d20;font-weight:600}
+button{font:inherit;font-size:13px;border:1px solid var(--acc);color:var(--acc);background:transparent;border-radius:8px;padding:5px 14px;cursor:pointer;min-height:34px}
+button:hover{background:var(--acc);color:#fff}button.done{border-color:var(--ok);color:var(--ok)}button.done:hover{background:transparent}
+ul.items{margin:0;padding:0;list-style:none}ul.items li{display:flex;gap:10px;justify-content:space-between;align-items:center;padding:3px 0}
+.note{font-size:13px;color:var(--mut);margin:6px 0 0}
+@media (max-width:640px){.row{grid-template-columns:1fr}.side{flex-direction:row;align-items:center;justify-content:space-between}}
+</style></head><body>
+<header><h1>ストアに貼る文言</h1>
+<p class="lead">項目ごとの「コピー」を押して、KDP と Google Play Books の入力欄に貼ります。改行はそのまま残ります。このページは外部と通信しません。日本語の紹介文は、2026-10-29 時点でストアに出ている文と同じです（Kindle の日本語キーワード7つは、ストアの画面に出ないので窓の候補）。英語は窓の推敲版です。</p></header>
+<nav><div class="in"><b>移動</b></div></nav>
+<main>
+<p class="note">文字数は改行も1字に数えています。Kindle の上限（題名＋副題 200字・紹介文 4,000字・キーワード1つ 50字）は KDP の案内に基づく目安で、超えると赤くなります。カテゴリ・ジャンルの候補は、各ストアの選択肢の名前に合わせて選んでください。</p>
+</main>
+<script>
+const DATA=[{"slug": "hitori-de-mise", "name": "1冊目", "title": "一人で店を回す、その横にAIが来た。", "en": "The AI Deputy Manager", "sections": [{"id": "hitori-de-mise-zh-TW-kindle", "lang": "繁体字中国語（台湾）", "store": "Kindle", "fields": [{"label": "題名", "text": "AI副店長"}, {"label": "副題", "text": "只要開口說，AI就會動手。遠超乎我的預期。"}, {"label": "著者", "text": "Raku Bonta"}, {"label": "紹介文", "text": "在東京東中野的地下室，作者獨自經營一間店：白天賣漢堡排咖哩，晚上是酒吧。這本書如實記錄了AI來到身邊一起工作的過程。\n\n給員工的LINE長訊息，交給AI整理成一張圖，一看就懂。葡萄酒標籤的照片，變成附有說明與供應價格的酒單。AI拿銷售資料和菜單對照後，發現老闆最想賣的暢飲方案，竟被藏在菜單角落；調整位置之後，客單價提高了。\n\n作者還透過對話，不寫一行程式，就做出現金流應用程式和人臉辨識系統。遇到錯誤訊息時，不去讀它，而是把畫面拍下來給AI看。\n\n身為前系統工程師，作者發現比技術知識更重要的，是把現場的實際問題拆解清楚。步驟與失敗都照實寫下。你可以從一件小事開始：把冗長的LINE訊息變成一張圖。\n\n本書可免費閱讀，也歡迎分享。PDF版與Google Play版免費；Kindle版因平台規定，僅設定最低價格。另可在note閱讀。\n\n續集《為自家酒吧量身打造》，則記錄了打造一套客人能透過自己的AI來預約的系統的過程。", "multiline": true, "limit": 4000}, {"label": "キーワード 1", "text": "小店AI活用", "limit": 50}, {"label": "キーワード 2", "text": "餐飲業老闆AI", "limit": 50}, {"label": "キーワード 3", "text": "一人顧店", "limit": 50}, {"label": "キーワード 4", "text": "Vibe Coding", "limit": 50}, {"label": "キーワード 5", "text": "ChatGPT Gemini實務", "limit": 50}, {"label": "キーワード 6", "text": "不寫程式做App", "limit": 50}, {"label": "キーワード 7", "text": "酒吧咖啡館經營", "limit": 50}, {"label": "キーワード（7つを1行ずつ）", "text": "小店AI活用\n餐飲業老闆AI\n一人顧店\nVibe Coding\nChatGPT Gemini實務\n不寫程式做App\n酒吧咖啡館經營", "multiline": true}, {"label": "カテゴリの候補", "items": ["Business & Money > Small Business & Entrepreneurship", "Computers & Technology > Artificial Intelligence & Semantics"]}]}, {"id": "hitori-de-mise-zh-TW-gplay", "lang": "繁体字中国語（台湾）", "store": "Google Play", "fields": [{"label": "題名", "text": "AI副店長"}, {"label": "副題", "text": "只要開口說，AI就會動手。遠超乎我的預期。"}, {"label": "著者", "text": "Raku Bonta"}, {"label": "説明文", "text": "在東京東中野的地下室，作者獨自經營一間店：白天賣漢堡排咖哩，晚上是酒吧。這本書如實記錄了AI來到身邊一起工作的過程。\n\n給員工的LINE長訊息，交給AI整理成一張圖，一看就懂。葡萄酒標籤的照片，變成附有說明與供應價格的酒單。AI拿銷售資料和菜單對照後，發現老闆最想賣的暢飲方案，竟被藏在菜單角落；調整位置之後，客單價提高了。\n\n作者還透過對話，不寫一行程式，就做出現金流應用程式和人臉辨識系統。遇到錯誤訊息時，不去讀它，而是把畫面拍下來給AI看。\n\n身為前系統工程師，作者發現比技術知識更重要的，是把現場的實際問題拆解清楚。步驟與失敗都照實寫下。你可以從一件小事開始：把冗長的LINE訊息變成一張圖。\n\n本書可免費閱讀，也歡迎分享。PDF版與Google Play版免費；Kindle版因平台規定，僅設定最低價格。另可在note閱讀。\n\n續集《為自家酒吧量身打造》，則記錄了打造一套客人能透過自己的AI來預約的系統的過程。", "multiline": true, "limit": null}, {"label": "一行紹介", "text": "東京地下室的小店老闆，不靠專業知識，讓AI成為自己的副店長，連步驟與失敗都照實記錄。"}, {"label": "ジャンルの候補", "items": ["商業與經濟／小型企業", "電腦／人工智慧"]}]}]}, {"slug": "uchi-no-mise", "name": "2冊目", "title": "うちの店は、うちの仕様で", "en": "Built for Our Bar", "sections": [{"id": "uchi-no-mise-zh-TW-kindle", "lang": "繁体字中国語（台湾）", "store": "Kindle", "fields": [{"label": "題名", "text": "為自家酒吧量身打造"}, {"label": "副題", "text": "一位19席酒吧老闆，如何用AI從預約系統一路自製到各種工具"}, {"label": "著者", "text": "Raku Bonta"}, {"label": "紹介文", "text": "Tamuro是東京東中野的一間19席酒吧。老闆對AI下指令，自己打造了酒吧的預約系統，最後更公開了MCP伺服器，讓客人的ChatGPT或Claude能向店裡詢問空位，並接著完成預約。\n\n本書記錄了整個過程，不只寫成功的部分。內容包括：配合漲價同步推出的折扣機制、顯示88%預約都是當天才訂的資料，以及為不知如何在眾多方案中選擇的客人準備的對話視窗。書中也寫到一次失誤：AI稽核發現客人的個人資料可從外部讀取，隨即修正。\n\n後半談到Agenda系列：這些從一間酒吧的煩惱中誕生的工具，如今也提供給其他餐飲店使用。這是一間小店的紀錄，寫的是這個時代：過去要付錢給大公司才能得到的東西，如今可以自己做，並依自己的規格調整。\n\n如果技術內容不是你的興趣，第1、3、5章也能連貫地讀成一個故事。\n\n本書可免費閱讀，也歡迎分享。PDF版與Google Play版免費；Kindle版因平台規定，僅設定最低價格。另可在note閱讀。", "multiline": true, "limit": 4000}, {"label": "キーワード 1", "text": "酒吧老闆", "limit": 50}, {"label": "キーワード 2", "text": "AI預約系統", "limit": 50}, {"label": "キーワード 3", "text": "MCP伺服器", "limit": 50}, {"label": "キーワード 4", "text": "小店AI活用", "limit": 50}, {"label": "キーワード 5", "text": "餐飲科技", "limit": 50}, {"label": "キーワード 6", "text": "東京酒吧", "limit": 50}, {"label": "キーワード 7", "text": "自己做工具", "limit": 50}, {"label": "キーワード（7つを1行ずつ）", "text": "酒吧老闆\nAI預約系統\nMCP伺服器\n小店AI活用\n餐飲科技\n東京酒吧\n自己做工具", "multiline": true}, {"label": "カテゴリの候補", "items": ["Business & Money > Small Business & Entrepreneurship", "Computers & Technology > Artificial Intelligence & Semantics"]}]}, {"id": "uchi-no-mise-zh-TW-gplay", "lang": "繁体字中国語（台湾）", "store": "Google Play", "fields": [{"label": "題名", "text": "為自家酒吧量身打造"}, {"label": "副題", "text": "一位19席酒吧老闆，如何用AI從預約系統一路自製到各種工具"}, {"label": "著者", "text": "Raku Bonta"}, {"label": "説明文", "text": "Tamuro是東京東中野的一間19席酒吧。老闆對AI下指令，自己打造了酒吧的預約系統，最後更公開了MCP伺服器，讓客人的ChatGPT或Claude能向店裡詢問空位，並接著完成預約。\n\n本書記錄了整個過程，不只寫成功的部分。內容包括：配合漲價同步推出的折扣機制、顯示88%預約都是當天才訂的資料，以及為不知如何在眾多方案中選擇的客人準備的對話視窗。書中也寫到一次失誤：AI稽核發現客人的個人資料可從外部讀取，隨即修正。\n\n後半談到Agenda系列：這些從一間酒吧的煩惱中誕生的工具，如今也提供給其他餐飲店使用。這是一間小店的紀錄，寫的是這個時代：過去要付錢給大公司才能得到的東西，如今可以自己做，並依自己的規格調整。\n\n如果技術內容不是你的興趣，第1、3、5章也能連貫地讀成一個故事。\n\n本書可免費閱讀，也歡迎分享。PDF版與Google Play版免費；Kindle版因平台規定，僅設定最低價格。另可在note閱讀。", "multiline": true, "limit": null}, {"label": "一行紹介", "text": "東京19席酒吧的老闆，用AI打造預約系統，讓客人能透過自己的AI訂位，連途中出的差錯也一併記錄。"}, {"label": "ジャンルの候補", "items": ["商業與經濟／小型企業", "電腦／人工智慧"]}]}]}];
+const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const cnt=s=>Array.from(s).length;
+async function copy(text,btn){
+  try{await navigator.clipboard.writeText(text)}catch(e){const t=document.createElement('textarea');t.value=text;t.style.position='fixed';t.style.opacity='0';document.body.appendChild(t);t.select();document.execCommand('copy');t.remove()}
+  const o=btn.textContent;btn.textContent='コピーしました';btn.classList.add('done');setTimeout(()=>{btn.textContent=o;btn.classList.remove('done')},1600)}
+const nav=document.querySelector('nav .in'),main=document.querySelector('main');
+let body='';
+DATA.forEach(b=>{
+  nav.insertAdjacentHTML('beforeend',`<a href="#${b.sections[0].id}">${b.name}</a>`);
+  body+=`<h2 class="book">${b.name}　${esc(b.title)}</h2><p class="en">${esc(b.en)}</p>`;
+  b.sections.forEach(s=>{
+    nav.insertAdjacentHTML('beforeend',`<a href="#${s.id}">${s.lang}・${s.store}</a>`);
+    body+=`<section id="${s.id}"><h3>${s.lang}　${s.store}</h3>`;
+    s.fields.forEach((f,i)=>{
+      if(f.items){body+=`<div class="row"><div class="lab">${f.label}</div><ul class="items">${f.items.map((t,j)=>`<li><span>${esc(t)}</span><button data-c="${s.id}|${i}|${j}">コピー</button></li>`).join('')}</ul><div></div></div>`;return}
+      const n=cnt(f.text),over=f.limit&&n>f.limit;
+      body+=`<div class="row"><div class="lab">${f.label}${f.cand?'<small>候補</small>':''}</div><p class="txt">${esc(f.text)}</p><div class="side"><span class="cnt${over?' over':''}">${n}字${f.limit?' / '+f.limit:''}</span><button data-c="${s.id}|${i}">コピー</button></div></div>`});
+    body+='</section>'})});
+main.insertAdjacentHTML('afterbegin',body);
+const find=id=>DATA.flatMap(b=>b.sections).find(s=>s.id===id);
+document.addEventListener('click',e=>{const b=e.target.closest('button[data-c]');if(!b)return;const [id,i,j]=b.dataset.c.split('|');const f=find(id).fields[+i];copy(j===undefined?f.text:f.items[+j].replace(/^（[^）]*）/,''),b)});
+</script></body></html>

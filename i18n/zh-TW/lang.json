@@ -1,0 +1,24 @@
+{
+ "code": "zh-TW",
+ "bcp47": "zh-TW",
+ "name": "繁體中文（台灣）",
+ "dir": "ltr",
+ "font": "'PingFang TC', 'Heiti TC', 'Songti TC', sans-serif",
+ "toc_title": "目錄",
+ "qr_labels": [
+  "在自己的店裡試試看",
+  "追蹤我的近況（note）",
+  "到東京拜訪屯（Tamuro）"
+ ],
+ "kindle": true,
+ "fig_label": "圖",
+ "number_style": "en",
+ "cjk": true,
+ "colophon": "## 版權頁\n\n- 書名：{title}\n- 副標題：{subtitle}\n- 作者：{author}\n- 出版者：{publisher}\n- 版次：繁體中文版（台灣），第一版（譯自日文原稿）\n- 出版日期：{date}\n- 語言：繁體中文\n- 翻譯：由 AI 自日文翻譯，並經 AI 審閱。關於日本的地點、制度與習慣的簡短補充說明，由譯者另行加註。日圓金額後方附有美元概算，匯率為 1 美元 ＝ ¥{rate}（{rate_date} 換算）。\n- 歡迎自由分享\n\nAgenda 系列：{agenda}\n\nTamuro 的 Instagram：https://www.instagram.com/tamuro.higashinakano/\n\nTamuro 預約網站：{tamuro}\n\nnote：https://note.com/bontallc\n\nX：https://x.com/tamuro_hnakano\n",
+ "ja_name": "繁体字中国語（台湾）",
+ "ocr_langs": [
+  "zh-Hant",
+  "en-US"
+ ],
+ "mark": "tw"
+}
