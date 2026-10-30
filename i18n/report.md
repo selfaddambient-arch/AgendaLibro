@@ -57,3 +57,32 @@ AgendaHub の多言語辞書（`lib/i18n/types.ts` の LANGS、20言語）から
 - Hub への引き渡し（英語）：`i18n/en/<slug>/metadata.yaml`（題名・副題・著者・発行）／説明文・一行紹介・キーワードは `i18n/en/<slug>/work/meta.json`／ストア用の文言は `books/store-copy.html`／PDF・EPUB は `i18n/en/<slug>/build/`
 - Kindle：対応（英語）
 
+
+## 言語×形式の一覧（2026-10-31 時点）
+
+「○」＝成果物あり。PDF・Google Play 用 EPUB・表紙は 本1・本2 の両方。Kindle は Kindle 用 EPUB。リンクの印は 本-印-形式（印が「仮」のものは代表の確定待ち）。Google Play は en 以外すべて新規（id・ms・bn の本1は上げ直し用）。
+
+| 言語 | 印 | PDF | Google Play | Kindle | 表紙 | 本1の題名（既定） |
+|---|---|---|---|---|---|---|
+| en | en | ○ | ○ | ○ | ○ | The AI Deputy Manager |
+| id | id | ○ | ○（本1は上げ直し） | 非対応 | ○ | Wakil Manajer AI |
+| ms | ms | ○ | ○（本1は上げ直し・題名変更） | 非対応 | ○ | （report 参照） |
+| bn | bn | ○ | ○（本1は上げ直し） | 非対応 | ○ | （report 参照） |
+| ko | ko | 未（代表確認待ち） | 未 | 非対応 | 未 | AI 부점장（案） |
+| vi | vi | ○ | ○ | 非対応 | ○ | Phó quản lý AI |
+| zh-CN | cn（仮） | ○ | ○ | 非対応 | ○ | AI副店长 |
+| zh-TW | tw（仮） | ○ | ○ | ○ | ○ | AI副店長 |
+| ne | ne | ○ | ○ | 非対応 | ○ | एआई डेपुटी म्यानेजर |
+| my | my | ○ | ○ | 非対応 | ○ | AI ဒုမန်နေဂျာ |
+| th | th | ○ | ○ | 非対応 | ○ | รองผู้จัดการ AI |
+| pt-BR | pt（仮） | ○ | ○ | ○ | ○ | Subgerente de IA |
+| es | es | ○ | ○ | ○ | ○ | El subgerente de IA |
+| fr | fr | ○ | ○ | ○ | ○ | L'adjoint IA |
+| de | de | ○ | ○ | ○ | ○ | Die KI-Stellvertretung |
+| hi | hi | ○ | ○ | ○（eBook のみ） | ○ | AI डिप्टी मैनेजर |
+| fil | fil（3文字・要判断） | ○ | ○ | 非対応 | ○ | Ang AI Assistant Manager |
+| it | it | ○ | ○ | ○ | ○ | Il vice responsabile IA |
+| tr | tr | ○ | ○ | 非対応 | ○ | Yapay Zekâ Müdür Yardımcısı |
+| ru | ru | ○ | ○ | 非対応 | ○ | ИИ в роли заместителя управляющего |
+
+各言語の詳細（題名案・用語・レビュー・親への依頼）は `i18n/<言語>/report.md`。ko の組版・表紙・ストア文言は、代表の確認（`i18n/ko/owner-check/README.md`）が済んでから行う。
