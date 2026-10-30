@@ -1,0 +1,39 @@
+# 用語集（ミャンマー語）。`to:` が訳語。手帳の名前は AgendaHub のミャンマー語辞書（lib/i18n/dictionaries/my.ts の hub.product.*.nick）に合わせた。
+# 辞書に無い3つ（原価手帳・常連手帳・当番手帳）は窓の案。文字は Unicode（Zawgyi は使わない）。
+terms:
+  - {ja: "屯", to: "Tamuro", note: "著者の店。ラテン文字のまま。助詞は空白を置いて続ける（Tamuro တွင်）"}
+  - {ja: "T-AI-MURO", to: "T-AI-MURO", note: "そのまま"}
+  - {ja: "本多楽", to: "Raku Bonta", note: "ラテン文字のまま"}
+  - {ja: "ボンタ合同会社", to: "Bonta LLC", note: "出版者"}
+  - {ja: "Agendaシリーズ", to: "Agenda စီးရီး", note: "製品名はそのまま AgendaTimbro など"}
+  - {ja: "手帳", to: "စာအုပ်", note: "手帳＝စာအုပ်（辞書に合わせる）。黒革の手帳＝အနက်ရောင်သားရေစာအုပ်"}
+  - {ja: "打刻手帳", to: "အချိန်မှတ်စာအုပ်", note: "AgendaTimbro（辞書）"}
+  - {ja: "採算手帳", to: "အမြတ်တွက်စာအုပ်", note: "AgendaOro（辞書）"}
+  - {ja: "2軒目手帳", to: "နောက်တစ်ဆိုင် စာအုပ်", note: "AgendaBis（辞書。空白あり）"}
+  - {ja: "相談手帳", to: "အကူအညီစာအုပ်", note: "AgendaQA（辞書）"}
+  - {ja: "灯り手帳", to: "မီးရောင် စာအုပ်", note: "AgendaLuce（辞書。空白あり）"}
+  - {ja: "原価手帳", to: "ကုန်ကျစရိတ်တွက်စာအုပ်", note: "AgendaRicetta（窓の案。辞書に無い）"}
+  - {ja: "常連手帳", to: "ပုံမှန်ဧည့်သည် စာအုပ်", note: "AgendaNera（窓の案。辞書に無い）"}
+  - {ja: "当番手帳", to: "အလှည့်ကျစာအုပ်", note: "AgendaTurno（窓の案。製品は準備中）"}
+  - {ja: "話題手帳", to: "စကားစမြည် စာအုပ်", note: "AgendaSpunto（辞書。空白あり）"}
+  - {ja: "玄関", to: "အဝင်ပေါက်", note: "AgendaHub＝シリーズの玄関"}
+  - {ja: "AgendaHub", to: "AgendaHub", note: "そのまま"}
+  - {ja: "AgendaID", to: "AgendaID", note: "そのまま"}
+  - {ja: "ProductBootstrap", to: "ProductBootstrap", note: "そのまま"}
+  - {ja: "バイブコーディング", to: "ဗိုင်ဘ်ကုဒ်ဒင်း", note: "定訳。表記を揺らさない"}
+  - {ja: "副店長", to: "ဒုမန်နေဂျာ", note: "本1の比喩。題名もこれ"}
+  - {ja: "NanoBanana", to: "Nano Banana", note: "初出に注"}
+  - {ja: "おわりに", to: "နိဂုံး", note: "見出し"}
+  - {ja: "はじめに", to: "နိဒါန်း", note: "見出し"}
+  - {ja: "コラム", to: "ကော်လံ", note: "コラム① = ကော်လံ 1（算用数字）"}
+  - {ja: "図", to: "ပုံ", note: "【図1-1】 = 【ပုံ 1-1】"}
+forbid:
+  - {term: "Tamuro", bad: ["Tamura", "Tomuro", "Tamro", "တမူရို", "တာမူရို"]}
+  - {term: "Raku Bonta", bad: ["Bonta Raku", "Raku Honda", "Honda Raku"]}
+  - {term: "Bonta LLC", bad: ["Bonta Limited", "Bonta Ltd"]}
+  - {term: "ဗိုင်ဘ်ကုဒ်ဒင်း", bad: ["ဗိုင်ဘ် ကုဒ်ဒင်း", "ဗိုက်ဘ်ကုဒ်ဒင်း", "vibe coding", "Vibe Coding", "Vibe-coding"]}
+  - {term: "ဒုမန်နေဂျာ", bad: ["ဒု မန်နေဂျာ", "ဒု-မန်နေဂျာ", "လက်ထောက်မန်နေဂျာ", "လက်ထောက် မန်နေဂျာ"]}
+  - {term: "စာအုပ်", bad: ["နုတ်ဘုတ်", "နိုက်ဘုတ်", "မှတ်စုစာအုပ်", "ဒိုင်ယာရီ"]}
+  - {term: "အချိန်မှတ်စာအုပ်", bad: ["အချိန်မှတ် စာအုပ်"]}
+  - {term: "အမြတ်တွက်စာအုပ်", bad: ["အမြတ်တွက် စာအုပ်"]}
+  - {term: "အကူအညီစာအုပ်", bad: ["အကူအညီ စာအုပ်"]}

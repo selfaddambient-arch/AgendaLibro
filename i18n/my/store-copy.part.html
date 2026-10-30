@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ストアに貼る文言</title>
+<style>
+:root{--bg:#f6f4ef;--card:#fff;--ink:#1f2328;--mut:#6b7280;--line:#e5e1d8;--acc:#1f5eff;--ok:#0a7d33;--warn:#b45309}
+@media (prefers-color-scheme:dark){:root{--bg:#15171a;--card:#1d2024;--ink:#e8e8e8;--mut:#9aa1ab;--line:#2d3138;--acc:#7aa2ff;--ok:#4cc27a;--warn:#f0a35e}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.7 -apple-system,"Hiragino Sans","Yu Gothic",system-ui,sans-serif}
+header{padding:28px 20px 8px;max-width:960px;margin:0 auto}h1{margin:0 0 6px;font-size:22px}p.lead{margin:0;color:var(--mut)}
+nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 20px;z-index:2}
+nav .in{max-width:960px;margin:0 auto;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}nav b{font-size:13px}
+nav a{color:var(--acc);text-decoration:none;font-size:13px;border:1px solid var(--line);border-radius:999px;padding:3px 10px;background:var(--card)}
+main{max-width:960px;margin:0 auto;padding:8px 20px 80px}
+h2.book{margin:34px 0 4px;font-size:19px}.en{color:var(--mut);font-size:13px;margin:0 0 6px}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;padding:6px 18px 12px}
+section h3{margin:12px 0 4px;font-size:16px}
+.row{display:grid;grid-template-columns:150px 1fr auto;gap:6px 14px;padding:10px 0;border-top:1px solid var(--line);align-items:start}
+.row:first-of-type{border-top:0}
+.lab{font-size:13px;color:var(--mut)}.lab small{display:block;color:var(--warn)}
+.txt{white-space:pre-wrap;word-break:break-word;margin:0}
+.side{display:flex;flex-direction:column;align-items:flex-end;gap:4px;min-width:96px}
+.cnt{font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums}.cnt.over{color:#d92d20;font-weight:600}
+button{font:inherit;font-size:13px;border:1px solid var(--acc);color:var(--acc);background:transparent;border-radius:8px;padding:5px 14px;cursor:pointer;min-height:34px}
+button:hover{background:var(--acc);color:#fff}button.done{border-color:var(--ok);color:var(--ok)}button.done:hover{background:transparent}
+ul.items{margin:0;padding:0;list-style:none}ul.items li{display:flex;gap:10px;justify-content:space-between;align-items:center;padding:3px 0}
+.note{font-size:13px;color:var(--mut);margin:6px 0 0}
+@media (max-width:640px){.row{grid-template-columns:1fr}.side{flex-direction:row;align-items:center;justify-content:space-between}}
+</style></head><body>
+<header><h1>ストアに貼る文言</h1>
+<p class="lead">項目ごとの「コピー」を押して、KDP と Google Play Books の入力欄に貼ります。改行はそのまま残ります。このページは外部と通信しません。日本語の紹介文は、2026-10-29 時点でストアに出ている文と同じです（Kindle の日本語キーワード7つは、ストアの画面に出ないので窓の候補）。英語は窓の推敲版です。</p></header>
+<nav><div class="in"><b>移動</b></div></nav>
+<main>
+<p class="note">文字数は改行も1字に数えています。Kindle の上限（題名＋副題 200字・紹介文 4,000字・キーワード1つ 50字）は KDP の案内に基づく目安で、超えると赤くなります。カテゴリ・ジャンルの候補は、各ストアの選択肢の名前に合わせて選んでください。</p>
+</main>
+<script>
+const DATA=[{"slug": "hitori-de-mise", "name": "1冊目", "title": "一人で店を回す、その横にAIが来た。", "en": "The AI Deputy Manager", "sections": [{"id": "hitori-de-mise-my-gplay", "lang": "ミャンマー語", "store": "Google Play", "fields": [{"label": "題名", "text": "AI ဒုမန်နေဂျာ"}, {"label": "副題", "text": "စကားပြောရုံဖြင့် AI က အလုပ်လုပ်ပေးသည်။ ထင်ထားသည်ထက် ပိုများပါသည်။"}, {"label": "著者", "text": "Raku Bonta"}, {"label": "説明文", "text": "တိုကျို၊ Higashi-Nakano ရှိ မြေအောက်ထပ်တစ်ခုတွင် စာရေးသူသည် ဆိုင်တစ်ဆိုင်ကို တစ်ဦးတည်း လည်ပတ်နေသည်။ နေ့ခင်းတွင် ဟမ်ဘာဂါဟင်းဖြင့် ကရီဆိုင်၊ ညဘက်တွင် ဘား ဖြစ်သည်။ ဤစာအုပ်သည် ထိုဆိုင်၏ ဘေးနားသို့ AI ရောက်လာပြီး အတူတကွ အလုပ်လုပ်ခဲ့ပုံကို ရိုးရိုးသားသား မှတ်တမ်းတင်ထားခြင်း ဖြစ်သည်။\n\nဝန်ထမ်းများသို့ ပို့ရသည့် LINE မက်ဆေ့ချ် ရှည်ကြီးကို AI က ပုံကြမ်းတစ်ပုံအဖြစ် ပြောင်းပေးသဖြင့် ချက်ချင်း နားလည်သွားသည်။ ဝိုင်တံဆိပ်ဓာတ်ပုံများမှ ဖော်ပြချက်နှင့် ရောင်းဈေးပါသော ဝိုင်စာရင်းတစ်ခု ထွက်လာသည်။ ရောင်းအားဒေတာနှင့် မီနူးကို AI က နှိုင်းယှဉ်သောအခါ ဆိုင်ရှင်အရောင်းချလိုဆုံး အကန့်အသတ်မရှိသောက်ရန် အစီအစဉ်သည် မီနူး၏ ထောင့်တွင် ပျောက်နေကြောင်း ထုတ်ဖော်ပြသသည်။ နေရာရွှေ့ပြီးနောက် ဧည့်သည်တစ်ဦးချင်း သုံးစွဲငွေ တိုးလာသည်။\n\nစာရေးသူသည် ငွေသားစီးဆင်းမှု အက်ပ်နှင့် မျက်နှာမှတ်သားစနစ်ကိုလည်း ကုဒ်တစ်ကြောင်းမျှ မရေးဘဲ AI နှင့် စကားပြောခြင်းဖြင့် ဆောက်ခဲ့သည်။ error ပေါ်လာသောအခါ ဖတ်မနေဘဲ screenshot ရိုက်ပြီး AI အား ပြလိုက်သည်။\n\nစနစ်ပညာရှင်ဟောင်းတစ်ဦးအနေဖြင့် နည်းပညာအသိပညာထက် လက်တွေ့နေရာမှ ပြဿနာကို ခွဲခြမ်းပြောပြနိုင်ခြင်းက ပိုအရေးကြီးကြောင်း စာရေးသူ တွေ့ရှိခဲ့သည်။ လုပ်ဆောင်ပုံအဆင့်များနှင့် မအောင်မြင်ခဲ့သည်များကို ရှိသည့်အတိုင်း ရေးထားသည်။ ရှည်လျားသော LINE မက်ဆေ့ချ်ကို ပုံကြမ်းအဖြစ် ပြောင်းလိုက်ခြင်းဟူသော ငယ်ငယ်လေး တစ်ခုမှ စတင်နိုင်သည်။\n\nဤစာအုပ်ကို အခမဲ့ ဖတ်ရှုနိုင်ပြီး မျှဝေခွင့်လည်း ရှိသည်။ PDF အဖြစ်နှင့် note တွင်လည်း အခမဲ့ ရရှိနိုင်သည်။\n\nနောက်ဆက်တွဲ စာအုပ် *ကျွန်ုပ်တို့၏ ဘားအတွက် တည်ဆောက်ထားသည်* တွင် ဧည့်သည်၏ ကိုယ်ပိုင် AI မှ ကြိုတင်မှာယူနိုင်သည့် ကြိုတင်မှာယူမှုစနစ် တည်ဆောက်ပုံကို ဆက်လက်ဖော်ပြထားသည်။", "multiline": true, "limit": null}, {"label": "一行紹介", "text": "တိုကျိုရှိ မြေအောက်ထပ်ဆိုင်ငယ်ဆိုင်ရှင်က အထူးအသိပညာမလိုဘဲ AI ကို ဒုမန်နေဂျာအဖြစ် အသုံးချခဲ့ပုံကို အမှားများပါ မှတ်တမ်းတင်ထားသည်။"}, {"label": "ジャンルの候補", "items": ["စီးပွားရေးနှင့် စီးပွားရေးပညာ / ဆိုင်ငယ်လုပ်ငန်း", "ကွန်ပျူတာ / ဉာဏ်ရည်တု"]}]}]}, {"slug": "uchi-no-mise", "name": "2冊目", "title": "うちの店は、うちの仕様で", "en": "Built for Our Bar", "sections": [{"id": "uchi-no-mise-my-gplay", "lang": "ミャンマー語", "store": "Google Play", "fields": [{"label": "題名", "text": "ကျွန်ုပ်တို့၏ ဘားအတွက် တည်ဆောက်ထားသည်"}, {"label": "副題", "text": "ထိုင်ခုံ 19 ခုပါ ဘားတစ်ခု၏ ဆိုင်ရှင်က ကြိုတင်မှာယူမှုစနစ်မှ ကိုယ်ပိုင်ကိရိယာများအထိ AI ဖြင့် အားလုံး ဆောက်ခဲ့ပုံ"}, {"label": "著者", "text": "Raku Bonta"}, {"label": "説明文", "text": "Tamuro သည် တိုကျို၊ Higashi-Nakano ရှိ ထိုင်ခုံ 19 ခုပါ ဘားတစ်ခု ဖြစ်သည်။ ဆိုင်ရှင်သည် AI အား ညွှန်ကြားပြီး ဘား၏ ကြိုတင်မှာယူမှုစနစ်ကို ကိုယ်တိုင် ဆောက်ခဲ့သည်။ နောက်ဆုံးတွင် MCP server ကို ထုတ်ပြန်ခဲ့သဖြင့် ဧည့်သည်၏ ChatGPT သို့မဟုတ် Claude က ဘားထံ နေရာလွတ်ရှိမရှိ မေးပြီး ကြိုတင်မှာယူခြင်းသို့ ဆက်သွားနိုင်သည်။\n\nဤစာအုပ်သည် အောင်မြင်ခဲ့သည်များသာမက လုပ်ငန်းစဉ်တစ်ခုလုံးကို မှတ်တမ်းတင်ထားသည်။ စျေးနှုန်းတိုးသည့်အချိန်တွင် တစ်ပါတည်း ဆောက်ခဲ့သည့် လျှော့စျေးစနစ်၊ ကြိုတင်မှာယူမှု၏ 88% ကို ထိုနေ့တွင်ပင် မှာကြောင်း ပြသသည့် ဒေတာ၊ အစီအစဉ်များလွန်းသဖြင့် ရွေးရခက်နေသော ဧည့်သည်များအတွက် စကားပြောဝင်းဒိုး တို့ ပါဝင်သည်။ အမှားတစ်ခုအကြောင်းလည်း ပါသည်။ AI စစ်ဆေးမှုက ဧည့်သည်များ၏ ကိုယ်ရေးအချက်အလက်ကို ပြင်ပမှ ဖတ်နိုင်နေကြောင်း တွေ့ရှိပြီး ပြင်ဆင်ခဲ့သည်။\n\nဒုတိယအပိုင်းတွင် Agenda စီးရီးကို ဆွေးနွေးသည်။ ဘားတစ်ဆိုင်၏ ပြဿနာမှ မွေးဖွားလာပြီး ယခု အခြားစားသောက်ဆိုင်များကို မျှဝေနေသည့် ကိရိယာများ ဖြစ်သည်။ ယခင်က ကုမ္ပဏီကြီးများကို ငွေပေးဝယ်ခဲ့သည်များကို ကိုယ်တိုင်ဆောက်နိုင်ပြီး ကိုယ့်လိုအပ်ချက်အတိုင်း ပြင်ဆင်နိုင်သည့် ခေတ်အကြောင်း ဆိုင်ငယ်တစ်ခု၏ မှတ်တမ်း ဖြစ်သည်။\n\nနည်းပညာဆိုင်ရာ ဆွေးနွေးချက်များကို စိတ်မဝင်စားလျှင်လည်း အခန်း 1၊ 3 နှင့် 5 သည် ဆက်စပ်ကာ ဇာတ်လမ်းပြောပြထားသည်။\n\nဤစာအုပ်ကို အခမဲ့ ဖတ်ရှုနိုင်ပြီး မျှဝေခွင့်လည်း ရှိသည်။ PDF အဖြစ်နှင့် note တွင်လည်း အခမဲ့ ရရှိနိုင်သည်။", "multiline": true, "limit": null}, {"label": "一行紹介", "text": "ထိုင်ခုံ 19 ခုပါ တိုကျိုဘားတစ်ခု၏ ဆိုင်ရှင်က ဧည့်သည်၏ AI မှ မှာယူနိုင်သည့် ကြိုတင်မှာယူမှုစနစ်ကို AI ဖြင့် ဆောက်ခဲ့ပုံကို မှတ်တမ်းတင်ထားသည်။"}, {"label": "ジャンルの候補", "items": ["စီးပွားရေးနှင့် စီးပွားရေးပညာ / ဆိုင်ငယ်လုပ်ငန်း", "ကွန်ပျူတာ / ဉာဏ်ရည်တု"]}]}]}];
+const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const cnt=s=>Array.from(s).length;
+async function copy(text,btn){
+  try{await navigator.clipboard.writeText(text)}catch(e){const t=document.createElement('textarea');t.value=text;t.style.position='fixed';t.style.opacity='0';document.body.appendChild(t);t.select();document.execCommand('copy');t.remove()}
+  const o=btn.textContent;btn.textContent='コピーしました';btn.classList.add('done');setTimeout(()=>{btn.textContent=o;btn.classList.remove('done')},1600)}
+const nav=document.querySelector('nav .in'),main=document.querySelector('main');
+let body='';
+DATA.forEach(b=>{
+  nav.insertAdjacentHTML('beforeend',`<a href="#${b.sections[0].id}">${b.name}</a>`);
+  body+=`<h2 class="book">${b.name}　${esc(b.title)}</h2><p class="en">${esc(b.en)}</p>`;
+  b.sections.forEach(s=>{
+    nav.insertAdjacentHTML('beforeend',`<a href="#${s.id}">${s.lang}・${s.store}</a>`);
+    body+=`<section id="${s.id}"><h3>${s.lang}　${s.store}</h3>`;
+    s.fields.forEach((f,i)=>{
+      if(f.items){body+=`<div class="row"><div class="lab">${f.label}</div><ul class="items">${f.items.map((t,j)=>`<li><span>${esc(t)}</span><button data-c="${s.id}|${i}|${j}">コピー</button></li>`).join('')}</ul><div></div></div>`;return}
+      const n=cnt(f.text),over=f.limit&&n>f.limit;
+      body+=`<div class="row"><div class="lab">${f.label}${f.cand?'<small>候補</small>':''}</div><p class="txt">${esc(f.text)}</p><div class="side"><span class="cnt${over?' over':''}">${n}字${f.limit?' / '+f.limit:''}</span><button data-c="${s.id}|${i}">コピー</button></div></div>`});
+    body+='</section>'})});
+main.insertAdjacentHTML('afterbegin',body);
+const find=id=>DATA.flatMap(b=>b.sections).find(s=>s.id===id);
+document.addEventListener('click',e=>{const b=e.target.closest('button[data-c]');if(!b)return;const [id,i,j]=b.dataset.c.split('|');const f=find(id).fields[+i];copy(j===undefined?f.text:f.items[+j].replace(/^（[^）]*）/,''),b)});
+</script></body></html>
