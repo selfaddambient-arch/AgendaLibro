@@ -44,8 +44,9 @@ def main():
     d = ROOT / f"i18n/{LG}/{slug}"
     lang = json.loads((ROOT / f"i18n/{LG}/lang.json").read_text(encoding="utf-8"))
     meta = {k: v.strip().strip('"') for k, v in (l.split(":", 1) for l in (d / "metadata.yaml").read_text(encoding="utf-8").splitlines() if ":" in l)}
-    gloss_rate = re.search(r"usd_per_jpy_rate:\s*(\d+)", (ROOT / f"i18n/{LG}/glossary.yaml").read_text(encoding="utf-8")).group(1)
-    rate_date = re.search(r'rate_date:\s*"([^"]+)"', (ROOT / f"i18n/{LG}/glossary.yaml").read_text(encoding="utf-8")).group(1)
+    base = (ROOT / "i18n/_common/glossary.base.yaml").read_text(encoding="utf-8")
+    gloss_rate = re.search(r"usd_per_jpy_rate:\s*(\d+)", base).group(1)
+    rate_date = re.search(r'rate_date:\s*"([^"]+)"', base).group(1)
     images = ROOT / "books" / slug / "images"
     text0 = (d / "manuscript.md").read_text(encoding="utf-8").replace("{{FMT}}", fmt)
     lines = text0.split("\n")
@@ -107,8 +108,9 @@ def main():
 
     today = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).date().isoformat()
     code = CODE[slug]
-    agenda = f"https://bontallc.com/agenda?via={code}-{LG}-{fmt}"
-    tamuro = f"https://tamuroreservation.vercel.app/?src={code}-{LG}-{fmt}"
+    mk = lang.get("mark", LG)
+    agenda = f"https://bontallc.com/agenda?via={code}-{mk}-{fmt}"
+    tamuro = f"https://tamuroreservation.vercel.app/?src={code}-{mk}-{fmt}"
     col = lang["colophon"].format(title=meta["title"], subtitle=meta["subtitle"], author=meta["author"], publisher=meta["publisher"],
                                    date=today, rate=gloss_rate, rate_date=rate_date, agenda=agenda, tamuro=tamuro)
     col = re.sub(r"(?<![<(\"])" + URL, r"<\1>", col)

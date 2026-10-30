@@ -68,12 +68,46 @@ def fields(slug, lang, store):
     f.append(dict(label='カテゴリの候補' if store == 'kindle' else 'ジャンルの候補', items=cat))
     return f
 
+def fields_generic(slug, code, store):
+    """en 以外の言語：i18n/<言語>/<slug>/metadata.yaml と work/store.json から作る（Kindle が使えない言語は Google Play だけ）。"""
+    md = {k: v.strip() for k, v in (l.split(':', 1) for l in (ROOT / f'i18n/{code}/{slug}/metadata.yaml').read_text().splitlines() if ':' in l)}
+    st = json.loads((ROOT / f'i18n/{code}/{slug}/work/store.json').read_text())
+    f = [dict(label='題名', text=md['title']), dict(label='副題', text=md['subtitle']), dict(label='著者', text=md['author']),
+         dict(label='説明文' if store == 'gplay' else '紹介文', text=st['description'], multiline=True, limit=None if store == 'gplay' else 4000)]
+    if store == 'kindle':
+        for i, w in enumerate(st['keywords'], 1):
+            f.append(dict(label=f'キーワード {i}', text=w, limit=50))
+        f.append(dict(label='キーワード（7つを1行ずつ）', text='\n'.join(st['keywords']), multiline=True))
+        f.append(dict(label='カテゴリの候補', items=st.get('kindle_categories', [])))
+    else:
+        f.append(dict(label='一行紹介', text=st['one_liner']))
+        f.append(dict(label='ジャンルの候補', items=st['gp_genres']))
+    return f
+
+
+def other_langs():
+    out = []
+    for d in sorted((ROOT / 'i18n').glob('*/lang.json')):
+        code = d.parent.name
+        if code == 'en':
+            continue
+        lj = json.loads(d.read_text())
+        if all((ROOT / f'i18n/{code}/{s}/work/store.json').exists() for s in ('hitori-de-mise', 'uchi-no-mise')):
+            out.append((code, lj['ja_name'], lj.get('kindle', True)))
+    return out
+
+
 books = []
 for slug, name in (('hitori-de-mise', '1冊目'), ('uchi-no-mise', '2冊目')):
     sec = []
     for lang, ln in (('ja', '日本語'), ('en', '英語')):
         for store, sn in (('kindle', 'Kindle'), ('gplay', 'Google Play')):
             sec.append(dict(id=f'{slug}-{lang}-{store}', lang=ln, store=sn, fields=fields(slug, lang, store)))
+    for code, jn, kin in other_langs():
+        for store, sn in (('kindle', 'Kindle'), ('gplay', 'Google Play')):
+            if store == 'kindle' and not kin:
+                continue
+            sec.append(dict(id=f'{slug}-{code}-{store}', lang=jn, store=sn, fields=fields_generic(slug, code, store)))
     books.append(dict(slug=slug, name=name, title=JA[slug]['title'], en=MD[slug]['title'], sections=sec))
 
 PAGE = r'''<!doctype html>
@@ -133,6 +167,15 @@ main.insertAdjacentHTML('afterbegin',body);
 const find=id=>DATA.flatMap(b=>b.sections).find(s=>s.id===id);
 document.addEventListener('click',e=>{const b=e.target.closest('button[data-c]');if(!b)return;const [id,i,j]=b.dataset.c.split('|');const f=find(id).fields[+i];copy(j===undefined?f.text:f.items[+j].replace(/^（[^）]*）/,''),b)});
 </script></body></html>'''
-PAGE = PAGE.replace('__NAV__', '').replace('__BODY__', '').replace('__DATA__', json.dumps(books, ensure_ascii=False))
-(ROOT / 'books/store-copy.html').write_text(PAGE)
-print('ok', len(PAGE))
+import sys
+part = sys.argv[sys.argv.index('--part') + 1] if '--part' in sys.argv else None
+if part:
+    # 言語ごとの試し刷り：その言語の欄だけの1枚（i18n/<言語>/store-copy.part.html）。本物（books/store-copy.html）への取り込みは親が行う
+    keep = [dict(b, sections=[s for s in b['sections'] if f'-{part}-' in s['id']]) for b in books]
+    out = ROOT / f'i18n/{part}/store-copy.part.html'
+    out.write_text(PAGE.replace('__NAV__', '').replace('__BODY__', '').replace('__DATA__', json.dumps(keep, ensure_ascii=False)))
+    print('ok', out)
+else:
+    PAGE = PAGE.replace('__NAV__', '').replace('__BODY__', '').replace('__DATA__', json.dumps(books, ensure_ascii=False))
+    (ROOT / 'books/store-copy.html').write_text(PAGE)
+    print('ok', len(PAGE))

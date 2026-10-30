@@ -7,8 +7,14 @@ import re, json, pathlib
 import os
 LG = os.environ.get('I18N_LANG', 'en')   # 言語コード（2文字）。i18n/<言語>/ を使う
 ROOT = pathlib.Path(__file__).resolve().parents[2]
+import os, json as _j
+LG = os.environ.get('I18N_LANG', 'en')
+_L = _j.load(open(ROOT / f'i18n/{LG}/lang.json'))
+LNAME = _L['name']
 PART_MAX = 6500
 ASK = '次は日本語の本の一章と、その英訳です。英訳について、①意味の取り違え ②不自然な英語 ③英語圏の読者に伝わらない箇所 を、該当する英文の引用と直す案の形で一覧にしてください。書き直した全文は不要です。'
+if LG != 'en':
+    ASK = ASK.replace('英訳', _L['ja_name'] + '訳')
 BOOKS = {'hitori-de-mise': '『一人で店を回す、その横にAIが来た。』', 'uchi-no-mise': '『うちの店は、うちの仕様で』'}
 
 
@@ -57,7 +63,7 @@ def main():
                 label = f'{n:02d}' + (f' part {k} of {len(parts)}' if len(parts) > 1 else '')
                 body = (f'{ASK}\n\n---\n\n（本：{title}／{head_ja}'
                         + (f'／{k}/{len(parts)}' if len(parts) > 1 else '') + '）\n\n'
-                        f'# 日本語の原文\n\n{pj.strip()}\n\n---\n\n# English translation\n\n{pe.strip()}\n')
+                        f'# 日本語の原文\n\n{pj.strip()}\n\n---\n\n# {LNAME} translation\n\n{pe.strip()}\n')
                 (rd / f'{name}.md').write_text(body)
                 for who in ('gemini', 'chatgpt'):
                     f = rd / f'{name}.{who}.md'

@@ -5,8 +5,10 @@ import sys, re, json, pathlib, yaml
 import os
 LG = os.environ.get('I18N_LANG', 'en')   # 言語コード（2文字）。i18n/<言語>/ を使う
 ROOT = pathlib.Path(__file__).resolve().parents[2]
-GLOSS = yaml.safe_load(open(ROOT / f'i18n/{LG}/glossary.yaml'))
-LANG = json.load(open(ROOT / f'i18n/{LG}/lang.json'))
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+from common import load_glossary, load_lang
+GLOSS = load_glossary(LG)
+LANG = load_lang(LG)
 FIG = LANG.get('fig_label', 'Figure')
 CODE = {'hitori-de-mise': 'b1', 'uchi-no-mise': 'b2'}
 
@@ -73,7 +75,7 @@ def check(slug):
     res['リンクの数が一致'] = len(ju) == len(eu) or (len(ju), len(eu))
     res['リンクの中身が一致'] = ([u.rstrip('.,;') for u in ju] == [u.rstrip('.,;') for u in eu]) or sorted(set(ju) ^ set(eu))[:6]
     marks = re.findall(r'[?&](?:src|via)=([^\s&)）]+)', en)
-    bad = [m for m in marks if m != f'{code}-{LG}-{{{{FMT}}}}']
+    bad = [m for m in marks if m != f"{code}-{LANG.get('mark', LG)}-{{{{FMT}}}}"]
     res['リンクの印が本-言語-形式'] = (not bad and len(marks) == len(re.findall(r'[?&](?:src|via)=', ja))) or bad
     res['{{FMT}} の数が一致'] = ja.count('{{FMT}}') == en.count('{{FMT}}') or (ja.count('{{FMT}}'), en.count('{{FMT}}'))
     res.update(currency_checks(slug, en))
@@ -119,6 +121,30 @@ def file_text_urls(path):
     return ''.join(p.get_text().replace('\n', '') for p in d) + ' ' + ' '.join(str(l.get('uri', '')) for p in d for l in p.get_links())
 
 
+def cover_check(slug):
+    """表紙の画像を Apple Vision で読み、題名・副題・著者名が文字化けなく出ているか照合する。"""
+    import subprocess, difflib, unicodedata
+    res = {}
+    cover = ROOT / f'i18n/{LG}/{slug}/cover/cover.png'
+    if not cover.exists():
+        return {'表紙の画像がある': False}
+    langs = LANG.get('ocr_langs')
+    if not langs:
+        res['表紙の文字（Vision 非対応の言語：目視で確認）'] = True
+        return res
+    out = subprocess.run(['swift', str(ROOT / 'scripts/i18n/ocr-cover.swift'), str(cover), ','.join(langs)], capture_output=True, text=True).stdout
+    norm = lambda s: ''.join(c for c in unicodedata.normalize('NFKC', s).lower() if c.isalnum()).replace('l', 'i').replace('1', 'i').replace('0', 'o')  # AI を Al と読む等の取り違えは同じ字とみなす
+    got = norm(out)
+    cj = json.load(open(ROOT / f'i18n/{LG}/{slug}/cover/cover.json'))
+    md = {k: v.strip().strip('"') for k, v in (l.split(':', 1) for l in open(ROOT / f'i18n/{LG}/{slug}/metadata.yaml').read().splitlines() if ':' in l)}
+    for label, exp in (('題名', ''.join(cj['lines'])), ('副題', md['subtitle']), ('著者名', cj.get('author') or md['author'])):
+        e = norm(exp)
+        m = difflib.SequenceMatcher(None, e, got).find_longest_match(0, len(e), 0, len(got))
+        ratio = m.size / max(1, len(e))
+        res[f'表紙の{label}が読める（一致 {ratio:.0%}）'] = ratio >= 0.85 or f'読めた文字: {out[:120]!r}'
+    return res
+
+
 def build_checks(slug):
     """組版の機械ゲート：epubcheck・リンクの印・{{FMT}}・図の数・見出しの数（日本語版の EPUB と比べる）。"""
     import subprocess, zipfile
@@ -134,7 +160,7 @@ def build_checks(slug):
         P = r'b\d-[a-z]{2,3}-(?:pdf|kindle|gp)'
         marks = re.findall(r'[?&](?:src|via)=(' + P + ')', txt)
         malformed = re.findall(r'[?&](?:src|via)=(?!' + P + r')[^\s]{0,24}', txt)
-        want = f'{code}-{LG}-{fmt}'
+        want = f"{code}-{LANG.get('mark', LG)}-{fmt}"
         bad = sorted({m for m in marks if m != want} | set(malformed))
         res[f'{f.name}：リンクの印がすべて {want}（{len(marks)}件）'] = (not bad and len(marks) >= 2) or bad or '印が見つからない'
         res[f'{f.name} に {{{{FMT}}}} が0件'] = (txt.count('{{FMT}}') + txt.count('%7B%7BFMT%7D%7D')) == 0 or '残っている'
@@ -146,6 +172,7 @@ def build_checks(slug):
             if jc:
                 res[f'{f.name}：図の数が日本語版の EPUB と一致（{c["img"]}／{jc["img"]}）'] = c['img'] == jc['img'] or (c['img'], jc['img'])
                 res[f'{f.name}：見出しの数が日本語版の EPUB と一致（{c["h"]}／{jc["h"]}）'] = abs(c['h'] - jc['h']) <= 2 or (c['h'], jc['h'])
+    res.update(cover_check(slug))
     return res
 
 
