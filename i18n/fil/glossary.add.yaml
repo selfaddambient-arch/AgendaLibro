@@ -1,0 +1,39 @@
+# 用語集（フィリピン語）。手帳の名前は AgendaHub の fil 辞書（hub.product.*.nick）に合わせた。原価・常連・当番は窓の案。
+# 用語集（インドネシア語）。`to:` が訳語。手帳の名前は AgendaHub のインドネシア語辞書（lib/i18n/dictionaries/id.ts の hub.product.*.nick）に合わせた。
+# 辞書に無い3つ（原価手帳・常連手帳・当番手帳）は窓の案。
+terms:
+  - {ja: "屯", to: "Tamuro", note: "bar milik penulis di Higashi-Nakano, Tokyo"}
+  - {ja: "T-AI-MURO", to: "T-AI-MURO", note: "tetap"}
+  - {ja: "本多楽", to: "Raku Bonta", note: "nama depan dulu"}
+  - {ja: "ボンタ合同会社", to: "Bonta LLC", note: "penerbit"}
+  - {ja: "Agendaシリーズ", to: "Agenda series", note: "nama produk tetap: AgendaTimbro, AgendaOro, ..."}
+  - {ja: "手帳", to: "talaan", note: "sama dengan kamus Hub: Buku Absensi, Buku Laba Rugi ... 黒革の手帳 = buku catatan kulit hitam"}
+  - {ja: "打刻手帳", to: "Talaan ng Oras", note: "AgendaTimbro (kamus Hub)"}
+  - {ja: "採算手帳", to: "Talaan ng Kita", note: "AgendaOro (kamus Hub)"}
+  - {ja: "2軒目手帳", to: "Gabay sa Susunod na Tambayan", note: "AgendaBis (kamus Hub)"}
+  - {ja: "相談手帳", to: "Gabay sa Suporta", note: "AgendaQA (kamus Hub)"}
+  - {ja: "灯り手帳", to: "Talaan ng Ilaw", note: "AgendaLuce (kamus Hub)"}
+  - {ja: "原価手帳", to: "Talaan ng Gastos sa Resipe", note: "AgendaRicetta (usulan penyunting; tidak ada di kamus Hub)"}
+  - {ja: "常連手帳", to: "Talaan ng mga Suki", note: "AgendaNera (usulan penyunting)"}
+  - {ja: "当番手帳", to: "Talaan ng Duty", note: "AgendaTurno (usulan penyunting; produk masih disiapkan)"}
+  - {ja: "話題手帳", to: "Tala ng Usapan", note: "AgendaSpunto (kamus Hub)"}
+  - {ja: "玄関", to: "pintuan", note: "AgendaHub = pintu depan seri"}
+  - {ja: "AgendaHub", to: "AgendaHub", note: "tetap"}
+  - {ja: "AgendaID", to: "AgendaID", note: "tetap"}
+  - {ja: "ProductBootstrap", to: "ProductBootstrap", note: "tetap"}
+  - {ja: "バイブコーディング", to: "vibe coding", note: "istilah tetap"}
+  - {ja: "副店長", to: "assistant manager", note: "metafora buku 1"}
+  - {ja: "NanoBanana", to: "Nano Banana", note: "catatan pada penyebutan pertama"}
+  - {ja: "おわりに", to: "Pangwakas", note: "judul"}
+  - {ja: "はじめに", to: "Panimula", note: "judul"}
+  - {ja: "コラム", to: "Kolum", note: "コラム① = Kolom 1"}
+  - {ja: "図", to: "Larawan", note: "【図1-1】 = 【Gambar 1-1】"}
+forbid:
+  - {term: "Tamuro", bad: ["Tamura", "Tomuro", "Tamro", "Ton"]}
+  - {term: "Raku Bonta", bad: ["Bonta Raku", "Raku Honda", "Honda Raku"]}
+  - {term: "Bonta LLC", bad: ["Bonta Limited", "Bonta Inc"]}
+  - {term: "Talaan ng Oras", bad: ["Talaan ng Orasan", "Talaan ng Panahon"]}
+  - {term: "Talaan ng Kita", bad: ["Talaan ng Tubo", "Talaan ng Profit"]}
+  - {term: "Talaan ng Ilaw", bad: ["Talaan ng Ilawan", "Talaan ng Liwanag"]}
+  - {term: "vibe coding", bad: ["vibes coding", "vibe-coding"]}
+  - {term: "assistant manager", bad: ["deputy manager", "katulong na manager", "pangalawang manager"]}

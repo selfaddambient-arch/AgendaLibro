@@ -1,0 +1,17 @@
+{
+ "one_liner": "Ginawa ng may-ari ng 19-upuang bar sa Tokyo ang reservation system gamit ang AI, hanggang makapag-book ang customer sa sarili nilang AI, kasama ang mga nasira.",
+ "description": "Ang Tamuro ay isang bar na may 19 na upuan sa Higashi-Nakano, Tokyo. Nag-utos ang may-ari sa AI at sila mismo ang bumuo ng reservation system ng bar. Sa huli, naglabas sila ng MCP server, kaya ang ChatGPT o Claude ng customer ay puwedeng magtanong sa bar tungkol sa availability at ituloy ito sa pag-book.\n\nItinala ng aklat na ito ang buong proseso, hindi lang ang mga nagtagumpay. Kasama rito ang discount system na ginawa kasabay ng pagtaas ng presyo, ang datos na nagpapakitang 88% ng reservation ay ginagawa sa mismong araw, at ang chat window para sa mga bisitang nalilito sa dami ng plan. Isinasalaysay rin ang isang pagkakamali: natuklasan ng AI audit na nababasa mula sa labas ang personal na impormasyon ng mga customer, at naayos ito.\n\nAng ikalawang bahagi ay tungkol sa Agenda series, mga tool na isinilang mula sa problema ng isang bar at ibinabahagi na ngayon sa ibang restawran. Tala ito ng isang maliit na tindahan tungkol sa panahong kaya na ninyong buuin ang dating binabayaran sa malalaking kumpanya.\n\nKung hindi ninyo hilig ang teknikal, tuloy-tuloy pa ring nagkukuwento ang Kabanata 1, 3, at 5.\n\nLibreng basahin ang aklat na ito, at malayang ibahagi. Available din ito nang libre bilang PDF at sa note.",
+ "keywords": [
+  "may-ari ng bar",
+  "AI reservation system",
+  "MCP server",
+  "AI para sa maliit na negosyo",
+  "teknolohiya para sa restawran",
+  "bar sa Tokyo",
+  "gumawa ng sariling tool"
+ ],
+ "gp_genres": [
+  "Negosyo at Ekonomiks / Maliit na Negosyo",
+  "Kompyuter / Artificial Intelligence"
+ ]
+}

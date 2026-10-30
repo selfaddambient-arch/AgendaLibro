@@ -1,0 +1,20 @@
+{
+ "code": "fil",
+ "bcp47": "fil",
+ "name": "Filipino",
+ "dir": "ltr",
+ "font": "'Baskerville', 'Georgia', 'Times New Roman', serif",
+ "toc_title": "Talaan ng Nilalaman",
+ "qr_labels": [
+  "Subukan sa sarili ninyong tindahan",
+  "Sundan ang aking mga gawain (note)",
+  "Bisitahin ang Tamuro sa Tokyo"
+ ],
+ "kindle": false,
+ "fig_label": "Larawan",
+ "number_style": "en",
+ "cjk": false,
+ "colophon": "## Kolopon\n\n- Pamagat: {title}\n- Subtitle: {subtitle}\n- May-akda: {author}\n- Tagapaglathala: {publisher}\n- Edisyon: edisyong Filipino, unang limbag (isinalin mula sa orihinal na manuskritong Hapon)\n- Petsa ng paglathala: {date}\n- Wika: Filipino\n- Salin: isinalin mula sa Hapon ng AI at dumaan sa pagsusuri ng AI. Ang maiikling tala tungkol sa mga lugar, sistema, at kaugalian sa Japan ay idinagdag ng tagasalin. Ang mga halaga sa yen ay may kasamang tantiya sa dolyar ng US sa palitang ¥{rate} kada dolyar (hanggang {rate_date}).\n- Malayang ibahagi\n\nAgenda series: {agenda}\n\nInstagram ng Tamuro: https://www.instagram.com/tamuro.higashinakano/\n\nReservation site ng Tamuro: {tamuro}\n\nnote: https://note.com/bontallc\n\nX: https://x.com/tamuro_hnakano\n",
+ "ja_name": "フィリピン語",
+ "mark": "fil"
+}

@@ -8,7 +8,7 @@
 import sys, json, re, pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 lg, mark = sys.argv[1], sys.argv[2]
-assert re.fullmatch(r'[a-z]{2}', mark), '印の言語は英小文字2文字'
+assert re.fullmatch(r'[a-z]{2,3}', mark), '印の言語は英小文字2〜3文字（fil は3文字）'
 d = ROOT / f'i18n/{lg}'
 d.mkdir(exist_ok=True)
 for slug, code in (('hitori-de-mise', 'b1'), ('uchi-no-mise', 'b2')):
