@@ -1,0 +1,40 @@
+# 用語集（インドネシア語）。`to:` が訳語。手帳の名前は AgendaHub のインドネシア語辞書（lib/i18n/dictionaries/id.ts の hub.product.*.nick）に合わせた。
+# 辞書に無い3つ（原価手帳・常連手帳・当番手帳）は窓の案。
+usd_per_jpy_rate: 150
+rate_date: "2026-10-29"
+terms:
+  - {ja: "屯", to: "Tamuro", note: "bar milik penulis di Higashi-Nakano, Tokyo"}
+  - {ja: "T-AI-MURO", to: "T-AI-MURO", note: "tetap"}
+  - {ja: "本多楽", to: "Raku Bonta", note: "nama depan dulu"}
+  - {ja: "ボンタ合同会社", to: "Bonta LLC", note: "penerbit"}
+  - {ja: "Agendaシリーズ", to: "seri Agenda", note: "nama produk tetap: AgendaTimbro, AgendaOro, ..."}
+  - {ja: "手帳", to: "buku", note: "sama dengan kamus Hub: Buku Absensi, Buku Laba Rugi ... 黒革の手帳 = buku catatan kulit hitam"}
+  - {ja: "打刻手帳", to: "Buku Absensi", note: "AgendaTimbro (kamus Hub)"}
+  - {ja: "採算手帳", to: "Buku Laba Rugi", note: "AgendaOro (kamus Hub)"}
+  - {ja: "2軒目手帳", to: "Buku Lanjutan", note: "AgendaBis (kamus Hub)"}
+  - {ja: "相談手帳", to: "Buku Bantuan", note: "AgendaQA (kamus Hub)"}
+  - {ja: "灯り手帳", to: "Buku Lentera", note: "AgendaLuce (kamus Hub)"}
+  - {ja: "原価手帳", to: "Buku Biaya Resep", note: "AgendaRicetta (usulan penyunting; tidak ada di kamus Hub)"}
+  - {ja: "常連手帳", to: "Buku Pelanggan Tetap", note: "AgendaNera (usulan penyunting)"}
+  - {ja: "当番手帳", to: "Buku Giliran Kerja", note: "AgendaTurno (usulan penyunting; produk masih disiapkan)"}
+  - {ja: "話題手帳", to: "Catatan Obrolan", note: "AgendaSpunto (kamus Hub)"}
+  - {ja: "玄関", to: "pintu depan", note: "AgendaHub = pintu depan seri"}
+  - {ja: "AgendaHub", to: "AgendaHub", note: "tetap"}
+  - {ja: "AgendaID", to: "AgendaID", note: "tetap"}
+  - {ja: "ProductBootstrap", to: "ProductBootstrap", note: "tetap"}
+  - {ja: "バイブコーディング", to: "vibe coding", note: "istilah tetap"}
+  - {ja: "副店長", to: "wakil manajer", note: "metafora buku 1"}
+  - {ja: "NanoBanana", to: "Nano Banana", note: "catatan pada penyebutan pertama"}
+  - {ja: "おわりに", to: "Penutup", note: "judul"}
+  - {ja: "はじめに", to: "Pendahuluan", note: "judul"}
+  - {ja: "コラム", to: "Kolom", note: "コラム① = Kolom 1"}
+  - {ja: "図", to: "Gambar", note: "【図1-1】 = 【Gambar 1-1】"}
+forbid:
+  - {term: "Tamuro", bad: ["Tamura", "Tomuro", "Tamro", "Ton"]}
+  - {term: "Raku Bonta", bad: ["Bonta Raku", "Raku Honda", "Honda Raku"]}
+  - {term: "Bonta LLC", bad: ["Bonta Limited", "Bonta PT", "PT Bonta"]}
+  - {term: "Buku Absensi", bad: ["Buku Presensi", "Buku Cap Waktu"]}
+  - {term: "Buku Laba Rugi", bad: ["Buku Profit", "Buku Untung Rugi"]}
+  - {term: "Buku Lentera", bad: ["Buku Lampu", "Buku Cahaya"]}
+  - {term: "vibe coding", bad: ["vibes coding", "pengkodean vibe", "coding vibes"]}
+  - {term: "wakil manajer", bad: ["asisten manajer", "wakil kepala toko", "wakil pengelola"]}

@@ -1,0 +1,17 @@
+{
+ "one_liner": "Pemilik bar 19 kursi di Tokyo membangun sistem reservasinya dengan AI hingga pelanggan bisa memesan lewat AI mereka sendiri, termasuk apa yang rusak di tengah jalan.",
+ "description": "Tamuro adalah bar 19 kursi di Higashi-Nakano, Tokyo. Pemiliknya memberi instruksi kepada AI dan membangun sendiri sistem reservasi bar itu. Pada akhirnya mereka menerbitkan server MCP, sehingga ChatGPT atau Claude milik pelanggan bisa menanyakan ketersediaan kepada bar lalu melanjutkan ke pemesanan.\n\nBuku ini mencatat seluruh prosesnya, bukan hanya yang berhasil. Isinya mencakup sistem diskon yang dibuat bersamaan dengan kenaikan harga, data yang menunjukkan bahwa 88% reservasi dibuat pada hari yang sama, dan jendela percakapan untuk tamu yang kebingungan memilih di antara terlalu banyak paket. Buku ini juga menceritakan sebuah kesalahan: audit AI menemukan bahwa informasi pribadi pelanggan bisa dibaca dari luar, lalu diperbaiki.\n\nParuh kedua membahas seri Agenda, alat-alat yang lahir dari masalah satu bar dan kini dibagikan kepada restoran lain. Ini catatan sebuah toko kecil tentang zaman ketika Anda bisa membangun apa yang dulu Anda bayar kepada perusahaan besar, dan menyesuaikannya dengan spesifikasi Anda sendiri.\n\nJika bahasan teknis bukan minat Anda, Bab 1, 3, dan 5 tetap bercerita secara tersambung.\n\nBuku ini gratis dibaca, dan boleh dibagikan. Buku ini juga tersedia gratis sebagai PDF dan di note.",
+ "keywords": [
+  "pemilik bar",
+  "sistem reservasi AI",
+  "server MCP",
+  "AI untuk usaha kecil",
+  "teknologi restoran",
+  "bar Tokyo",
+  "membuat alat sendiri"
+ ],
+ "gp_genres": [
+  "Bisnis & Ekonomi / Usaha Kecil",
+  "Komputer / Kecerdasan Buatan"
+ ]
+}

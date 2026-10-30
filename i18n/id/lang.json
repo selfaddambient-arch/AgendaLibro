@@ -1,0 +1,24 @@
+{
+ "code": "id",
+ "bcp47": "id",
+ "name": "Bahasa Indonesia",
+ "dir": "ltr",
+ "font": "'Baskerville', 'Georgia', 'Times New Roman', serif",
+ "toc_title": "Daftar Isi",
+ "qr_labels": [
+  "Coba di toko Anda sendiri",
+  "Ikuti kegiatan saya (note)",
+  "Kunjungi Tamuro di Tokyo"
+ ],
+ "kindle": false,
+ "fig_label": "Gambar",
+ "number_style": "dot",
+ "cjk": false,
+ "colophon": "## Kolofon\n\n- Judul: {title}\n- Subjudul: {subtitle}\n- Penulis: {author}\n- Penerbit: {publisher}\n- Edisi: edisi bahasa Indonesia, cetakan pertama (diterjemahkan dari naskah asli bahasa Jepang)\n- Terbit: {date}\n- Bahasa: Indonesia\n- Terjemahan: diterjemahkan dari bahasa Jepang oleh AI dan ditinjau oleh AI. Catatan singkat tentang tempat, sistem, dan kebiasaan di Jepang ditambahkan oleh penerjemah. Nilai yen disertai perkiraan dolar AS dengan kurs ¥{rate} per dolar (per {rate_date}).\n- Boleh dibagikan secara bebas\n\nSeri Agenda: {agenda}\n\nInstagram Tamuro: https://www.instagram.com/tamuro.higashinakano/\n\nSitus reservasi Tamuro: {tamuro}\n\nnote: https://note.com/bontallc\n\nX: https://x.com/tamuro_hnakano\n",
+ "ja_name": "インドネシア語",
+ "ocr_langs": [
+  "id-ID",
+  "en-US"
+ ],
+ "mark": "id"
+}
