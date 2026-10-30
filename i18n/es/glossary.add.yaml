@@ -1,0 +1,40 @@
+# 用語集（スペイン語）。手帳の名前は AgendaHub のスペイン語辞書（lib/i18n/dictionaries/es.ts の hub.product.*.nick）に合わせた。
+# 辞書に無い3つ（原価手帳・常連手帳・当番手帳）は窓の案。敬称は usted／ustedes に統一（vosotros は使わない）。
+terms:
+  - {ja: "屯", to: "Tamuro", note: "el bar de la autoría en Higashi-Nakano, Tokio"}
+  - {ja: "T-AI-MURO", to: "T-AI-MURO", note: "se mantiene"}
+  - {ja: "本多楽", to: "Raku Bonta", note: "nombre de pila primero"}
+  - {ja: "ボンタ合同会社", to: "Bonta LLC", note: "editorial"}
+  - {ja: "Agendaシリーズ", to: "serie Agenda", note: "nombres de producto sin traducir: AgendaTimbro, AgendaOro, ..."}
+  - {ja: "手帳", to: "cuaderno", note: "como el diccionario de Hub: Fichajes, Rentabilidad ... 黒革の手帳 = cuaderno de cuero negro"}
+  - {ja: "打刻手帳", to: "Fichajes", note: "AgendaTimbro (diccionario Hub)"}
+  - {ja: "採算手帳", to: "Rentabilidad", note: "AgendaOro (diccionario Hub)"}
+  - {ja: "2軒目手帳", to: "Guía de la Siguiente Parada", note: "AgendaBis (diccionario Hub)"}
+  - {ja: "相談手帳", to: "Guía de Soporte", note: "AgendaQA (diccionario Hub)"}
+  - {ja: "灯り手帳", to: "Cuaderno de Luces", note: "AgendaLuce (diccionario Hub)"}
+  - {ja: "原価手帳", to: "Cuaderno de Costos de Receta", note: "AgendaRicetta (propuesta de la ventana; no está en el diccionario Hub)"}
+  - {ja: "常連手帳", to: "Cuaderno de Clientes Habituales", note: "AgendaNera (propuesta de la ventana)"}
+  - {ja: "当番手帳", to: "Cuaderno de Turnos", note: "AgendaTurno (propuesta de la ventana; producto en preparación)"}
+  - {ja: "話題手帳", to: "Temas de Conversación", note: "AgendaSpunto (diccionario Hub)"}
+  - {ja: "玄関", to: "puerta de entrada", note: "AgendaHub = puerta de entrada de la serie"}
+  - {ja: "AgendaHub", to: "AgendaHub", note: "se mantiene"}
+  - {ja: "AgendaID", to: "AgendaID", note: "se mantiene"}
+  - {ja: "ProductBootstrap", to: "ProductBootstrap", note: "se mantiene"}
+  - {ja: "バイブコーディング", to: "vibe coding", note: "término fijo"}
+  - {ja: "副店長", to: "subgerente", note: "metáfora del libro 1 (subgerente de IA)"}
+  - {ja: "NanoBanana", to: "Nano Banana", note: "nota en la primera mención"}
+  - {ja: "ハンバーグ", to: "hanbāgu", note: "con glosa en la primera mención: bistec de carne picada al estilo japonés; nunca 'hamburguesa'"}
+  - {ja: "おわりに", to: "Epílogo", note: "título"}
+  - {ja: "はじめに", to: "Introducción", note: "título"}
+  - {ja: "コラム", to: "Columna", note: "コラム① = Columna 1"}
+  - {ja: "図", to: "Figura", note: "【図1-1】 = 【Figura 1-1】"}
+forbid:
+  - {term: "Tamuro", bad: ["Tamura", "Tomuro", "Tamro"]}
+  - {term: "Raku Bonta", bad: ["Bonta Raku", "Raku Honda", "Honda Raku"]}
+  - {term: "Bonta LLC", bad: ["Bonta Limited", "Bonta S.L.", "Bonta S.A."]}
+  - {term: "Fichajes", bad: ["Registro de Horario", "Control de Asistencia"]}
+  - {term: "Rentabilidad", bad: ["Cuaderno de Rentabilidad"]}
+  - {term: "Cuaderno de Luces", bad: ["Cuaderno de Lámparas", "Cuaderno de Iluminación"]}
+  - {term: "vibe coding", bad: ["vibes coding", "codificación de vibras", "coding vibes"]}
+  - {term: "subgerente", bad: ["asistente de gerente", "vicegerente", "gerente adjunto"]}
+  - {term: "hanbāgu", bad: ["hamburguesa", "hamburguesas"]}

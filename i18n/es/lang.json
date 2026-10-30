@@ -1,0 +1,24 @@
+{
+ "code": "es",
+ "bcp47": "es",
+ "name": "Español",
+ "dir": "ltr",
+ "font": "'Baskerville', 'Georgia', 'Times New Roman', serif",
+ "toc_title": "Índice",
+ "qr_labels": [
+  "Pruebe Agenda en su propio local",
+  "Siga mis actividades (note)",
+  "Visite Tamuro en Tokio"
+ ],
+ "kindle": true,
+ "fig_label": "Figura",
+ "number_style": "dot",
+ "cjk": false,
+ "colophon": "## Colofón\n\n- Título: {title}\n- Subtítulo: {subtitle}\n- Autoría: {author}\n- Editorial: {publisher}\n- Edición: edición en español, primera edición (traducida del original en japonés)\n- Publicación: {date}\n- Idioma: español\n- Traducción: traducida del japonés con IA y revisada con IA. Las breves notas sobre lugares, sistemas y costumbres de Japón las añadió quien tradujo. Los importes en yenes van acompañados de una cifra aproximada en dólares estadounidenses, con un tipo de cambio de ¥{rate} por dólar (a {rate_date}).\n- Se puede compartir libremente\n\nLa serie Agenda: {agenda}\n\nInstagram de Tamuro: https://www.instagram.com/tamuro.higashinakano/\n\nSitio de reservas de Tamuro: {tamuro}\n\nnote: https://note.com/bontallc\n\nX: https://x.com/tamuro_hnakano\n",
+ "ja_name": "スペイン語",
+ "ocr_langs": [
+  "es-ES",
+  "en-US"
+ ],
+ "mark": "es"
+}
