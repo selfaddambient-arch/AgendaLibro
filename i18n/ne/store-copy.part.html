@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ストアに貼る文言</title>
+<style>
+:root{--bg:#f6f4ef;--card:#fff;--ink:#1f2328;--mut:#6b7280;--line:#e5e1d8;--acc:#1f5eff;--ok:#0a7d33;--warn:#b45309}
+@media (prefers-color-scheme:dark){:root{--bg:#15171a;--card:#1d2024;--ink:#e8e8e8;--mut:#9aa1ab;--line:#2d3138;--acc:#7aa2ff;--ok:#4cc27a;--warn:#f0a35e}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.7 -apple-system,"Hiragino Sans","Yu Gothic",system-ui,sans-serif}
+header{padding:28px 20px 8px;max-width:960px;margin:0 auto}h1{margin:0 0 6px;font-size:22px}p.lead{margin:0;color:var(--mut)}
+nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 20px;z-index:2}
+nav .in{max-width:960px;margin:0 auto;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}nav b{font-size:13px}
+nav a{color:var(--acc);text-decoration:none;font-size:13px;border:1px solid var(--line);border-radius:999px;padding:3px 10px;background:var(--card)}
+main{max-width:960px;margin:0 auto;padding:8px 20px 80px}
+h2.book{margin:34px 0 4px;font-size:19px}.en{color:var(--mut);font-size:13px;margin:0 0 6px}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;padding:6px 18px 12px}
+section h3{margin:12px 0 4px;font-size:16px}
+.row{display:grid;grid-template-columns:150px 1fr auto;gap:6px 14px;padding:10px 0;border-top:1px solid var(--line);align-items:start}
+.row:first-of-type{border-top:0}
+.lab{font-size:13px;color:var(--mut)}.lab small{display:block;color:var(--warn)}
+.txt{white-space:pre-wrap;word-break:break-word;margin:0}
+.side{display:flex;flex-direction:column;align-items:flex-end;gap:4px;min-width:96px}
+.cnt{font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums}.cnt.over{color:#d92d20;font-weight:600}
+button{font:inherit;font-size:13px;border:1px solid var(--acc);color:var(--acc);background:transparent;border-radius:8px;padding:5px 14px;cursor:pointer;min-height:34px}
+button:hover{background:var(--acc);color:#fff}button.done{border-color:var(--ok);color:var(--ok)}button.done:hover{background:transparent}
+ul.items{margin:0;padding:0;list-style:none}ul.items li{display:flex;gap:10px;justify-content:space-between;align-items:center;padding:3px 0}
+.note{font-size:13px;color:var(--mut);margin:6px 0 0}
+@media (max-width:640px){.row{grid-template-columns:1fr}.side{flex-direction:row;align-items:center;justify-content:space-between}}
+</style></head><body>
+<header><h1>ストアに貼る文言</h1>
+<p class="lead">項目ごとの「コピー」を押して、KDP と Google Play Books の入力欄に貼ります。改行はそのまま残ります。このページは外部と通信しません。日本語の紹介文は、2026-10-29 時点でストアに出ている文と同じです（Kindle の日本語キーワード7つは、ストアの画面に出ないので窓の候補）。英語は窓の推敲版です。</p></header>
+<nav><div class="in"><b>移動</b></div></nav>
+<main>
+<p class="note">文字数は改行も1字に数えています。Kindle の上限（題名＋副題 200字・紹介文 4,000字・キーワード1つ 50字）は KDP の案内に基づく目安で、超えると赤くなります。カテゴリ・ジャンルの候補は、各ストアの選択肢の名前に合わせて選んでください。</p>
+</main>
+<script>
+const DATA=[{"slug": "hitori-de-mise", "name": "1冊目", "title": "一人で店を回す、その横にAIが来た。", "en": "The AI Deputy Manager", "sections": [{"id": "hitori-de-mise-ne-gplay", "lang": "ネパール語", "store": "Google Play", "fields": [{"label": "題名", "text": "एआई डेपुटी म्यानेजर"}, {"label": "副題", "text": "कुरा गरेरै एआईले काम गरिदिन्छ। सोचेभन्दा धेरै।"}, {"label": "著者", "text": "Raku Bonta"}, {"label": "説明文", "text": "टोकियोको हिगाशी-नाकानोमा भुइँतलाको एउटा पसल लेखक एक्लैले चलाउँछन्: दिउँसो ह्याम्बर्गर करी, राति बार। यो पुस्तक त्यही पसलको छेउमा एआई कसरी काममा आयो भन्ने खुला विवरण हो।\n\nकर्मचारीका लागि लेखिएको लामो LINE सन्देशलाई एआईले एउटा रेखाचित्रमा बदलिदियो, र त्यो एकै नजरमा बुझियो। वाइनको लेबलको फोटोबाट वर्णन र गिलासको मूल्यसहितको पूरा वाइन सूची बन्यो। बिक्रीको तथ्यांक र मेनु दाँजेर एआईले देखायो: मालिकले सबैभन्दा बढी बेच्न चाहेको अल-यु-क्यान-ड्रिङ्क प्याकेज मेनुको एक कुनामा लुकेको रहेछ। ठाउँ सारेपछि प्रति ग्राहक औसत खर्च बढ्यो।\n\nलेखकले एक लाइन कोड नलेखी, एआईसँग कुरा गरेरै क्यास फ्लो एप र अनुहार चिन्ने प्रणाली बनाए। त्रुटिको सन्देश आउँदा त्यो पढ्न बसेनन्; स्क्रिनको फोटो खिचेर एआईलाई देखाए।\n\nपूर्व सिस्टम कर्मचारीको हैसियतमा लेखकले बुझे: प्राविधिक ज्ञानभन्दा कामको ठाउँको वास्तविक समस्यालाई टुक्र्याएर भन्न सक्नु बढी महत्त्वपूर्ण छ। चरण र असफलता जस्ताको तस्तै लेखिएका छन्। एउटा सानो कामबाट सुरु गर्न सकिन्छ: लामो LINE सन्देशलाई रेखाचित्रमा बदल्ने।\n\nयो पुस्तक निःशुल्क पढ्न मिल्छ र अरूसँग बाँड्न पनि मिल्छ। PDF का रूपमा र note मा पनि यो निःशुल्क उपलब्ध छ।\n\nअर्को पुस्तक *हाम्रो बारका लागि बनाइएको* मा ग्राहकले आफ्नै एआईबाट बुक गर्न मिल्ने रिजर्भेसन प्रणाली बनाएको कथा छ।", "multiline": true, "limit": null}, {"label": "一行紹介", "text": "टोकियोको भुइँतलाको सानो पसलका मालिकले विशेष ज्ञान बिना एआईलाई डेपुटी म्यानेजर बनाए। चरण र असफलतासहितको खुला विवरण।"}, {"label": "ジャンルの候補", "items": ["व्यापार र अर्थशास्त्र / साना व्यवसाय", "कम्प्युटर / कृत्रिम बुद्धिमत्ता"]}]}]}, {"slug": "uchi-no-mise", "name": "2冊目", "title": "うちの店は、うちの仕様で", "en": "Built for Our Bar", "sections": [{"id": "uchi-no-mise-ne-gplay", "lang": "ネパール語", "store": "Google Play", "fields": [{"label": "題名", "text": "हाम्रो बारका लागि बनाइएको"}, {"label": "副題", "text": "19 सिटको एउटा बारका मालिकले रिजर्भेसनदेखि विभिन्न औजारसम्म सबै कुरा एआईको सहयोगमा आफैँ कसरी बनाए"}, {"label": "著者", "text": "Raku Bonta"}, {"label": "説明文", "text": "Tamuro टोकियोको हिगाशी-नाकानोमा रहेको 19 सिटको बार हो। यसका मालिकले एआईलाई निर्देशन दिएर बारको रिजर्भेसन प्रणाली आफैँ बनाए। अन्त्यमा उनीहरूले MCP सर्भर प्रकाशित गरे, जसले गर्दा ग्राहकको आफ्नै ChatGPT वा Claude ले बारसँग उपलब्धता सोध्न र त्यसपछि बुकिङसम्म पुग्न सक्छ।\n\nयो पुस्तकले सफल भएका कुरा मात्र होइन, पूरै प्रक्रिया लेखेको छ। मूल्यवृद्धिसँगै बनाइएको छुट प्रणाली, 88% रिजर्भेसन सोही दिन गरिएको देखाउने तथ्यांक, र धेरै प्याकेजमध्ये के रोज्ने भनेर अलमलिएका पाहुनाका लागि कुराकानीको सानो झ्याल यसमा छन्। एउटा गल्तीको कथा पनि छ: एआईको अडिटले ग्राहकको व्यक्तिगत जानकारी बाहिरबाट पढ्न सकिने रहेको भेट्यो, र त्यो सच्याइयो।\n\nपछिल्लो आधा भागमा Agenda शृङ्खलाबारे छ, एउटा बारको समस्याबाट जन्मेका र अहिले अन्य रेस्टुरेन्टसँग बाँडिएका औजारहरू। पहिले ठूला कम्पनीलाई पैसा तिरेर पाइने कुरा आफैँ बनाउन र आफ्नै स्पेक अनुसार मिलाउन सकिने समयबारे एउटा सानो पसलको अभिलेख हो यो।\n\nप्राविधिक कुरामा रुचि छैन भने पनि अध्याय 1, 3 र 5 ले जोडिएको कथा भन्छन्।\n\nयो पुस्तक निःशुल्क पढ्न मिल्छ र अरूसँग बाँड्न पनि मिल्छ। PDF का रूपमा र note मा पनि यो निःशुल्क उपलब्ध छ।", "multiline": true, "limit": null}, {"label": "一行紹介", "text": "टोकियोको 19 सिटको बारका मालिकले एआईसँग मिलेर रिजर्भेसन प्रणाली बनाए, ग्राहकले आफ्नै एआईबाट बुक गर्न सक्ने गरी। बीचमा बिग्रिएका कुरासहित।"}, {"label": "ジャンルの候補", "items": ["व्यापार र अर्थशास्त्र / साना व्यवसाय", "कम्प्युटर / कृत्रिम बुद्धिमत्ता"]}]}]}];
+const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const cnt=s=>Array.from(s).length;
+async function copy(text,btn){
+  try{await navigator.clipboard.writeText(text)}catch(e){const t=document.createElement('textarea');t.value=text;t.style.position='fixed';t.style.opacity='0';document.body.appendChild(t);t.select();document.execCommand('copy');t.remove()}
+  const o=btn.textContent;btn.textContent='コピーしました';btn.classList.add('done');setTimeout(()=>{btn.textContent=o;btn.classList.remove('done')},1600)}
+const nav=document.querySelector('nav .in'),main=document.querySelector('main');
+let body='';
+DATA.forEach(b=>{
+  nav.insertAdjacentHTML('beforeend',`<a href="#${b.sections[0].id}">${b.name}</a>`);
+  body+=`<h2 class="book">${b.name}　${esc(b.title)}</h2><p class="en">${esc(b.en)}</p>`;
+  b.sections.forEach(s=>{
+    nav.insertAdjacentHTML('beforeend',`<a href="#${s.id}">${s.lang}・${s.store}</a>`);
+    body+=`<section id="${s.id}"><h3>${s.lang}　${s.store}</h3>`;
+    s.fields.forEach((f,i)=>{
+      if(f.items){body+=`<div class="row"><div class="lab">${f.label}</div><ul class="items">${f.items.map((t,j)=>`<li><span>${esc(t)}</span><button data-c="${s.id}|${i}|${j}">コピー</button></li>`).join('')}</ul><div></div></div>`;return}
+      const n=cnt(f.text),over=f.limit&&n>f.limit;
+      body+=`<div class="row"><div class="lab">${f.label}${f.cand?'<small>候補</small>':''}</div><p class="txt">${esc(f.text)}</p><div class="side"><span class="cnt${over?' over':''}">${n}字${f.limit?' / '+f.limit:''}</span><button data-c="${s.id}|${i}">コピー</button></div></div>`});
+    body+='</section>'})});
+main.insertAdjacentHTML('afterbegin',body);
+const find=id=>DATA.flatMap(b=>b.sections).find(s=>s.id===id);
+document.addEventListener('click',e=>{const b=e.target.closest('button[data-c]');if(!b)return;const [id,i,j]=b.dataset.c.split('|');const f=find(id).fields[+i];copy(j===undefined?f.text:f.items[+j].replace(/^（[^）]*）/,''),b)});
+</script></body></html>

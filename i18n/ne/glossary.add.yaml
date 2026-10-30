@@ -1,0 +1,38 @@
+# 用語集（ネパール語）。手帳の名前は AgendaHub の辞書 ne.ts の hub.product.*.nick に合わせた。
+# 辞書に無い3つ（原価手帳・常連手帳・当番手帳）は窓の案。「手帳」＝किताब に統一。
+terms:
+  - {ja: "屯", to: "Tamuro", note: "著者の店。ラテン文字のまま。助詞は空白を空けて Tamuro मा / Tamuro को"}
+  - {ja: "T-AI-MURO", to: "T-AI-MURO", note: "そのまま"}
+  - {ja: "本多楽", to: "Raku Bonta", note: "ラテン文字のまま"}
+  - {ja: "ボンタ合同会社", to: "Bonta LLC", note: "出版者"}
+  - {ja: "Agendaシリーズ", to: "Agenda शृङ्खला", note: "製品名はそのまま AgendaTimbro など"}
+  - {ja: "手帳", to: "किताब", note: "辞書に合わせ किताब に統一。黒革の手帳＝कालो छालाको किताब"}
+  - {ja: "打刻手帳", to: "हाजिरी किताब", note: "AgendaTimbro（辞書）"}
+  - {ja: "採算手帳", to: "नाफा किताब", note: "AgendaOro（辞書）"}
+  - {ja: "2軒目手帳", to: "अर्को ठाउँ किताब", note: "AgendaBis（辞書）"}
+  - {ja: "相談手帳", to: "सहायता किताब", note: "AgendaQA（辞書）"}
+  - {ja: "灯り手帳", to: "बत्ती किताब", note: "AgendaLuce（辞書）"}
+  - {ja: "原価手帳", to: "लागत किताब", note: "AgendaRicetta（窓の案。辞書に無い）"}
+  - {ja: "常連手帳", to: "नियमित ग्राहक किताब", note: "AgendaNera（窓の案）"}
+  - {ja: "当番手帳", to: "पालो किताब", note: "AgendaTurno（窓の案。製品は準備中）"}
+  - {ja: "話題手帳", to: "कुराकानी किताब", note: "AgendaSpunto（辞書）"}
+  - {ja: "玄関", to: "प्रवेशद्वार", note: "AgendaHub＝シリーズの玄関"}
+  - {ja: "AgendaHub", to: "AgendaHub", note: "そのまま"}
+  - {ja: "AgendaID", to: "AgendaID", note: "そのまま"}
+  - {ja: "ProductBootstrap", to: "ProductBootstrap", note: "そのまま"}
+  - {ja: "バイブコーディング", to: "भाइब कोडिङ", note: "定訳"}
+  - {ja: "副店長", to: "डेपुटी म्यानेजर", note: "本1の比喩。題名もこれ"}
+  - {ja: "NanoBanana", to: "Nano Banana", note: "初出に注"}
+  - {ja: "おわりに", to: "अन्त्यमा", note: "見出し"}
+  - {ja: "はじめに", to: "भूमिका", note: "見出し"}
+  - {ja: "コラム", to: "स्तम्भ", note: "コラム① = स्तम्भ 1（算用数字）"}
+  - {ja: "図", to: "चित्र", note: "【図1-1】 = 【चित्र 1-1】"}
+forbid:
+  - {term: "Tamuro", bad: ["Tamura", "Tomuro", "Tamro", "तामुरो", "टामुरो"]}
+  - {term: "Raku Bonta", bad: ["Bonta Raku", "Raku Honda", "Honda Raku", "राकु बोन्टा"]}
+  - {term: "Bonta LLC", bad: ["Bonta Limited", "Bonta Ltd"]}
+  - {term: "किताब", bad: ["नोटबुक", "नोट बुक", "डायरी"]}
+  - {term: "भाइब कोडिङ", bad: ["भाइब्स कोडिङ", "भाइब-कोडिङ", "vibe coding", "Vibe Coding", "भाइब कोडिंग"]}
+  - {term: "डेपुटी म्यानेजर", bad: ["सहायक व्यवस्थापक", "उप-व्यवस्थापक", "डेपुटी-म्यानेजर", "सहायक म्यानेजर", "उपव्यवस्थापक"]}
+  - {term: "बत्ती किताब", bad: ["बत्तीको किताब", "बत्ती-किताब"]}
+  - {term: "हाजिरी किताब", bad: ["हाजिरा किताब", "हाजिर किताब"]}

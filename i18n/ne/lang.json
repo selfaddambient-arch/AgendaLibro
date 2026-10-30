@@ -1,0 +1,20 @@
+{
+ "code": "ne",
+ "bcp47": "ne",
+ "name": "नेपाली",
+ "dir": "ltr",
+ "font": "'Devanagari Sangam MN', 'Kohinoor Devanagari', serif",
+ "toc_title": "विषयसूची",
+ "qr_labels": [
+  "आफ्नै पसलमा प्रयोग गरेर हेर्नुहोस्",
+  "मेरा गतिविधि पछ्याउनुहोस् (note)",
+  "टोकियो आउँदा Tamuro मा भेट्न आउनुहोस्"
+ ],
+ "kindle": false,
+ "fig_label": "चित्र",
+ "number_style": "en",
+ "cjk": false,
+ "colophon": "## प्रकाशन विवरण\n\n- शीर्षक: {title}\n- उपशीर्षक: {subtitle}\n- लेखक: {author}\n- प्रकाशक: {publisher}\n- संस्करण: नेपाली संस्करण, पहिलो प्रकाशन (जापानी मूल पाण्डुलिपिबाट अनूदित)\n- प्रकाशन मिति: {date}\n- भाषा: नेपाली\n- अनुवाद: जापानी भाषाबाट एआईले अनुवाद गरेको र एआईले समीक्षा गरेको। जापानका ठाउँ, प्रणाली र चलनबारे छोटा टिप्पणी अनुवादकले थपेका हुन्। येनको रकमसँगै अमेरिकी डलरको अनुमानित मूल्य दिइएको छ (विनिमय दर प्रति डलर ¥{rate}, {rate_date} का अनुसार)।\n- स्वतन्त्र रूपमा बाँड्न मिल्छ\n\nAgenda शृङ्खला: {agenda}\n\nTamuro को Instagram: https://www.instagram.com/tamuro.higashinakano/\n\nTamuro को बुकिङ साइट: {tamuro}\n\nnote: https://note.com/bontallc\n\nX: https://x.com/tamuro_hnakano\n",
+ "ja_name": "ネパール語",
+ "mark": "ne"
+}
