@@ -1,0 +1,24 @@
+{
+ "code": "zh-CN",
+ "bcp47": "zh-Hans",
+ "name": "简体中文",
+ "dir": "ltr",
+ "font": "'PingFang SC', 'Hiragino Sans GB', 'Songti SC', sans-serif",
+ "toc_title": "目录",
+ "qr_labels": [
+  "在自己的店里试试",
+  "关注我的动态（note）",
+  "到东京拜访 Tamuro"
+ ],
+ "kindle": false,
+ "fig_label": "图",
+ "number_style": "en",
+ "cjk": true,
+ "colophon": "## 版权页\n\n- 书名：{title}\n- 副标题：{subtitle}\n- 作者：{author}\n- 出版：{publisher}\n- 版次：简体中文版，第一版（译自日文原稿）\n- 出版日期：{date}\n- 语言：简体中文\n- 翻译：由 AI 译自日文，并经 AI 审校。书中关于日本的地点、制度和习惯的简短补充说明由译者添加。日元金额后附有美元概算，按 1 美元 = ¥{rate} 换算（截至 {rate_date}）。\n- 欢迎自由分享\n\nAgenda 系列：{agenda}\n\nTamuro 的 Instagram：https://www.instagram.com/tamuro.higashinakano/\n\nTamuro 预约网站：{tamuro}\n\nnote：https://note.com/bontallc\n\nX：https://x.com/tamuro_hnakano\n",
+ "ja_name": "簡体字中国語",
+ "ocr_langs": [
+  "zh-Hans",
+  "en-US"
+ ],
+ "mark": "cn"
+}

@@ -1,0 +1,39 @@
+# 用語集（簡体字中国語）。`to:` が訳語。手帳の名前は AgendaHub の簡体字辞書（lib/i18n/dictionaries/zh-CN.ts の hub.product.*.nick）に合わせた。
+# 辞書に無い3つ（原価手帳・常連手帳・当番手帳）は窓の案。
+terms:
+  - {ja: "屯", to: "Tamuro", note: "作者在东京东中野经营的酒吧。首次出现时可写 Tamuro（屯）"}
+  - {ja: "T-AI-MURO", to: "T-AI-MURO", note: "保持原样"}
+  - {ja: "本多楽", to: "Raku Bonta", note: "名在前"}
+  - {ja: "ボンタ合同会社", to: "Bonta LLC", note: "出版方"}
+  - {ja: "Agendaシリーズ", to: "Agenda系列", note: "产品名保持原样：AgendaTimbro、AgendaOro 等"}
+  - {ja: "手帳", to: "手账", note: "与 Hub 辞书一致。黒革の手帳 = 黑皮手账"}
+  - {ja: "打刻手帳", to: "打卡手账", note: "AgendaTimbro（Hub 辞书）"}
+  - {ja: "採算手帳", to: "采算手账", note: "AgendaOro（Hub 辞书）"}
+  - {ja: "2軒目手帳", to: "续摊手账", note: "AgendaBis（Hub 辞书）"}
+  - {ja: "相談手帳", to: "咨询手账", note: "AgendaQA（Hub 辞书）"}
+  - {ja: "灯り手帳", to: "灯火手账", note: "AgendaLuce（Hub 辞书）"}
+  - {ja: "原価手帳", to: "成本手账", note: "AgendaRicetta（窓の案；Hub 辞书里没有）"}
+  - {ja: "常連手帳", to: "常客手账", note: "AgendaNera（窓の案）"}
+  - {ja: "当番手帳", to: "值班手账", note: "AgendaTurno（窓の案；产品筹备中）"}
+  - {ja: "話題手帳", to: "话题手账", note: "AgendaSpunto（Hub 辞书）"}
+  - {ja: "玄関", to: "玄关", note: "AgendaHub = 系列的玄关"}
+  - {ja: "AgendaHub", to: "AgendaHub", note: "保持原样"}
+  - {ja: "AgendaID", to: "AgendaID", note: "保持原样"}
+  - {ja: "ProductBootstrap", to: "ProductBootstrap", note: "保持原样"}
+  - {ja: "バイブコーディング", to: "氛围编程", note: "首次出现附 Vibe Coding"}
+  - {ja: "副店長", to: "副店长", note: "第一册的比喻"}
+  - {ja: "NanoBanana", to: "Nano Banana", note: "首次出现时加注"}
+  - {ja: "おわりに", to: "后记", note: "标题"}
+  - {ja: "はじめに", to: "前言", note: "标题"}
+  - {ja: "コラム", to: "专栏", note: "コラム① = 专栏 1"}
+  - {ja: "図", to: "图", note: "【図1-1】 = 【图 1-1】"}
+forbid:
+  - {term: "Tamuro", bad: ["Tamura", "Tomuro", "Tamro", "屯店"]}
+  - {term: "Raku Bonta", bad: ["Bonta Raku", "Raku Honda", "Honda Raku", "本多乐", "本田乐"]}
+  - {term: "Bonta LLC", bad: ["Bonta Limited", "Bonta 有限公司", "Bonta 合同会社"]}
+  - {term: "打卡手账", bad: ["考勤手账", "打刻手账", "打卡手册"]}
+  - {term: "采算手账", bad: ["核算手账", "盈亏手账", "采算手册"]}
+  - {term: "灯火手账", bad: ["灯光手账", "灯光手册", "亮灯手账"]}
+  - {term: "续摊手账", bad: ["第二家手账", "二店手账"]}
+  - {term: "氛围编程", bad: ["氛围式编程", "凭感觉编程", "感觉编程", "Vibe 编程"]}
+  - {term: "副店长", bad: ["助理店长", "代理店长", "副经理"]}
