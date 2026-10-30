@@ -53,7 +53,7 @@ def currency_checks(slug, text):
     close = lambda a, b: len(a) == len(b) and all(abs(x - y) <= 1e-6 * max(1, abs(x)) for x, y in zip(a, b))
     res['円の金額の並びが英語版と一致'] = close(ty, ey) or (len(ty), len(ey))
     res['米ドルの概算の並びが英語版と一致'] = close(tu, eu) or (len(tu), len(eu))
-    lone = [m.group(0) for m in re.finditer(YEN + r'(?:\s*[–—-]\s*¥\s?[\d.,]*\d(?![\d.,]*\d))?(?!\s*[–—-]\s*¥)(?!\s*\([^)]*\$)', text)]
+    lone = [m.group(0) for m in re.finditer(YEN + r'(?:\s*[–—-]\s*¥\s?[\d.,   ]*\d(?![\d.,]*\d|[   ]\d{3}))?(?!\s*[–—-]\s*¥)(?!\s*\([^)]*\$)', text)]
     res['円の金額すべてに米ドルの括弧'] = (not lone) or lone[:5]
     res['円の金額の数（参考）'] = len(ty)
     return res

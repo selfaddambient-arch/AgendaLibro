@@ -1,0 +1,37 @@
+# 用語集（ロシア語）。`to:` が訳語。手帳の名前は AgendaHub のロシア語辞書（lib/i18n/dictionaries/ru.ts の hub.product.*.nick）に合わせた。
+# 辞書に無い3つ（原価手帳・常連手帳・当番手帳）は窓の案。
+terms:
+  - {ja: "屯", to: "Tamuro", note: "bar milik penulis di Higashi-Nakano, Tokyo"}
+  - {ja: "T-AI-MURO", to: "T-AI-MURO", note: "tetap"}
+  - {ja: "本多楽", to: "Raku Bonta", note: "nama depan dulu"}
+  - {ja: "ボンタ合同会社", to: "Bonta LLC", note: "penerbit"}
+  - {ja: "Agendaシリーズ", to: "Agenda", note: "nama produk tetap: AgendaTimbro, AgendaOro, ..."}
+  - {ja: "手帳", to: "блокнот", note: "sama dengan kamus Hub: Buku Absensi, Buku Laba Rugi ... 黒革の手帳 = buku catatan kulit hitam"}
+  - {ja: "打刻手帳", to: "Табель учёта", note: "AgendaTimbro (kamus Hub)"}
+  - {ja: "採算手帳", to: "Расчёт прибыли", note: "AgendaOro (kamus Hub)"}
+  - {ja: "2軒目手帳", to: "Путеводитель по второму месту", note: "AgendaBis (kamus Hub)"}
+  - {ja: "相談手帳", to: "Справочник поддержки", note: "AgendaQA (kamus Hub)"}
+  - {ja: "灯り手帳", to: "Блокнот огней", note: "AgendaLuce (kamus Hub)"}
+  - {ja: "原価手帳", to: "Расчёт себестоимости", note: "AgendaRicetta (usulan penyunting; tidak ada di kamus Hub)"}
+  - {ja: "常連手帳", to: "Картотека постоянных гостей", note: "AgendaNera (usulan penyunting)"}
+  - {ja: "当番手帳", to: "График смен", note: "AgendaTurno (usulan penyunting; produk masih disiapkan)"}
+  - {ja: "話題手帳", to: "Темы для беседы", note: "AgendaSpunto (kamus Hub)"}
+  - {ja: "玄関", to: "вход", note: "AgendaHub = pintu depan seri"}
+  - {ja: "AgendaHub", to: "AgendaHub", note: "tetap"}
+  - {ja: "AgendaID", to: "AgendaID", note: "tetap"}
+  - {ja: "ProductBootstrap", to: "ProductBootstrap", note: "tetap"}
+  - {ja: "バイブコーディング", to: "вайб-кодинг", note: "istilah tetap"}
+  - {ja: "副店長", to: "заместител", note: "metafora buku 1"}
+  - {ja: "NanoBanana", to: "Nano Banana", note: "catatan pada penyebutan pertama"}
+  - {ja: "おわりに", to: "Послесловие", note: "judul"}
+  - {ja: "はじめに", to: "Введение", note: "judul"}
+  - {ja: "コラム", to: "Колонка", note: "コラム① = Kolom 1"}
+  - {ja: "図", to: "Рис.", note: "【図1-1】 = 【Gambar 1-1】"}
+forbid:
+  - {term: "Tamuro", bad: ["Тамуро", "Tamura", "Tomuro", "Tamro"]}
+  - {term: "Raku Bonta", bad: ["Bonta Raku", "Раку Бонта", "Raku Honda", "Honda Raku"]}
+  - {term: "Bonta LLC", bad: ["Bonta Limited", "Bonta ООО", "ООО Bonta"]}
+  - {term: "Табель учёта", bad: ["Табель учета", "Учёт времени"]}
+  - {term: "Расчёт прибыли", bad: ["Расчет прибыли", "Расчёт рентабельности"]}
+  - {term: "Блокнот огней", bad: ["Блокнот света", "Блокнот ламп"]}
+  - {term: "вайб-кодинг", bad: ["вайбкодинг", "вайб кодинг", "vibe coding", "Vibe Coding"]}

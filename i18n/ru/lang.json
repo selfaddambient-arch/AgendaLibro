@@ -1,0 +1,24 @@
+{
+ "code": "ru",
+ "bcp47": "ru",
+ "name": "Русский",
+ "dir": "ltr",
+ "font": "'Georgia', 'Baskerville', 'Times New Roman', serif",
+ "toc_title": "Содержание",
+ "qr_labels": [
+  "Попробуйте в своём заведении",
+  "Следите за моей деятельностью (note)",
+  "Загляните в Tamuro в Токио"
+ ],
+ "kindle": false,
+ "fig_label": "Рис.",
+ "number_style": "space",
+ "cjk": false,
+ "colophon": "## Выходные данные\n\n- Название: {title}\n- Подзаголовок: {subtitle}\n- Автор: {author}\n- Издатель: {publisher}\n- Издание: русское издание, первое (перевод с японской рукописи)\n- Дата выхода: {date}\n- Язык: русский\n- Перевод: переведено с японского с помощью ИИ и проверено с помощью ИИ. Краткие пояснения о местах, порядках и обычаях Японии добавлены переводчиком. Суммы в иенах сопровождаются примерным пересчётом в доллары США по курсу ¥{rate} за доллар (на {rate_date}).\n- Книгу можно свободно распространять\n\nСерия Agenda: {agenda}\n\nInstagram Tamuro: https://www.instagram.com/tamuro.higashinakano/\n\nСайт бронирования Tamuro: {tamuro}\n\nnote: https://note.com/bontallc\n\nX: https://x.com/tamuro_hnakano\n",
+ "ja_name": "ロシア語",
+ "ocr_langs": [
+  "ru-RU",
+  "en-US"
+ ],
+ "mark": "ru"
+}
