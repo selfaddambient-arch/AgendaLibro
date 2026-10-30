@@ -1,0 +1,18 @@
+{
+ "code": "en",
+ "bcp47": "en",
+ "name": "English",
+ "dir": "ltr",
+ "font": "'Baskerville', 'Georgia', 'Times New Roman', serif",
+ "toc_title": "Contents",
+ "qr_labels": [
+  "Try it in your own shop",
+  "Follow what I'm doing (note)",
+  "Visit Tamuro in Tokyo"
+ ],
+ "kindle": true,
+ "colophon": "## Colophon\n\n- Title: {title}\n- Subtitle: {subtitle}\n- Author: {author}\n- Publisher: {publisher}\n- Edition: English edition, first edition (translated from the Japanese original)\n- Published: {date}\n- Language: English\n- Translation: translated from the Japanese by AI and reviewed by AI. Short notes on Japanese places, systems and customs were added by the translator. Yen amounts are followed by approximate US dollar figures at ¥{rate} to the dollar (as of {rate_date}).\n- Free to share\n\nThe Agenda series: {agenda}\n\nTamuro's Instagram: https://www.instagram.com/tamuro.higashinakano/\n\nTamuro's reservation site: {tamuro}\n\nnote: https://note.com/bontallc\n\nX: https://x.com/tamuro_hnakano\n",
+ "fig_label": "Figure",
+ "number_style": "en",
+ "cjk": false
+}

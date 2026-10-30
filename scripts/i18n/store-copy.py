@@ -23,7 +23,7 @@ JA = {
       gcat=['ビジネス／経済', 'コンピュータ／人工知能']),
 }
 # 英語の説明文の書き直し（前作・続編の題名を英題にそろえ、無料の言い方をストアごとに正しくする）
-SEQ = {'hitori-de-mise': 'A sequel, *Our Bar, Our Specs*, follows the building of a reservation system that customers\' own AIs can book through.'.replace('*', '')}
+SEQ = {'hitori-de-mise': 'A sequel, *Built for Our Bar*, follows the building of a reservation system that customers\' own AIs can book through.'.replace('*', '')}
 def en_desc(slug, store):
     d = EN[slug]['store_description'].strip()
     if slug == 'hitori-de-mise':

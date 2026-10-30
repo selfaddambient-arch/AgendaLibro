@@ -1,4 +1,4 @@
-# Our Bar, Our Specs
+# Built for Our Bar
 
 How the Owner of a 19-Seat Bar Built Everything from Reservations to Tools with AI
 
@@ -16,7 +16,7 @@ This book is a plain record of how the owner of a 19-seat bar in Higashi-Nakano 
 
 The bar is called "Tamuro." The name means a place where people gather. It opened in November 2018, a small place with 11 counter seats and 8 tatami-room seats. In the daytime, in the same space, a staff member runs a hamburger-curry restaurant called "Quatre Épices."
 
-In my previous book, *Running the Shop Alone, with AI Beside Me*, I wrote about generative AI itself. In the year or so since, AI has changed from a tool that answers questions into a tool that gets work done for you. Give it an instruction, and it writes the program, tests it, fixes its mistakes and finishes the job. We call this kind of AI agentic AI.
+In my previous book, *The AI Deputy Manager*, I wrote about generative AI itself. In the year or so since, AI has changed from a tool that answers questions into a tool that gets work done for you. Give it an instruction, and it writes the program, tests it, fixes its mistakes and finishes the job. We call this kind of AI agentic AI.
 
 Using agentic AI, I built Tamuro's reservation system myself. I built a discount system to go with a price increase. I built a system for nurturing regulars. I built an AI that answers customers' questions. And in the end, I got to the point where a customer can ask Tamuro a question from their own AI and go on to make a reservation.
 
@@ -1062,7 +1062,7 @@ I am not thinking of making the company bigger. Small, many, and cheap. That is 
 
 When I write and publish, I use the pen name "Raku Bonta." I wrote this book under that name too.
 
-My previous book, *Running the Shop Alone, with AI Beside Me*, was a book about generative AI. It ranked number one in Amazon's time management category and was read by many people. This book is its sequel.
+My previous book, *The AI Deputy Manager*, was a book about generative AI. It ranked number one in Amazon's time management category and was read by many people. This book is its sequel.
 
 Besides books, I also write on note. I write about the bar's efforts with AI, what I found on a training trip, the progress of publishing my books, and the Agenda series. You can follow the continuation I couldn't fit in this book on note (https://note.com/bontallc).
 

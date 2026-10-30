@@ -1,6 +1,6 @@
 ## Introduction
 
-This book is a record as of January 2026. Some of the ways I run the shop, and some of the names and specifications of the AI tools, have changed since then. The sequel, *Our Bar, Our Specs*, picks up the story.
+This book is a record as of January 2026. Some of the ways I run the shop, and some of the names and specifications of the AI tools, have changed since then. The sequel, *Built for Our Bar*, picks up the story.
 
 ### Why a Former Systems Guy Is Talking to AI in a Basement Restaurant
 
@@ -1119,7 +1119,7 @@ Not just the analysis: the "material" needed for the improvement can be procured
 
 This is the real strength of building generative AI into your management.
 
-### 5-5. Just Changing the Layout Doubled the Spend per Customer
+### 5-5. Just Changing the Layout Raised the Spend per Customer by About 40%
 
 So I redesigned the menu.
 
