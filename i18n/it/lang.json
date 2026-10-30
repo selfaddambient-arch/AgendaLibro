@@ -1,0 +1,24 @@
+{
+ "code": "it",
+ "bcp47": "it",
+ "name": "Italiano",
+ "dir": "ltr",
+ "font": "'Baskerville', 'Georgia', 'Times New Roman', serif",
+ "toc_title": "Indice",
+ "qr_labels": [
+  "Lo provi nel Suo locale",
+  "Segua quello che faccio (note)",
+  "Venga a trovare Tamuro a Tokyo"
+ ],
+ "kindle": true,
+ "fig_label": "Figura",
+ "number_style": "dot",
+ "cjk": false,
+ "colophon": "## Colophon\n\n- Titolo: {title}\n- Sottotitolo: {subtitle}\n- Autore: {author}\n- Editore: {publisher}\n- Edizione: edizione italiana, prima edizione (tradotta dall'originale giapponese)\n- Pubblicazione: {date}\n- Lingua: italiano\n- Traduzione: tradotta dal giapponese con l'IA e rivista con l'IA. Brevi note su luoghi, sistemi e usanze del Giappone sono state aggiunte da chi ha tradotto. Gli importi in yen sono seguiti da cifre approssimative in dollari statunitensi, al cambio di ¥{rate} per dollaro (al {rate_date}).\n- Condivisione libera\n\nLa serie Agenda: {agenda}\n\nInstagram di Tamuro: https://www.instagram.com/tamuro.higashinakano/\n\nSito di prenotazione di Tamuro: {tamuro}\n\nnote: https://note.com/bontallc\n\nX: https://x.com/tamuro_hnakano\n",
+ "ja_name": "イタリア語",
+ "ocr_langs": [
+  "it-IT",
+  "en-US"
+ ],
+ "mark": "it"
+}

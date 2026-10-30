@@ -1,0 +1,38 @@
+# 用語集（イタリア語）。`to:` が訳語。手帳の名前は AgendaHub のイタリア語辞書（lib/i18n/dictionaries/it.ts の hub.product.*.nick）に合わせた。
+# 辞書に無い3つ（原価手帳・常連手帳・当番手帳）は窓の案。
+terms:
+  - {ja: "屯", to: "Tamuro", note: "il bar dell'autore a Higashi-Nakano, Tokyo"}
+  - {ja: "T-AI-MURO", to: "T-AI-MURO", note: "invariato"}
+  - {ja: "本多楽", to: "Raku Bonta", note: "prima il nome"}
+  - {ja: "ボンタ合同会社", to: "Bonta LLC", note: "editore"}
+  - {ja: "Agendaシリーズ", to: "serie Agenda", note: "nomi dei prodotti invariati: AgendaTimbro, AgendaOro, ..."}
+  - {ja: "手帳", to: "taccuino", note: "黒革の手帳 = taccuino di pelle nera"}
+  - {ja: "打刻手帳", to: "Timbrature", note: "AgendaTimbro (dizionario Hub)"}
+  - {ja: "採算手帳", to: "Redditività", note: "AgendaOro (dizionario Hub)"}
+  - {ja: "2軒目手帳", to: "Guida al Secondo Locale", note: "AgendaBis (dizionario Hub)"}
+  - {ja: "相談手帳", to: "Guida al Supporto", note: "AgendaQA (dizionario Hub)"}
+  - {ja: "灯り手帳", to: "Taccuino della Luce", note: "AgendaLuce (dizionario Hub)"}
+  - {ja: "原価手帳", to: "Taccuino dei Costi", note: "AgendaRicetta (proposta della finestra; non nel dizionario Hub)"}
+  - {ja: "常連手帳", to: "Taccuino dei Clienti Abituali", note: "AgendaNera (proposta della finestra)"}
+  - {ja: "当番手帳", to: "Taccuino dei Turni", note: "AgendaTurno (proposta della finestra; prodotto in preparazione)"}
+  - {ja: "話題手帳", to: "Spunti di Conversazione", note: "AgendaSpunto (dizionario Hub)"}
+  - {ja: "玄関", to: "ingresso", note: "AgendaHub = l'ingresso della serie"}
+  - {ja: "AgendaHub", to: "AgendaHub", note: "invariato"}
+  - {ja: "AgendaID", to: "AgendaID", note: "invariato"}
+  - {ja: "ProductBootstrap", to: "ProductBootstrap", note: "invariato"}
+  - {ja: "バイブコーディング", to: "vibe coding", note: "termine invariato"}
+  - {ja: "副店長", to: "vice responsabile", note: "metafora del libro 1"}
+  - {ja: "NanoBanana", to: "Nano Banana", note: "nota alla prima menzione"}
+  - {ja: "おわりに", to: "Postfazione", note: "titolo"}
+  - {ja: "はじめに", to: "Introduzione", note: "titolo"}
+  - {ja: "コラム", to: "Rubrica", note: "コラム① = Rubrica 1"}
+  - {ja: "図", to: "Figura", note: "【図1-1】 = 【Figura 1-1】"}
+forbid:
+  - {term: "Tamuro", bad: ["Tamura", "Tomuro", "Tamro", "Ton"]}
+  - {term: "Raku Bonta", bad: ["Bonta Raku", "Raku Honda", "Honda Raku"]}
+  - {term: "Bonta LLC", bad: ["Bonta Limited", "Bonta S.r.l.", "Bonta Srl"]}
+  - {term: "Timbrature", bad: ["Cartellino", "Marcatempo"]}
+  - {term: "Redditività", bad: ["Profittabilità", "Utili e Perdite"]}
+  - {term: "Taccuino della Luce", bad: ["Taccuino delle Luci", "Taccuino della Lanterna"]}
+  - {term: "vibe coding", bad: ["codifica vibe", "vibe-coding", "coding a vibrazioni"]}
+  - {term: "vice responsabile", bad: ["vicedirettore", "vice direttore", "vice-responsabile", "vice manager", "vicegestore"]}

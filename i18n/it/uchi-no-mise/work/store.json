@@ -1,0 +1,22 @@
+{
+ "one_liner": "Il titolare di un bar da 19 posti a Tokyo costruisce con l'IA il proprio sistema di prenotazione, fino alle prenotazioni dall'IA dei clienti, errori compresi.",
+ "description": "Tamuro è un bar da 19 posti a Higashi-Nakano, a Tokyo. Il titolare dà istruzioni all'IA e costruisce di persona il sistema di prenotazione del locale. Alla fine pubblica un server MCP, così che il ChatGPT o il Claude di un cliente possa chiedere al bar la disponibilità e proseguire con la prenotazione.\n\nQuesto libro racconta l'intero percorso, non solo ciò che è riuscito. Ci sono il sistema di sconti costruito insieme all'aumento dei prezzi, i dati secondo cui l'88% delle prenotazioni è per lo stesso giorno e la finestra di conversazione per chi si smarrisce fra troppi piani. C'è anche un errore: un audit dell'IA ha scoperto che i dati personali dei clienti si potevano leggere dall'esterno, e il difetto è stato corretto.\n\nLa seconda metà parla della serie Agenda, strumenti nati dai problemi di un solo bar e ora distribuiti ad altri ristoranti. È la testimonianza di un piccolo locale su un'epoca in cui si può costruire ciò che prima si pagava a grandi aziende, adattandolo alle proprie specifiche.\n\nSe la parte tecnica non Le interessa, i capitoli 1, 3 e 5 si leggono comunque come un racconto continuo.\n\nQuesto libro si può leggere gratuitamente e condividere. È disponibile gratis anche in PDF e su note. Solo su Kindle, le regole dello store richiedono un prezzo minimo.",
+ "keywords": [
+  "titolare di bar",
+  "sistema di prenotazione con IA",
+  "server MCP",
+  "IA per piccole attività",
+  "tecnologia per la ristorazione",
+  "bar di Tokyo",
+  "costruire i propri strumenti"
+ ],
+ "gp_genres": [
+  "Economia e affari / Piccole imprese",
+  "Informatica / Intelligenza artificiale"
+ ],
+ "kindle_categories": [
+  "Kindle eBook > Economia > Piccole imprese e imprenditorialità",
+  "Kindle eBook > Informatica > Intelligenza artificiale",
+  "Kindle eBook > Economia > Ristorazione e ospitalità"
+ ]
+}

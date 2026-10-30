@@ -1,0 +1,21 @@
+skip i18n/it/hitori-de-mise/review/00.gemini.md
+skip i18n/it/hitori-de-mise/review/01.gemini.md
+skip i18n/it/hitori-de-mise/review/02.gemini.md
+ok i18n/it/hitori-de-mise/review/03-1.gemini.md 1675
+ok i18n/it/hitori-de-mise/review/03-2.gemini.md 1758
+ok i18n/it/hitori-de-mise/review/04.gemini.md 2301
+ok i18n/it/hitori-de-mise/review/05.gemini.md 2041
+ok i18n/it/hitori-de-mise/review/06.gemini.md 1778
+ok i18n/it/hitori-de-mise/review/07.gemini.md 2413
+ok i18n/it/uchi-no-mise/review/00.gemini.md 1673
+ok i18n/it/uchi-no-mise/review/01-1.gemini.md 2319
+ok i18n/it/uchi-no-mise/review/01-2.gemini.md 1609
+ok i18n/it/uchi-no-mise/review/01-3.gemini.md 1875
+ok i18n/it/uchi-no-mise/review/02-1.gemini.md 2226
+ok i18n/it/uchi-no-mise/review/02-2.gemini.md 2131
+ok i18n/it/uchi-no-mise/review/03-1.gemini.md 3015
+ok i18n/it/uchi-no-mise/review/03-2.gemini.md 1929
+ok i18n/it/uchi-no-mise/review/04.gemini.md 2506
+ok i18n/it/uchi-no-mise/review/05.gemini.md 2550
+ok i18n/it/uchi-no-mise/review/06.gemini.md 1159
+ALLDONE { tin: 100029, tout: 14386 }
