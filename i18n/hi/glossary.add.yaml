@@ -1,0 +1,39 @@
+# 用語集（ヒンディー語）。手帳の名前は AgendaHub の hi.ts の hub.product.*.nick に合わせた。原価手帳・常連手帳・当番手帳は窓の案
+# 用語集（インドネシア語）。`to:` が訳語。手帳の名前は AgendaHub のインドネシア語辞書（lib/i18n/dictionaries/id.ts の hub.product.*.nick）に合わせた。
+# 辞書に無い3つ（原価手帳・常連手帳・当番手帳）は窓の案。
+terms:
+  - {ja: "屯", to: "Tamuro", note: ""}
+  - {ja: "T-AI-MURO", to: "T-AI-MURO", note: ""}
+  - {ja: "本多楽", to: "Raku Bonta", note: ""}
+  - {ja: "ボンタ合同会社", to: "Bonta LLC", note: ""}
+  - {ja: "Agendaシリーズ", to: "Agenda शृंखला", note: ""}
+  - {ja: "手帳", to: "बही", note: "辞書 hi.ts"}
+  - {ja: "打刻手帳", to: "हाज़िरी बही", note: "辞書 hi.ts"}
+  - {ja: "採算手帳", to: "लाभ बही", note: "辞書 hi.ts"}
+  - {ja: "2軒目手帳", to: "अगली जगह बही", note: "辞書 hi.ts"}
+  - {ja: "相談手帳", to: "सहायता पुस्तिका", note: "辞書 hi.ts"}
+  - {ja: "灯り手帳", to: "दीप बही", note: "辞書 hi.ts"}
+  - {ja: "原価手帳", to: "लागत बही", note: "窓の案"}
+  - {ja: "常連手帳", to: "नियमित ग्राहक बही", note: "窓の案"}
+  - {ja: "当番手帳", to: "पाली बही", note: "窓の案"}
+  - {ja: "話題手帳", to: "बातचीत पुस्तिका", note: "辞書 hi.ts"}
+  - {ja: "玄関", to: "प्रवेश द्वार", note: ""}
+  - {ja: "AgendaHub", to: "AgendaHub", note: ""}
+  - {ja: "AgendaID", to: "AgendaID", note: ""}
+  - {ja: "ProductBootstrap", to: "ProductBootstrap", note: ""}
+  - {ja: "バイブコーディング", to: "वाइब कोडिंग", note: ""}
+  - {ja: "副店長", to: "डिप्टी मैनेजर", note: ""}
+  - {ja: "NanoBanana", to: "Nano Banana", note: ""}
+  - {ja: "おわりに", to: "समापन", note: ""}
+  - {ja: "はじめに", to: "भूमिका", note: ""}
+  - {ja: "コラム", to: "कॉलम", note: ""}
+  - {ja: "図", to: "चित्र", note: ""}
+forbid:
+  - {term: "Tamuro", bad: ["Tamura", "Tomuro", "Tamro", "तामुरो", "तमुरो"]}
+  - {term: "Raku Bonta", bad: ["Bonta Raku", "Raku Honda", "Honda Raku", "राकु बोंता"]}
+  - {term: "Bonta LLC", bad: ["Bonta Limited", "बोंता एलएलसी"]}
+  - {term: "हाज़िरी बही", bad: ["हाजिरी बही", "उपस्थिति बही"]}
+  - {term: "लाभ बही", bad: ["मुनाफ़ा बही", "मुनाफा बही"]}
+  - {term: "दीप बही", bad: ["दीपक बही", "रोशनी बही"]}
+  - {term: "वाइब कोडिंग", bad: ["वाईब कोडिंग", "वायब कोडिंग", "vibe coding"]}
+  - {term: "डिप्टी मैनेजर", bad: ["उप-प्रबंधक", "उप प्रबंधक", "सहायक प्रबंधक", "उपप्रबंधक", "डिप्टी-मैनेजर"]}

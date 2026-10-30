@@ -1,0 +1,20 @@
+{
+ "code": "hi",
+ "bcp47": "hi",
+ "name": "हिन्दी",
+ "dir": "ltr",
+ "font": "'Devanagari Sangam MN', 'Kohinoor Devanagari', serif",
+ "toc_title": "विषय-सूची",
+ "qr_labels": [
+  "अपनी दुकान में आज़माएँ",
+  "मेरी गतिविधियाँ देखें (note)",
+  "टोक्यो में Tamuro आएँ"
+ ],
+ "kindle": true,
+ "fig_label": "चित्र",
+ "number_style": "en",
+ "cjk": false,
+ "colophon": "## प्रकाशन-परिचय\n\n- शीर्षक: {title}\n- उपशीर्षक: {subtitle}\n- लेखक: {author}\n- प्रकाशक: {publisher}\n- संस्करण: हिन्दी संस्करण, पहला प्रकाशन (जापानी मूल पांडुलिपि से अनूदित)\n- प्रकाशन तिथि: {date}\n- भाषा: हिन्दी\n- अनुवाद: इस पुस्तक का जापानी से अनुवाद AI ने किया है और AI द्वारा इसकी समीक्षा की गई है। जापान की जगहों, व्यवस्थाओं और रीति-रिवाजों के बारे में छोटे-छोटे स्पष्टीकरण अनुवादक ने जोड़े हैं। येन की राशियों के साथ अमेरिकी डॉलर का अनुमान ¥{rate} प्रति डॉलर की दर से दिया गया है ({rate_date} के अनुसार)।\n- स्वतंत्र रूप से साझा करने की अनुमति है\n\nAgenda शृंखला: {agenda}\n\nTamuro का Instagram: https://www.instagram.com/tamuro.higashinakano/\n\nTamuro की रिज़र्वेशन साइट: {tamuro}\n\nnote: https://note.com/bontallc\n\nX: https://x.com/tamuro_hnakano\n",
+ "ja_name": "ヒンディー語",
+ "mark": "hi"
+}
