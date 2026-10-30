@@ -87,7 +87,8 @@ def fields_generic(slug, code, store):
 
 def other_langs():
     out = []
-    for d in sorted((ROOT / 'i18n').glob('*/lang.json')):
+    ORDER = ['id','ms','bn','vi','zh-CN','zh-TW','ko','ne','my','th','pt-BR','es','fr','de','hi','fil','it','tr','ru']
+    for d in sorted((ROOT / 'i18n').glob('*/lang.json'), key=lambda p: ORDER.index(p.parent.name) if p.parent.name in ORDER else 99):
         code = d.parent.name
         if code == 'en':
             continue
