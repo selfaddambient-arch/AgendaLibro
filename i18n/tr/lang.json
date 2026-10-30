@@ -1,0 +1,24 @@
+{
+ "code": "tr",
+ "bcp47": "tr",
+ "name": "Türkçe",
+ "dir": "ltr",
+ "font": "'Baskerville', 'Georgia', 'Times New Roman', serif",
+ "toc_title": "İçindekiler",
+ "qr_labels": [
+  "Kendi dükkânınızda deneyin",
+  "Çalışmalarımı takip edin (note)",
+  "Tokyo'da Tamuro'yu ziyaret edin"
+ ],
+ "kindle": false,
+ "fig_label": "Şekil",
+ "number_style": "dot",
+ "cjk": false,
+ "colophon": "## Künye\n\n- Başlık: {title}\n- Alt başlık: {subtitle}\n- Yazar: {author}\n- Yayıncı: {publisher}\n- Baskı: Türkçe baskı, ilk basım (Japonca özgün metinden çevrilmiştir)\n- Yayın tarihi: {date}\n- Dil: Türkçe\n- Çeviri: Japoncadan yapay zekâ ile çevrilmiş ve yapay zekâ incelemesinden geçirilmiştir. Japonya'daki mekânlara, sistemlere ve alışkanlıklara dair kısa notları çevirmen eklemiştir. Yen tutarlarının yanındaki ABD doları karşılıkları, 1 dolar = ¥{rate} kuruyla (güncelleme tarihi: {rate_date}) verilmiş yaklaşık değerlerdir.\n- Serbestçe paylaşılabilir\n\nAgenda serisi: {agenda}\n\nTamuro Instagram: https://www.instagram.com/tamuro.higashinakano/\n\nTamuro rezervasyon sitesi: {tamuro}\n\nnote: https://note.com/bontallc\n\nX: https://x.com/tamuro_hnakano\n",
+ "ja_name": "トルコ語",
+ "ocr_langs": [
+  "tr-TR",
+  "en-US"
+ ],
+ "mark": "tr"
+}

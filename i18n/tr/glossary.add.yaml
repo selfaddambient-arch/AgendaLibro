@@ -1,0 +1,38 @@
+# 用語集（トルコ語）。`to:` が訳語。手帳の名前は AgendaHub のトルコ語辞書（lib/i18n/dictionaries/tr.ts の hub.product.*.nick）に合わせた。
+# 辞書に無い3つ（原価手帳・常連手帳・当番手帳）は窓の案。
+terms:
+  - {ja: "屯", to: "Tamuro", note: "yazarın Tokyo Higashi-Nakano'daki barı"}
+  - {ja: "T-AI-MURO", to: "T-AI-MURO", note: "aynen"}
+  - {ja: "本多楽", to: "Raku Bonta", note: "önce ad"}
+  - {ja: "ボンタ合同会社", to: "Bonta LLC", note: "yayıncı"}
+  - {ja: "Agendaシリーズ", to: "Agenda serisi", note: "ürün adları aynen: AgendaTimbro, AgendaOro, ..."}
+  - {ja: "手帳", to: "defter", note: "Hub sözlüğüyle aynı: Mesai Defteri, Kârlılık Defteri ... 黒革の手帳 = siyah deri defter"}
+  - {ja: "打刻手帳", to: "Mesai Defteri", note: "AgendaTimbro (Hub sözlüğü)"}
+  - {ja: "採算手帳", to: "Kârlılık Defteri", note: "AgendaOro (Hub sözlüğü)"}
+  - {ja: "2軒目手帳", to: "İkinci Mekân Defteri", note: "AgendaBis (Hub sözlüğü)"}
+  - {ja: "相談手帳", to: "Destek Rehberi", note: "AgendaQA (Hub sözlüğü)"}
+  - {ja: "灯り手帳", to: "Işık Defteri", note: "AgendaLuce (Hub sözlüğü)"}
+  - {ja: "原価手帳", to: "Maliyet Defteri", note: "AgendaRicetta (editör önerisi; Hub sözlüğünde yok)"}
+  - {ja: "常連手帳", to: "Müdavim Defteri", note: "AgendaNera (editör önerisi)"}
+  - {ja: "当番手帳", to: "Vardiya Defteri", note: "AgendaTurno (editör önerisi; ürün hazırlanıyor)"}
+  - {ja: "話題手帳", to: "Sohbet Defteri", note: "AgendaSpunto (Hub sözlüğü)"}
+  - {ja: "玄関", to: "ön kapı", note: "AgendaHub = serinin ön kapısı"}
+  - {ja: "AgendaHub", to: "AgendaHub", note: "aynen"}
+  - {ja: "AgendaID", to: "AgendaID", note: "aynen"}
+  - {ja: "ProductBootstrap", to: "ProductBootstrap", note: "aynen"}
+  - {ja: "バイブコーディング", to: "vibe coding", note: "sabit terim"}
+  - {ja: "副店長", to: "müdür yardımcısı", note: "1. kitabın metaforu"}
+  - {ja: "NanoBanana", to: "Nano Banana", note: "ilk geçtiği yerde not"}
+  - {ja: "おわりに", to: "Son Söz", note: "başlık"}
+  - {ja: "はじめに", to: "Giriş", note: "başlık"}
+  - {ja: "コラム", to: "Not Kutusu", note: "コラム① = Not Kutusu 1"}
+  - {ja: "図", to: "Şekil", note: "【図1-1】 = 【Şekil 1-1】"}
+forbid:
+  - {term: "Tamuro", bad: ["Tamura", "Tomuro", "Tamro", "Tamuru"]}
+  - {term: "Raku Bonta", bad: ["Bonta Raku", "Raku Honda", "Honda Raku"]}
+  - {term: "Bonta LLC", bad: ["Bonta Ltd", "Bonta Limited", "Bonta A.Ş."]}
+  - {term: "Mesai Defteri", bad: ["Mesai Kayıt Defteri", "Puantaj Defteri"]}
+  - {term: "Kârlılık Defteri", bad: ["Karlılık Defteri", "Kâr Defteri"]}
+  - {term: "Işık Defteri", bad: ["Isik Defteri", "Lamba Defteri"]}
+  - {term: "vibe coding", bad: ["vibe kodlama", "vibes coding"]}
+  - {term: "müdür yardımcısı", bad: ["yardımcı müdür", "asistan müdür", "kıdemli müdür"]}

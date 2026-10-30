@@ -1,0 +1,17 @@
+{
+ "one_liner": "Tokyo'da 19 koltuklu bir barın sahibi, rezervasyon sistemini yapay zekâyla kurdu; müşteriler artık kendi yapay zekâlarından rezervasyon yapabiliyor.",
+ "description": "Tamuro, Tokyo'nun Higashi-Nakano semtinde 19 koltuklu bir bar. İşletmecisi yapay zekâya talimat veriyor ve barın rezervasyon sistemini kendi başına kuruyor. Sonunda bir MCP sunucusu yayımlıyor; böylece müşterinin ChatGPT'si ya da Claude'u bara boş yer olup olmadığını sorabiliyor ve ardından rezervasyona geçebiliyor.\n\nBu kitap yalnızca işe yarayanları değil, sürecin tamamını kaydediyor. Fiyat artışıyla aynı anda kurulan indirim sistemi, rezervasyonların %88'inin aynı gün yapıldığını gösteren veriler ve çok fazla plan arasında seçim yapamayan konuklar için kurulan sohbet penceresi kitapta yer alıyor. Bir hata da anlatılıyor: bir yapay zekâ denetimi müşterilerin kişisel bilgilerinin dışarıdan okunabildiğini buluyor ve bu düzeltiliyor.\n\nİkinci yarı Agenda serisini ele alıyor: tek bir barın sorunundan doğan ve şimdi başka restoranlara dağıtılan araçlar. Bu, küçük bir dükkânın, eskiden büyük şirketlere ödediğiniz şeyi kendiniz kurabildiğiniz ve kendi şartnamenize göre uyarlayabildiğiniz bir çağa dair kaydı.\n\nTeknik konular ilginizi çekmiyorsa 1., 3. ve 5. bölümler yine de kesintisiz bir hikâye anlatır.\n\nKitap ücretsiz okunur ve paylaşılabilir. PDF olarak ve note'ta da ücretsiz sunuluyor.",
+ "keywords": [
+  "bar sahibi",
+  "yapay zekâ rezervasyon sistemi",
+  "MCP sunucusu",
+  "küçük işletmeler için yapay zekâ",
+  "restoran teknolojisi",
+  "Tokyo barı",
+  "kendi aracını yapmak"
+ ],
+ "gp_genres": [
+  "İş ve Ekonomi / Küçük İşletme",
+  "Bilgisayar / Yapay Zekâ"
+ ]
+}

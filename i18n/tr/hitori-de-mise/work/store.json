@@ -1,0 +1,17 @@
+{
+ "one_liner": "Tokyo'daki bodrum katı bir dükkânın sahibi, özel bir bilgi olmadan yapay zekâyı müdür yardımcısı yaptı; adımları ve başarısızlıklarıyla birlikte.",
+ "description": "Tokyo'nun Higashi-Nakano semtindeki bir bodrum katında yazar dükkânı tek başına işletiyor: gündüz hamburger köri, gece bar. Bu kitap, yapay zekânın yanına gelip çalışmaya başlamasının dürüst bir kaydı.\n\nÇalışanlara gönderilen uzun bir LINE mesajı, yapay zekâ tarafından tek bir şemaya çevriliyor ve bir bakışta anlaşılıyor. Bir şarap etiketinin fotoğrafı, açıklaması ve servis fiyatıyla eksiksiz bir şarap listesine dönüşüyor. Yapay zekâ satış verilerini menüyle karşılaştırdığında, işletmecinin en çok satmak istediği sınırsız içki paketinin menünün bir köşesinde saklandığını gösteriyor. Yeri değiştirildikten sonra müşteri başına harcama artıyor.\n\nYazar ayrıca tek satır kod yazmadan, yapay zekâyla konuşarak bir nakit akışı uygulaması ve bir yüz tanıma sistemi kuruyor. Bir hata belirdiğinde onu okumuyor. Ekranın görüntüsünü alıp yapay zekâya gösteriyor.\n\nEski bir sistemci olarak yazar, sahadaki gerçek sorunu parçalara ayırabilmenin teknik bilgiden daha önemli olduğunu fark ediyor. Adımlar ve başarısızlıklar olduğu gibi yazılmış. Küçük bir şeyle başlayabilirsiniz: uzun bir LINE mesajını bir şemaya çevirmekle.\n\nKitap ücretsiz okunur ve paylaşılabilir. PDF olarak ve note'ta da ücretsiz sunuluyor.\n\nDevamı olan Barımıza Göre Yapıldı, müşterilerin kendi yapay zekâlarından rezervasyon yapabildiği bir rezervasyon sisteminin kurulmasını anlatıyor.",
+ "keywords": [
+  "küçük işletmeler için yapay zekâ",
+  "restoran sahipleri için yapay zekâ",
+  "tek kişilik dükkân",
+  "vibe coding",
+  "ChatGPT Gemini uygulamalı",
+  "kod yazmadan uygulama yapmak",
+  "bar ve kafe yönetimi"
+ ],
+ "gp_genres": [
+  "İş ve Ekonomi / Küçük İşletme",
+  "Bilgisayar / Yapay Zekâ"
+ ]
+}

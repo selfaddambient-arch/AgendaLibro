@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ストアに貼る文言</title>
+<style>
+:root{--bg:#f6f4ef;--card:#fff;--ink:#1f2328;--mut:#6b7280;--line:#e5e1d8;--acc:#1f5eff;--ok:#0a7d33;--warn:#b45309}
+@media (prefers-color-scheme:dark){:root{--bg:#15171a;--card:#1d2024;--ink:#e8e8e8;--mut:#9aa1ab;--line:#2d3138;--acc:#7aa2ff;--ok:#4cc27a;--warn:#f0a35e}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.7 -apple-system,"Hiragino Sans","Yu Gothic",system-ui,sans-serif}
+header{padding:28px 20px 8px;max-width:960px;margin:0 auto}h1{margin:0 0 6px;font-size:22px}p.lead{margin:0;color:var(--mut)}
+nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 20px;z-index:2}
+nav .in{max-width:960px;margin:0 auto;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}nav b{font-size:13px}
+nav a{color:var(--acc);text-decoration:none;font-size:13px;border:1px solid var(--line);border-radius:999px;padding:3px 10px;background:var(--card)}
+main{max-width:960px;margin:0 auto;padding:8px 20px 80px}
+h2.book{margin:34px 0 4px;font-size:19px}.en{color:var(--mut);font-size:13px;margin:0 0 6px}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;padding:6px 18px 12px}
+section h3{margin:12px 0 4px;font-size:16px}
+.row{display:grid;grid-template-columns:150px 1fr auto;gap:6px 14px;padding:10px 0;border-top:1px solid var(--line);align-items:start}
+.row:first-of-type{border-top:0}
+.lab{font-size:13px;color:var(--mut)}.lab small{display:block;color:var(--warn)}
+.txt{white-space:pre-wrap;word-break:break-word;margin:0}
+.side{display:flex;flex-direction:column;align-items:flex-end;gap:4px;min-width:96px}
+.cnt{font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums}.cnt.over{color:#d92d20;font-weight:600}
+button{font:inherit;font-size:13px;border:1px solid var(--acc);color:var(--acc);background:transparent;border-radius:8px;padding:5px 14px;cursor:pointer;min-height:34px}
+button:hover{background:var(--acc);color:#fff}button.done{border-color:var(--ok);color:var(--ok)}button.done:hover{background:transparent}
+ul.items{margin:0;padding:0;list-style:none}ul.items li{display:flex;gap:10px;justify-content:space-between;align-items:center;padding:3px 0}
+.note{font-size:13px;color:var(--mut);margin:6px 0 0}
+@media (max-width:640px){.row{grid-template-columns:1fr}.side{flex-direction:row;align-items:center;justify-content:space-between}}
+</style></head><body>
+<header><h1>ストアに貼る文言</h1>
+<p class="lead">項目ごとの「コピー」を押して、KDP と Google Play Books の入力欄に貼ります。改行はそのまま残ります。このページは外部と通信しません。日本語の紹介文は、2026-10-29 時点でストアに出ている文と同じです（Kindle の日本語キーワード7つは、ストアの画面に出ないので窓の候補）。英語は窓の推敲版です。</p></header>
+<nav><div class="in"><b>移動</b></div></nav>
+<main>
+<p class="note">文字数は改行も1字に数えています。Kindle の上限（題名＋副題 200字・紹介文 4,000字・キーワード1つ 50字）は KDP の案内に基づく目安で、超えると赤くなります。カテゴリ・ジャンルの候補は、各ストアの選択肢の名前に合わせて選んでください。</p>
+</main>
+<script>
+const DATA=[{"slug": "hitori-de-mise", "name": "1冊目", "title": "一人で店を回す、その横にAIが来た。", "en": "The AI Deputy Manager", "sections": [{"id": "hitori-de-mise-tr-gplay", "lang": "トルコ語", "store": "Google Play", "fields": [{"label": "題名", "text": "Yapay Zekâ Müdür Yardımcısı"}, {"label": "副題", "text": "Sadece konuşun, yapay zekâ halleder. Beklediğinizden çok daha fazlasını."}, {"label": "著者", "text": "Raku Bonta"}, {"label": "説明文", "text": "Tokyo'nun Higashi-Nakano semtindeki bir bodrum katında yazar dükkânı tek başına işletiyor: gündüz hamburger köri, gece bar. Bu kitap, yapay zekânın yanına gelip çalışmaya başlamasının dürüst bir kaydı.\n\nÇalışanlara gönderilen uzun bir LINE mesajı, yapay zekâ tarafından tek bir şemaya çevriliyor ve bir bakışta anlaşılıyor. Bir şarap etiketinin fotoğrafı, açıklaması ve servis fiyatıyla eksiksiz bir şarap listesine dönüşüyor. Yapay zekâ satış verilerini menüyle karşılaştırdığında, işletmecinin en çok satmak istediği sınırsız içki paketinin menünün bir köşesinde saklandığını gösteriyor. Yeri değiştirildikten sonra müşteri başına harcama artıyor.\n\nYazar ayrıca tek satır kod yazmadan, yapay zekâyla konuşarak bir nakit akışı uygulaması ve bir yüz tanıma sistemi kuruyor. Bir hata belirdiğinde onu okumuyor. Ekranın görüntüsünü alıp yapay zekâya gösteriyor.\n\nEski bir sistemci olarak yazar, sahadaki gerçek sorunu parçalara ayırabilmenin teknik bilgiden daha önemli olduğunu fark ediyor. Adımlar ve başarısızlıklar olduğu gibi yazılmış. Küçük bir şeyle başlayabilirsiniz: uzun bir LINE mesajını bir şemaya çevirmekle.\n\nKitap ücretsiz okunur ve paylaşılabilir. PDF olarak ve note'ta da ücretsiz sunuluyor.\n\nDevamı olan Barımıza Göre Yapıldı, müşterilerin kendi yapay zekâlarından rezervasyon yapabildiği bir rezervasyon sisteminin kurulmasını anlatıyor.", "multiline": true, "limit": null}, {"label": "一行紹介", "text": "Tokyo'daki bodrum katı bir dükkânın sahibi, özel bir bilgi olmadan yapay zekâyı müdür yardımcısı yaptı; adımları ve başarısızlıklarıyla birlikte."}, {"label": "ジャンルの候補", "items": ["İş ve Ekonomi / Küçük İşletme", "Bilgisayar / Yapay Zekâ"]}]}]}, {"slug": "uchi-no-mise", "name": "2冊目", "title": "うちの店は、うちの仕様で", "en": "Built for Our Bar", "sections": [{"id": "uchi-no-mise-tr-gplay", "lang": "トルコ語", "store": "Google Play", "fields": [{"label": "題名", "text": "Barımıza Göre Yapıldı"}, {"label": "副題", "text": "19 Koltuklu Bir Barın Sahibi, Rezervasyondan Araçlara Kadar Her Şeyi Yapay Zekâyla Nasıl Kurdu"}, {"label": "著者", "text": "Raku Bonta"}, {"label": "説明文", "text": "Tamuro, Tokyo'nun Higashi-Nakano semtinde 19 koltuklu bir bar. İşletmecisi yapay zekâya talimat veriyor ve barın rezervasyon sistemini kendi başına kuruyor. Sonunda bir MCP sunucusu yayımlıyor; böylece müşterinin ChatGPT'si ya da Claude'u bara boş yer olup olmadığını sorabiliyor ve ardından rezervasyona geçebiliyor.\n\nBu kitap yalnızca işe yarayanları değil, sürecin tamamını kaydediyor. Fiyat artışıyla aynı anda kurulan indirim sistemi, rezervasyonların %88'inin aynı gün yapıldığını gösteren veriler ve çok fazla plan arasında seçim yapamayan konuklar için kurulan sohbet penceresi kitapta yer alıyor. Bir hata da anlatılıyor: bir yapay zekâ denetimi müşterilerin kişisel bilgilerinin dışarıdan okunabildiğini buluyor ve bu düzeltiliyor.\n\nİkinci yarı Agenda serisini ele alıyor: tek bir barın sorunundan doğan ve şimdi başka restoranlara dağıtılan araçlar. Bu, küçük bir dükkânın, eskiden büyük şirketlere ödediğiniz şeyi kendiniz kurabildiğiniz ve kendi şartnamenize göre uyarlayabildiğiniz bir çağa dair kaydı.\n\nTeknik konular ilginizi çekmiyorsa 1., 3. ve 5. bölümler yine de kesintisiz bir hikâye anlatır.\n\nKitap ücretsiz okunur ve paylaşılabilir. PDF olarak ve note'ta da ücretsiz sunuluyor.", "multiline": true, "limit": null}, {"label": "一行紹介", "text": "Tokyo'da 19 koltuklu bir barın sahibi, rezervasyon sistemini yapay zekâyla kurdu; müşteriler artık kendi yapay zekâlarından rezervasyon yapabiliyor."}, {"label": "ジャンルの候補", "items": ["İş ve Ekonomi / Küçük İşletme", "Bilgisayar / Yapay Zekâ"]}]}]}];
+const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const cnt=s=>Array.from(s).length;
+async function copy(text,btn){
+  try{await navigator.clipboard.writeText(text)}catch(e){const t=document.createElement('textarea');t.value=text;t.style.position='fixed';t.style.opacity='0';document.body.appendChild(t);t.select();document.execCommand('copy');t.remove()}
+  const o=btn.textContent;btn.textContent='コピーしました';btn.classList.add('done');setTimeout(()=>{btn.textContent=o;btn.classList.remove('done')},1600)}
+const nav=document.querySelector('nav .in'),main=document.querySelector('main');
+let body='';
+DATA.forEach(b=>{
+  nav.insertAdjacentHTML('beforeend',`<a href="#${b.sections[0].id}">${b.name}</a>`);
+  body+=`<h2 class="book">${b.name}　${esc(b.title)}</h2><p class="en">${esc(b.en)}</p>`;
+  b.sections.forEach(s=>{
+    nav.insertAdjacentHTML('beforeend',`<a href="#${s.id}">${s.lang}・${s.store}</a>`);
+    body+=`<section id="${s.id}"><h3>${s.lang}　${s.store}</h3>`;
+    s.fields.forEach((f,i)=>{
+      if(f.items){body+=`<div class="row"><div class="lab">${f.label}</div><ul class="items">${f.items.map((t,j)=>`<li><span>${esc(t)}</span><button data-c="${s.id}|${i}|${j}">コピー</button></li>`).join('')}</ul><div></div></div>`;return}
+      const n=cnt(f.text),over=f.limit&&n>f.limit;
+      body+=`<div class="row"><div class="lab">${f.label}${f.cand?'<small>候補</small>':''}</div><p class="txt">${esc(f.text)}</p><div class="side"><span class="cnt${over?' over':''}">${n}字${f.limit?' / '+f.limit:''}</span><button data-c="${s.id}|${i}">コピー</button></div></div>`});
+    body+='</section>'})});
+main.insertAdjacentHTML('afterbegin',body);
+const find=id=>DATA.flatMap(b=>b.sections).find(s=>s.id===id);
+document.addEventListener('click',e=>{const b=e.target.closest('button[data-c]');if(!b)return;const [id,i,j]=b.dataset.c.split('|');const f=find(id).fields[+i];copy(j===undefined?f.text:f.items[+j].replace(/^（[^）]*）/,''),b)});
+</script></body></html>
