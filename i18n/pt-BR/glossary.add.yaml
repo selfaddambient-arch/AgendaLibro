@@ -1,0 +1,39 @@
+# 用語集（ブラジルポルトガル語）。手帳の名前は AgendaHub の pt-BR 辞書（hub.product.*.nick）に合わせた。
+# 辞書に無い3つ（原価手帳=Livro de Custos・常連手帳=Livro de Clientes Fiéis・当番手帳=Livro de Escalas）は窓の案。
+terms:
+  - {ja: "屯", to: "Tamuro"}
+  - {ja: "T-AI-MURO", to: "T-AI-MURO"}
+  - {ja: "本多楽", to: "Raku Bonta"}
+  - {ja: "ボンタ合同会社", to: "Bonta LLC"}
+  - {ja: "Agendaシリーズ", to: "série Agenda"}
+  - {ja: "手帳", to: "caderno"}
+  - {ja: "打刻手帳", to: "Livro de Ponto"}
+  - {ja: "採算手帳", to: "Livro de Lucros"}
+  - {ja: "2軒目手帳", to: "Guia da Próxima Parada"}
+  - {ja: "相談手帳", to: "Guia de Suporte"}
+  - {ja: "灯り手帳", to: "Caderno de Luzes"}
+  - {ja: "原価手帳", to: "Livro de Custos"}
+  - {ja: "常連手帳", to: "Livro de Clientes Fiéis"}
+  - {ja: "当番手帳", to: "Livro de Escalas"}
+  - {ja: "話題手帳", to: "Assuntos"}
+  - {ja: "玄関", to: "porta de entrada"}
+  - {ja: "AgendaHub", to: "AgendaHub"}
+  - {ja: "AgendaID", to: "AgendaID"}
+  - {ja: "ProductBootstrap", to: "ProductBootstrap"}
+  - {ja: "バイブコーディング", to: "vibe coding"}
+  - {ja: "副店長", to: "subgerente"}
+  - {ja: "NanoBanana", to: "Nano Banana"}
+  - {ja: "おわりに", to: "Posfácio"}
+  - {ja: "はじめに", to: "Introdução"}
+  - {ja: "コラム", to: "Coluna"}
+  - {ja: "ハンバーグ", to: "bife de hambúrguer"}
+  - {ja: "図", to: "Figura"}
+forbid:
+  - {term: "Tamuro", bad: ["Tamura", "Tomuro", "Tamro", "Ton"]}
+  - {term: "Raku Bonta", bad: ["Bonta Raku", "Raku Honda", "Honda Raku"]}
+  - {term: "Bonta LLC", bad: ["Bonta Limited", "Bonta Ltda", "Bonta S.A."]}
+  - {term: "Livro de Ponto", bad: ["Livro de Presença", "Cartão de Ponto"]}
+  - {term: "Livro de Lucros", bad: ["Livro de Lucro", "Livro de Ganhos"]}
+  - {term: "Caderno de Luzes", bad: ["Livro de Luzes", "Caderno de Luz"]}
+  - {term: "vibe coding", bad: ["vibes coding", "codificação por vibração", "coding vibes"]}
+  - {term: "subgerente", bad: ["gerente adjunto", "vice-gerente", "assistente de gerência"]}

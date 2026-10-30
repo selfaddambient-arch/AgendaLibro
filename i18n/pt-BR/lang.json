@@ -1,0 +1,24 @@
+{
+ "code": "pt-BR",
+ "bcp47": "pt-BR",
+ "name": "Português (Brasil)",
+ "dir": "ltr",
+ "font": "'Baskerville', 'Georgia', 'Times New Roman', serif",
+ "toc_title": "Sumário",
+ "qr_labels": [
+  "Experimente no seu estabelecimento",
+  "Acompanhe minhas atividades (note)",
+  "Visite o Tamuro em Tóquio"
+ ],
+ "kindle": true,
+ "fig_label": "Figura",
+ "number_style": "dot",
+ "cjk": false,
+ "colophon": "## Colofão\n\n- Título: {title}\n- Subtítulo: {subtitle}\n- Autoria: {author}\n- Editora: {publisher}\n- Edição: edição em português do Brasil, primeira impressão (traduzida do original em japonês)\n- Publicação: {date}\n- Idioma: português (Brasil)\n- Tradução: traduzida do japonês por IA e revisada por IA. As breves notas sobre lugares, sistemas e costumes do Japão foram acrescentadas pela tradução. Os valores em ienes vêm acompanhados de uma estimativa em dólares americanos, com câmbio de ¥{rate} por dólar (em {rate_date}).\n- Livre para compartilhar\n\nSérie Agenda: {agenda}\n\nInstagram do Tamuro: https://www.instagram.com/tamuro.higashinakano/\n\nSite de reservas do Tamuro: {tamuro}\n\nnote: https://note.com/bontallc\n\nX: https://x.com/tamuro_hnakano\n",
+ "ja_name": "ブラジルポルトガル語",
+ "ocr_langs": [
+  "pt-BR",
+  "en-US"
+ ],
+ "mark": "pt"
+}
