@@ -1,0 +1,41 @@
+# 用語集（タイ語）。`to:` が訳語。手帳の名前は AgendaHub のタイ語辞書（lib/i18n/dictionaries/th.ts の hub.product.*.nick）に合わせた。
+# 辞書に無い3つ（原価手帳・常連手帳・当番手帳）は窓の案。
+usd_per_jpy_rate: 150
+rate_date: "2026-10-29"
+terms:
+  - {ja: "屯", to: "Tamuro", note: "บาร์ของผู้เขียนที่ฮิงาชิ-นากาโนะ โตเกียว (เขียนเป็นอักษรละติน)"}
+  - {ja: "T-AI-MURO", to: "T-AI-MURO", note: "คงเดิม"}
+  - {ja: "本多楽", to: "Raku Bonta", note: "คงเป็นอักษรละติน"}
+  - {ja: "ボンタ合同会社", to: "Bonta LLC", note: "สำนักพิมพ์"}
+  - {ja: "Agendaシリーズ", to: "ซีรีส์ Agenda", note: "ชื่อผลิตภัณฑ์คงเดิม: AgendaTimbro, AgendaOro, ..."}
+  - {ja: "手帳", to: "สมุด", note: "ตรงกับพจนานุกรม Hub: สมุดลงเวลา, สมุดคำนวณกำไร ... 黒革の手帳 = สมุดบันทึกปกหนังสีดำ"}
+  - {ja: "打刻手帳", to: "สมุดลงเวลา", note: "AgendaTimbro (พจนานุกรม Hub)"}
+  - {ja: "採算手帳", to: "สมุดคำนวณกำไร", note: "AgendaOro (พจนานุกรม Hub)"}
+  - {ja: "2軒目手帳", to: "สมุดร้านต่อไป", note: "AgendaBis (พจนานุกรม Hub)"}
+  - {ja: "相談手帳", to: "สมุดช่วยเหลือ", note: "AgendaQA (พจนานุกรม Hub)"}
+  - {ja: "灯り手帳", to: "สมุดแสงไฟ", note: "AgendaLuce (พจนานุกรม Hub)"}
+  - {ja: "原価手帳", to: "สมุดต้นทุน", note: "AgendaRicetta (ข้อเสนอของผู้แปล ไม่มีในพจนานุกรม Hub)"}
+  - {ja: "常連手帳", to: "สมุดลูกค้าประจำ", note: "AgendaNera (ข้อเสนอของผู้แปล)"}
+  - {ja: "当番手帳", to: "สมุดเวรกะ", note: "AgendaTurno (ข้อเสนอของผู้แปล ผลิตภัณฑ์ยังอยู่ระหว่างเตรียม)"}
+  - {ja: "話題手帳", to: "สมุดหัวข้อคุย", note: "AgendaSpunto (พจนานุกรม Hub)"}
+  - {ja: "玄関", to: "ประตูหน้า", note: "AgendaHub = ประตูหน้าของซีรีส์"}
+  - {ja: "AgendaHub", to: "AgendaHub", note: "คงเดิม"}
+  - {ja: "AgendaID", to: "AgendaID", note: "คงเดิม"}
+  - {ja: "ProductBootstrap", to: "ProductBootstrap", note: "คงเดิม"}
+  - {ja: "バイブコーディング", to: "vibe coding", note: "ครั้งแรกเขียน vibe coding (ไวบ์โค้ดดิง) หลังจากนั้นใช้ vibe coding"}
+  - {ja: "副店長", to: "รองผู้จัดการร้าน", note: "อุปมาของเล่ม 1"}
+  - {ja: "NanoBanana", to: "Nano Banana", note: "ใส่หมายเหตุตอนกล่าวถึงครั้งแรก"}
+  - {ja: "おわりに", to: "บทส่งท้าย", note: "หัวข้อ"}
+  - {ja: "はじめに", to: "คำนำ", note: "หัวข้อ"}
+  - {ja: "コラム", to: "คอลัมน์", note: "コラム① = คอลัมน์ 1"}
+  - {ja: "図", to: "ภาพที่", note: "【図1-1】 = 【ภาพที่ 1-1】"}
+forbid:
+  - {term: "Tamuro", bad: ["Tamura", "Tomuro", "Tamro", "ตามุโร", "ทามูโร"]}
+  - {term: "Raku Bonta", bad: ["Bonta Raku", "Raku Honda", "Honda Raku"]}
+  - {term: "Bonta LLC", bad: ["Bonta Limited", "Bonta Co", "บอนตะ"]}
+  - {term: "สมุดลงเวลา", bad: ["สมุดบันทึกเวลา", "สมุดตอกบัตร"]}
+  - {term: "สมุดคำนวณกำไร", bad: ["สมุดกำไรขาดทุน", "สมุดคิดกำไร"]}
+  - {term: "สมุดแสงไฟ", bad: ["สมุดโคมไฟ", "สมุดแสงสว่าง"]}
+  - {term: "vibe coding", bad: ["vibes coding", "ไวบ์ โค้ดดิ้ง", "การเขียนโค้ดตามอารมณ์"]}
+  - {term: "รองผู้จัดการร้าน", bad: ["ผู้ช่วยผู้จัดการ", "รองหัวหน้าร้าน", "รองผู้จัดการสาขา"]}
+  - {term: "ไม่ใช้สรรพนามบอกเพศ", bad: ["ผม", "ฉัน", "ดิฉัน", "ครับ", "ค่ะ", "คะ", "เขา", "เธอ"]}

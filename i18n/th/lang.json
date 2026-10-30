@@ -1,0 +1,24 @@
+{
+ "code": "th",
+ "bcp47": "th",
+ "name": "ภาษาไทย",
+ "dir": "ltr",
+ "font": "'Thonburi', 'Ayuthaya', 'Sukhumvit Set', sans-serif",
+ "toc_title": "สารบัญ",
+ "qr_labels": [
+  "ลองใช้ที่ร้านของคุณเอง",
+  "ติดตามกิจกรรมของผู้เขียน (note)",
+  "มาเยือน Tamuro ที่โตเกียว"
+ ],
+ "kindle": false,
+ "fig_label": "ภาพที่",
+ "number_style": "en",
+ "cjk": false,
+ "colophon": "## หน้าลิขสิทธิ์และข้อมูลการจัดทำ\n\n- ชื่อหนังสือ: {title}\n- ชื่อรอง: {subtitle}\n- ผู้เขียน: {author}\n- สำนักพิมพ์: {publisher}\n- ครั้งที่พิมพ์: ฉบับภาษาไทย พิมพ์ครั้งแรก (แปลจากต้นฉบับภาษาญี่ปุ่น)\n- วันที่เผยแพร่: {date}\n- ภาษา: ไทย\n- การแปล: แปลจากภาษาญี่ปุ่นโดย AI และผ่านการตรวจทานโดย AI ส่วนหมายเหตุสั้นๆ เกี่ยวกับสถานที่ ระบบ และธรรมเนียมของญี่ปุ่น ผู้แปลเป็นผู้เพิ่มเติม จำนวนเงินเยนมีค่าประมาณเป็นดอลลาร์สหรัฐกำกับ โดยคิดที่อัตรา ¥{rate} ต่อ 1 ดอลลาร์ (ณ วันที่ {rate_date})\n- แบ่งปันได้อย่างอิสระ\n\nซีรีส์ Agenda: {agenda}\n\nInstagram ของ Tamuro: https://www.instagram.com/tamuro.higashinakano/\n\nเว็บไซต์จองของ Tamuro: {tamuro}\n\nnote: https://note.com/bontallc\n\nX: https://x.com/tamuro_hnakano\n",
+ "ja_name": "タイ語",
+ "ocr_langs": [
+  "th-TH",
+  "en-US"
+ ],
+ "mark": "th"
+}
