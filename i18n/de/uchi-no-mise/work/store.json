@@ -1,0 +1,21 @@
+{
+ "one_liner": "Wie eine Bar mit 19 Plätzen in Tokio ihr Reservierungssystem mit KI baute, bis Gäste über ihre eigene KI buchen: samt allem, was kaputtging.",
+ "description": "Tamuro ist eine Bar mit 19 Plätzen in Higashi-Nakano, Tokio. Der Autor hat der KI Anweisungen gegeben und das Reservierungssystem der Bar selbst gebaut. Am Ende steht ein veröffentlichter MCP-Server: Die eigene KI der Gäste, etwa ChatGPT oder Claude, kann bei der Bar nach freien Plätzen fragen und gleich weiter zur Buchung gehen.\n\nDas Buch hält den ganzen Weg fest, nicht nur das Gelungene. Es erzählt von einem Rabattsystem, das zusammen mit einer Preiserhöhung entstand, von Daten, die zeigen, dass 88% der Reservierungen am selben Tag eingehen, und von einem Chatfenster für Gäste, die sich zwischen zu vielen Angeboten nicht entscheiden können. Auch ein Fehler kommt vor: Eine KI-Prüfung entdeckte, dass persönliche Daten von Gästen von außen lesbar waren, und er wurde behoben.\n\nIn der zweiten Hälfte geht es um die Agenda-Reihe, Werkzeuge, die aus den Problemen einer einzigen Bar entstanden sind und jetzt mit anderen Lokalen geteilt werden. Es ist der Bericht eines kleinen Betriebs über eine Zeit, in der man bauen kann, wofür man früher große Firmen bezahlte, und es auf die eigenen Wünsche zuschneidet.\n\nDas Buch ist kostenlos zu lesen und darf weitergegeben werden. Es gibt es auch gratis als PDF und auf note. (Bei Kindle gilt der von Amazon vorgegebene Mindestpreis.)",
+ "keywords": [
+  "Bar-Betreiber",
+  "KI-Reservierungssystem",
+  "MCP-Server",
+  "KI für kleine Betriebe",
+  "Gastronomie-Technik",
+  "Bar in Tokio",
+  "eigene Werkzeuge bauen"
+ ],
+ "gp_genres": [
+  "Wirtschaft & Finanzen / Kleinunternehmen",
+  "Computer / Künstliche Intelligenz"
+ ],
+ "kindle_categories": [
+  "Business & Finanzen > Kleinunternehmen",
+  "Computer & Internet > Künstliche Intelligenz"
+ ]
+}

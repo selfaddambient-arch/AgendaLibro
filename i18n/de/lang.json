@@ -1,0 +1,24 @@
+{
+ "code": "de",
+ "bcp47": "de",
+ "name": "Deutsch",
+ "dir": "ltr",
+ "font": "'Baskerville', 'Georgia', 'Times New Roman', serif",
+ "toc_title": "Inhaltsverzeichnis",
+ "qr_labels": [
+  "Agenda im eigenen Lokal ausprobieren",
+  "Meine Arbeit verfolgen (note)",
+  "Tamuro in Tokio besuchen"
+ ],
+ "kindle": true,
+ "fig_label": "Abbildung",
+ "number_style": "dot",
+ "cjk": false,
+ "colophon": "## Impressum\n\n- Titel: {title}\n- Untertitel: {subtitle}\n- Autor: {author}\n- Verlag: {publisher}\n- Ausgabe: deutsche Ausgabe, Erstauflage (übersetzt aus dem japanischen Originaltext)\n- Erschienen: {date}\n- Sprache: Deutsch\n- Übersetzung: Von einer KI aus dem Japanischen übersetzt und von einer KI überprüft. Die kurzen Erläuterungen zu Orten, Systemen und Gepflogenheiten in Japan hat die Übersetzung ergänzt. Yen-Beträge stehen mit einer ungefähren Angabe in US-Dollar (Kurs: ¥{rate} je Dollar, Stand: {rate_date}).\n- Frei weitergebbar\n\nAgenda-Reihe: {agenda}\n\nInstagram von Tamuro: https://www.instagram.com/tamuro.higashinakano/\n\nReservierungsseite von Tamuro: {tamuro}\n\nnote: https://note.com/bontallc\n\nX: https://x.com/tamuro_hnakano\n",
+ "ja_name": "ドイツ語",
+ "ocr_langs": [
+  "de-DE",
+  "en-US"
+ ],
+ "mark": "de"
+}
