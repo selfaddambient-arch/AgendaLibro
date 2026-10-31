@@ -58,7 +58,7 @@ AgendaHub の多言語辞書（`lib/i18n/types.ts` の LANGS、20言語）から
 - Kindle：対応（英語）
 
 
-## 言語×形式の一覧（2026-10-31 時点）
+## 言語×形式の一覧（2026-10-31 時点・全言語完了）
 
 「○」＝成果物あり。PDF・Google Play 用 EPUB・表紙は 本1・本2 の両方。Kindle は Kindle 用 EPUB。リンクの印は 本-印-形式（印が「仮」のものは代表の確定待ち）。Google Play は en 以外すべて新規（id・ms・bn の本1は上げ直し用）。
 
@@ -68,7 +68,7 @@ AgendaHub の多言語辞書（`lib/i18n/types.ts` の LANGS、20言語）から
 | id | id | ○ | ○（本1は上げ直し） | 非対応 | ○ | Wakil Manajer AI |
 | ms | ms | ○ | ○（本1は上げ直し・題名変更） | 非対応 | ○ | （report 参照） |
 | bn | bn | ○ | ○（本1は上げ直し） | 非対応 | ○ | （report 参照） |
-| ko | ko | 未（代表確認待ち） | 未 | 非対応 | 未 | AI 부점장（案） |
+| ko | ko | ○ | ○ | 非対応 | ○ | AI 부점장 |
 | vi | vi | ○ | ○ | 非対応 | ○ | Phó quản lý AI |
 | zh-CN | cn（仮） | ○ | ○ | 非対応 | ○ | AI副店长 |
 | zh-TW | tw（仮） | ○ | ○ | ○ | ○ | AI副店長 |
@@ -85,4 +85,4 @@ AgendaHub の多言語辞書（`lib/i18n/types.ts` の LANGS、20言語）から
 | tr | tr | ○ | ○ | 非対応 | ○ | Yapay Zekâ Müdür Yardımcısı |
 | ru | ru | ○ | ○ | 非対応 | ○ | ИИ в роли заместителя управляющего |
 
-各言語の詳細（題名案・用語・レビュー・親への依頼）は `i18n/<言語>/report.md`。ko の組版・表紙・ストア文言は、代表の確認（`i18n/ko/owner-check/README.md`）が済んでから行う。
+各言語の詳細（題名案・用語・レビュー・親への依頼）は `i18n/<言語>/report.md`。ko は代表の回答（確認事項は既定のまま）を受けて 2026-10-31 に仕上げた。

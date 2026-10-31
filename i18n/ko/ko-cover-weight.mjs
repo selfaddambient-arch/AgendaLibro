@@ -1,0 +1,11 @@
+import { chromium } from 'playwright';
+import { readFileSync, writeFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { pathToFileURL } from 'node:url';
+const w = process.argv[2];
+const f = 'i18n/ko/hitori-de-mise/cover/cover.html';
+let h = readFileSync(f, 'utf8').replace('h1{margin:0;font-weight:700', `h1{margin:0;font-family:'${process.argv[3]}';font-weight:${w}`).replace('<h1>AI<br>',`<h1><span style="font-family:'Apple SD Gothic Neo';font-weight:700">AI</span><br>`);
+writeFileSync(f, h);
+const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1600, height: 2560 } });
+await p.goto(pathToFileURL(resolve(f)).href); await p.waitForTimeout(600);
+await p.screenshot({ path: 'i18n/ko/hitori-de-mise/cover/cover.png' }); await b.close();
