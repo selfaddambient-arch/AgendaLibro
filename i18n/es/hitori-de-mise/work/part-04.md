@@ -1,4 +1,4 @@
-El tema es Tamuro, el bar solo por recomendación que dirijo de noche. Este nombre lleva un deseo profundo: "ser un lugar donde todo tipo de personas se reúnan con libertad y alegría (tamuro-suru, pasar el rato) en el barrio de Higashi-Nakano".
+El tema es Tamuro, el bar que dirijo de noche. Este nombre lleva un deseo profundo: "ser un lugar donde todo tipo de personas se reúnan con libertad y alegría (tamuro-suru, pasar el rato) en el barrio de Higashi-Nakano".
 
 ¿Cómo condensar esta "historia" invisible en una pequeña marca de logotipo? Comenzó un paciente diálogo con la IA.
 

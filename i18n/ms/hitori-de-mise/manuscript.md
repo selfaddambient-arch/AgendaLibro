@@ -16,7 +16,7 @@ Izinkan saya bercerita sedikit tentang diri saya.
 
 Kini saya menjalankan sebuah restoran kecil di ruang bawah tanah sebuah bangunan di Higashi-Nakano *(kawasan kediaman di barat Tokyo, betul-betul di sebelah barat Shinjuku)*, Tokyo.
 
-Restoran ini mempunyai dua wajah. Pada siang hari, ia menjadi kedai khusus kari hamburg (stik daging cincang) yang harum dengan rempah. Pada waktu malam, ia menjadi dining bar yang menerima tetamu melalui perkenalan sahaja (referral-only) dan menghidangkan set harian dan minuman.
+Restoran ini mempunyai dua wajah. Pada siang hari, ia menjadi kedai khusus kari hamburg (stik daging cincang) yang harum dengan rempah. Pada waktu malam, ia menjadi dining bar yang menghidangkan set harian dan minuman.
 
 ▼ Quatre Epice Hamburger Curry (Instagram)
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry (Instagram)](images/fig-01.png)
 
-▼ Bar melalui perkenalan "Tamuro" (Instagram)
+▼ Bar "Tamuro" (Instagram)
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Bar melalui perkenalan "Tamuro" (Instagram)](images/fig-02.png)
+![Bar "Tamuro" (Instagram)](images/fig-02.png)
 
 Ruangnya selesa, dengan hanya 11 tempat duduk di kaunter dan 8 tempat duduk di ruang tatami yang dinaikkan.
 
@@ -584,7 +584,7 @@ Selain "gambar" seperti sepanduk dan pelekat, saya juga mengambil cabaran yang l
 
 Ia dimaksudkan untuk dimasukkan ke dalam sepanduk dan sebagainya, supaya orang dapat mengenali Tamuro sekali pandang.
 
-Subjeknya ialah Tamuro, bar melalui perkenalan yang saya jalankan pada waktu malam. Nama ini membawa hasrat yang kuat: "menjadi tempat di mana pelbagai jenis orang berkumpul dengan bebas dan gembira (tamuro-suru, bersantai bersama) di bandar Higashi-Nakano."
+Subjeknya ialah Tamuro, bar yang saya jalankan pada waktu malam. Nama ini membawa hasrat yang kuat: "menjadi tempat di mana pelbagai jenis orang berkumpul dengan bebas dan gembira (tamuro-suru, bersantai bersama) di bandar Higashi-Nakano."
 
 Bagaimana hendak memadatkan "kisah" yang tidak kelihatan ini ke dalam sebuah tanda logo yang kecil? Dialog yang sabar dengan AI pun bermula.
 
@@ -1576,7 +1576,7 @@ Buku ini boleh dibaca percuma sebagai PDF, di note, dan di Google Play. (Hanya d
 
 1. Cuba di kedai anda sendiri. Siri Agenda boleh dimulakan dengan buku nota yang percuma. https://bontallc.com/agenda?via=b1-ms-{{FMT}}
 2. Ikuti aktiviti saya. Saya menulis tentang alat yang akan saya bina seterusnya dan kehidupan harian di bar, di note dan X. note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. Jika anda ke Tokyo, kunjungi Tamuro. Satu minit dari pintu timur Stesen Higashi-Nakano. Anda boleh masuk tanpa tempahan. Ketika buku ini mula-mula ditulis, Tamuro menggunakan sistem perkenalan. Kini sesiapa sahaja dialu-alukan masuk, tanpa perlu menempah. Laman tempahan https://tamuroreservation.vercel.app/?src=b1-ms-{{FMT}}
+3. Jika anda ke Tokyo, kunjungi Tamuro. Satu minit dari pintu timur Stesen Higashi-Nakano. Anda boleh masuk tanpa tempahan. Laman tempahan https://tamuroreservation.vercel.app/?src=b1-ms-{{FMT}}
 
 Bagi anda yang datang kerana buku ini: semasa membuat tempahan, sila masukkan kod kupon "BOOK." Kami akan menghidangkan satu minuman pada lawatan pertama anda. Jika anda datang tanpa tempahan, cukup katakan "Saya baca bukunya" semasa membuat pesanan pertama. Kami akan menghidangkan minuman yang sama. Ini cara kecil supaya saya dapat mengira berapa ramai orang yang datang kerana buku ini.
 
@@ -1586,7 +1586,7 @@ Raku Bonta
 
 Pemilik solo yang menjalankan sebuah restoran dengan 11 tempat duduk di kaunter dan 8 tempat duduk di ruang tatami di Higashi-Nakano, Tokyo.
 
-Pada siang hari ia kedai kari hamburg yang harum dengan rempah. Pada waktu malam ia dining bar melalui perkenalan yang menghidangkan set harian yang bertukar-tukar.
+Pada siang hari ia kedai kari hamburg yang harum dengan rempah. Pada waktu malam ia dining bar yang menghidangkan set harian yang bertukar-tukar.
 
 ▼ Quatre Epice Hamburger Curry
 
@@ -1594,11 +1594,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry](images/fig-28.png)
 
-▼ Bar melalui perkenalan "Tamuro"
+▼ Bar "Tamuro"
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Bar melalui perkenalan "Tamuro"](images/fig-29.png)
+![Bar "Tamuro"](images/fig-29.png)
 
 Kedai ini juga bersungguh-sungguh membina komuniti melalui makanan, dengan acara wain dua mingguan, kelas memasak bulanan, dan hidangan malam berbilang sajian.
 

@@ -182,7 +182,7 @@ Além das "imagens" como banners e figurinhas, enfrentei com a IA um desafio mai
 
 Ele serve para ser embutido em banners e afins, para que as pessoas reconheçam o Tamuro de relance.
 
-O tema é o Tamuro, o bar só por indicação que toco à noite. Esse nome carrega um desejo forte: "ser um lugar onde todo tipo de gente se reúne com liberdade e alegria (*tamuro-suru*, 'ficar por ali, em grupo') na cidade de Higashi-Nakano."
+O tema é o Tamuro, o bar que toco à noite. Esse nome carrega um desejo forte: "ser um lugar onde todo tipo de gente se reúne com liberdade e alegria (*tamuro-suru*, 'ficar por ali, em grupo') na cidade de Higashi-Nakano."
 
 Como condensar essa "história" invisível num pequeno símbolo de logo? Começou um paciente diálogo com a IA.
 

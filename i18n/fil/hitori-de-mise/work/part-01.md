@@ -16,7 +16,7 @@ Magkukuwento muna ako nang kaunti tungkol sa sarili ko.
 
 Ngayon, nagpapatakbo ako ng maliit na restawran sa basement ng isang gusali sa Higashi-Nakano *(isang residential na lugar sa kanlurang Tokyo, sa kanluran lang ng Shinjuku)*, Tokyo.
 
-May dalawa itong mukha. Sa araw, isa itong kainang dalubhasa sa hamburger curry na mabango sa mga pampalasa. Sa gabi, isa itong dining bar na sa referral lang tumatanggap, na naghahain ng paiba-ibang set meal araw-araw at inumin.
+May dalawa itong mukha. Sa araw, isa itong kainang dalubhasa sa hamburger curry na mabango sa mga pampalasa. Sa gabi, isa itong dining bar na naghahain ng paiba-ibang set meal araw-araw at inumin.
 
 ▼ Quatre Epice Hamburger Curry (Instagram)
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry (Instagram)](images/fig-01.png)
 
-▼ Bar na sa referral lang tumatanggap, "Tamuro" (Instagram)
+▼ Bar na "Tamuro" (Instagram)
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Bar na sa referral lang tumatanggap, "Tamuro" (Instagram)](images/fig-02.png)
+![Bar na "Tamuro" (Instagram)](images/fig-02.png)
 
 Komportable itong lugar na may 11 upuan lang sa counter at 8 upuan sa nakataas na tatami platform.
 

@@ -214,7 +214,7 @@ Selain "gambar" seperti sepanduk dan pelekat, saya juga mengambil cabaran yang l
 
 Ia dimaksudkan untuk dimasukkan ke dalam sepanduk dan sebagainya, supaya orang dapat mengenali Tamuro sekali pandang.
 
-Subjeknya ialah Tamuro, bar melalui perkenalan yang saya jalankan pada waktu malam. Nama ini membawa hasrat yang kuat: "menjadi tempat di mana pelbagai jenis orang berkumpul dengan bebas dan gembira (tamuro-suru, bersantai bersama) di bandar Higashi-Nakano."
+Subjeknya ialah Tamuro, bar yang saya jalankan pada waktu malam. Nama ini membawa hasrat yang kuat: "menjadi tempat di mana pelbagai jenis orang berkumpul dengan bebas dan gembira (tamuro-suru, bersantai bersama) di bandar Higashi-Nakano."
 
 Bagaimana hendak memadatkan "kisah" yang tidak kelihatan ini ke dalam sebuah tanda logo yang kecil? Dialog yang sabar dengan AI pun bermula.
 

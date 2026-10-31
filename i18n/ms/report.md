@@ -34,3 +34,5 @@
 ## 気づいた点
 - 英語版の「Is Tamuro open tonight?」は日本語の「空いてる？（席が空いているか）」とずれる（英語版の見直しを推奨）
 - 英語版の「それがAIだったのです。」の独立文が前の文に吸収されている
+
+本1から「紹介制」の表現を代表の指示で削除（8か所。source.ja.md・work/part-*.md（enは manuscript.md と work/raw）・manuscript.md を修正し、再組版）。屯が今は予約なしで入れる旨は残した。

@@ -16,7 +16,7 @@ Permítanme contarles un poco sobre mí.
 
 Ahora dirijo un pequeño restaurante en el sótano de un edificio en Higashi-Nakano *(un barrio residencial del oeste de Tokio, justo al oeste de Shinjuku)*, en Tokio.
 
-Tiene dos caras. De día, es un local especializado en curry con hanbāgu *(bistec de carne picada a la plancha al estilo japonés, parecido al hamburg steak)*, con un aroma intenso a especias. De noche, es un bar-restaurante solo por recomendación, que ofrece un menú del día y bebidas.
+Tiene dos caras. De día, es un local especializado en curry con hanbāgu *(bistec de carne picada a la plancha al estilo japonés, parecido al hamburg steak)*, con un aroma intenso a especias. De noche, es un bar-restaurante, que ofrece un menú del día y bebidas.
 
 ▼ Quatre Epice Hamburger Curry (Instagram)
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry (Instagram)](images/fig-01.png)
 
-▼ Bar solo por recomendación "Tamuro" (Instagram)
+▼ Bar "Tamuro" (Instagram)
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Bar solo por recomendación "Tamuro" (Instagram)](images/fig-02.png)
+![Bar "Tamuro" (Instagram)](images/fig-02.png)
 
 Es un espacio acogedor, con apenas 11 asientos en la barra y 8 en una plataforma elevada de tatami.
 
@@ -584,7 +584,7 @@ Más allá de las "imágenes" como banners y stickers, también asumí con la IA
 
 Está pensado para incorporarse en banners y similares, de modo que se pueda reconocer a Tamuro de un vistazo.
 
-El tema es Tamuro, el bar solo por recomendación que dirijo de noche. Este nombre lleva un deseo profundo: "ser un lugar donde todo tipo de personas se reúnan con libertad y alegría (tamuro-suru, pasar el rato) en el barrio de Higashi-Nakano".
+El tema es Tamuro, el bar que dirijo de noche. Este nombre lleva un deseo profundo: "ser un lugar donde todo tipo de personas se reúnan con libertad y alegría (tamuro-suru, pasar el rato) en el barrio de Higashi-Nakano".
 
 ¿Cómo condensar esta "historia" invisible en una pequeña marca de logotipo? Comenzó un paciente diálogo con la IA.
 
@@ -1576,7 +1576,7 @@ Este libro se puede leer gratis en PDF, en la plataforma note y en Google Play. 
 
 1. Pruébelo en su propio local. Puede empezar con un cuaderno gratuito de la serie Agenda. https://bontallc.com/agenda?via=b1-es-{{FMT}}
 2. Siga lo que hago. Escribo sobre las próximas herramientas que construyo y sobre la vida cotidiana en el bar, en note y en X. note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. Si alguna vez viene a Tokio, visite Tamuro. A un minuto de la salida este de la estación Higashi-Nakano. Puede entrar sin reserva. Cuando se escribió este libro por primera vez, Tamuro era solo por recomendación. Hoy cualquier persona puede entrar sin reserva. Sitio de reservas https://tamuroreservation.vercel.app/?src=b1-es-{{FMT}}
+3. Si alguna vez viene a Tokio, visite Tamuro. A un minuto de la salida este de la estación Higashi-Nakano. Puede entrar sin reserva. Sitio de reservas https://tamuroreservation.vercel.app/?src=b1-es-{{FMT}}
 
 Si nos visita gracias a este libro: al hacer su reserva, introduzca el código de cupón "BOOK". Le serviremos una bebida en su primera visita. Si vino sin reserva, solo diga "Vi el libro" al hacer su primer pedido. También le serviremos una bebida. Es un pequeño recurso para que yo pueda contar cuántas personas vinieron por el libro.
 
@@ -1586,7 +1586,7 @@ Raku Bonta
 
 Dirige en solitario un restaurante con 11 asientos en la barra y 8 en la sala de tatami, en Higashi-Nakano, Tokio.
 
-De día es un local de curry con hanbāgu perfumado de especias. De noche es un bar-comedor solo por recomendación que sirve un menú del día que cambia cada jornada.
+De día es un local de curry con hanbāgu perfumado de especias. De noche es un bar-comedor que sirve un menú del día que cambia cada jornada.
 
 ▼ Quatre Epice Hamburger Curry
 
@@ -1594,11 +1594,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry](images/fig-28.png)
 
-▼ Bar solo por recomendación "Tamuro"
+▼ Bar "Tamuro"
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Bar solo por recomendación "Tamuro"](images/fig-29.png)
+![Bar "Tamuro"](images/fig-29.png)
 
 El local también se dedica a construir comunidad a través de la comida, con eventos de vino cada dos semanas, una clase de cocina mensual y cenas de varios tiempos.
 

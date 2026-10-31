@@ -59,3 +59,5 @@ Le → le（AI を指す代名詞）／esperto speciale → vero esperto／in se
 - 「uscite」の比喩が伝わらない：採らない（全言語で「3つの出口」を同じ語で統一している）。
 - taccuino → agenda：採らない（シリーズの名づけ。用語集で固定）。
 - Ho visto il libro → Ho letto il libro：採る（合言葉。両書そろえた）。
+
+- 紹介制の表現を代表の指示で全言語から削除（2026-10-31）。本1の work/part-*.md と source.ja.md を直して再組版。過去の採否の記録は書き換えていない。

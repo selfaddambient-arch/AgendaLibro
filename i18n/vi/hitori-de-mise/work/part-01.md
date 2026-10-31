@@ -16,7 +16,7 @@ Trước hết xin giới thiệu đôi chút về tôi.
 
 Hiện nay tôi điều hành một quán ăn nhỏ ở tầng hầm của một tòa nhà tại Higashi-Nakano *(một khu dân cư ở phía tây Tokyo, ngay phía tây Shinjuku)*, Tokyo.
 
-Quán mang hai diện mạo khác nhau. Ban ngày, đó là quán chuyên cà ri thịt viên kiểu hamburger thơm mùi gia vị. Ban đêm, đó là quán bar ăn uống chỉ nhận khách có người giới thiệu, phục vụ set ăn đổi món theo ngày và đồ uống.
+Quán mang hai diện mạo khác nhau. Ban ngày, đó là quán chuyên cà ri thịt viên kiểu hamburger thơm mùi gia vị. Ban đêm, đó là quán bar ăn uống phục vụ set ăn đổi món theo ngày và đồ uống.
 
 ▼ Cà ri hamburger Quatre Epice (Instagram)
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Cà ri hamburger Quatre Epice (Instagram)](images/fig-01.png)
 
-▼ Quán bar chỉ nhận khách có người giới thiệu "Tamuro" (Instagram)
+▼ Quán bar "Tamuro" (Instagram)
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Quán bar chỉ nhận khách có người giới thiệu "Tamuro" (Instagram)](images/fig-02.png)
+![Quán bar "Tamuro" (Instagram)](images/fig-02.png)
 
 Đó là một không gian ấm cúng, chỉ có 11 chỗ ngồi ở quầy và 8 chỗ trên bục tatami.
 

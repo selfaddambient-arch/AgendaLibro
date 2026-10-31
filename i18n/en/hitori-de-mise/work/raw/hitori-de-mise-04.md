@@ -149,7 +149,7 @@ Raku Bonta
 
 A solo owner who runs a restaurant with 11 counter seats and 8 tatami-room seats in Higashi-Nakano, Tokyo.
 
-By day it is a hamburger curry shop fragrant with spice. By night it is a referral-only dining bar serving a daily-changing set meal.
+By day it is a hamburger curry shop fragrant with spice. By night it is a dining bar serving a daily-changing set meal.
 
 ▼ Quatre Epice Hamburger Curry
 
@@ -157,11 +157,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry](images/fig-28.png)
 
-▼ Referral-only bar "Tamuro"
+▼ Bar "Tamuro"
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Referral-only bar "Tamuro"](images/fig-29.png)
+![Bar "Tamuro"](images/fig-29.png)
 
 The shop also puts energy into building community through food, with biweekly wine events, a monthly cooking class, and multi-course dinners.
 

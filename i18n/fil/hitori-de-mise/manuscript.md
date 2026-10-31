@@ -16,7 +16,7 @@ Magkukuwento muna ako nang kaunti tungkol sa sarili ko.
 
 Ngayon, nagpapatakbo ako ng maliit na restawran sa basement ng isang gusali sa Higashi-Nakano *(isang residential na lugar sa kanlurang Tokyo, sa kanluran lang ng Shinjuku)*, Tokyo.
 
-May dalawa itong mukha. Sa araw, isa itong kainang dalubhasa sa hamburger curry na mabango sa mga pampalasa. Sa gabi, isa itong dining bar na sa referral lang tumatanggap, na naghahain ng paiba-ibang set meal araw-araw at inumin.
+May dalawa itong mukha. Sa araw, isa itong kainang dalubhasa sa hamburger curry na mabango sa mga pampalasa. Sa gabi, isa itong dining bar na naghahain ng paiba-ibang set meal araw-araw at inumin.
 
 ▼ Quatre Epice Hamburger Curry (Instagram)
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry (Instagram)](images/fig-01.png)
 
-▼ Bar na sa referral lang tumatanggap, "Tamuro" (Instagram)
+▼ Bar na "Tamuro" (Instagram)
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Bar na sa referral lang tumatanggap, "Tamuro" (Instagram)](images/fig-02.png)
+![Bar na "Tamuro" (Instagram)](images/fig-02.png)
 
 Komportable itong lugar na may 11 upuan lang sa counter at 8 upuan sa nakataas na tatami platform.
 
@@ -584,7 +584,7 @@ Bukod sa mga "larawan" tulad ng banner at sticker, tinanggap ko rin kasama ang A
 
 Nilalayon itong ilagay sa mga banner at iba pa, para makilala ng mga tao ang Tamuro sa isang sulyap.
 
-Ang paksa ay ang Tamuro, ang bar na sa referral lang tumatanggap na pinapatakbo ko sa gabi. Ang pangalang ito ay may dalang matinding hangarin: "maging lugar na malayang at masayang nagtitipon (tamuro-suru, tumambay) ang lahat ng uri ng tao sa bayan ng Higashi-Nakano."
+Ang paksa ay ang Tamuro, ang bar na pinapatakbo ko sa gabi. Ang pangalang ito ay may dalang matinding hangarin: "maging lugar na malayang at masayang nagtitipon (tamuro-suru, tumambay) ang lahat ng uri ng tao sa bayan ng Higashi-Nakano."
 
 Paano ko mapag-iisa ang di-nakikitang "kuwentong" ito sa isang maliit na logo mark? Nagsimula ang matiyagang pag-uusap namin ng AI.
 
@@ -1576,7 +1576,7 @@ Mababasa nang libre ang aklat na ito bilang PDF, sa note, at sa Google Play. (Sa
 
 1. Subukan sa sarili ninyong shop. Masisimulan ang Agenda series sa libreng planner app. https://bontallc.com/agenda?via=b1-fil-{{FMT}}
 2. Sundan ang ginagawa ko. Isinusulat ko sa note at X ang tungkol sa mga susunod na tool na binubuo ko, at ang pang-araw-araw na buhay sa bar. note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. Kung makarating kayo sa Tokyo, bisitahin ang Tamuro. Isang minuto mula sa east exit ng Higashi-Nakano Station. Puwede kayong pumasok nang walang reservation. Noong unang isinulat ang aklat na ito, sa referral lang tumatanggap ang Tamuro. Ngayon, tinatanggap ang sinuman na pumasok nang walang reservation. Reservation site https://tamuroreservation.vercel.app/?src=b1-fil-{{FMT}}
+3. Kung makarating kayo sa Tokyo, bisitahin ang Tamuro. Isang minuto mula sa east exit ng Higashi-Nakano Station. Puwede kayong pumasok nang walang reservation. Reservation site https://tamuroreservation.vercel.app/?src=b1-fil-{{FMT}}
 
 Sa mga bibisita dahil sa aklat na ito: kapag nag-reserve kayo, ilagay ang coupon code na "BOOK." Maghahain kami ng isang inumin sa unang pagbisita ninyo. Kung pupunta kayo nang walang reservation, sabihin lang ang "Nakita ko sa aklat" kapag nag-order kayo sa unang pagkakataon. Ganoon ding isang inumin ang ihahain namin. Isa itong maliit na paraan para mabilang ko kung ilang tao ang bumisita dahil sa aklat.
 
@@ -1586,7 +1586,7 @@ Raku Bonta
 
 Isang solo na may-ari na nagpapatakbo ng restaurant na may 11 upuan sa counter at 8 pwesto sa tatami (Japanese-style floor seating) sa Higashi-Nakano, Tokyo.
 
-Sa araw, isa itong hamburger curry shop na mabango sa pampalasa. Sa gabi, isa itong dining bar na sa referral lang tumatanggap, na naghahain ng set meal na nagbabago araw-araw.
+Sa araw, isa itong hamburger curry shop na mabango sa pampalasa. Sa gabi, isa itong dining bar na naghahain ng set meal na nagbabago araw-araw.
 
 ▼ Quatre Epice Hamburger Curry
 
@@ -1594,11 +1594,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry](images/fig-28.png)
 
-▼ Bar na sa referral lang tumatanggap na "Tamuro"
+▼ Bar na "Tamuro"
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Bar na sa referral lang tumatanggap na "Tamuro"](images/fig-29.png)
+![Bar na "Tamuro"](images/fig-29.png)
 
 Nagsisikap din ang shop sa pagbuo ng komunidad sa pamamagitan ng pagkain, ng wine event kada dalawang linggo, buwanang cooking class, at multi-course na hapunan.
 

@@ -213,3 +213,6 @@ Extra (coherencia con ítem de 07-14): "memo" -> "nota" también en part-05 ("es
 | 17 Quien dirige... | 採る | "Dirige en solitario un restaurante con 11 asientos en la barra y 8 en la sala de tatami, en Higashi-Nakano, Tokio." (sin "propietario"; cifras iguales) |
 | 18 misma bebida | 採る | "También le serviremos una bebida." (sin "de cortesía", que no está en el original) |
 
+
+## 紹介制の表現の削除（2026-10-31）
+紹介制の表現を代表の指示で全言語から削除（本1のみ。過去の採否の記録は書き換えていない）。

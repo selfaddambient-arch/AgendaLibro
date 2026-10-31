@@ -49,3 +49,6 @@
 | 「Bonta: còn lại chai vuông」に Kakubin を足す・Anh Bonta | 採らない | 原文にない語・性別語を足さない |
 | cải cách kinh doanh／ích kỷ／xây | 採る | |
 | Loạt Agenda → Bộ công cụ | 採らない | 用語集の「loạt Agenda」で統一 |
+
+## 紹介制の表現の削除（2026-10-31）
+紹介制の表現を代表の指示で全言語から削除（本1のみ。過去の採否の記録は書き換えていない）。

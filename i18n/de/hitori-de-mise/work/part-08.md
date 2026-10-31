@@ -139,7 +139,7 @@ Dieses Buch ist kostenlos als PDF, auf note und bei Google Play zu lesen. (Nur b
 
 1. Probieren Sie es in Ihrem eigenen Lokal aus. Die Agenda-Reihe lässt sich mit einem kostenlosen Notizbuch beginnen. https://bontallc.com/agenda?via=b1-de-{{FMT}}
 2. Verfolgen Sie, was ich tue. Auf note und X schreibe ich über die Werkzeuge, die ich als Nächstes baue, und über den Alltag in der Bar. note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. Wenn Sie einmal in Tokio sind, besuchen Sie Tamuro. Eine Minute vom Osteingang des Bahnhofs Higashi-Nakano. Sie können ohne Reservierung hereinkommen. Als dieses Buch zuerst geschrieben wurde, war Tamuro nur auf Empfehlung zugänglich. Heute ist jede Person willkommen, ohne Reservierung. Reservierungsseite https://tamuroreservation.vercel.app/?src=b1-de-{{FMT}}
+3. Wenn Sie einmal in Tokio sind, besuchen Sie Tamuro. Eine Minute vom Osteingang des Bahnhofs Higashi-Nakano. Sie können ohne Reservierung hereinkommen. Reservierungsseite https://tamuroreservation.vercel.app/?src=b1-de-{{FMT}}
 
 An alle, die wegen dieses Buchs zu uns kommen: Geben Sie bei der Reservierung bitte den Gutscheincode „BOOK“ ein. Beim ersten Besuch spendieren wir Ihnen ein Getränk. Wenn Sie ohne Reservierung gekommen sind, sagen Sie bei der ersten Bestellung einfach „Ich komme wegen des Buchs“. Wir servieren Ihnen dasselbe Getränk. Es ist ein kleiner Kniff, damit ich zählen kann, wie viele Menschen wegen des Buchs gekommen sind.
 
@@ -149,7 +149,7 @@ Raku Bonta
 
 Betreibt allein ein Restaurant mit 11 Theken- und 8 Tatami-Plätzen in Higashi-Nakano, Tokio.
 
-Tagsüber ist es ein Hamburger-Curry-Laden, in dem es nach Gewürzen duftet. Abends ist es eine Dining-Bar nur auf Empfehlung mit täglich wechselndem Menü.
+Tagsüber ist es ein Hamburger-Curry-Laden, in dem es nach Gewürzen duftet. Abends ist es eine Dining-Bar mit täglich wechselndem Menü.
 
 ▼ Quatre Epice Hamburger Curry
 
@@ -157,11 +157,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry](images/fig-28.png)
 
-▼ Bar nur auf Empfehlung „Tamuro“
+▼ Bar „Tamuro“
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Bar nur auf Empfehlung „Tamuro“](images/fig-29.png)
+![Bar „Tamuro“](images/fig-29.png)
 
 Das Lokal engagiert sich auch für den Aufbau von Gemeinschaft durch Essen, mit Weinveranstaltungen alle zwei Wochen, einem monatlichen Kochkurs und mehrgängigen Dinnern.
 

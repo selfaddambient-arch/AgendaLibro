@@ -1,4 +1,4 @@
-Subjeknya adalah Tamuro, bar dengan sistem rujukan yang saya kelola pada malam hari. Nama ini membawa harapan yang kuat: "menjadi tempat berkumpulnya berbagai macam orang dengan bebas dan gembira (tamuro-suru, nongkrong) di kota Higashi-Nakano."
+Subjeknya adalah Tamuro, bar yang saya kelola pada malam hari. Nama ini membawa harapan yang kuat: "menjadi tempat berkumpulnya berbagai macam orang dengan bebas dan gembira (tamuro-suru, nongkrong) di kota Higashi-Nakano."
 
 Bagaimana cara memadatkan "cerita" yang tak kasatmata ini menjadi sebuah logo yang kecil? Dimulailah dialog yang sabar dengan AI.
 

@@ -4,7 +4,7 @@ Bukod sa mga "larawan" tulad ng banner at sticker, tinanggap ko rin kasama ang A
 
 Nilalayon itong ilagay sa mga banner at iba pa, para makilala ng mga tao ang Tamuro sa isang sulyap.
 
-Ang paksa ay ang Tamuro, ang bar na sa referral lang tumatanggap na pinapatakbo ko sa gabi. Ang pangalang ito ay may dalang matinding hangarin: "maging lugar na malayang at masayang nagtitipon (tamuro-suru, tumambay) ang lahat ng uri ng tao sa bayan ng Higashi-Nakano."
+Ang paksa ay ang Tamuro, ang bar na pinapatakbo ko sa gabi. Ang pangalang ito ay may dalang matinding hangarin: "maging lugar na malayang at masayang nagtitipon (tamuro-suru, tumambay) ang lahat ng uri ng tao sa bayan ng Higashi-Nakano."
 
 Paano ko mapag-iisa ang di-nakikitang "kuwentong" ito sa isang maliit na logo mark? Nagsimula ang matiyagang pag-uusap namin ng AI.
 

@@ -106,7 +106,7 @@ Beyond "pictures" like banners and stickers, I also took on a more abstract chal
 
 It's meant to be built into banners and the like, so that people can recognize Tamuro at a glance.
 
-The subject is Tamuro, the referral-only bar I run at night. This name carries a strong wish: "to be a place where all kinds of people gather freely and happily (tamuro-suru, to hang out) in the town of Higashi-Nakano ⟦a residential neighborhood in western Tokyo, just west of Shinjuku⟧."
+The subject is Tamuro, the bar I run at night. This name carries a strong wish: "to be a place where all kinds of people gather freely and happily (tamuro-suru, to hang out) in the town of Higashi-Nakano ⟦a residential neighborhood in western Tokyo, just west of Shinjuku⟧."
 
 How could I condense this invisible "story" into a small logo mark? A patient dialogue with the AI began.
 

@@ -214,7 +214,7 @@ Afiş ve çıkartma gibi "resimlerin" ötesinde, yapay zekâyla daha soyut bir i
 
 Afişlere vb. yerleştirilmek üzere, insanların Tamuro'yu bir bakışta tanıması için.
 
-Konu, geceleri işlettiğim yalnızca referansla müşteri kabul eden bar Tamuro. Bu ad güçlü bir dilek taşıyor: "Higashi-Nakano semtinde her türden insanın serbestçe ve mutlulukla toplandığı (tamuro-suru, yani takıldığı) bir yer olmak."
+Konu, geceleri işlettiğim bar Tamuro. Bu ad güçlü bir dilek taşıyor: "Higashi-Nakano semtinde her türden insanın serbestçe ve mutlulukla toplandığı (tamuro-suru, yani takıldığı) bir yer olmak."
 
 Bu görünmez "hikâyeyi" küçük bir logo işaretine nasıl sıkıştırabilirdim? Yapay zekâyla sabırlı bir diyalog başladı.
 

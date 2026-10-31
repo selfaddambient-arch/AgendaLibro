@@ -57,3 +57,6 @@ tongkat（staff の誤訳）／Menjawab Keperluan Terperinci（見出しの慣�
 
 ## おわりに・著者紹介（07）
 Tiga Hala Tuju Selepas Buku Ini／leceh／kedai saya／banyak menuntut／ikan segar／terhebat／apa yang patut saya mulakan dahulu／perbualan yang terus bertambah／buku nota／Saya baca bukunya／cara kecil／berbilang sajian／kari hamburg：**採る**。
+
+## 紹介制の表現の削除（2026-10-31）
+紹介制の表現を代表の指示で全言語から削除（本1のみ。過去の採否の記録は書き換えていない）。

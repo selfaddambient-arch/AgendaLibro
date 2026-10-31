@@ -274,3 +274,6 @@
 3. 誤訳の修正：12年目、perle→Gem、déçu→désarmante、bâton、ticket moyen、manque à gagner、Check（評価）など。
 4. 性別語は導入せず中立を維持（patron、il、traductrice、restaurateur は不採用）。je への性数一致も除去（seul、forte）。
 5. 原文にない補足（LINE、APPI、Kakubin、note、shogi、zodiaque）は不採用。金額・URL・行数は不変。
+
+## 紹介制の表現の削除（2026-10-31）
+紹介制の表現を代表の指示で全言語から削除（本1のみ。過去の採否の記録は書き換えていない）。

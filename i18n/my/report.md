@@ -34,3 +34,5 @@
 
 ## Hub への引き渡し
 - PDF：`*/build/bontaraku-0{1,2}_*_my.pdf`、Google Play 用 EPUB：`*/build/*_my_gp.epub`、表紙：`*/cover/cover.png`、書誌：`*/metadata.yaml`、説明文・一行紹介・キーワード：`*/work/store.json`、ストア用1枚：`store-copy.part.html`。
+
+- 2026-10-31 紹介制の表現を本1から削除（7か所。source.ja.md・work/part-*.md・manuscript を修正し再組版・gate 実施）。

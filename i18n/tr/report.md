@@ -34,3 +34,5 @@
 ## Hub への引き渡し
 - 印：`b1-tr-pdf／-gp`、`b2-tr-pdf／-gp`。
 - `i18n/tr/`：`lang.json`、`glossary.add.yaml`、`work/style.md`、`store-copy.part.html`、`<slug>/metadata.yaml`、`<slug>/work/store.json`（一行紹介 本1:145字／本2:148字、説明文 本1:175語／本2:160語）、`<slug>/cover/cover.png`、`<slug>/build/*_tr.pdf`・`*_tr_gp.epub`、`<slug>/manuscript.md`、`<slug>/review-log.md`。
+
+- 2026-10-31：本1から「紹介制」の表現を削除（代表の指示）。再組版し、gate は NG 0、PDF は 93 ページ。

@@ -4,7 +4,7 @@
 
 Es soll in Banner und Ähnliches eingebaut werden, damit man Tamuro auf einen Blick erkennt.
 
-Gegenstand ist Tamuro, die Bar nur auf Empfehlung, die ich abends betreibe. Dieser Name trägt einen starken Wunsch in sich: „ein Ort zu sein, an dem sich ganz verschiedene Menschen frei und froh versammeln (tamuro-suru, abhängen) – in der Stadt Higashi-Nakano“.
+Gegenstand ist Tamuro, die Bar, die ich abends betreibe. Dieser Name trägt einen starken Wunsch in sich: „ein Ort zu sein, an dem sich ganz verschiedene Menschen frei und froh versammeln (tamuro-suru, abhängen) – in der Stadt Higashi-Nakano“.
 
 Wie ließ sich diese unsichtbare „Geschichte“ in einem kleinen Logozeichen verdichten? Ein geduldiger Dialog mit der KI begann.
 

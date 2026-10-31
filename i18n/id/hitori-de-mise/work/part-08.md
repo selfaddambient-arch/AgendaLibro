@@ -141,7 +141,7 @@ Buku ini gratis dibaca sebagai PDF, di note, dan di Google Play. (Hanya di Kindl
 
 1. Coba di kedai Anda sendiri. Seri Agenda bisa dimulai dengan buku catatan yang gratis. https://bontallc.com/agenda?via=b1-id-{{FMT}}
 2. Ikuti kegiatan saya. Saya menulis tentang alat yang akan saya buat berikutnya dan keseharian di bar, di note dan X. note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. Jika suatu saat Anda ke Tokyo, kunjungi Tamuro. Satu menit dari pintu timur Stasiun Higashi-Nakano. Anda bisa masuk tanpa reservasi. Ketika buku ini pertama kali ditulis, Tamuro memakai sistem rujukan. Kini siapa pun dipersilakan masuk, tanpa perlu reservasi. Situs reservasi https://tamuroreservation.vercel.app/?src=b1-id-{{FMT}}
+3. Jika suatu saat Anda ke Tokyo, kunjungi Tamuro. Satu menit dari pintu timur Stasiun Higashi-Nakano. Anda bisa masuk tanpa reservasi. Situs reservasi https://tamuroreservation.vercel.app/?src=b1-id-{{FMT}}
 
 Bagi Anda yang datang karena buku ini: saat membuat reservasi, mohon masukkan kode kupon "BOOK". Kami akan memberikan satu minuman gratis pada kunjungan pertama Anda. Jika Anda datang tanpa reservasi, cukup katakan "Saya tahu dari buku ini" saat memesan pertama kali. Kami akan memberikan minuman gratis yang sama. Ini sebuah cara kecil agar saya bisa menghitung berapa orang yang datang karena buku ini.
 
@@ -151,7 +151,7 @@ Raku Bonta
 
 Pemilik tunggal yang menjalankan restoran dengan 11 kursi konter dan 8 tempat duduk di area tatami di Higashi-Nakano, Tokyo.
 
-Pada siang hari tempat ini menjadi kedai kari hamburg steak yang harum rempah. Pada malam hari tempat ini menjadi dining bar dengan sistem rujukan yang menyajikan menu set yang berganti setiap hari.
+Pada siang hari tempat ini menjadi kedai kari hamburg steak yang harum rempah. Pada malam hari tempat ini menjadi dining bar yang menyajikan menu set yang berganti setiap hari.
 
 ▼ Quatre Epice Hamburger Curry
 
@@ -159,11 +159,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry](images/fig-28.png)
 
-▼ Bar dengan sistem rujukan "Tamuro"
+▼ Bar "Tamuro"
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Bar dengan sistem rujukan "Tamuro"](images/fig-29.png)
+![Bar "Tamuro"](images/fig-29.png)
 
 Kedai ini juga mencurahkan tenaga untuk membangun komunitas lewat makanan, dengan acara wine dua mingguan, kelas memasak bulanan, dan makan malam course.
 

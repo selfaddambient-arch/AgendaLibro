@@ -16,7 +16,7 @@ Permettez-moi de me présenter un peu.
 
 Je tiens aujourd'hui un petit restaurant au sous-sol d'un immeuble de Higashi-Nakano *(un quartier résidentiel de l'ouest de Tokyo, juste à l'ouest de Shinjuku)*, à Tokyo.
 
-Il a deux visages. Le jour, c'est une adresse spécialisée dans le curry au steak haché japonais (hambāgu) parfumé aux épices. Le soir, c'est un bar-restaurant sur recommandation, qui propose un menu du jour et de l'alcool.
+Il a deux visages. Le jour, c'est une adresse spécialisée dans le curry au steak haché japonais (hambāgu) parfumé aux épices. Le soir, c'est un bar-restaurant, qui propose un menu du jour et de l'alcool.
 
 ▼ Quatre Épices, curry-hamburger (Instagram)
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Épices, curry au steak haché (Instagram)](images/fig-01.png)
 
-▼ Bar sur recommandation « Tamuro » (Instagram)
+▼ Bar « Tamuro » (Instagram)
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Bar sur recommandation "Tamuro" (Instagram)](images/fig-02.png)
+![Bar "Tamuro" (Instagram)](images/fig-02.png)
 
 C'est un lieu chaleureux, avec seulement 11 places au comptoir et 8 places sur une estrade en tatami.
 
@@ -584,7 +584,7 @@ Au-delà des « images » comme les bannières et les stickers, j'ai aussi rel
 
 Il est destiné à être intégré aux bannières et autres supports, pour que l'on reconnaisse Tamuro au premier coup d'œil.
 
-Le sujet, c'est Tamuro, le bar sur recommandation que je tiens le soir. Ce nom porte un vœu fort : « être un lieu où toutes sortes de gens se retrouvent librement et joyeusement (tamuro-suru, se retrouver) dans le quartier de Higashi-Nakano ».
+Le sujet, c'est Tamuro, le bar que je tiens le soir. Ce nom porte un vœu fort : « être un lieu où toutes sortes de gens se retrouvent librement et joyeusement (tamuro-suru, se retrouver) dans le quartier de Higashi-Nakano ».
 
 Comment condenser cette « histoire » invisible en un petit logo ? Un patient dialogue avec l'IA a commencé.
 
@@ -1576,7 +1576,7 @@ Ce livre se lit gratuitement en PDF, sur note et sur Google Play. (Sur Kindle se
 
 1. Essayez dans votre propre commerce. La série Agenda peut se commencer avec un carnet gratuit. https://bontallc.com/agenda?via=b1-fr-{{FMT}}
 2. Suivez ce que je fais. J'écris sur les outils que je construirai ensuite, et sur le quotidien du bar, sur note et X. note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. Si vous passez un jour à Tokyo, venez à Tamuro. À une minute de la sortie est de la gare de Higashi-Nakano. Vous pouvez entrer sans réservation. Quand j'ai écrit ce livre, Tamuro fonctionnait uniquement sur recommandation. Aujourd'hui, tout le monde est le bienvenu sans réservation. Site de réservation https://tamuroreservation.vercel.app/?src=b1-fr-{{FMT}}
+3. Si vous passez un jour à Tokyo, venez à Tamuro. À une minute de la sortie est de la gare de Higashi-Nakano. Vous pouvez entrer sans réservation. Site de réservation https://tamuroreservation.vercel.app/?src=b1-fr-{{FMT}}
 
 Aux personnes qui viennent grâce à ce livre : lorsque vous réservez, saisissez le code promo « BOOK ». Je vous offrirai une boisson lors de votre première visite. Sans réservation, dites simplement « Je viens de la part du livre » en passant votre première commande. Je vous offrirai la même boisson. C'est un petit dispositif pour que je puisse compter combien de personnes sont venues grâce au livre.
 
@@ -1586,7 +1586,7 @@ Raku Bonta
 
 Propriétaire exploitant seul un restaurant de 11 places au comptoir et 8 places dans la salle à tatamis à Higashi-Nakano, à Tokyo.
 
-Le jour, c'est un restaurant de curry au steak haché japonais (hambāgu) parfumé d'épices. Le soir, c'est un bar-restaurant sur recommandation qui sert un menu fixe différent chaque soir.
+Le jour, c'est un restaurant de curry au steak haché japonais (hambāgu) parfumé d'épices. Le soir, c'est un bar-restaurant qui sert un menu fixe différent chaque soir.
 
 ▼ Quatre Epice Hamburger Curry
 
@@ -1594,11 +1594,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Épices, curry au steak haché](images/fig-28.png)
 
-▼ Bar sur recommandation « Tamuro »
+▼ Bar « Tamuro »
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Bar sur recommandation « Tamuro »](images/fig-29.png)
+![Bar « Tamuro »](images/fig-29.png)
 
 Le commerce s'investit aussi dans la création d'une communauté autour de la cuisine, avec des soirées vin toutes les deux semaines, un cours de cuisine mensuel et des dîners de plusieurs plats.
 

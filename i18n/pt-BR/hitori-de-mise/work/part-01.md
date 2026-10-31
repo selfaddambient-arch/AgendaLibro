@@ -16,7 +16,7 @@ Deixe-me contar um pouco sobre mim.
 
 Hoje toco um pequeno restaurante no subsolo de um prédio em Higashi-Nakano *(um bairro residencial no oeste de Tóquio, logo a oeste de Shinjuku)*, em Tóquio.
 
-Ele tem duas faces. De dia, é uma casa especializada em curry com bife de hambúrguer estilo japonês, aromatizado com especiarias. À noite, é um bar-restaurante só por indicação, com prato do dia e bebidas.
+Ele tem duas faces. De dia, é uma casa especializada em curry com bife de hambúrguer estilo japonês, aromatizado com especiarias. À noite, é um bar-restaurante, com prato do dia e bebidas.
 
 ▼ Quatre Epice Hamburger Curry (Instagram)
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry (Instagram)](images/fig-01.png)
 
-▼ Bar só por indicação "Tamuro" (Instagram)
+▼ Bar "Tamuro" (Instagram)
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Bar só por indicação "Tamuro" (Instagram)](images/fig-02.png)
+![Bar "Tamuro" (Instagram)](images/fig-02.png)
 
 É um espaço aconchegante, com apenas 11 lugares no balcão e 8 lugares numa área elevada com tatame.
 

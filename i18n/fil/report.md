@@ -33,3 +33,5 @@
 
 ## Hub への引き渡し
 - `i18n/fil/`：`lang.json`、`glossary.add.yaml`、`work/style.md`、`store-copy.part.html`、`<slug>/metadata.yaml`、`<slug>/work/store.json`、`<slug>/cover/cover.png`、`<slug>/build/bontaraku-0{1,2}_*_fil.pdf`、`*_fil_gp.epub`、`<slug>/manuscript.md`、`<slug>/review-log.md`。
+
+- 2026-10-31：本1から「紹介制」の表現を削除（代表の指示）。再組版し、gate は NG 0、PDF は 101 ページ。

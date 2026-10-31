@@ -1,4 +1,4 @@
-Đối tượng ở đây là Tamuro, quán bar chỉ nhận khách có người giới thiệu mà tôi điều hành vào ban đêm. Cái tên này gửi gắm một tâm nguyện tha thiết: "trở thành nơi đủ mọi kiểu người được thoải mái tụ họp và vui vẻ (tamuro-suru, tức là tụ tập, quây quần) ở khu Higashi-Nakano."
+Đối tượng ở đây là Tamuro, quán bar mà tôi điều hành vào ban đêm. Cái tên này gửi gắm một tâm nguyện tha thiết: "trở thành nơi đủ mọi kiểu người được thoải mái tụ họp và vui vẻ (tamuro-suru, tức là tụ tập, quây quần) ở khu Higashi-Nakano."
 
 Làm thế nào để cô đọng "câu chuyện" vô hình ấy thành một biểu tượng logo nhỏ? Một cuộc đối thoại kiên nhẫn với AI đã bắt đầu.
 

@@ -35,3 +35,6 @@
 
 ## Hub への引き渡し
 - ルート `i18n/fr/`：`lang.json`、`glossary.add.yaml`、`work/style.md`、`<slug>/metadata.yaml`、`<slug>/work/store.json`、`store-copy.part.html`、`<slug>/cover/cover.png`、`<slug>/build/bontaraku-0{1,2}_*_fr.pdf`、`*_fr_gp.epub`、`*_fr_kindle.epub`、`<slug>/manuscript.md`、`<slug>/review-log.md`。
+
+## 追記 2026-10-31
+本1から「紹介制」の表現を代表の指示で削除（8か所。source.ja.md・work/part-*.md・manuscript.md を修正し、再組版）。屯が今は予約なしで入れる旨は残した。

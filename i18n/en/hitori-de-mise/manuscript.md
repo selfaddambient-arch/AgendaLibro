@@ -16,7 +16,7 @@ Let me tell you a little about myself.
 
 I now run a small restaurant in the basement of a building in Higashi-Nakano *(a residential neighborhood in western Tokyo, just west of Shinjuku)*, Tokyo.
 
-It has two faces. By day, it is a specialty shop for hamburger curry fragrant with spices. By night, it is a referral-only dining bar serving a daily set meal and drinks.
+It has two faces. By day, it is a specialty shop for hamburger curry fragrant with spices. By night, it is a dining bar serving a daily set meal and drinks.
 
 ▼ Quatre Epice Hamburger Curry (Instagram)
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry (Instagram)](images/fig-01.png)
 
-▼ Referral-only bar "Tamuro" (Instagram)
+▼ Bar "Tamuro" (Instagram)
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Referral-only bar "Tamuro" (Instagram)](images/fig-02.png)
+![Bar "Tamuro" (Instagram)](images/fig-02.png)
 
 It is a cozy space with just 11 counter seats and 8 seats on a raised tatami platform.
 
@@ -584,7 +584,7 @@ Beyond "pictures" like banners and stickers, I also took on a more abstract chal
 
 It's meant to be built into banners and the like, so that people can recognize Tamuro at a glance.
 
-The subject is Tamuro, the referral-only bar I run at night. This name carries a strong wish: "to be a place where all kinds of people gather freely and happily (tamuro-suru, to hang out) in the town of Higashi-Nakano."
+The subject is Tamuro, the bar I run at night. This name carries a strong wish: "to be a place where all kinds of people gather freely and happily (tamuro-suru, to hang out) in the town of Higashi-Nakano."
 
 How could I condense this invisible "story" into a small logo mark? A patient dialogue with the AI began.
 
@@ -1576,7 +1576,7 @@ This book is free to read as a PDF, on note, and on Google Play. (Only on Kindle
 
 1. Try it in your own shop. The Agenda series can be started with a free notebook. https://bontallc.com/agenda?via=b1-en-{{FMT}}
 2. Follow what I do. I write about the tools I build next, and about daily life at the bar, on note and X. note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. If you are ever in Tokyo, visit Tamuro. One minute from the east exit of Higashi-Nakano Station. You can walk in without a reservation. When this book was first written, Tamuro was referral-only. Today anyone is welcome to walk in, no reservation needed. Reservation site https://tamuroreservation.vercel.app/?src=b1-en-{{FMT}}
+3. If you are ever in Tokyo, visit Tamuro. One minute from the east exit of Higashi-Nakano Station. You can walk in without a reservation. needed. Reservation site https://tamuroreservation.vercel.app/?src=b1-en-{{FMT}}
 
 To those who came because of this book: when you make a reservation, please enter the coupon code "BOOK." We will serve you one drink on your first visit. If you came without a reservation, just say "I saw the book" when you place your first order. We will serve you the same drink. It is a small device so that I can count how many people came because of the book.
 
@@ -1586,7 +1586,7 @@ Raku Bonta
 
 A solo owner who runs a restaurant with 11 counter seats and 8 tatami-room seats in Higashi-Nakano, Tokyo.
 
-By day it is a hamburger curry shop fragrant with spice. By night it is a referral-only dining bar serving a daily-changing set meal.
+By day it is a hamburger curry shop fragrant with spice. By night it is a dining bar serving a daily-changing set meal.
 
 ▼ Quatre Epice Hamburger Curry
 
@@ -1594,11 +1594,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry](images/fig-28.png)
 
-▼ Referral-only bar "Tamuro"
+▼ Bar "Tamuro"
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Referral-only bar "Tamuro"](images/fig-29.png)
+![Bar "Tamuro"](images/fig-29.png)
 
 The shop also puts energy into building community through food, with biweekly wine events, a monthly cooking class, and multi-course dinners.
 

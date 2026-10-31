@@ -33,3 +33,5 @@
 
 ## 気づいた点
 - build で pandoc の警告（`translations/zh.yaml` が zh-TW を読めず「Abstract」に訳がない）。epubcheck は警告0
+
+- 2026-10-31 紹介制の表現を本1から削除（7か所。source.ja.md・work/part-*.md・manuscript を修正し再組版・gate 実施）。

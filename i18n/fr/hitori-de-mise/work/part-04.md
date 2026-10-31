@@ -1,4 +1,4 @@
-Le sujet, c'est Tamuro, le bar sur recommandation que je tiens le soir. Ce nom porte un vœu fort : « être un lieu où toutes sortes de gens se retrouvent librement et joyeusement (tamuro-suru, se retrouver) dans le quartier de Higashi-Nakano ».
+Le sujet, c'est Tamuro, le bar que je tiens le soir. Ce nom porte un vœu fort : « être un lieu où toutes sortes de gens se retrouvent librement et joyeusement (tamuro-suru, se retrouver) dans le quartier de Higashi-Nakano ».
 
 Comment condenser cette « histoire » invisible en un petit logo ? Un patient dialogue avec l'IA a commencé.
 

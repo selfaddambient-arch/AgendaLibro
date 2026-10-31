@@ -141,7 +141,7 @@ Cuốn sách này được đọc miễn phí dưới dạng PDF, trên note và
 
 1. Thử ngay tại quán của bạn. Loạt Agenda có thể bắt đầu bằng một cuốn sổ miễn phí. https://bontallc.com/agenda?via=b1-vi-{{FMT}}
 2. Theo dõi những gì tôi làm. Tôi viết về những công cụ tôi sẽ làm tiếp theo và về cuộc sống thường ngày ở quán bar, trên note và X. note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. Nếu có dịp đến Tokyo, hãy ghé Tamuro. Cách cửa đông ga Higashi-Nakano một phút. Bạn có thể vào mà không cần đặt chỗ. Khi cuốn sách này được viết lần đầu, Tamuro chỉ nhận khách qua giới thiệu. Ngày nay ai cũng được chào đón vào quán, không cần đặt chỗ. Trang đặt chỗ https://tamuroreservation.vercel.app/?src=b1-vi-{{FMT}}
+3. Nếu có dịp đến Tokyo, hãy ghé Tamuro. Cách cửa đông ga Higashi-Nakano một phút. Bạn có thể vào mà không cần đặt chỗ. Trang đặt chỗ https://tamuroreservation.vercel.app/?src=b1-vi-{{FMT}}
 
 Gửi đến những ai đến quán nhờ cuốn sách này: khi đặt chỗ, xin hãy nhập mã giảm giá "BOOK". Chúng tôi sẽ mời bạn một ly đồ uống trong lần ghé đầu tiên. Nếu bạn đến mà không đặt chỗ, chỉ cần nói "Tôi thấy trong sách" khi gọi món đầu tiên. Chúng tôi sẽ mời bạn đúng ly đồ uống đó. Đây là một cách nhỏ để tôi đếm được có bao nhiêu người đến nhờ cuốn sách.
 
@@ -151,7 +151,7 @@ Raku Bonta
 
 Một chủ quán một mình điều hành nhà hàng có 11 chỗ ngồi quầy và 8 chỗ ngồi phòng tatami ở Higashi-Nakano, Tokyo.
 
-Ban ngày là quán cà ri hamburger thơm mùi gia vị. Ban đêm là quán bar ăn uống chỉ nhận khách qua giới thiệu, phục vụ set ăn thay đổi mỗi ngày.
+Ban ngày là quán cà ri hamburger thơm mùi gia vị. Ban đêm là quán bar ăn uống phục vụ set ăn thay đổi mỗi ngày.
 
 ▼ Quatre Epice Hamburger Curry
 
@@ -159,11 +159,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Cà ri hamburger Quatre Epice](images/fig-28.png)
 
-▼ Quán bar chỉ nhận khách qua giới thiệu "Tamuro"
+▼ Quán bar "Tamuro"
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Quán bar chỉ nhận khách qua giới thiệu "Tamuro"](images/fig-29.png)
+![Quán bar "Tamuro"](images/fig-29.png)
 
 Quán cũng dồn tâm sức xây dựng cộng đồng qua ẩm thực, với các sự kiện rượu vang hai tuần một lần, lớp học nấu ăn hằng tháng và các bữa tối nhiều món.
 

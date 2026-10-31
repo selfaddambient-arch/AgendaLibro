@@ -16,7 +16,7 @@ Mi presento brevemente.
 
 Oggi gestisco un piccolo locale nel seminterrato di un palazzo a Higashi-Nakano *(un quartiere residenziale nella zona occidentale di Tokyo, subito a ovest di Shinjuku)*, a Tokyo.
 
-Ha due volti. Di giorno è un locale specializzato in hamburger al curry *(hamburg steak alla giapponese servita con il curry)*, profumato di spezie. Di sera è un bar-ristorante accessibile solo su presentazione di altri clienti, con un menu fisso del giorno e bevande.
+Ha due volti. Di giorno è un locale specializzato in hamburger al curry *(hamburg steak alla giapponese servita con il curry)*, profumato di spezie. Di sera è un bar-ristorante con un menu fisso del giorno e bevande.
 
 ▼ Hamburger al curry Quatre Epice (Instagram)
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Hamburger al curry Quatre Epice (Instagram)](images/fig-01.png)
 
-▼ Il bar su presentazione «Tamuro» (Instagram)
+▼ Il bar «Tamuro» (Instagram)
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Il bar su presentazione «Tamuro» (Instagram)](images/fig-02.png)
+![Il bar «Tamuro» (Instagram)](images/fig-02.png)
 
 È uno spazio accogliente, con soli 11 posti al bancone e 8 su una piattaforma rialzata con tatami.
 

@@ -16,7 +16,7 @@ Bu, zor programlamayı anlatan teknik bir kitap değil. Her gün mutfakta duran,
 
 Şu anda Tokyo'nun Higashi-Nakano semtinde *(Shinjuku'nun hemen batısında, Tokyo'nun batı yakasındaki bir yerleşim semti)* bir binanın bodrum katında küçük bir restoran işletiyorum.
 
-Mekânın iki yüzü var. Gündüzleri baharat kokan köriyi hamburger köftesiyle sunan, bu işe adanmış bir lokanta. Geceleri ise günün set yemeğini ve içkileri sunan, yalnızca tanıdık referansıyla müşteri kabul eden bir yemek barı.
+Mekânın iki yüzü var. Gündüzleri baharat kokan köriyi hamburger köftesiyle sunan, bu işe adanmış bir lokanta. Geceleri ise günün set yemeğini ve içkileri sunan bir yemek barı.
 
 ▼ Quatre Epice Hamburger Curry (Instagram)
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry (Instagram)](images/fig-01.png)
 
-▼ Yalnızca referansla müşteri kabul eden bar "Tamuro" (Instagram)
+▼ Bar "Tamuro" (Instagram)
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Yalnızca referansla müşteri kabul eden bar "Tamuro" (Instagram)](images/fig-02.png)
+![Bar "Tamuro" (Instagram)](images/fig-02.png)
 
 Sadece tezgâhta 11 tabure ve yükseltilmiş tatami zeminde 8 oturma yeri bulunan, sıcacık bir mekân.
 
@@ -584,7 +584,7 @@ Afiş ve çıkartma gibi "resimlerin" ötesinde, yapay zekâyla daha soyut bir i
 
 Afişlere vb. yerleştirilmek üzere, insanların Tamuro'yu bir bakışta tanıması için.
 
-Konu, geceleri işlettiğim yalnızca referansla müşteri kabul eden bar Tamuro. Bu ad güçlü bir dilek taşıyor: "Higashi-Nakano semtinde her türden insanın serbestçe ve mutlulukla toplandığı (tamuro-suru, yani takıldığı) bir yer olmak."
+Konu, geceleri işlettiğim bar Tamuro. Bu ad güçlü bir dilek taşıyor: "Higashi-Nakano semtinde her türden insanın serbestçe ve mutlulukla toplandığı (tamuro-suru, yani takıldığı) bir yer olmak."
 
 Bu görünmez "hikâyeyi" küçük bir logo işaretine nasıl sıkıştırabilirdim? Yapay zekâyla sabırlı bir diyalog başladı.
 
@@ -1576,7 +1576,7 @@ Bu kitap PDF olarak, note'ta ve Google Play'de ücretsiz okunabilir. (Yalnızca 
 
 1. Kendi dükkânınızda deneyin. Agenda serisine ücretsiz bir defterle başlayabilirsiniz. https://bontallc.com/agenda?via=b1-tr-{{FMT}}
 2. Yaptıklarımı takip edin. Sıradaki araçlarımı ve barın gündelik hayatını note ve X'te yazıyorum. note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. Tokyo'ya yolunuz düşerse Tamuro'yu ziyaret edin. Higashi-Nakano İstasyonu'nun doğu çıkışından yürüyerek bir dakika. Rezervasyonsuz girebilirsiniz. Bu kitap ilk yazıldığında Tamuro yalnızca referansla müşteri kabul ediyordu. Bugün herkes rezervasyon yapmadan içeri girebilir. Rezervasyon sitesi https://tamuroreservation.vercel.app/?src=b1-tr-{{FMT}}
+3. Tokyo'ya yolunuz düşerse Tamuro'yu ziyaret edin. Higashi-Nakano İstasyonu'nun doğu çıkışından yürüyerek bir dakika. Rezervasyonsuz girebilirsiniz. Rezervasyon sitesi https://tamuroreservation.vercel.app/?src=b1-tr-{{FMT}}
 
 Bu kitap sayesinde gelenlere: rezervasyon yaparken lütfen "BOOK" kupon kodunu girin. İlk ziyaretinizde size bir içki ikram edeceğiz. Rezervasyonsuz geldiyseniz, ilk siparişinizi verirken "Kitaptan geldim" demeniz yeter. Aynı içkiyi ikram edeceğiz. Kitap sayesinde kaç kişinin geldiğini sayabilmem için kurduğum küçük bir düzenek bu.
 
@@ -1586,7 +1586,7 @@ Raku Bonta
 
 Tokyo'nun Higashi-Nakano semtinde tezgâhta 11 tabure ve tatami odasında 8 oturma yeri olan bir restoranı tek başına işleten bir işletmeci.
 
-Gündüz baharat kokan bir hamburger köri dükkânı. Gece her gün değişen set yemek sunan, yalnızca referansla müşteri kabul eden bir yemek barı.
+Gündüz baharat kokan bir hamburger köri dükkânı. Gece her gün değişen set yemek sunan bir yemek barı.
 
 ▼ Quatre Epice Hamburger Curry
 
@@ -1594,11 +1594,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry](images/fig-28.png)
 
-▼ Yalnızca referansla müşteri kabul eden bar "Tamuro"
+▼ Bar "Tamuro"
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Yalnızca referansla müşteri kabul eden bar "Tamuro"](images/fig-29.png)
+![Bar "Tamuro"](images/fig-29.png)
 
 Dükkân, iki haftada bir şarap etkinlikleri, ayda bir yemek atölyesi ve çok servisli akşam yemekleriyle yemek üzerinden topluluk kurmaya da emek veriyor.
 

@@ -214,7 +214,7 @@ Oltre alle «immagini» come banner e adesivi, con l'IA ho affrontato anche una 
 
 Deve essere inserito nei banner e simili, così che si riconosca Tamuro a colpo d'occhio.
 
-Il soggetto è Tamuro, il bar su presentazione che gestisco la sera. Questo nome porta con sé un forte desiderio: «essere un luogo dove ogni genere di persone si riunisce liberamente e con gioia (tamuro-suru, ritrovarsi a stare insieme) nel quartiere di Higashi-Nakano».
+Il soggetto è Tamuro, il bar che gestisco la sera. Questo nome porta con sé un forte desiderio: «essere un luogo dove ogni genere di persone si riunisce liberamente e con gioia (tamuro-suru, ritrovarsi a stare insieme) nel quartiere di Higashi-Nakano».
 
 Come condensare questa «storia» invisibile in un piccolo marchio? È cominciato un paziente dialogo con l'IA.
 

@@ -16,7 +16,7 @@ Izinkan saya bercerita sedikit tentang diri saya.
 
 Kini saya menjalankan sebuah restoran kecil di ruang bawah tanah sebuah bangunan di Higashi-Nakano *(kawasan kediaman di barat Tokyo, betul-betul di sebelah barat Shinjuku)*, Tokyo.
 
-Restoran ini mempunyai dua wajah. Pada siang hari, ia menjadi kedai khusus kari hamburg (stik daging cincang) yang harum dengan rempah. Pada waktu malam, ia menjadi dining bar yang menerima tetamu melalui perkenalan sahaja (referral-only) dan menghidangkan set harian dan minuman.
+Restoran ini mempunyai dua wajah. Pada siang hari, ia menjadi kedai khusus kari hamburg (stik daging cincang) yang harum dengan rempah. Pada waktu malam, ia menjadi dining bar yang menghidangkan set harian dan minuman.
 
 ▼ Quatre Epice Hamburger Curry (Instagram)
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry (Instagram)](images/fig-01.png)
 
-▼ Bar melalui perkenalan "Tamuro" (Instagram)
+▼ Bar "Tamuro" (Instagram)
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Bar melalui perkenalan "Tamuro" (Instagram)](images/fig-02.png)
+![Bar "Tamuro" (Instagram)](images/fig-02.png)
 
 Ruangnya selesa, dengan hanya 11 tempat duduk di kaunter dan 8 tempat duduk di ruang tatami yang dinaikkan.
 

@@ -42,3 +42,5 @@
 - NanoBanana の用語集は、本文の表記に合わせ `Nano Banana` にした（i18n/bn/glossary.add.yaml）。
 - `i18n/bn/work-review.json` は review.py が作る台帳。
 - 数日後の Google Play 上げ直しでは、本1の既存ベンガル語版（無料配布23件）との差し替え手順を確認してほしい。
+
+本1から「紹介制」の表現を代表の指示で削除（8か所。source.ja.md・work/part-*.md（enは manuscript.md と work/raw）・manuscript.md を修正し、再組版）。屯が今は予約なしで入れる旨は残した。

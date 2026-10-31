@@ -16,7 +16,7 @@ Permítanme contarles un poco sobre mí.
 
 Ahora dirijo un pequeño restaurante en el sótano de un edificio en Higashi-Nakano *(un barrio residencial del oeste de Tokio, justo al oeste de Shinjuku)*, en Tokio.
 
-Tiene dos caras. De día, es un local especializado en curry con hanbāgu *(bistec de carne picada a la plancha al estilo japonés, parecido al hamburg steak)*, con un aroma intenso a especias. De noche, es un bar-restaurante solo por recomendación, que ofrece un menú del día y bebidas.
+Tiene dos caras. De día, es un local especializado en curry con hanbāgu *(bistec de carne picada a la plancha al estilo japonés, parecido al hamburg steak)*, con un aroma intenso a especias. De noche, es un bar-restaurante, que ofrece un menú del día y bebidas.
 
 ▼ Quatre Epice Hamburger Curry (Instagram)
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry (Instagram)](images/fig-01.png)
 
-▼ Bar solo por recomendación "Tamuro" (Instagram)
+▼ Bar "Tamuro" (Instagram)
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Bar solo por recomendación "Tamuro" (Instagram)](images/fig-02.png)
+![Bar "Tamuro" (Instagram)](images/fig-02.png)
 
 Es un espacio acogedor, con apenas 11 asientos en la barra y 8 en una plataforma elevada de tatami.
 

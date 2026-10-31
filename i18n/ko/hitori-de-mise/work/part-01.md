@@ -16,7 +16,7 @@
 
 저는 지금 도쿄 히가시나카노 *(신주쿠에서 서쪽으로 조금 떨어진 도쿄 서부의 주택가)* 에 있는 건물 지하에서 작은 식당을 운영하고 있습니다.
 
-이 가게에는 두 가지 얼굴이 있습니다. 낮에는 향신료 향이 가득한 햄버그 카레 전문점이고, 밤에는 오늘의 정식과 술을 내는 소개제 다이닝 바입니다.
+이 가게에는 두 가지 얼굴이 있습니다. 낮에는 향신료 향이 가득한 햄버그 카레 전문점이고, 밤에는 오늘의 정식과 술을 내는 다이닝 바입니다.
 
 ▼ 콰트르 에피스 햄버그 카레 (Instagram)
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![콰트르 에피스 햄버그 카레 (Instagram)](images/fig-01.png)
 
-▼ 소개제 바 “타무로(屯)” (Instagram)
+▼ 바 “타무로(屯)” (Instagram)
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![소개제 바 “타무로(屯)” (Instagram)](images/fig-02.png)
+![바 “타무로(屯)” (Instagram)](images/fig-02.png)
 
 카운터석 11석과 다다미 좌식 8석뿐인 아담한 공간입니다.
 

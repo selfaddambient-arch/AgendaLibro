@@ -34,3 +34,5 @@
 ## Hub への引き渡し
 - 印：`b1-ru-pdf／-gp`、`b2-ru-pdf／-gp`。
 - `i18n/ru/`：`lang.json`、`glossary.add.yaml`、`work/style.md`、`store-copy.part.html`、`<slug>/metadata.yaml`、`<slug>/work/store.json`（説明文 本1:187語／本2:169語）、`<slug>/cover/cover.png`、`<slug>/build/*_ru.pdf`・`*_ru_gp.epub`、`<slug>/manuscript.md`、`<slug>/review-log.md`。
+
+- 2026-10-31：本1から「紹介制」の表現を削除（代表の指示）。再組版し、gate は NG 0、PDF は 102 ページ。

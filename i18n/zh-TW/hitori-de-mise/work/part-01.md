@@ -16,7 +16,7 @@
 
 我現在在東京東中野*(東京西部的住宅區，就在新宿的西邊)*的一棟大樓地下室，經營一間小餐廳。
 
-這間店有兩種面貌。白天是香料撲鼻的漢堡排咖哩專賣店，晚上則是需要介紹才能入內的餐酒館，提供每日定食和酒類。
+這間店有兩種面貌。白天是香料撲鼻的漢堡排咖哩專賣店，晚上則是餐酒館，提供每日定食和酒類。
 
 ▼ Quatre Epice 漢堡排咖哩（Instagram）
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice 漢堡排咖哩（Instagram）](images/fig-01.png)
 
-▼ 介紹制酒吧「Tamuro」（Instagram）
+▼ 酒吧「Tamuro」（Instagram）
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![介紹制酒吧「Tamuro」（Instagram）](images/fig-02.png)
+![酒吧「Tamuro」（Instagram）](images/fig-02.png)
 
 這是一個小巧的空間，只有11個吧檯座位和8個榻榻米架高座位。
 

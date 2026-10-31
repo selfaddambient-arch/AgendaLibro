@@ -16,7 +16,7 @@ Ein paar Worte zu mir.
 
 Ich führe heute ein kleines Lokal im Untergeschoss eines Gebäudes in Higashi-Nakano *(ein Wohnviertel im Westen Tokios, gleich westlich von Shinjuku)*, Tokio.
 
-Das Lokal hat zwei Gesichter. Tagsüber ist es ein Spezialitätenlokal für Hamburger-Curry mit dem Duft vieler Gewürze. Abends wird es zu einer Esskneipe, in die man nur auf Empfehlung kommt, mit einem täglich wechselnden Menü und Getränken.
+Das Lokal hat zwei Gesichter. Tagsüber ist es ein Spezialitätenlokal für Hamburger-Curry mit dem Duft vieler Gewürze. Abends wird es zu einer Esskneipe mit einem täglich wechselnden Menü und Getränken.
 
 ▼ Quatre Epice Hamburger Curry (Instagram)
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry (Instagram)](images/fig-01.png)
 
-▼ Bar „Tamuro“, nur auf Empfehlung (Instagram)
+▼ Bar „Tamuro“ (Instagram)
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Bar „Tamuro“, nur auf Empfehlung (Instagram)](images/fig-02.png)
+![Bar „Tamuro“ (Instagram)](images/fig-02.png)
 
 Es ist ein gemütlicher Raum mit nur 11 Plätzen am Tresen und 8 Plätzen auf einem erhöhten Tatami-Podest.
 

@@ -32,3 +32,5 @@
 ## Hub への引き渡し
 - 印：`b1-it-pdf／-gp／-kindle`、`b2-it-pdf／-gp／-kindle`。
 - `i18n/it/`：`lang.json`、`glossary.add.yaml`、`store-copy.part.html`、`<slug>/metadata.yaml`、`<slug>/work/store.json`（one_liner・description・keywords・gp_genres・kindle_categories。説明文 本1:218語／本2:219語）、`<slug>/cover/cover.png`、`<slug>/build/*_it.pdf`・`*_it_gp.epub`・`*_it_kindle.epub`、`<slug>/manuscript.md`、`<slug>/review-log.md`。
+
+- 2026-10-31：本1から「紹介制」の表現を削除（代表の指示）。再組版し、gate は NG 0、PDF は 97 ページ。

@@ -16,7 +16,7 @@ Permettez-moi de me présenter un peu.
 
 Je tiens aujourd'hui un petit restaurant au sous-sol d'un immeuble de Higashi-Nakano *(un quartier résidentiel de l'ouest de Tokyo, juste à l'ouest de Shinjuku)*, à Tokyo.
 
-Il a deux visages. Le jour, c'est une adresse spécialisée dans le curry au steak haché japonais (hambāgu) parfumé aux épices. Le soir, c'est un bar-restaurant sur recommandation, qui propose un menu du jour et de l'alcool.
+Il a deux visages. Le jour, c'est une adresse spécialisée dans le curry au steak haché japonais (hambāgu) parfumé aux épices. Le soir, c'est un bar-restaurant, qui propose un menu du jour et de l'alcool.
 
 ▼ Quatre Épices, curry-hamburger (Instagram)
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Épices, curry au steak haché (Instagram)](images/fig-01.png)
 
-▼ Bar sur recommandation « Tamuro » (Instagram)
+▼ Bar « Tamuro » (Instagram)
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Bar sur recommandation "Tamuro" (Instagram)](images/fig-02.png)
+![Bar "Tamuro" (Instagram)](images/fig-02.png)
 
 C'est un lieu chaleureux, avec seulement 11 places au comptoir et 8 places sur une estrade en tatami.
 

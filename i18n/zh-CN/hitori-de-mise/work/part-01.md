@@ -16,7 +16,7 @@
 
 我现在在东京东中野*（东京西部、新宿以西的住宅区）*一栋楼的地下室里，经营一家小餐厅。
 
-这家店有着双重身份。白天，它是一家专卖香料扑鼻的汉堡排咖喱的专门店。晚上，它是一家只接受熟人介绍的餐饮酒吧，供应每日定食和酒水。
+这家店有着双重身份。白天，它是一家专卖香料扑鼻的汉堡排咖喱的专门店。晚上，它是一家餐饮酒吧，供应每日定食和酒水。
 
 ▼ Quatre Epice 汉堡排咖喱（Instagram）
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice 汉堡排咖喱（Instagram）](images/fig-01.png)
 
-▼ 熟人介绍制酒吧“Tamuro（屯）”（Instagram）
+▼ 酒吧“Tamuro（屯）”（Instagram）
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![熟人介绍制酒吧“Tamuro”（Instagram）](images/fig-02.png)
+![酒吧“Tamuro”（Instagram）](images/fig-02.png)
 
 这是一个温馨的小空间，只有吧台11个座位和榻榻米座席8个座位。
 

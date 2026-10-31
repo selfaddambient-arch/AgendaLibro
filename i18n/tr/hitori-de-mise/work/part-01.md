@@ -16,7 +16,7 @@ Bu, zor programlamayı anlatan teknik bir kitap değil. Her gün mutfakta duran,
 
 Şu anda Tokyo'nun Higashi-Nakano semtinde *(Shinjuku'nun hemen batısında, Tokyo'nun batı yakasındaki bir yerleşim semti)* bir binanın bodrum katında küçük bir restoran işletiyorum.
 
-Mekânın iki yüzü var. Gündüzleri baharat kokan köriyi hamburger köftesiyle sunan, bu işe adanmış bir lokanta. Geceleri ise günün set yemeğini ve içkileri sunan, yalnızca tanıdık referansıyla müşteri kabul eden bir yemek barı.
+Mekânın iki yüzü var. Gündüzleri baharat kokan köriyi hamburger köftesiyle sunan, bu işe adanmış bir lokanta. Geceleri ise günün set yemeğini ve içkileri sunan bir yemek barı.
 
 ▼ Quatre Epice Hamburger Curry (Instagram)
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry (Instagram)](images/fig-01.png)
 
-▼ Yalnızca referansla müşteri kabul eden bar "Tamuro" (Instagram)
+▼ Bar "Tamuro" (Instagram)
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Yalnızca referansla müşteri kabul eden bar "Tamuro" (Instagram)](images/fig-02.png)
+![Bar "Tamuro" (Instagram)](images/fig-02.png)
 
 Sadece tezgâhta 11 tabure ve yükseltilmiş tatami zeminde 8 oturma yeri bulunan, sıcacık bir mekân.
 

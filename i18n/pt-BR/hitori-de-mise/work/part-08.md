@@ -167,7 +167,7 @@ Este livro pode ser lido de graça em PDF, no note e no Google Play. (Só no Kin
 
 1. Experimente no seu estabelecimento. A série Agenda pode ser iniciada com um caderno gratuito. https://bontallc.com/agenda?via=b1-pt-{{FMT}}
 2. Acompanhe o que eu faço. Escrevo sobre as próximas ferramentas que construo e sobre o dia a dia do bar no note e no X. note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. Se um dia vier a Tóquio, visite o Tamuro. A um minuto da saída leste da estação Higashi-Nakano. Dá para entrar sem reserva. Quando este livro foi escrito, o Tamuro funcionava só por indicação. Hoje qualquer pessoa pode entrar sem reserva. Site de reservas https://tamuroreservation.vercel.app/?src=b1-pt-{{FMT}}
+3. Se um dia vier a Tóquio, visite o Tamuro. A um minuto da saída leste da estação Higashi-Nakano. Dá para entrar sem reserva. Site de reservas https://tamuroreservation.vercel.app/?src=b1-pt-{{FMT}}
 
 Para quem veio por causa deste livro: ao fazer a reserva, digite o código de cupom "BOOK". Serviremos uma bebida na primeira visita. Se você veio sem reserva, basta dizer "vi o livro" ao fazer o primeiro pedido. Serviremos a mesma bebida. É um pequeno artifício para que eu possa contar quantas pessoas vieram por causa do livro.
 
@@ -177,7 +177,7 @@ Raku Bonta
 
 Uma pessoa que toca sozinha um restaurante de 11 lugares no balcão e 8 lugares na sala de tatame, em Higashi-Nakano, Tóquio.
 
-De dia, é uma casa de curry com bife de hambúrguer estilo japonês, perfumada de especiarias. À noite, é um bar-restaurante só por indicação, que serve uma refeição fixa que muda a cada dia.
+De dia, é uma casa de curry com bife de hambúrguer estilo japonês, perfumada de especiarias. À noite, é um bar-restaurante, que serve uma refeição fixa que muda a cada dia.
 
 ▼ Quatre Epice Hamburger Curry
 
@@ -185,11 +185,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry](images/fig-28.png)
 
-▼ Bar só por indicação "Tamuro"
+▼ Bar "Tamuro"
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Bar só por indicação "Tamuro"](images/fig-29.png)
+![Bar "Tamuro"](images/fig-29.png)
 
 O estabelecimento também se dedica a construir comunidade por meio da comida, com eventos de vinho quinzenais, uma aula de culinária por mês e jantares de vários pratos.
 

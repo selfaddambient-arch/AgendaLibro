@@ -16,7 +16,7 @@ Let me tell you a little about myself.
 
 I now run a small restaurant in the basement of a building in Higashi-Nakano ⟦a residential neighborhood in western Tokyo, just west of Shinjuku⟧, Tokyo.
 
-It has two faces. By day, it is a specialty shop for hamburger curry fragrant with spices. By night, it is a referral-only dining bar serving a daily set meal and drinks.
+It has two faces. By day, it is a specialty shop for hamburger curry fragrant with spices. By night, it is a dining bar serving a daily set meal and drinks.
 
 ▼ Quatre Epice Hamburger Curry (Instagram)
 
@@ -24,11 +24,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice Hamburger Curry (Instagram)](images/fig-01.png)
 
-▼ Referral-only bar "Tamuro" (Instagram)
+▼ Bar "Tamuro" (Instagram)
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![Referral-only bar "Tamuro" (Instagram)](images/fig-02.png)
+![Bar "Tamuro" (Instagram)](images/fig-02.png)
 
 It is a cozy space with just 11 counter seats and 8 seats on a raised tatami platform.
 

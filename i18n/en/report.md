@@ -201,3 +201,5 @@ If technical topics are not for you, chapters 1, 3 and 5 still connect as a stor
 2. 画面写真の英語化は今回は使わない（画面は日本語のまま、英語のキャプションで補う）。`trial/` の比較画像は残す
 3. 他の言語の版への巻末の案内は、英語版を出し終えてから別の指示で行う（保留のまま）
 4. 表紙2枚とストア文言のページは、このまま使う
+
+本1から「紹介制」の表現を代表の指示で削除（8か所。source.ja.md・work/part-*.md（enは manuscript.md と work/raw）・manuscript.md を修正し、再組版）。屯が今は予約なしで入れる旨は残した。

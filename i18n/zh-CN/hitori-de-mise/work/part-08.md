@@ -183,7 +183,7 @@
 
 1. 在你自己的店里试试。Agenda系列可以从免费的手账开始用起。 https://bontallc.com/agenda?via=b1-cn-{{FMT}}
 2. 关注我的动态。我会在note和X上写接下来要做的工具，以及酒吧的日常。note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. 如果你来东京，请来 Tamuro 坐坐。从东中野站东口步行一分钟。无需预约，可以直接入店。本书最初写成时，Tamuro 是仅限熟人介绍的。如今任何人都欢迎，不用预约直接来即可。预约网站 https://tamuroreservation.vercel.app/?src=b1-cn-{{FMT}}
+3. 如果你来东京，请来 Tamuro 坐坐。从东中野站东口步行一分钟。无需预约，可以直接入店。预约网站 https://tamuroreservation.vercel.app/?src=b1-cn-{{FMT}}
 
 给因为这本书而来的朋友：预约时请输入优惠码“BOOK”。首次到店，我们会请你喝一杯。如果你没有预约就来了，第一次点单时只要说一句“我看了那本书”，我们会请你喝同样的一杯。这是一个小小的安排，好让我能数出有多少人是因为这本书而来的。
 
@@ -193,7 +193,7 @@ Raku Bonta
 
 一位独自经营餐厅的老板，店在东京东中野，有吧台11个座位和榻榻米座席8个座位。
 
-白天，这里是一家香料扑鼻的汉堡排咖喱店。晚上，它是一家只接受熟人介绍的餐饮酒吧，供应每天更换的定食。
+白天，这里是一家香料扑鼻的汉堡排咖喱店。晚上，它是一家餐饮酒吧，供应每天更换的定食。
 
 ▼ Quatre Epice 汉堡排咖喱
 
@@ -201,11 +201,11 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 
 ![Quatre Epice 汉堡排咖喱](images/fig-28.png)
 
-▼ 熟人介绍制酒吧“Tamuro”
+▼ 酒吧“Tamuro”
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![熟人介绍制酒吧“Tamuro”](images/fig-29.png)
+![酒吧“Tamuro”](images/fig-29.png)
 
 这家店还通过美食致力于凝聚客人的社群，每两周举办一次葡萄酒活动，每月一次烹饪课，以及多道菜的套餐晚宴。
 
