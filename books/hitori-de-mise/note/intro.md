@@ -20,7 +20,7 @@
 
 私は今、東京の東中野にあるビルの地下で、小さな飲食店を経営しています。
 
-昼はスパイス香るハンバーグカレーの専門店、夜は日替わりの定食とお酒が楽しめる紹介制のダイニングバーという、二つの顔を持つお店です。
+昼はスパイス香るハンバーグカレーの専門店、夜は日替わりの定食とお酒が楽しめるダイニングバーという、二つの顔を持つお店です。
 
 ▼ キャトルエピスハンバーグカレー（Instagram）
 
@@ -31,13 +31,13 @@ https://www.instagram.com/quatre.epice.hamburg.curry/
 キャトルエピスハンバーグカレー（Instagram）
 
 
-▼ 紹介制バー「屯」（Instagram）
+▼ バー「屯」（Instagram）
 
 https://www.instagram.com/tamuro.higashinakano/
 
-![紹介制バー「屯」（Instagram）](../images/_web/fig-02.png)
+![バー「屯」（Instagram）](../images/_web/fig-02.png)
 
-紹介制バー「屯」（Instagram）
+バー「屯」（Instagram）
 
 
 席数はカウンターが11席、小上がりの座敷が8席だけのこぢんまりとした空間です。
