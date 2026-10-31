@@ -27,7 +27,7 @@
 - 費用：Anthropic API・Gemini API とも不使用（サブスク枠）。
 
 ## 親への依頼・気づいた点
-1. **リンクの印は 3 文字の `fil`**（`b1-fil-pdf/gp`、`b2-fil-pdf/gp`）。決まりは「言語2文字」なので、**代表判断が必要**（2文字にすると fi＝フィンランド語と紛らわしい。ph なども案）。gate.py は3文字を許す。init-lang.py の2文字限定の検査は、親の窓が 2〜3 文字に直した。
+1. **リンクの印は `tl`（代表確定。旧 fil）**（`b1-tl-pdf/gp`、`b2-tl-pdf/gp`）。決まりは「言語2文字」なので、**代表判断が必要**（2文字にすると fi＝フィンランド語と紛らわしい。ph なども案）。gate.py は3文字を許す。init-lang.py の2文字限定の検査は、親の窓が 2〜3 文字に直した。
 2. OCR 非対応のため gate の表紙文字照合は働かない（目視で確認）。
 3. 作業中に作った `i18n/_fil_init.tmp.py` は削除済み。
 
@@ -35,3 +35,5 @@
 - `i18n/fil/`：`lang.json`、`glossary.add.yaml`、`work/style.md`、`store-copy.part.html`、`<slug>/metadata.yaml`、`<slug>/work/store.json`、`<slug>/cover/cover.png`、`<slug>/build/bontaraku-0{1,2}_*_fil.pdf`、`*_fil_gp.epub`、`<slug>/manuscript.md`、`<slug>/review-log.md`。
 
 - 2026-10-31：本1から「紹介制」の表現を削除（代表の指示）。再組版し、gate は NG 0、PDF は 101 ページ。
+
+- 2026-10-31 リンクの印を代表確定の値に差し替えて作り直した（zh-CN: cn→zh、fil: fil→tl）。原稿・lang.json・report を更新し、PDF・EPUB を再組版。gate NG 0・epubcheck エラー0。

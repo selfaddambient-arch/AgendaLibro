@@ -4,11 +4,11 @@ Ang kuwento ng may-ari ng 19-upuang bar na gumawa ng lahat, mula reservation han
 
 Raku Bonta
 
-Ang Agenda series: https://bontallc.com/agenda?via=b2-fil-{{FMT}}
+Ang Agenda series: https://bontallc.com/agenda?via=b2-tl-{{FMT}}
 
 Instagram ng Tamuro: https://www.instagram.com/tamuro.higashinakano/
 
-Reservation site ng Tamuro: https://tamuroreservation.vercel.app/?src=b2-fil-{{FMT}}
+Reservation site ng Tamuro: https://tamuroreservation.vercel.app/?src=b2-tl-{{FMT}}
 
 ## Panimula
 
@@ -60,9 +60,9 @@ Kung may makita kayong pagkakamali, matutuwa akong ipaalam ninyo sa akin sa note
 
 Libre itong mabasa bilang PDF, sa note, at sa Google Play. (Sa Kindle lang, may itinakdang pinakamababang presyo ayon sa patakaran ng store.) Bilang kapalit, naghanda ako ng tatlong lugar na maaari ninyong puntahan pagkatapos ninyong magbasa. Kung kahit isa sa mga ito ay may maitulong sa inyo, sulit ang pagsulat ng librong ito.
 
-1. Subukan ito sa sarili ninyong shop. Maaari ninyong simulan ang Agenda series sa libreng planner app. https://bontallc.com/agenda?via=b2-fil-{{FMT}}
+1. Subukan ito sa sarili ninyong shop. Maaari ninyong simulan ang Agenda series sa libreng planner app. https://bontallc.com/agenda?via=b2-tl-{{FMT}}
 2. Sundan ang mga ginagawa ko. Isinusulat ko sa note at X ang tungkol sa mga susunod kong tool at sa pang-araw-araw na buhay sa shop. note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. Kung mapadpad kayo sa Tokyo, bisitahin ang Tamuro. Isang minuto mula sa east exit ng Higashi-Nakano Station. Puwede kayong pumasok nang walang reservation. Reservation site https://tamuroreservation.vercel.app/?src=b2-fil-{{FMT}}
+3. Kung mapadpad kayo sa Tokyo, bisitahin ang Tamuro. Isang minuto mula sa east exit ng Higashi-Nakano Station. Puwede kayong pumasok nang walang reservation. Reservation site https://tamuroreservation.vercel.app/?src=b2-tl-{{FMT}}
 
 ## Kabanata 1: Isang Shop na Ma-book ng AI
 
@@ -106,7 +106,7 @@ Sa kabanatang ito, ibabalik ko ang oras at susundan kung paano lumago ang reserv
 
 ### 1-2 Ang Panimulang Punto: Pagtanggap Lang ng mga Reservation
 
-[Ang reservation site ng Tamuro](https://tamuroreservation.vercel.app/?src=b2-fil-{{FMT}}) ay napakasimple noong una. Pumili ng petsa, oras at bilang ng tao, ilagay ang pangalan at contact details, at ipadala. May notification na darating sa shop. Iyon lang.
+[Ang reservation site ng Tamuro](https://tamuroreservation.vercel.app/?src=b2-tl-{{FMT}}) ay napakasimple noong una. Pumili ng petsa, oras at bilang ng tao, ilagay ang pangalan at contact details, at ipadala. May notification na darating sa shop. Iyon lang.
 
 Binuo ko ang unang pundasyon gamit ang AI development tool ng Google (Antigravity). Sinabi ko sa AI ang bawat feature na naisip ko, at kapag gumana, lumipat ako sa susunod. Ito ang tinatawag na vibe coding (sinasabi sa AI ang kahit anong pumasok sa isip at ipinagagawa ito nang batay sa pakiramdam).
 

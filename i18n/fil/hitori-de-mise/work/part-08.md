@@ -137,9 +137,9 @@ Dahil mabubuo ang resipe ng hinaharap mula sa usapan ninyo at ng AI.
 
 Mababasa nang libre ang aklat na ito bilang PDF, sa note, at sa Google Play. (Sa Kindle lang, kinakailangan ng patakaran ng tindahan ang pinakamababang presyo.) Bilang kapalit, naghanda ako ng tatlong lugar na maaari ninyong puntahan pagkatapos magbasa. Kung kahit isa sa mga ito ang gagamitin ninyo, sulit na ang pagsulat ko ng aklat na ito.
 
-1. Subukan sa sarili ninyong shop. Masisimulan ang Agenda series sa libreng planner app. https://bontallc.com/agenda?via=b1-fil-{{FMT}}
+1. Subukan sa sarili ninyong shop. Masisimulan ang Agenda series sa libreng planner app. https://bontallc.com/agenda?via=b1-tl-{{FMT}}
 2. Sundan ang ginagawa ko. Isinusulat ko sa note at X ang tungkol sa mga susunod na tool na binubuo ko, at ang pang-araw-araw na buhay sa bar. note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. Kung makarating kayo sa Tokyo, bisitahin ang Tamuro. Isang minuto mula sa east exit ng Higashi-Nakano Station. Puwede kayong pumasok nang walang reservation. Reservation site https://tamuroreservation.vercel.app/?src=b1-fil-{{FMT}}
+3. Kung makarating kayo sa Tokyo, bisitahin ang Tamuro. Isang minuto mula sa east exit ng Higashi-Nakano Station. Puwede kayong pumasok nang walang reservation. Reservation site https://tamuroreservation.vercel.app/?src=b1-tl-{{FMT}}
 
 Sa mga bibisita dahil sa aklat na ito: kapag nag-reserve kayo, ilagay ang coupon code na "BOOK." Maghahain kami ng isang inumin sa unang pagbisita ninyo. Kung pupunta kayo nang walang reservation, sabihin lang ang "Nakita ko sa aklat" kapag nag-order kayo sa unang pagkakataon. Ganoon ding isang inumin ang ihahain namin. Isa itong maliit na paraan para mabilang ko kung ilang tao ang bumisita dahil sa aklat.
 

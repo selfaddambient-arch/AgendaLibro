@@ -4,11 +4,11 @@
 
 Raku Bonta
 
-Agenda系列：https://bontallc.com/agenda?via=b2-cn-{{FMT}}
+Agenda系列：https://bontallc.com/agenda?via=b2-zh-{{FMT}}
 
 Tamuro 的 Instagram：https://www.instagram.com/tamuro.higashinakano/
 
-Tamuro 的预约网站：https://tamuroreservation.vercel.app/?src=b2-cn-{{FMT}}
+Tamuro 的预约网站：https://tamuroreservation.vercel.app/?src=b2-zh-{{FMT}}
 
 ## 前言
 
@@ -60,9 +60,9 @@ Tamuro 的预约网站：https://tamuroreservation.vercel.app/?src=b2-cn-{{FMT}}
 
 本书可以免费阅读，有PDF版，也可以在note和Google Play上读。（只有在Kindle上，因商店规定必须设定最低价格。）作为回报，我准备了三个读完之后可以去的地方。哪怕其中一个对你有用，写这本书也就值得了。
 
-1. 在你自己的店里试试。Agenda系列可以从免费的手账开始用起。 https://bontallc.com/agenda?via=b2-cn-{{FMT}}
+1. 在你自己的店里试试。Agenda系列可以从免费的手账开始用起。 https://bontallc.com/agenda?via=b2-zh-{{FMT}}
 2. 关注我的动态。我会在note和X上写接下来要做的工具，以及店里的日常。note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. 如果你来东京，请来 Tamuro 坐坐。从东中野站东口步行一分钟。无需预约，可以直接入店。预约网站 https://tamuroreservation.vercel.app/?src=b2-cn-{{FMT}}
+3. 如果你来东京，请来 Tamuro 坐坐。从东中野站东口步行一分钟。无需预约，可以直接入店。预约网站 https://tamuroreservation.vercel.app/?src=b2-zh-{{FMT}}
 
 ## 第1章：由AI来预订的店
 
@@ -106,7 +106,7 @@ Tamuro选择了另一条路。不经过大型服务，而是把自己的预约�
 
 ### 1-2 起点：只是接受预约
 
-[Tamuro的预约网站](https://tamuroreservation.vercel.app/?src=b2-cn-{{FMT}})起初非常简单。选择日期、时间和人数，输入姓名和联系方式，然后发送。店里会收到通知。仅此而已。
+[Tamuro的预约网站](https://tamuroreservation.vercel.app/?src=b2-zh-{{FMT}})起初非常简单。选择日期、时间和人数，输入姓名和联系方式，然后发送。店里会收到通知。仅此而已。
 
 最初的基础，是我用Google的AI开发工具（Antigravity）搭建的。我把想到的每一项功能告诉AI，能用了，就进入下一项。这就是所谓的氛围编程（把脑子里想到的一切告诉AI，凭感觉让它做出来）。
 

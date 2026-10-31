@@ -152,13 +152,13 @@ Salamat sa pagbabasa hanggang dito.
 
 Ang isinulat ko sa librong ito ay tala noong Oktubre 2026. Mabilis na nagbabago ang mga AI tool sa loob ng ilang buwan. Maaaring iba na ang anyo ng ilan sa mga mekanismong inilarawan ko pagdating ng paglalathala nito. Gayunpaman, isinulat ko ito, sa paniniwalang mananatiling kapaki-pakinabang sa ngayon ang tala kung ano ang binuo ng isang maliit na bar gamit ang AI at paano, saan ito pumalpak at ano ang natutuhan.
 
-Ang Agenda series: https://bontallc.com/agenda?via=b2-fil-{{FMT}}
+Ang Agenda series: https://bontallc.com/agenda?via=b2-tl-{{FMT}}
 
 Sundan ang aking mga update: note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
 
 Kung mapadpad kayo sa Higashi-Nakano, dumaan kayo sa Tamuro. Puwede kayong mag-reserve sa pamamagitan ng reservation site, sa pamamagitan ng chat window na "T-AI-MURO" sa site, at siyempre sa pamamagitan ng sarili ninyong AI.
 
-Reservation site ng Tamuro: https://tamuroreservation.vercel.app/?src=b2-fil-{{FMT}}
+Reservation site ng Tamuro: https://tamuroreservation.vercel.app/?src=b2-tl-{{FMT}}
 
 Instagram ng Tamuro: https://www.instagram.com/tamuro.higashinakano/
 

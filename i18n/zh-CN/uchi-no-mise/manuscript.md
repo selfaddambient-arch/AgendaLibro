@@ -4,11 +4,11 @@
 
 Raku Bonta
 
-Agenda系列：https://bontallc.com/agenda?via=b2-cn-{{FMT}}
+Agenda系列：https://bontallc.com/agenda?via=b2-zh-{{FMT}}
 
 Tamuro 的 Instagram：https://www.instagram.com/tamuro.higashinakano/
 
-Tamuro 的预约网站：https://tamuroreservation.vercel.app/?src=b2-cn-{{FMT}}
+Tamuro 的预约网站：https://tamuroreservation.vercel.app/?src=b2-zh-{{FMT}}
 
 ## 前言
 
@@ -60,9 +60,9 @@ Tamuro 的预约网站：https://tamuroreservation.vercel.app/?src=b2-cn-{{FMT}}
 
 本书可以免费阅读，有PDF版，也可以在note和Google Play上读。（只有在Kindle上，因商店规定必须设定最低价格。）作为回报，我准备了三个读完之后可以去的地方。哪怕其中一个对你有用，写这本书也就值得了。
 
-1. 在你自己的店里试试。Agenda系列可以从免费的手账开始用起。 https://bontallc.com/agenda?via=b2-cn-{{FMT}}
+1. 在你自己的店里试试。Agenda系列可以从免费的手账开始用起。 https://bontallc.com/agenda?via=b2-zh-{{FMT}}
 2. 关注我的动态。我会在note和X上写接下来要做的工具，以及店里的日常。note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. 如果你来东京，请来 Tamuro 坐坐。从东中野站东口步行一分钟。无需预约，可以直接入店。预约网站 https://tamuroreservation.vercel.app/?src=b2-cn-{{FMT}}
+3. 如果你来东京，请来 Tamuro 坐坐。从东中野站东口步行一分钟。无需预约，可以直接入店。预约网站 https://tamuroreservation.vercel.app/?src=b2-zh-{{FMT}}
 
 ## 第1章：由AI来预订的店
 
@@ -106,7 +106,7 @@ Tamuro选择了另一条路。不经过大型服务，而是把自己的预约�
 
 ### 1-2 起点：只是接受预约
 
-[Tamuro的预约网站](https://tamuroreservation.vercel.app/?src=b2-cn-{{FMT}})起初非常简单。选择日期、时间和人数，输入姓名和联系方式，然后发送。店里会收到通知。仅此而已。
+[Tamuro的预约网站](https://tamuroreservation.vercel.app/?src=b2-zh-{{FMT}})起初非常简单。选择日期、时间和人数，输入姓名和联系方式，然后发送。店里会收到通知。仅此而已。
 
 最初的基础，是我用Google的AI开发工具（Antigravity）搭建的。我把想到的每一项功能告诉AI，能用了，就进入下一项。这就是所谓的氛围编程（把脑子里想到的一切告诉AI，凭感觉让它做出来）。
 
@@ -320,7 +320,7 @@ Tamuro不是人们提前预约的地方，而是人们一时兴起前来的地�
 
 2026年10月6日夜里，T-AI-MURO作为正式的入口，出现在了预约网站的最上方。因为也有客人不想通过对话来预订，所以我把原来的预约表单也并排保留着。
 
-> 试一试：打开Tamuro的预约网站（https://tamuroreservation.vercel.app/?src=b2-cn-{{FMT}}），对T-AI-MURO说“今晚一个人”。对话会带你看到今天的空位和价格。
+> 试一试：打开Tamuro的预约网站（https://tamuroreservation.vercel.app/?src=b2-zh-{{FMT}}），对T-AI-MURO说“今晚一个人”。对话会带你看到今天的空位和价格。
 
 【图 1-4】T-AI-MURO的对话画面。只需点按选项，对话就能往前推进 *(画面为日语。)*
 
@@ -662,7 +662,7 @@ Agenda系列并不是按系列来规划的。它始于一个系统，一个甚�
 
 AgendaNera仍在搭建中。它是这个系列里我搭建得最小心翼翼的一个。
 
-而这个命名成了契机。既然有黑色的手账，就可以有其他颜色的手账。我要把自己店里每天使用的机制，重新做成任何店铺都能使用的形式，一本一本地发布。这就是[Agenda系列](https://bontallc.com/agenda?via=b2-cn-{{FMT}})。
+而这个命名成了契机。既然有黑色的手账，就可以有其他颜色的手账。我要把自己店里每天使用的机制，重新做成任何店铺都能使用的形式，一本一本地发布。这就是[Agenda系列](https://bontallc.com/agenda?via=b2-zh-{{FMT}})。
 
 ### 3-3 一本一本地增加手账
 
@@ -815,7 +815,7 @@ SaaS会不会死，现在还没有人知道。但是，AI时代留存下来的�
 
 对于读了这本书、想在自己店里试试的人，有三个步骤。
 
-1. 打开 https://bontallc.com/agenda?via=b2-cn-{{FMT}} ，用Google账号登录（会创建AgendaID。无需登记银行卡）
+1. 打开 https://bontallc.com/agenda?via=b2-zh-{{FMT}} ，用Google账号登录（会创建AgendaID。无需登记银行卡）
 2. 首先，添加一本免费的手账。我推荐灯火手账。你只需要把招牌组件粘贴到你的网站上，10分钟就能用。如果你还没开业，可以试试采算手账
 3. 如果觉得适合你，就免费试用打卡手账三个月。临近期限时会收到通知，所以即使放着不管也不会被扣费
 
@@ -1102,13 +1102,13 @@ AI让一位店主同时做到这两件事成为可能。让酒吧更有特色，
 
 我在这本书里写的，是截至2026年10月的记录。AI工具的形态在几个月内就会改变。等到这本书出版的时候，我所描述的一些机制可能已经变成了不同的形式。即便如此，我还是把它写了下来，因为我相信，关于一家小酒吧用AI搭建了什么、怎么搭建的、在哪里失败、学到了什么的记录，应该会在一段时间内仍然有用。
 
-Agenda系列：https://bontallc.com/agenda?via=b2-cn-{{FMT}}
+Agenda系列：https://bontallc.com/agenda?via=b2-zh-{{FMT}}
 
 关注我的动态：note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
 
 如果你来东中野，请顺道来Tamuro坐坐。你可以通过预约网站预约，可以通过网站上的聊天窗口“T-AI-MURO”预约，当然也可以通过你自己的AI预约。
 
-Tamuro的预约网站：https://tamuroreservation.vercel.app/?src=b2-cn-{{FMT}}
+Tamuro的预约网站：https://tamuroreservation.vercel.app/?src=b2-zh-{{FMT}}
 
 Tamuro的Instagram：https://www.instagram.com/tamuro.higashinakano/
 

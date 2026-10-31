@@ -56,7 +56,7 @@ Sa tatlong prinsipyo ng Agenda series, ang "awtomatiko" ang prinsipyo para sa "p
 
 Para sa mga nakabasa ng librong ito at gustong subukan sa sarili nilang shop, tatlo ang hakbang.
 
-1. Buksan ang https://bontallc.com/agenda?via=b2-fil-{{FMT}} at mag-log in gamit ang Google account (gagawin ang AgendaID. Hindi kailangang magrehistro ng card)
+1. Buksan ang https://bontallc.com/agenda?via=b2-tl-{{FMT}} at mag-log in gamit ang Google account (gagawin ang AgendaID. Hindi kailangang magrehistro ng card)
 2. Una, magdagdag ng isang libreng tool. Inirerekomenda ko ang Talaan ng Ilaw. I-paste lang ang component ng karatula sa inyong website, at gagana ito sa loob ng 10 minuto. Kung hindi pa kayo nagbubukas, subukan ang Talaan ng Kita
 3. Kung mukhang bagay sa inyo, subukan nang libre sa loob ng tatlong buwan ang Talaan ng Oras. May darating na abiso habang papalapit ang deadline, kaya hindi kayo masisingil kahit hayaan ninyo lang ito
 

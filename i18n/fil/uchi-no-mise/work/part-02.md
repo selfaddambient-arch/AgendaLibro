@@ -130,7 +130,7 @@ Kalaunan, nang muli kong sanayin ang T-AI-MURO sa napakaraming tanong, ang pinak
 
 Noong gabi ng October 6, 2026, lumitaw ang T-AI-MURO sa itaas ng reservation site bilang opisyal na entry point sa production. Dahil may mga customer na ayaw mag-book sa pamamagitan ng usapan, pinanatili ko sa tabi nito ang dating reservation form.
 
-> Subukan ito: Buksan ang reservation site ng Tamuro (https://tamuroreservation.vercel.app/?src=b2-fil-{{FMT}}) at itanong sa T-AI-MURO ang "mag-isa ngayong gabi." Dadalhin kayo ng usapan hanggang sa availability at mga presyo ngayong araw.
+> Subukan ito: Buksan ang reservation site ng Tamuro (https://tamuroreservation.vercel.app/?src=b2-tl-{{FMT}}) at itanong sa T-AI-MURO ang "mag-isa ngayong gabi." Dadalhin kayo ng usapan hanggang sa availability at mga presyo ngayong araw.
 
 【Larawan 1-4】Ang conversation screen ng T-AI-MURO. Umuusad ang usapan sa pag-tap lang ng mga pagpipilian *(Nasa wikang Hapon ang screen.)*
 

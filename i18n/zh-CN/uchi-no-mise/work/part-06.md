@@ -162,13 +162,13 @@ AI让一位店主同时做到这两件事成为可能。让酒吧更有特色，
 
 我在这本书里写的，是截至2026年10月的记录。AI工具的形态在几个月内就会改变。等到这本书出版的时候，我所描述的一些机制可能已经变成了不同的形式。即便如此，我还是把它写了下来，因为我相信，关于一家小酒吧用AI搭建了什么、怎么搭建的、在哪里失败、学到了什么的记录，应该会在一段时间内仍然有用。
 
-Agenda系列：https://bontallc.com/agenda?via=b2-cn-{{FMT}}
+Agenda系列：https://bontallc.com/agenda?via=b2-zh-{{FMT}}
 
 关注我的动态：note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
 
 如果你来东中野，请顺道来Tamuro坐坐。你可以通过预约网站预约，可以通过网站上的聊天窗口“T-AI-MURO”预约，当然也可以通过你自己的AI预约。
 
-Tamuro的预约网站：https://tamuroreservation.vercel.app/?src=b2-cn-{{FMT}}
+Tamuro的预约网站：https://tamuroreservation.vercel.app/?src=b2-zh-{{FMT}}
 
 Tamuro的Instagram：https://www.instagram.com/tamuro.higashinakano/
 

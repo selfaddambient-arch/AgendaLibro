@@ -181,9 +181,9 @@
 
 本书可以免费阅读，有PDF版，也可以在note和Google Play上读。（只有在Kindle上，因商店规定必须设定最低价格。）作为回报，我准备了三个读完之后可以去的地方。哪怕你用上其中一个，写这本书也就值得了。
 
-1. 在你自己的店里试试。Agenda系列可以从免费的手账开始用起。 https://bontallc.com/agenda?via=b1-cn-{{FMT}}
+1. 在你自己的店里试试。Agenda系列可以从免费的手账开始用起。 https://bontallc.com/agenda?via=b1-zh-{{FMT}}
 2. 关注我的动态。我会在note和X上写接下来要做的工具，以及酒吧的日常。note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. 如果你来东京，请来 Tamuro 坐坐。从东中野站东口步行一分钟。无需预约，可以直接入店。预约网站 https://tamuroreservation.vercel.app/?src=b1-cn-{{FMT}}
+3. 如果你来东京，请来 Tamuro 坐坐。从东中野站东口步行一分钟。无需预约，可以直接入店。预约网站 https://tamuroreservation.vercel.app/?src=b1-zh-{{FMT}}
 
 给因为这本书而来的朋友：预约时请输入优惠码“BOOK”。首次到店，我们会请你喝一杯。如果你没有预约就来了，第一次点单时只要说一句“我看了那本书”，我们会请你喝同样的一杯。这是一个小小的安排，好让我能数出有多少人是因为这本书而来的。
 

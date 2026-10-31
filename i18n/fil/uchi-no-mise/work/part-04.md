@@ -91,7 +91,7 @@ Sa Italyano, ang "notebook" ay Agenda, at ang "itim" ay Nera. Pagsamahin: Agenda
 
 Binubuo pa rin ang AgendaNera. Ito ang pinakamaingat kong binubuo sa series.
 
-At ang pagpapangalang ito ang naging simula. Kung may itim na notebook, puwedeng may mga notebook na may ibang kulay. Muli kong bubuuin ang mga mekanismong ginagamit ko araw-araw sa sarili kong shop sa mga anyong magagamit ng kahit anong shop, at ilalabas ko ang mga ito nang isa-isa bilang notebook. Iyan ang [Agenda series](https://bontallc.com/agenda?via=b2-fil-{{FMT}}).
+At ang pagpapangalang ito ang naging simula. Kung may itim na notebook, puwedeng may mga notebook na may ibang kulay. Muli kong bubuuin ang mga mekanismong ginagamit ko araw-araw sa sarili kong shop sa mga anyong magagamit ng kahit anong shop, at ilalabas ko ang mga ito nang isa-isa bilang notebook. Iyan ang [Agenda series](https://bontallc.com/agenda?via=b2-tl-{{FMT}}).
 
 ### 3-3 Pagdaragdag ng mga Notebook, Isa-isa
 

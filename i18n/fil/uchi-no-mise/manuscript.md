@@ -4,11 +4,11 @@ Ang kuwento ng may-ari ng 19-upuang bar na gumawa ng lahat, mula reservation han
 
 Raku Bonta
 
-Ang Agenda series: https://bontallc.com/agenda?via=b2-fil-{{FMT}}
+Ang Agenda series: https://bontallc.com/agenda?via=b2-tl-{{FMT}}
 
 Instagram ng Tamuro: https://www.instagram.com/tamuro.higashinakano/
 
-Reservation site ng Tamuro: https://tamuroreservation.vercel.app/?src=b2-fil-{{FMT}}
+Reservation site ng Tamuro: https://tamuroreservation.vercel.app/?src=b2-tl-{{FMT}}
 
 ## Panimula
 
@@ -60,9 +60,9 @@ Kung may makita kayong pagkakamali, matutuwa akong ipaalam ninyo sa akin sa note
 
 Libre itong mabasa bilang PDF, sa note, at sa Google Play. (Sa Kindle lang, may itinakdang pinakamababang presyo ayon sa patakaran ng store.) Bilang kapalit, naghanda ako ng tatlong lugar na maaari ninyong puntahan pagkatapos ninyong magbasa. Kung kahit isa sa mga ito ay may maitulong sa inyo, sulit ang pagsulat ng librong ito.
 
-1. Subukan ito sa sarili ninyong shop. Maaari ninyong simulan ang Agenda series sa libreng planner app. https://bontallc.com/agenda?via=b2-fil-{{FMT}}
+1. Subukan ito sa sarili ninyong shop. Maaari ninyong simulan ang Agenda series sa libreng planner app. https://bontallc.com/agenda?via=b2-tl-{{FMT}}
 2. Sundan ang mga ginagawa ko. Isinusulat ko sa note at X ang tungkol sa mga susunod kong tool at sa pang-araw-araw na buhay sa shop. note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
-3. Kung mapadpad kayo sa Tokyo, bisitahin ang Tamuro. Isang minuto mula sa east exit ng Higashi-Nakano Station. Puwede kayong pumasok nang walang reservation. Reservation site https://tamuroreservation.vercel.app/?src=b2-fil-{{FMT}}
+3. Kung mapadpad kayo sa Tokyo, bisitahin ang Tamuro. Isang minuto mula sa east exit ng Higashi-Nakano Station. Puwede kayong pumasok nang walang reservation. Reservation site https://tamuroreservation.vercel.app/?src=b2-tl-{{FMT}}
 
 ## Kabanata 1: Isang Shop na Ma-book ng AI
 
@@ -106,7 +106,7 @@ Sa kabanatang ito, ibabalik ko ang oras at susundan kung paano lumago ang reserv
 
 ### 1-2 Ang Panimulang Punto: Pagtanggap Lang ng mga Reservation
 
-[Ang reservation site ng Tamuro](https://tamuroreservation.vercel.app/?src=b2-fil-{{FMT}}) ay napakasimple noong una. Pumili ng petsa, oras at bilang ng tao, ilagay ang pangalan at contact details, at ipadala. May notification na darating sa shop. Iyon lang.
+[Ang reservation site ng Tamuro](https://tamuroreservation.vercel.app/?src=b2-tl-{{FMT}}) ay napakasimple noong una. Pumili ng petsa, oras at bilang ng tao, ilagay ang pangalan at contact details, at ipadala. May notification na darating sa shop. Iyon lang.
 
 Binuo ko ang unang pundasyon gamit ang AI development tool ng Google (Antigravity). Sinabi ko sa AI ang bawat feature na naisip ko, at kapag gumana, lumipat ako sa susunod. Ito ang tinatawag na vibe coding (sinasabi sa AI ang kahit anong pumasok sa isip at ipinagagawa ito nang batay sa pakiramdam).
 
@@ -320,7 +320,7 @@ Kalaunan, nang muli kong sanayin ang T-AI-MURO sa napakaraming tanong, ang pinak
 
 Noong gabi ng October 6, 2026, lumitaw ang T-AI-MURO sa itaas ng reservation site bilang opisyal na entry point sa production. Dahil may mga customer na ayaw mag-book sa pamamagitan ng usapan, pinanatili ko sa tabi nito ang dating reservation form.
 
-> Subukan ito: Buksan ang reservation site ng Tamuro (https://tamuroreservation.vercel.app/?src=b2-fil-{{FMT}}) at itanong sa T-AI-MURO ang "mag-isa ngayong gabi." Dadalhin kayo ng usapan hanggang sa availability at mga presyo ngayong araw.
+> Subukan ito: Buksan ang reservation site ng Tamuro (https://tamuroreservation.vercel.app/?src=b2-tl-{{FMT}}) at itanong sa T-AI-MURO ang "mag-isa ngayong gabi." Dadalhin kayo ng usapan hanggang sa availability at mga presyo ngayong araw.
 
 【Larawan 1-4】Ang conversation screen ng T-AI-MURO. Umuusad ang usapan sa pag-tap lang ng mga pagpipilian *(Nasa wikang Hapon ang screen.)*
 
@@ -662,7 +662,7 @@ Sa Italyano, ang "notebook" ay Agenda, at ang "itim" ay Nera. Pagsamahin: Agenda
 
 Binubuo pa rin ang AgendaNera. Ito ang pinakamaingat kong binubuo sa series.
 
-At ang pagpapangalang ito ang naging simula. Kung may itim na notebook, puwedeng may mga notebook na may ibang kulay. Muli kong bubuuin ang mga mekanismong ginagamit ko araw-araw sa sarili kong shop sa mga anyong magagamit ng kahit anong shop, at ilalabas ko ang mga ito nang isa-isa bilang notebook. Iyan ang [Agenda series](https://bontallc.com/agenda?via=b2-fil-{{FMT}}).
+At ang pagpapangalang ito ang naging simula. Kung may itim na notebook, puwedeng may mga notebook na may ibang kulay. Muli kong bubuuin ang mga mekanismong ginagamit ko araw-araw sa sarili kong shop sa mga anyong magagamit ng kahit anong shop, at ilalabas ko ang mga ito nang isa-isa bilang notebook. Iyan ang [Agenda series](https://bontallc.com/agenda?via=b2-tl-{{FMT}}).
 
 ### 3-3 Pagdaragdag ng mga Notebook, Isa-isa
 
@@ -815,7 +815,7 @@ Sa tatlong prinsipyo ng Agenda series, ang "awtomatiko" ang prinsipyo para sa "p
 
 Para sa mga nakabasa ng librong ito at gustong subukan sa sarili nilang shop, tatlo ang hakbang.
 
-1. Buksan ang https://bontallc.com/agenda?via=b2-fil-{{FMT}} at mag-log in gamit ang Google account (gagawin ang AgendaID. Hindi kailangang magrehistro ng card)
+1. Buksan ang https://bontallc.com/agenda?via=b2-tl-{{FMT}} at mag-log in gamit ang Google account (gagawin ang AgendaID. Hindi kailangang magrehistro ng card)
 2. Una, magdagdag ng isang libreng tool. Inirerekomenda ko ang Talaan ng Ilaw. I-paste lang ang component ng karatula sa inyong website, at gagana ito sa loob ng 10 minuto. Kung hindi pa kayo nagbubukas, subukan ang Talaan ng Kita
 3. Kung mukhang bagay sa inyo, subukan nang libre sa loob ng tatlong buwan ang Talaan ng Oras. May darating na abiso habang papalapit ang deadline, kaya hindi kayo masisingil kahit hayaan ninyo lang ito
 
@@ -1102,13 +1102,13 @@ Salamat sa pagbabasa hanggang dito.
 
 Ang isinulat ko sa librong ito ay tala noong Oktubre 2026. Mabilis na nagbabago ang mga AI tool sa loob ng ilang buwan. Maaaring iba na ang anyo ng ilan sa mga mekanismong inilarawan ko pagdating ng paglalathala nito. Gayunpaman, isinulat ko ito, sa paniniwalang mananatiling kapaki-pakinabang sa ngayon ang tala kung ano ang binuo ng isang maliit na bar gamit ang AI at paano, saan ito pumalpak at ano ang natutuhan.
 
-Ang Agenda series: https://bontallc.com/agenda?via=b2-fil-{{FMT}}
+Ang Agenda series: https://bontallc.com/agenda?via=b2-tl-{{FMT}}
 
 Sundan ang aking mga update: note https://note.com/bontallc / X https://x.com/tamuro\_hnakano
 
 Kung mapadpad kayo sa Higashi-Nakano, dumaan kayo sa Tamuro. Puwede kayong mag-reserve sa pamamagitan ng reservation site, sa pamamagitan ng chat window na "T-AI-MURO" sa site, at siyempre sa pamamagitan ng sarili ninyong AI.
 
-Reservation site ng Tamuro: https://tamuroreservation.vercel.app/?src=b2-fil-{{FMT}}
+Reservation site ng Tamuro: https://tamuroreservation.vercel.app/?src=b2-tl-{{FMT}}
 
 Instagram ng Tamuro: https://www.instagram.com/tamuro.higashinakano/
 

@@ -4,11 +4,11 @@
 
 本多楽（ぼんたらく）
 
-Agendaシリーズ：https://bontallc.com/agenda?via=b2-fil-{{FMT}}
+Agendaシリーズ：https://bontallc.com/agenda?via=b2-tl-{{FMT}}
 
 屯のInstagram：https://www.instagram.com/tamuro.higashinakano/
 
-屯の予約サイト：https://tamuroreservation.vercel.app/?src=b2-fil-{{FMT}}
+屯の予約サイト：https://tamuroreservation.vercel.app/?src=b2-tl-{{FMT}}
 
 ## はじめに
 
@@ -60,9 +60,9 @@ Agendaシリーズ：https://bontallc.com/agenda?via=b2-fil-{{FMT}}
 
 この本は、PDFとnoteとGoogle Playで無料で読めます（Kindleだけは、ストアの決まりで最低価格を付けています）。代わりに、読み終えたあとに行ける場所を3つ用意しました。どれか一つでも使ってもらえたら、この本を書いた甲斐があります。
 
-1. 自分の店で試してみる。Agendaシリーズは無料の手帳から始められます。https://bontallc.com/agenda?via=b2-fil-{{FMT}}
+1. 自分の店で試してみる。Agendaシリーズは無料の手帳から始められます。https://bontallc.com/agenda?via=b2-tl-{{FMT}}
 2. 活動を追いかける。次に作る道具や、店の日々は、noteとXで書いています。note https://note.com/bontallc／X https://x.com/tamuro\_hnakano
-3. 東京に来たら、屯に行ってみる。東中野駅東口から1分。予約なしでも入れます。予約サイト https://tamuroreservation.vercel.app/?src=b2-fil-{{FMT}}
+3. 東京に来たら、屯に行ってみる。東中野駅東口から1分。予約なしでも入れます。予約サイト https://tamuroreservation.vercel.app/?src=b2-tl-{{FMT}}
 
 ## 第1章　AIから予約される店
 
@@ -106,7 +106,7 @@ Agendaシリーズ：https://bontallc.com/agenda?via=b2-fil-{{FMT}}
 
 ### 1-2　出発点：ただの予約受付
 
-[屯の予約サイト](https://tamuroreservation.vercel.app/?src=b2-fil-{{FMT}})は、最初はとても単純なものでした。日時と人数を選び、名前と連絡先を入れて、送信する。店に通知が届く。それだけです。
+[屯の予約サイト](https://tamuroreservation.vercel.app/?src=b2-tl-{{FMT}})は、最初はとても単純なものでした。日時と人数を選び、名前と連絡先を入れて、送信する。店に通知が届く。それだけです。
 
 最初の土台は、Googleが提供しているAI開発ツール（Antigravity）で作りました。思いついた機能をAIに伝え、動くものができたら次へ進む。いわゆるバイブコーディング（思いつきをAIに伝えて、ノリで作らせるやり方）です。
 
@@ -320,7 +320,7 @@ AIの試験をAIにやらせると、速く回せます。けれど、合格の�
 
 2026年10月6日の夜、T-AI-MUROは予約サイトのトップに、本番の入口として出ました。会話で予約したくないお客さんもいるので、これまでの予約フォームも並べて残しています。
 
-> 試してみる：屯の予約サイト（https://tamuroreservation.vercel.app/?src=b2-fil-{{FMT}}）を開いて、T-AI-MUROに「ひとりで今夜」と聞いてみてください。今日の空きと料金まで、会話で進みます。
+> 試してみる：屯の予約サイト（https://tamuroreservation.vercel.app/?src=b2-tl-{{FMT}}）を開いて、T-AI-MUROに「ひとりで今夜」と聞いてみてください。今日の空きと料金まで、会話で進みます。
 
 【図1-4】T-AI-MUROの会話の画面。選択肢を押すだけで会話が進む
 
@@ -662,7 +662,7 @@ Agendaシリーズは、シリーズとして計画されたものではあり�
 
 AgendaNeraは、今も作っている途中です。シリーズの中で、いちばん慎重に作っています。
 
-そして、この名づけがきっかけでした。黒い手帳があるなら、ほかの色の手帳があってもいい。自分の店で日々使っていた仕組みを、どの店でも使える形に作り直して、一冊ずつ手帳として出していく。それが[Agendaシリーズ](https://bontallc.com/agenda?via=b2-fil-{{FMT}})です。
+そして、この名づけがきっかけでした。黒い手帳があるなら、ほかの色の手帳があってもいい。自分の店で日々使っていた仕組みを、どの店でも使える形に作り直して、一冊ずつ手帳として出していく。それが[Agendaシリーズ](https://bontallc.com/agenda?via=b2-tl-{{FMT}})です。
 
 ### 3-3　一冊ずつ、手帳を増やす
 
@@ -815,7 +815,7 @@ Agendaシリーズの三原則のうち「自動」は、この「使い続け�
 
 この本を読んで、自分の店でも試してみたいと思った方へ。手順は3つです。
 
-1. https://bontallc.com/agenda?via=b2-fil-{{FMT}} を開き、Googleのアカウントでログインする（AgendaIDが作られます。カードの登録は不要です）
+1. https://bontallc.com/agenda?via=b2-tl-{{FMT}} を開き、Googleのアカウントでログインする（AgendaIDが作られます。カードの登録は不要です）
 2. まず無料の手帳を一冊入れる。おすすめは灯り手帳です。看板の部品をホームページに貼るだけで、10分で動きます。開業前なら採算手帳を
 3. 合いそうなら、打刻手帳を3か月無料で試す。期限が近づけば案内が届くので、放っておいても課金されません
 
@@ -1102,13 +1102,13 @@ AIは、この二つを、一人の店主にできるようにしました。店
 
 この本に書いたことは、2026年10月の時点の記録です。AIの道具は、数か月で姿を変えます。この本に書いた仕組みのいくつかは、出版の頃には、もう別の形になっているかもしれません。それでも、小さな店がAIで何をどう作り、何に失敗し、何を学んだかという記録は、しばらくは役に立つはずだと考えて、書き残しました。
 
-Agendaシリーズ：https://bontallc.com/agenda?via=b2-fil-{{FMT}}
+Agendaシリーズ：https://bontallc.com/agenda?via=b2-tl-{{FMT}}
 
 活動を追いかける：note https://note.com/bontallc／X https://x.com/tamuro\_hnakano
 
 もし東中野にお越しの際は、屯に寄ってみてください。予約は、予約サイトからでも、サイトの会話の窓「T-AI-MURO」からでも、そしてもちろん、あなたのAIからでもできます。
 
-屯の予約サイト：https://tamuroreservation.vercel.app/?src=b2-fil-{{FMT}}
+屯の予約サイト：https://tamuroreservation.vercel.app/?src=b2-tl-{{FMT}}
 
 屯のInstagram：https://www.instagram.com/tamuro.higashinakano/
 

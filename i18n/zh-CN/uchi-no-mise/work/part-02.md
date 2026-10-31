@@ -130,7 +130,7 @@
 
 2026年10月6日夜里，T-AI-MURO作为正式的入口，出现在了预约网站的最上方。因为也有客人不想通过对话来预订，所以我把原来的预约表单也并排保留着。
 
-> 试一试：打开Tamuro的预约网站（https://tamuroreservation.vercel.app/?src=b2-cn-{{FMT}}），对T-AI-MURO说“今晚一个人”。对话会带你看到今天的空位和价格。
+> 试一试：打开Tamuro的预约网站（https://tamuroreservation.vercel.app/?src=b2-zh-{{FMT}}），对T-AI-MURO说“今晚一个人”。对话会带你看到今天的空位和价格。
 
 【图 1-4】T-AI-MURO的对话画面。只需点按选项，对话就能往前推进 *(画面为日语。)*
 

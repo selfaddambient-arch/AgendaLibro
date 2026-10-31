@@ -6,3 +6,6 @@ __pycache__/
 books/uchi-no-mise/build/うちの店は、うちの仕様で.pdf
 books/hitori-de-mise/build/.tmp/
 books/hitori-de-mise/work/
+
+# Google Play 一括登録の大きいファイル（build_bulk.py で作り直せる）
+books/googleplay-bulk/files/
