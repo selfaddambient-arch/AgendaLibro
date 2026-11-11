@@ -10,8 +10,8 @@ const dry = process.argv.includes('--dry');
 const update = process.argv.includes('--update'); // 公開済みの記事を更新する（「更新する」を押す）
 const NOMAG = process.env.NOMAG === '1'; // マガジンに入れない記事（案内記事・出版の経緯）
 const key = process.env.KEY || JSON.parse(readFileSync(`books/${SLUG}/note/drafts.json`, 'utf8'))[slug];
-const MAGAZINE = SLUG === 'hitori-de-mise' ? '一人で店を回す、その横にAIが来た。' : 'うちの店は、うちの仕様で';
-const TAGS = ['飲食店経営', '個人店', '生成AI', 'AI活用', 'バイブコーディング', 'ClaudeCode', 'Gemini', 'MCP', 'DX', '東中野', '屯', '本多楽', 'Agendaシリーズ', '無料公開'];
+const MAGAZINE = process.env.MAGAZINE || (SLUG === 'hitori-de-mise' ? '一人で店を回す、その横にAIが来た。' : 'うちの店は、うちの仕様で');
+const TAGS = process.env.TAGS ? JSON.parse(process.env.TAGS) : ['飲食店経営', '個人店', '生成AI', 'AI活用', 'バイブコーディング', 'ClaudeCode', 'Gemini', 'MCP', 'DX', '東中野', '屯', '本多楽', 'Agendaシリーズ', '無料公開'];
 
 const browser = await chromium.launch({ headless: false, channel: 'chrome', ignoreDefaultArgs: ['--enable-automation'], args: ['--disable-blink-features=AutomationControlled'] });
 const ctx = await browser.newContext({ storageState: 'secrets/note-state.json', locale: 'ja-JP', viewport: { width: 1280, height: 1000 } });
